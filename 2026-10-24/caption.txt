@@ -1,13 +1,13 @@
-📱 Apple por fin dobló el iPhone… y cuesta casi US$2,000.
+🩺 Una IA acertó en el 83 % de casos médicos difíciles… y los médicos, en el 36 %.
 
-El iPhone Duo, el primer iPhone plegable, salió a la venta el 23 de octubre en más de 70 países. Cerrado es un teléfono de 5.4"; abierto, una pantalla de 7.6" que parece una mini tablet. 🤯
+Microsoft publicó en la revista Science un estudio sobre MAI-DxO, un sistema donde varios agentes de IA trabajan como un equipo de doctores: hacen preguntas, piden pruebas y comparan diagnósticos. 🤖
 
-Hubo filas desde la madrugada y, si lo pides online, la entrega se va hasta finales de enero. ⏳
+Lo probaron con casos clínicos complejos del New England Journal of Medicine y superó con claridad a médicos generales que trabajaban solos.
 
-Eso sí: no trae teleobjetivo y muchas apps todavía no aprovechan la pantalla grande.
+⚠️ Ojo: no se comparó con especialistas, y aún falta probarlo con pacientes reales. Eso empezará pronto en un hospital de Boston.
 
-👉 ¿Lo comprarías o esperas a que baje de precio? Te leo en los comentarios.
+👉 ¿Confiarías en un diagnóstico hecho por IA? Te leo en los comentarios.
 
-Fuente: Reuters, Macworld y 9to5Mac.
+Fuente: TechCrunch y Science.
 
-#tecnologia #tech #technews #iphone #apple #iphoneduo #plegables #smartphones #gadgets #novedadestech #noticiastech #techenespañol #rd #republicadominicana #josealfredomatias1
+#tecnologia #tech #technews #inteligenciaartificial #ia #salud #medicina #microsoft #saluddigital #innovacion #noticiastech #techenespañol #rd #republicadominicana #josealfredomatias1

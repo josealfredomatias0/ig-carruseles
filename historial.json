@@ -1,3 +1,25 @@
 [
-  {"fecha": "2026-10-24", "tema": "iPhone Duo, primer iPhone plegable, llega a tiendas (US$1,999)", "palabras_clave": ["apple", "iphone duo", "plegable", "smartphone"], "metricool_post_id": "404702597"}
+  {
+    "fecha": "2026-10-23",
+    "tema": "iPhone Duo, primer iPhone plegable, llega a tiendas (US$1,999)",
+    "palabras_clave": [
+      "apple",
+      "iphone duo",
+      "plegable",
+      "smartphone"
+    ],
+    "metricool_post_id": "404703622"
+  },
+  {
+    "fecha": "2026-10-24",
+    "tema": "IA de Microsoft (MAI-DxO) acierta 83% de casos médicos complejos vs 36% de médicos generales",
+    "palabras_clave": [
+      "microsoft",
+      "mai-dxo",
+      "ia",
+      "medicina",
+      "diagnóstico"
+    ],
+    "metricool_post_id": ""
+  }
 ]
