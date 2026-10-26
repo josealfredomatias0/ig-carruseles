@@ -1,0 +1,15 @@
+🗳️ Le preguntaron a dos IA por quién votar… y respondieron casi siempre lo contrario.
+
+Investigadores de Convovo (con un profesor de Cornell al frente) pusieron a Grok 4.7, de la empresa de Elon Musk, y a GPT-6.1, de OpenAI, a elegir un solo candidato en 479 contiendas de las elecciones de medio término de EE. UU. 🤖
+
+📊 Grok eligió al republicano el 92 % de las veces; GPT, al demócrata el 97 %. En más del 90 % de los casos no coincidieron.
+
+🔎 La clave está en las fuentes: Grok citó mucho la red X y GPT se apoyó en Wikipedia, AP y Reddit. OpenAI aclara que la prueba usó su versión para desarrolladores, no la app de ChatGPT.
+
+💡 La lección: la IA no es neutral. Úsala para informarte, pero la decisión es tuya.
+
+👉 ¿Le preguntarías a una IA por quién votar? Te leo en los comentarios.
+
+Fuente: TechCrunch, AI Weekly y Crypto Briefing (estudio de Convovo).
+
+#tecnologia #tech #technews #inteligenciaartificial #ia #chatgpt #grok #openai #sesgo #elecciones #noticiastech #techenespañol #rd #republicadominicana #josealfredomatias1
