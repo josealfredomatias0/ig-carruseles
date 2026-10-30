@@ -1,0 +1,15 @@
+🔒 Google tiene una nueva IA que encabeza los rankings… y casi nadie puede usarla.
+
+🤖 El 28 de octubre, Google presentó Gemini 4 Carbon, su modelo de IA más avanzado, apenas dos semanas después de Gemini 4 Argon.
+
+🏆 Según el índice de Artificial Analysis, ahora es el número 1 con 59 puntos, por encima de los modelos de OpenAI y Anthropic.
+
+🛡️ ¿El detalle? Es tan bueno encontrando fallos de seguridad en el software (88.2% en la prueba SEC-bench Pro) que Google solo se lo está dando a defensores de ciberseguridad verificados de su programa Fairwind. Esa misma habilidad podría servirle a un hacker.
+
+📅 Desarrolladores, empresas y público en general tendrán que esperar: Google todavía no ha dado fecha.
+
+👉 ¿Bien hecho o deberían abrirla a todos? ¿Prudencia o puro marketing? Te leo en los comentarios.
+
+Fuente: Google, Ars Technica, Khaleej Times (Reuters), TestingCatalog y WinBuzzer.
+
+#tecnologia #tech #technews #inteligenciaartificial #ia #google #gemini #ciberseguridad #ai #noticiastech #techenespañol #rd #josealfredomatias1
