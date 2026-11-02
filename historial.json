@@ -125,5 +125,19 @@
       "ia"
     ],
     "metricool_post_id": "412794768"
+  },
+  {
+    "fecha": "2026-11-02",
+    "tema": "Sam Altman dice que es 'bastante terrible' que la RAM esté en PCs personales (usada ~5% del tiempo) y no en centros de datos de IA; DRAM subió 93–98% en el 1T 2026",
+    "palabras_clave": [
+      "sam altman",
+      "openai",
+      "ram",
+      "dram",
+      "centros de datos",
+      "hardware"
+    ],
+    "metricool_post_id": "413768855",
+    "formato": "1imagen"
   }
 ]
