@@ -1,0 +1,13 @@
+🎞️ ChatGPT ahora convierte tus ideas (o tus fotos) en GIFs animados. 👉 Desliza para el dato extra
+
+OpenAI lanzó Images 2.6 y la novedad estrella es que puedes pedirle a ChatGPT un GIF escribiendo lo que quieres o subiendo una imagen. 🤯
+Luego ajustas la velocidad, retocas cuadro por cuadro y lo compartes en bucle. 🔁
+Además puedes guardar fotos tuyas, de tu mascota o de un personaje para reusarlas sin volver a subirlas. 🐶
+Ya está llegando a todos los usuarios de ChatGPT en web, escritorio y móvil.
+Y el dato que impresiona: entre ChatGPT y su API ya se generan más de 4.000 millones de imágenes por semana. 📈
+
+¿Para qué lo usarías: memes, stickers o tu negocio? Te leo 👇
+
+Fuente: foro oficial de desarrolladores de OpenAI, The Next Web, Unite.AI, Trending Topics
+
+#tecnologia #tech #technews #rd #josealfredomatias1 #inteligenciaartificial #ia #chatgpt #openai #gif #ai #herramientasdigitales #tecnologiard #republicadominicana #creatividad
