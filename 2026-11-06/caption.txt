@@ -1,0 +1,13 @@
+🛡️ Una IA encontró 81 fallas graves en Firefox… antes de que los hackers las usaran.
+
+🤖 OpenAI presentó GPT-6 Cyber, una versión de su IA entrenada para buscar huecos de seguridad en software.
+🦊 Halló 81 fallas nuevas que Mozilla calificó de alta gravedad en Firefox, y entregó propuestas de parche. Mozilla ya empezó a corregirlas.
+🐧 En Linux, creó 948 ataques funcionales de prueba que permitían a un usuario normal tomar el control total del sistema. OpenAI reportó cientos de casos críticos con sus parches.
+🔒 No está abierta al público: por ahora solo la usan equipos de ciberseguridad aprobados dentro de su programa Daybreak Red.
+⚠️ OpenAI la clasifica como de riesgo “Crítico” en ciberseguridad: la misma IA que defiende podría servir para atacar.
+
+💬 ¿Te da más tranquilidad o más miedo que la IA sea tan buena encontrando fallas? Te leo 👇
+
+Fuente: Cybersecurity News, GBHackers, AI Weekly, Tech Startups.
+
+#tecnologia #tech #technews #rd #josealfredomatias1 #ciberseguridad #inteligenciaartificial #openai #firefox #linux #hackers #ia #seguridadinformatica #republicadominicana
