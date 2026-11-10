@@ -241,5 +241,20 @@
     ],
     "metricool_post_id": "421602086",
     "formato": "carrusel"
+  },
+  {
+    "fecha": "2026-11-10",
+    "tema": "Anthropic lanza Claude Fable 5.2 y Mythos 5.2: Fable resolvió 2 problemas abiertos de física de agujeros negros (preprints) y coordinó 1.000+ agentes durante 8 días para crear un sistema operativo; hasta 30% más rápidos",
+    "palabras_clave": [
+      "anthropic",
+      "claude",
+      "fable 5.2",
+      "mythos 5.2",
+      "agujeros negros",
+      "ia",
+      "agentes"
+    ],
+    "metricool_post_id": "422945812",
+    "formato": "1imagen"
   }
 ]
