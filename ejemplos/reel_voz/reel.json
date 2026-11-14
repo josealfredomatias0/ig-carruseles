@@ -1,0 +1,15 @@
+{"voice":"em_alex","speed":1.12,"cover_scene":0,
+"scenes":[
+{"say":["Nvidia se quedó sin su fundador."],
+ "html":"<div class='badge in'>Bombazo tech · 12 nov</div><div class='t1 slam' style='--d:.05s'>JENSEN <span class='o'>HUANG</span></div><div class='t1 outline slam' style='--d:.35s'>SE VA</div>"},
+{"say":["Jensen Huang renunció como director ejecutivo,",{"say":"después de treinta y tres años.","cap":"después de 33 años."}],"wipe":true,
+ "html":"<div class='kicker in'>Nvidia · la empresa de los chips</div><div class='label in' style='--d:{t0}'>Renunció como CEO</div><div class='num' style='--d:{t1}'><span class='count' data-to='33' data-d='{n1}'></span><span class='unit in' style='display:inline-block;--d:{t1}'>años</span></div><div class='small in' style='--d:{t1}'>Fundó la empresa en 1993</div>"},
+{"say":[{"say":"Y el mercado no lo perdonó: la acción cayó más de un trece por ciento","cap":"La acción cayó más de un 13%"},"al abrir el jueves."],
+ "html":"<div class='kicker in'>Acción de Nvidia · jueves 12</div><div class='num red' style='color:#EF4444'><span class='count' data-to='13' data-d='{n0}' data-pre='−' data-suf='%'></span></div><div class='label in' style='--d:{t0}'>al abrir el mercado</div><div class='meter'><span class='grow' style='width:87%;--d:{t1}'></span></div>"},
+{"say":["¿Quién manda ahora?","La jefa de finanzas, Colette Kress, queda como directora interina."],"wipe":true,
+ "html":"<div class='t2 in'>¿QUIÉN MANDA <span class='o'>AHORA?</span></div><div class='card left' style='--d:{t1}'><p><b>Colette Kress</b>, jefa de finanzas, queda como <b>CEO interina</b>.</p></div>"},
+{"say":["¿Por qué importa?","Nvidia fabrica los chips que mueven la inteligencia artificial de todo el mundo."],
+ "html":"<div class='badge in'>¿Por qué importa?</div><div class='steps'><div class='step left' style='--d:{t1}'><div class='k'>1</div><div>Sus chips <b>mueven la IA</b> del mundo</div></div><div class='step left' style='--d:{t1};animation-delay:calc({n1}s + .6s)'><div class='k'>2</div><div>Un cambio así <b>sacude la bolsa</b> tech</div></div></div>"},
+{"say":["¿Tú crees que Nvidia aguanta sin él?","Te leo en los comentarios."],"wipe":true,
+ "html":"<div class='t1 slam'>¿AGUANTA</div><div class='t1 o slam' style='--d:.25s'>SIN ÉL?</div><div class='chips'><div class='chip pop' style='--d:{t1}'>Te leo 👇</div><div class='chip pop' style='--d:calc({n1}s + .2s)'>Sígueme ⚡</div></div>"}
+]}
