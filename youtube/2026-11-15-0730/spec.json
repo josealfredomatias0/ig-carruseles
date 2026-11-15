@@ -1,0 +1,343 @@
+{
+ "voice": "em_alex",
+ "speed": 1.08,
+ "theme": {
+  "bg": "#0B0B12",
+  "yellow": "#F5C542",
+  "a": "#7DD3FC",
+  "b": "#F87171",
+  "c": "#C4B5FD",
+  "d": "#86EFAC"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "En 1872 apareció un barco navegando en pleno Atlántico…",
+     "En mil ochocientos setenta y dos, apareció un barco navegando en pleno Atlántico,"
+    ],
+    [
+     "…sin nadie a bordo.",
+     "sin nadie a bordo."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "EL BARCO FANTASMA",
+     "size": 96,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "1872",
+     "size": 220,
+     "color": "yellow",
+     "at": 0.4
+    },
+    {
+     "type": "text",
+     "text": "Sin nadie a bordo",
+     "size": 100,
+     "color": "b",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Era el Mary Celeste. Salió de Nueva York en noviembre",
+     "Era el Méri Selést. Salió de Nueva York en noviembre,"
+    ],
+    [
+     "con 10 personas, incluidos la esposa y la hija del capitán.",
+     "con diez personas, incluidas la esposa y la hija del capitán."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Mary Celeste",
+     "size": 130,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Nueva York · 7 nov. 1872",
+     "size": 60,
+     "weight": "med",
+     "color": "grey",
+     "at": "s0+1.5"
+    },
+    {
+     "type": "big",
+     "text": "10",
+     "size": 220,
+     "color": "yellow",
+     "at": "s1"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Capitán Benjamin Briggs",
+      "Su esposa y su hija de 2 años",
+      "7 marineros"
+     ],
+     "size": 54,
+     "at": "s1+0.6",
+     "step": 0.9
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El 5 de diciembre, otro barco lo encontró a la deriva,",
+     "El cinco de diciembre, otro barco lo encontró a la deriva,"
+    ],
+    [
+     "a unos 640 kilómetros de las Azores.",
+     "a unos seiscientos cuarenta kilómetros de las Azores."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "5 de diciembre",
+     "size": 96,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Lo halla el barco Dei Gratia",
+     "size": 66,
+     "at": "s0+1.5"
+    },
+    {
+     "type": "big",
+     "text": "640 km",
+     "size": 200,
+     "color": "a",
+     "at": "s1+0.8"
+    },
+    {
+     "type": "text",
+     "text": "de las islas Azores",
+     "size": 60,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+1.2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Lo raro: la carga casi intacta, y comida y agua para 6 meses.",
+     "Lo raro: la carga casi intacta, y comida y agua para seis meses."
+    ],
+    [
+     "Pero faltaba el único bote salvavidas.",
+     "Pero faltaba, el único bote salvavidas."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Lo raro",
+     "size": 110,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Carga",
+      "Comida",
+      "Agua"
+     ],
+     "size": 56,
+     "step": 0.6,
+     "at": "s0+0.8"
+    },
+    {
+     "type": "text",
+     "text": "para 6 meses",
+     "size": 60,
+     "weight": "med",
+     "color": "grey",
+     "at": "s0+3.0"
+    },
+    {
+     "type": "gap",
+     "h": 20
+    },
+    {
+     "type": "text",
+     "text": "Faltaba el único bote salvavidas",
+     "size": 76,
+     "color": "yellow",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Última nota del diario: 25 de noviembre, frente a la isla Santa María.",
+     "Última nota del diario: veinticinco de noviembre, frente a la isla Santa María."
+    ],
+    [
+     "Nunca más se supo de ninguno.",
+     "Nunca más se supo de ninguno."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Última nota del diario",
+     "size": 76,
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "25 nov.",
+     "size": 200,
+     "color": "yellow",
+     "at": "s0+1.5"
+    },
+    {
+     "type": "text",
+     "text": "Isla Santa María, Azores",
+     "size": 64,
+     "color": "a",
+     "at": "s0+2.8"
+    },
+    {
+     "type": "text",
+     "text": "Nunca más se supo",
+     "size": 76,
+     "color": "b",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Qué se sabe? No hubo señales de crimen.",
+     "¿Qué se sabe? No hubo señales de crimen."
+    ],
+    [
+     "Lo más probable: una bomba averiada y un cronómetro impreciso les hicieron creer que se hundían, y huyeron en el bote.",
+     "Lo más probable: una bomba averiada, y un cronómetro impreciso, les hicieron creer que se hundían, y huyeron en el bote."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Lo que se sabe",
+     "size": 100,
+     "color": "d",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Sin señales de crimen",
+     "size": 64,
+     "weight": "med",
+     "color": "grey",
+     "at": "s0+1.2"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Bomba de agua averiada",
+      "Cronómetro impreciso",
+      "Creyeron que se hundían"
+     ],
+     "size": 56,
+     "at": "s1+0.8",
+     "step": 1.4
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso: en 1884, Arthur Conan Doyle escribió un cuento sobre el barco…",
+     "Dato curioso: en mil ochocientos ochenta y cuatro, Ártur Cónan Doil escribió un cuento sobre el barco,"
+    ],
+    [
+     "y lo llamó Marie Celeste.",
+     "y lo llamó Marí Selést."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO",
+     "size": 72,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "1884",
+     "size": 210,
+     "color": "yellow",
+     "at": 0.5
+    },
+    {
+     "type": "text",
+     "text": "Arthur Conan Doyle escribió un cuento sobre el barco",
+     "size": 60,
+     "at": "s0+2.4"
+    },
+    {
+     "type": "text",
+     "text": "Lo llamó “Marie Celeste”",
+     "size": 64,
+     "color": "c",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Tú qué crees que pasó? Te leo en los comentarios.",
+     "¿Tú qué crees que pasó? Te leo en los comentarios."
+    ],
+    [
+     "Suscríbete para más misterios e historia.",
+     "Suscríbete, para más misterios e historia."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Tú qué crees que pasó?",
+     "size": 92,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "Suscríbete para más misterios e historia",
+     "size": 64,
+     "color": "yellow",
+     "at": "s1"
+    }
+   ]
+  }
+ ]
+}
