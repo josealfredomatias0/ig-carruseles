@@ -1,0 +1,55 @@
+{
+ "voice": "em_alex",
+ "speed": 1.08,
+ "theme": {"bg": "#0B0B12", "yellow": "#F5C542", "a": "#7DD3FC", "b": "#F87171", "c": "#C4B5FD", "d": "#86EFAC"},
+ "scenes": [
+  {"say": [["En los montes dominicanos dicen que vive una mujer", "En los montes dominicanos, dicen que vive una mujer,"],
+           ["a la que nadie puede seguir.", "a la que nadie puede seguir."]],
+   "elements": [
+    {"type": "text", "text": "LEYENDA DOMINICANA", "size": 60, "color": "c", "at": 0},
+    {"type": "big", "text": "La Ciguapa", "size": 190, "color": "yellow", "at": 0.3},
+    {"type": "text", "text": "la mujer a la que nadie puede seguir", "size": 60, "at": "s1"}]},
+
+  {"say": [["Cuenta la leyenda que tiene el pelo larguísimo", "Cuenta la leyenda, que tiene el pelo larguísimo,"],
+           ["y los pies al revés: los talones al frente y los dedos hacia atrás.", "y los pies al revés: los talones al frente, y los dedos hacia atrás."]],
+   "elements": [
+    {"type": "text", "text": "Cómo la describen", "size": 84, "color": "c", "at": 0},
+    {"type": "list", "items": ["Pelo larguísimo que le cubre el cuerpo", "Vive en montes y ríos", "Los pies al revés"], "size": 56, "at": "s0", "step": 1.6}]},
+
+  {"say": [["Por eso, si sigues sus huellas, caminas en la dirección contraria.", "Por eso, si sigues sus huellas, caminas en la dirección contraria."]],
+   "elements": [
+    {"type": "text", "text": "El truco de sus huellas", "size": 80, "at": 0},
+    {"type": "chips", "pieces": ["huellas", "→"], "size": 80, "step": 0.4, "at": "s0+0.8"},
+    {"type": "chips", "pieces": ["←", "ella va"], "size": 80, "step": 0.4, "at": "s0+2.0"},
+    {"type": "text", "text": "Las huellas te llevan al lado opuesto", "size": 58, "color": "b", "at": "s0+3.0"}]},
+
+  {"say": [["Según la tradición del campo, sale de noche y atrae a los hombres que caminan solos por el monte.", "Según la tradición del campo, sale de noche, y atrae a los hombres que caminan solos por el monte."]],
+   "elements": [
+    {"type": "text", "text": "Según la tradición…", "size": 84, "color": "c", "at": 0},
+    {"type": "big", "text": "DE NOCHE", "size": 200, "color": "b", "at": "s0+1.6"},
+    {"type": "text", "text": "atrae a quien camina solo por el monte", "size": 58, "at": "s0+3.0"}]},
+
+  {"say": [["Lo que sí se sabe: su historia se escribió en mil ochocientos sesenta y seis,", "Lo que sí se sabe: su historia se escribió en mil ochocientos sesenta y seis,"],
+           ["en La Ciguapa, del escritor Javier Angulo Guridi.", "en La Ciguapa, del escritor Javier Ángulo Guridi."]],
+   "elements": [
+    {"type": "text", "text": "LO QUE SÍ SE SABE", "size": 70, "color": "d", "at": 0},
+    {"type": "big", "text": "1866", "size": 230, "color": "yellow", "at": "s0+2.8"},
+    {"type": "text", "text": "“La Ciguapa”, de Javier Angulo Guridi", "size": 62, "at": "s1"}]},
+
+  {"say": [["Y el historiador Emiliano Tejera relacionó su nombre con los ciguayos,", "Y el historiador Emiliano Tejera, relacionó su nombre con los ciguayos,"],
+           ["indígenas de pelo largo que vivían en la zona de Samaná.", "indígenas de pelo largo, que vivían en la zona de Samaná."]],
+   "elements": [
+    {"type": "text", "text": "¿De dónde viene el nombre?", "size": 80, "at": 0},
+    {"type": "chips", "pieces": ["ciguayos", "→", "ciguapa"], "size": 66, "step": 0.5, "at": "s0+2.2"},
+    {"type": "text", "text": "indígenas de pelo largo de Samaná", "size": 62, "color": "d", "at": "s1"}]},
+
+  {"say": [["Real o no, la ciguapa sigue viva en los cuentos de los abuelos.", "Real o no, la ciguapa sigue viva en los cuentos de los abuelos."],
+           ["¿En tu campo también la mencionaban? Suscríbete para más misterios e historia.", "¿En tu campo también la mencionaban? Suscríbete, para más misterios e historia."]],
+   "elements": [
+    {"type": "text", "text": "Real o no…", "size": 96, "color": "c", "at": 0},
+    {"type": "text", "text": "sigue viva en los cuentos de los abuelos", "size": 66, "at": 0.8},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "¿En tu campo también la mencionaban?", "size": 70, "color": "yellow", "at": "s1"},
+    {"type": "text", "text": "Suscríbete para más misterios e historia", "size": 48, "weight": "med", "color": "grey", "at": "s1+2.0"}]}
+ ]
+}
