@@ -1,0 +1,65 @@
+{
+ "voice": "em_alex", "speed": 1.08,
+ "theme": {"bg":"#0B0B12","yellow":"#F5C542","a":"#7DD3FC","b":"#F87171","c":"#C4B5FD","d":"#86EFAC"},
+ "scenes": [
+  {"say": [["¿Sabías que la universidad más antigua de América", "¿Sabías que la universidad más antigua de América,"],
+           ["que sigue funcionando está en Santo Domingo?", "que sigue funcionando, está en Santo Domingo?"]],
+   "elements": [
+    {"type": "text", "text": "LA MÁS ANTIGUA DE AMÉRICA", "size": 82, "color": "yellow", "at": 0},
+    {"type": "big", "text": "1538", "size": 240, "color": "a", "at": "s1"},
+    {"type": "text", "text": "Santo Domingo, República Dominicana", "size": 56, "at": "s1+0.8"}]},
+
+  {"say": [["El 28 de octubre de 1538, el papa Paulo III", "El veintiocho de octubre de mil quinientos treinta y ocho, el papa Paulo tercero"],
+           ["firmó la bula In Apostolatus Culmine.", "firmó la bula, In Apostolátus Cúlmine."]],
+   "elements": [
+    {"type": "text", "text": "28 de octubre de 1538", "size": 84, "color": "yellow", "at": 0},
+    {"type": "text", "text": "Papa Paulo III", "size": 110, "color": "a", "at": "s0+2.5"},
+    {"type": "text", "text": "Bula «In Apostolatus Culmine»", "size": 58, "color": "c", "at": "s1"}]},
+
+  {"say": [["Con ella nació la Universidad Santo Tomás de Aquino,", "Con ella nació la Universidad Santo Tomás de Aquino,"],
+           ["dirigida por los frailes dominicos.", "dirigida por los frailes dominicos."],
+           ["Se inspiró en la de Alcalá de Henares, en España.", "Se inspiró en la de Alcalá de Henares, en España."]],
+   "elements": [
+    {"type": "text", "text": "Universidad Santo Tomás de Aquino", "size": 80, "color": "yellow", "at": 0},
+    {"type": "list", "items": ["Fundada por bula papal", "Dirigida por los dominicos", "Modelo: Alcalá de Henares"], "size": 58, "at": "s0+0.5", "step": 2.4}]},
+
+  {"say": [["Lima y México fundaron las suyas en 1551,", "Lima y México fundaron las suyas en mil quinientos cincuenta y uno,"],
+           ["trece años después.", "trece años después."]],
+   "elements": [
+    {"type": "text", "text": "¿Y las demás?", "size": 100, "color": "yellow", "at": 0},
+    {"type": "chips", "pieces": ["Lima", "México"], "size": 72, "step": 0.5, "at": "s0+0.3"},
+    {"type": "big", "text": "1551", "size": 210, "color": "b", "at": "s0+2.5"},
+    {"type": "text", "text": "13 años después", "size": 64, "at": "s1"}]},
+
+  {"say": [["Pero su historia no fue fácil:", "Pero su historia no fue fácil:"],
+           ["cerró en 1801 con la ocupación haitiana,", "cerró en mil ochocientos uno, con la ocupación haitiana,"],
+           ["reabrió y volvió a cerrar en 1822.", "reabrió, y volvió a cerrar en mil ochocientos veintidós."]],
+   "elements": [
+    {"type": "text", "text": "Cierres y reaperturas", "size": 86, "color": "b", "at": 0},
+    {"type": "list", "items": ["1801: cierra (ocupación haitiana)", "1815: reabre", "1822: cierra de nuevo"], "size": 58, "at": "s1", "step": 2.0}]},
+
+  {"say": [["En 1914 renació como Universidad de Santo Domingo,", "En mil novecientos catorce renació como Universidad de Santo Domingo,"],
+           ["y en 1961, tras la caída de Trujillo, ganó su autonomía:", "y en mil novecientos sesenta y uno, tras la muerte de Trujillo, ganó su autonomía:"],
+           ["hoy es la UASD.", "hoy es la, u, a, ese, de."]],
+   "elements": [
+    {"type": "text", "text": "Lo que se sabe", "size": 86, "color": "d", "at": 0},
+    {"type": "chips", "pieces": ["1914", "→", "1961"], "size": 80, "step": 0.5, "at": "s0+0.5"},
+    {"type": "text", "text": "Autonomía tras la muerte de Trujillo", "size": 56, "at": "s1"},
+    {"type": "big", "text": "UASD", "size": 220, "color": "yellow", "at": "s2"}]},
+
+  {"say": [["Ojo: algunos historiadores debaten quién fue la primera,", "Ojo: algunos historiadores debaten quién fue la primera,"],
+           ["porque la Corona española la reconoció hasta 1558.", "porque la Corona española la reconoció hasta mil quinientos cincuenta y ocho."]],
+   "elements": [
+    {"type": "text", "text": "El debate", "size": 100, "color": "c", "at": 0},
+    {"type": "text", "text": "Reconocimiento de la Corona", "size": 66, "at": "s1"},
+    {"type": "big", "text": "1558", "size": 210, "color": "c", "at": "s1+1.5"}]},
+
+  {"say": [["¿Estudiaste o conoces a alguien de la UASD? Cuéntanos.", "¿Estudiaste, o conoces a alguien de la u a ese de? Cuéntanos."],
+           ["Suscríbete para más misterios e historia.", "Suscríbete para más misterios e historia."]],
+   "elements": [
+    {"type": "text", "text": "¿Estudiaste en la UASD?", "size": 92, "color": "yellow", "at": 0},
+    {"type": "text", "text": "Cuéntanos en los comentarios", "size": 60, "at": 0.5},
+    {"type": "gap", "h": 40},
+    {"type": "text", "text": "Suscríbete para más misterios e historia", "size": 58, "color": "a", "at": "s1"}]}
+ ]
+}
