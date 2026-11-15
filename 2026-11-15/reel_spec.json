@@ -1,0 +1,62 @@
+{
+ "voice": "em_alex",
+ "scenes": [
+  {"say": [["Por primera vez en la historia, una nave que volvía de órbita", "Por primera vez en la historia, una nave que volvía de órbita,"],
+           ["fue atrapada en el aire por una torre.", "fue atrapada en el aire, por una torre."]],
+   "elements": [
+    {"type": "text", "text": "¡LA ATRAPARON!", "size": 110, "color": "yellow", "at": 0},
+    {"type": "text", "text": "Volvía del espacio y una torre la atrapó", "size": 70, "at": 0.6},
+    {"type": "big", "text": "1ª VEZ", "size": 220, "color": "a", "at": "s1"}]},
+
+  {"say": [["Es la Starship de SpaceX. Despegó el viernes desde Texas,", "Es la Estárship, de Spéis Ex. Despegó el viernes, desde Texas,"],
+           ["soltó 26 satélites Starlink en órbita,", "soltó veintiséis satélites Estárlink en órbita,"],
+           ["y el sábado volvió a casa, directo a los brazos de la torre.", "y el sábado volvió a casa, directo a los brazos de la torre."]],
+   "elements": [
+    {"type": "text", "text": "¿Qué pasó?", "size": 110, "color": "yellow", "at": 0},
+    {"type": "list", "items": ["Viernes 13: despegó en Texas", "Soltó 26 satélites Starlink", "Sábado: la torre la atrapó"], "size": 56, "at": "s0+0.6", "step": 2.6}]},
+
+  {"say": [["La nave estuvo unas 22 horas y media en el espacio.", "La nave estuvo unas veintidós horas y media, en el espacio."],
+           ["Pero el cohete propulsor abortó su aterrizaje y cayó al Golfo de México.", "Pero el cohete propulsor abortó su aterrizaje, y cayó al Golfo de México."]],
+   "elements": [
+    {"type": "text", "text": "Tiempo en el espacio", "size": 80, "at": 0},
+    {"type": "big", "text": "22.5 h", "size": 220, "color": "yellow", "at": "s0+1.2"},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "El propulsor no tuvo suerte:", "size": 62, "color": "b", "at": "s1"},
+    {"type": "text", "text": "abortó la captura", "size": 56, "weight": "med", "at": "s1+0.6"},
+    {"type": "text", "text": "y cayó al Golfo de México", "size": 56, "weight": "med", "at": "s1+1.4"}]},
+
+  {"say": [["¿Por qué te importa? Reusar cohetes como si fueran aviones,", "¿Por qué te importa? Reusar cohetes, como si fueran aviones,"],
+           ["es la clave para abaratar los viajes al espacio,", "es la clave para abaratar los viajes al espacio,"],
+           ["y llenar el cielo de satélites de internet.", "y llenar el cielo de satélites de internet."]],
+   "elements": [
+    {"type": "text", "text": "¿Por qué te importa?", "size": 84, "color": "a", "at": 0},
+    {"type": "chips", "pieces": ["Cohete", "→", "como un avión"], "size": 62, "step": 0.4, "at": "s0+1.2"},
+    {"type": "gap", "h": 20},
+    {"type": "list", "items": ["Viajes al espacio más baratos", "Más satélites de internet"], "size": 56, "at": "s1", "step": 2.2}]},
+
+  {"say": [["Dato curioso: la primera vez que esa torre atrapó un propulsor", "Dato curioso: la primera vez que esa torre atrapó un propulsor,"],
+           ["fue el 13 de octubre de 2024. Y su apodo es Mechazilla.", "fue el trece de octubre, del dos mil veinticuatro. Y su apodo, es Mecazila."]],
+   "elements": [
+    {"type": "text", "text": "DATO CURIOSO #1", "size": 64, "color": "c", "at": 0},
+    {"type": "big", "text": "2024", "size": 230, "color": "yellow", "at": "s0+1.5"},
+    {"type": "text", "text": "Primera captura de un propulsor: 13 de octubre", "size": 58, "at": "s1"},
+    {"type": "text", "text": "Apodo de la torre: “Mechazilla”", "size": 64, "color": "c", "at": "s1+2.0"}]},
+
+  {"say": [["Este cohete es tan alto como un edificio de 41 pisos,", "Este cohete, es tan alto como un edificio de cuarenta y un pisos,"],
+           ["y su propulsor usa 33 motores Raptor a la vez.", "y su propulsor, usa treinta y tres motores Ráptor, a la vez."]],
+   "elements": [
+    {"type": "text", "text": "DATO CURIOSO #2", "size": 64, "color": "c", "at": 0},
+    {"type": "bar", "label": "Altura", "value": 41, "max": 41, "unit": " pisos", "color": "a", "at": "s0+1.5"},
+    {"type": "gap", "h": 20},
+    {"type": "big", "text": "33", "size": 220, "color": "yellow", "at": "s1+1.5"},
+    {"type": "text", "text": "motores encendidos a la vez", "size": 58, "at": "s1+1.8"}]},
+
+  {"say": [["¿Te subirías a un Starship? Te leo en los comentarios.", "¿Te subirías a una Estárship? Te leo en los comentarios."],
+           ["Y sígueme para más noticias tech.", "Y sígueme, para más noticias tec."]],
+   "elements": [
+    {"type": "text", "text": "¿Te subirías a un Starship?", "size": 90, "color": "a", "at": 0},
+    {"type": "text", "text": "Te leo en los comentarios", "size": 62, "weight": "med", "at": "s0+1.5"},
+    {"type": "gap", "h": 40},
+    {"type": "text", "text": "Sígueme para más noticias tech", "size": 58, "color": "yellow", "at": "s1"}]}
+ ]
+}
