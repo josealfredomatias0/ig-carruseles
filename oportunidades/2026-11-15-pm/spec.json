@@ -1,0 +1,57 @@
+{
+ "voice": "em_alex",
+ "speed": 1.1,
+ "theme": {"bg":"#0A1A2F","yellow":"#FFD23F","a":"#4FC3F7","b":"#FF6B6B","c":"#B39DDB","d":"#5EE6A8"},
+ "scenes": [
+  {"say": [["¿Tienes una startup? Esto es para ti.", "¿Tienes una estártap? Esto es para ti."]],
+   "elements": [
+    {"type": "text", "text": "¿Tienes una startup?", "size": 96, "color": "yellow", "at": 0},
+    {"type": "big", "text": "CONCURSO", "size": 165, "color": "a", "at": 0.7},
+    {"type": "text", "text": "Emprendimiento · Tecnología", "size": 56, "weight": "med", "color": "grey", "at": 1.2}]},
+
+  {"say": [["Microsoft abrió el Imagine Cup 2027,", "Maicrosoft abrió el Imáyin Cop, dos mil veintisiete,"],
+           ["su competencia global para startups que usan inteligencia artificial y la nube.", "su competencia global para estártaps, que usan inteligencia artificial y la nube."]],
+   "elements": [
+    {"type": "text", "text": "Microsoft", "size": 80, "color": "grey", "at": 0},
+    {"type": "text", "text": "Imagine Cup 2027", "size": 120, "color": "a", "at": 0.4},
+    {"type": "text", "text": "Competencia global de startups", "size": 64, "at": "s1"},
+    {"type": "chips", "pieces": ["IA", "Azure", "Nube"], "size": 58, "step": 0.4, "at": "s1+1.2"}]},
+
+  {"say": [["El primer lugar se lleva 250 mil dólares en efectivo,", "El primer lugar se lleva, doscientos cincuenta mil dólares en efectivo,"],
+           ["más un millón de dólares en créditos para la startup.", "más un millón de dólares en créditos para la estártap."]],
+   "elements": [
+    {"type": "text", "text": "Primer lugar", "size": 84, "at": 0},
+    {"type": "big", "text": "US$250,000", "size": 145, "color": "d", "at": "s0+1.4"},
+    {"type": "text", "text": "en efectivo", "size": 60, "weight": "med", "at": "s0+1.8"},
+    {"type": "text", "text": "+ US$1 millón en créditos", "size": 70, "color": "yellow", "at": "s1"}]},
+
+  {"say": [["Hay siete categorías, entre ellas salud, finanzas y ciberseguridad.", "Hay siete categorías, entre ellas, salud, finanzas, y ciberseguridad."],
+           ["Y una especial para startups de estudiantes.", "Y una especial, para estártaps de estudiantes."]],
+   "elements": [
+    {"type": "text", "text": "7 categorías", "size": 100, "color": "c", "at": 0},
+    {"type": "chips", "pieces": ["Salud", "Finanzas", "Ciberseguridad"], "size": 46, "step": 0.5, "at": "s0+1.5"},
+    {"type": "text", "text": "Categoría especial: startups de estudiantes", "size": 60, "color": "a", "at": "s1"}]},
+
+  {"say": [["Requisitos: ser mayor de 18 años,", "Requisitos: ser mayor de dieciocho años,"],
+           ["tener una startup registrada, fundada desde noviembre de 2024,", "tener una estártap registrada, fundada desde noviembre del dos mil veinticuatro,"],
+           ["y una solución que use servicios de Azure.", "y una solución que use servicios de Ázur."]],
+   "elements": [
+    {"type": "text", "text": "Requisitos clave", "size": 90, "color": "yellow", "at": 0},
+    {"type": "list", "items": ["Tener 18 años o más", "Startup registrada, fundada desde nov. 2024", "Solución que use servicios de Azure"], "size": 54, "at": "s0", "step": 2.6}]},
+
+  {"say": [["La fecha límite es el 28 de febrero de 2027.", "La fecha límite, es el veintiocho de febrero, del dos mil veintisiete."]],
+   "elements": [
+    {"type": "text", "text": "Fecha límite", "size": 90, "at": 0},
+    {"type": "big", "text": "28 FEB", "size": 220, "color": "yellow", "at": "s0+1.0"},
+    {"type": "text", "text": "2027", "size": 100, "color": "yellow", "at": "s0+1.6"}]},
+
+  {"say": [["El enlace oficial y todos los detalles están en la descripción.", "El enlace oficial, y todos los detalles, están en la descripción."],
+           ["Compártelo con quien lo necesite y sigue la página para más oportunidades.", "Compártelo con quien lo necesite, y sigue la página para más oportunidades."]],
+   "elements": [
+    {"type": "text", "text": "Enlace oficial y detalles", "size": 76, "at": 0},
+    {"type": "text", "text": "en la descripción", "size": 96, "color": "a", "at": 0.5},
+    {"type": "gap", "h": 40},
+    {"type": "text", "text": "Compártelo y sigue la página", "size": 64, "color": "d", "at": "s1"},
+    {"type": "text", "text": "Oportunidades para Dominicanos", "size": 50, "weight": "med", "color": "grey", "at": "s1+1.0"}]}
+ ]
+}
