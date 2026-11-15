@@ -1,0 +1,63 @@
+{
+ "voice": "em_alex", "speed": 1.08,
+ "theme": {"bg":"#0B0B12","yellow":"#F5C542","a":"#7DD3FC","b":"#F87171","c":"#C4B5FD","d":"#86EFAC"},
+ "scenes": [
+  {"say": [["En 1932, el ejército de Australia le declaró la guerra", "En mil novecientos treinta y dos, el ejército de Australia le declaró la guerra"],
+           ["a unas aves. Y perdió.", "a unas aves. Y perdió."]],
+   "elements": [
+    {"type": "text", "text": "LA GUERRA DEL EMÚ", "size": 100, "color": "yellow", "at": 0},
+    {"type": "big", "text": "1932", "size": 230, "color": "a", "at": 0.5},
+    {"type": "text", "text": "Y ganaron las aves", "size": 72, "color": "b", "at": "s1+0.6"}]},
+
+  {"say": [["Tras la Primera Guerra Mundial, muchos exsoldados", "Tras la Primera Guerra Mundial, muchos exsoldados"],
+           ["sembraban trigo en Campion, Australia Occidental.", "sembraban trigo en Cámpion, Australia Occidental."]],
+   "elements": [
+    {"type": "text", "text": "¿Dónde?", "size": 100, "color": "yellow", "at": 0},
+    {"type": "text", "text": "Campion, Australia Occidental", "size": 72, "color": "a", "at": "s1"},
+    {"type": "chips", "pieces": ["Exsoldados", "→", "Granjeros"], "size": 56, "step": 0.4, "at": "s0+1.0"}]},
+
+  {"say": [["Entonces llegaron unos veinte mil emús", "Entonces llegaron unos veinte mil emús,"],
+           ["que destrozaban cultivos y cercas.", "que destrozaban cultivos y cercas."]],
+   "elements": [
+    {"type": "text", "text": "La invasión", "size": 100, "color": "b", "at": 0},
+    {"type": "big", "text": "20.000", "size": 220, "color": "yellow", "at": "s0+1.0"},
+    {"type": "text", "text": "emús comiendo trigo", "size": 66, "at": "s0+1.6"}]},
+
+  {"say": [["Los granjeros pidieron ayuda al ministro de Defensa, George Pearce.", "Los granjeros pidieron ayuda al ministro de Defensa, Yorch Píars."],
+           ["Él envió al mayor Meredith con dos ametralladoras", "Él envió al mayor Méredith, con dos ametralladoras"],
+           ["y diez mil balas.", "y diez mil balas."]],
+   "elements": [
+    {"type": "text", "text": "Llega el ejército", "size": 96, "color": "yellow", "at": 0},
+    {"type": "text", "text": "Mayor G. P. W. Meredith", "size": 76, "color": "a", "at": "s1"},
+    {"type": "chips", "pieces": ["2 ametralladoras", "10.000 balas"], "size": 58, "step": 0.5, "at": "s2"}]},
+
+  {"say": [["Pero los emús se dispersaban en grupos pequeños", "Pero los emús se dispersaban en grupos pequeños,"],
+           ["y corrían a casi cincuenta kilómetros por hora.", "y corrían a casi cincuenta kilómetros por hora."],
+           ["El 8 de noviembre, las tropas se retiraron.", "El ocho de noviembre, las tropas se retiraron."]],
+   "elements": [
+    {"type": "text", "text": "El problema", "size": 96, "color": "b", "at": 0},
+    {"type": "list", "items": ["Se dispersaban en grupos", "Corrían muy rápido", "8 nov: retirada"], "size": 60, "at": "s0+0.3", "step": 2.6}]},
+
+  {"say": [["Volvieron días después y siguieron hasta el 10 de diciembre.", "Volvieron días después, y siguieron hasta el diez de diciembre."],
+           ["Meredith reportó novecientos ochenta y seis emús abatidos,", "Méredith reportó novecientos ochenta y seis emús abatidos,"],
+           ["de veinte mil. Casi nada.", "de veinte mil. Casi nada."]],
+   "elements": [
+    {"type": "text", "text": "El resultado", "size": 96, "color": "yellow", "at": 0},
+    {"type": "big", "text": "986", "size": 230, "color": "b", "at": "s1+1.2"},
+    {"type": "text", "text": "de unos 20.000 (cifra discutida)", "size": 56, "weight": "med", "color": "grey", "at": "s2"}]},
+
+  {"say": [["Lo que funcionó de verdad: recompensas para los cazadores", "Lo que funcionó de verdad: recompensas para los cazadores,"],
+           ["y largas cercas. Meredith dijo que los emús", "y largas cercas. Méredith dijo que los emús"],
+           ["resistían balas como tanques.", "resistían balas como tanques."]],
+   "elements": [
+    {"type": "text", "text": "LO QUE SE SABE", "size": 90, "color": "d", "at": 0},
+    {"type": "chips", "pieces": ["Recompensas", "Cercas"], "size": 70, "step": 0.5, "at": "s0+1.5"},
+    {"type": "text", "text": "«Invulnerables como tanques»", "size": 66, "color": "c", "at": "s2"}]},
+
+  {"say": [["¿Conocías esta historia?", "¿Conocías esta historia?"],
+           ["Suscríbete para más misterios e historia.", "Suscríbete para más misterios, e historia."]],
+   "elements": [
+    {"type": "text", "text": "¿Conocías esta historia?", "size": 92, "color": "yellow", "at": 0},
+    {"type": "text", "text": "Suscríbete para más misterios e historia", "size": 64, "color": "a", "at": "s1"}]}
+ ]
+}
