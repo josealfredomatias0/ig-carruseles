@@ -1,307 +1,326 @@
 [
-  {
-    "fecha": "2026-10-23",
-    "tema": "iPhone Duo, primer iPhone plegable, llega a tiendas (US$1,999)",
-    "palabras_clave": [
-      "apple",
-      "iphone duo",
-      "plegable",
-      "smartphone"
-    ],
-    "metricool_post_id": "404703622"
-  },
-  {
-    "fecha": "2026-10-24",
-    "tema": "IA de Microsoft (MAI-DxO) acierta 83% de casos médicos complejos vs 36% de médicos generales",
-    "palabras_clave": [
-      "microsoft",
-      "mai-dxo",
-      "ia",
-      "medicina",
-      "diagnóstico"
-    ],
-    "metricool_post_id": "404704149"
-  },
-  {
-    "fecha": "2026-10-25",
-    "tema": "Claude Mythos 5 intentó atacar a desarrolladores reales de GitHub durante una prueba del AISI británico (9 de 43 pruebas)",
-    "palabras_clave": [
-      "anthropic",
-      "mythos 5",
-      "aisi",
-      "ciberseguridad",
-      "ia",
-      "agentes"
-    ],
-    "metricool_post_id": "405564722"
-  },
-  {
-    "fecha": "2026-10-26",
-    "tema": "Estudio de Convovo: Grok 4.7 elige republicanos 92% y GPT-6.1 demócratas 97% en 479 contiendas de EE. UU.; no coinciden en +90%",
-    "palabras_clave": [
-      "grok",
-      "openai",
-      "gpt-6.1",
-      "sesgo político",
-      "ia",
-      "elecciones"
-    ],
-    "metricool_post_id": "406434473"
-  },
-  {
-    "fecha": "2026-10-27",
-    "tema": "Anthropic presenta su S-1 para salir a bolsa en el Nasdaq (ANT): US$16,300 millones en ventas en el 1er semestre de 2026",
-    "palabras_clave": [
-      "anthropic",
-      "claude",
-      "ipo",
-      "bolsa",
-      "nasdaq",
-      "s-1"
-    ],
-    "metricool_post_id": "407634377"
-  },
-  {
-    "fecha": "2026-10-28",
-    "tema": "OpenAI dice que sus modelos de IA refutaron la Hipótesis del Tiempo Exponencial (1999); expertos de UC San Diego y MIT la revisan",
-    "palabras_clave": [
-      "openai",
-      "hipótesis del tiempo exponencial",
-      "eth",
-      "matemáticas",
-      "ciencia",
-      "ia"
-    ],
-    "metricool_post_id": "408759158"
-  },
-  {
-    "fecha": "2026-10-29",
-    "tema": "Apple lanza su primera MacBook Pro con pantalla OLED táctil e Isla Dinámica (desde US$2,899, llega el 6 de noviembre)",
-    "palabras_clave": [
-      "apple",
-      "macbook pro",
-      "pantalla táctil",
-      "oled",
-      "isla dinámica",
-      "laptop"
-    ],
-    "metricool_post_id": "409890777"
-  },
-  {
-    "fecha": "2026-10-30",
-    "tema": "Google lanza Gemini 4 Carbon, su IA más potente (#1 en Artificial Analysis, 59 pts), solo para defensores de ciberseguridad del programa Fairwind",
-    "palabras_clave": [
-      "google",
-      "gemini 4 carbon",
-      "ia",
-      "ciberseguridad",
-      "fairwind",
-      "modelo"
-    ],
-    "metricool_post_id": "411022111"
-  },
-  {
-    "fecha": "2026-10-31",
-    "tema": "Hackers de Corea del Norte (TraderTraitor) roban ~US$6,300 millones en cripto a Binance en ~20 minutos, el mayor robo cripto de la historia",
-    "palabras_clave": [
-      "binance",
-      "hackeo",
-      "criptomonedas",
-      "corea del norte",
-      "ciberseguridad",
-      "robo"
-    ],
-    "metricool_post_id": "412041970"
-  },
-  {
-    "fecha": "2026-11-01",
-    "tema": "Apple supera a Nvidia y vuelve a ser la empresa más valiosa del mundo (US$5.03 billones vs US$4.93 billones; Nvidia -4.2% por dudas sobre el gasto en IA)",
-    "palabras_clave": [
-      "apple",
-      "nvidia",
-      "bolsa",
-      "valor de mercado",
-      "wall street",
-      "ia"
-    ],
-    "metricool_post_id": "412794768"
-  },
-  {
-    "fecha": "2026-11-02",
-    "tema": "Sam Altman dice que es 'bastante terrible' que la RAM esté en PCs personales (usada ~5% del tiempo) y no en centros de datos de IA; DRAM subió 93–98% en el 1T 2026",
-    "palabras_clave": [
-      "sam altman",
-      "openai",
-      "ram",
-      "dram",
-      "centros de datos",
-      "hardware"
-    ],
-    "metricool_post_id": "413768855",
-    "formato": "1imagen"
-  },
-  {
-    "fecha": "2026-11-03",
-    "tema": "Hackers calientan a 50 °C neveras y congeladores de supermercados en 5+ países europeos (Suecia, Bélgica, Luxemburgo, Irlanda, Estonia); en octubre ya atacaron ~700 en Francia",
-    "palabras_clave": [
-      "ciberataque",
-      "supermercados",
-      "neveras",
-      "refrigeración",
-      "europa",
-      "ciberseguridad"
-    ],
-    "metricool_post_id": "415053995",
-    "formato": "carrusel"
-  },
-  {
-    "fecha": "2026-11-04",
-    "tema": "GTA VI: Rockstar confirma que la precarga arranca el 10 de noviembre y pide hasta 212 GB; sale el 19 de noviembre en PS5 y Xbox Series X|S",
-    "palabras_clave": [
-      "gta vi",
-      "gta 6",
-      "rockstar",
-      "videojuegos",
-      "ps5",
-      "xbox",
-      "precarga"
-    ],
-    "metricool_post_id": "416301649",
-    "formato": "1imagen"
-  },
-  {
-    "fecha": "2026-11-05",
-    "tema": "OpenAI lanza ChatGPT Images 2.6: crea GIFs animados desde texto o foto, edición cuadro por cuadro; +4.000 millones de imágenes por semana entre ChatGPT y la API",
-    "palabras_clave": [
-      "chatgpt",
-      "openai",
-      "gif",
-      "images 2.6",
-      "ia generativa",
-      "imágenes"
-    ],
-    "metricool_post_id": "417538784",
-    "formato": "carrusel"
-  },
-  {
-    "fecha": "2026-11-06",
-    "tema": "OpenAI lanza GPT-6 Cyber (solo para defensores, programa Daybreak Red): halló 81 fallas graves nuevas en Firefox y creó 948 exploits de escalada de privilegios en Linux",
-    "palabras_clave": [
-      "openai",
-      "gpt-6 cyber",
-      "ciberseguridad",
-      "firefox",
-      "linux",
-      "vulnerabilidades",
-      "ia"
-    ],
-    "metricool_post_id": "418738248",
-    "formato": "1imagen"
-  },
-  {
-    "fecha": "2026-11-07",
-    "tema": "Crash tecnológico del jueves 5 de noviembre: el Nasdaq 100 cae 6.3% y pierde US$2.3 billones, el índice de chips -12%, Nvidia y Qualcomm -9%+; miedo a más reglas para la IA tras las elecciones de medio término; rebote parcial el viernes",
-    "palabras_clave": [
-      "bolsa",
-      "nasdaq",
-      "nvidia",
-      "qualcomm",
-      "chips",
-      "crash",
-      "ia",
-      "wall street"
-    ],
-    "metricool_post_id": "419822105",
-    "formato": "carrusel"
-  },
-  {
-    "fecha": "2026-11-08",
-    "tema": "Tesla dejará de fabricar el Cybertruck hacia mediados de 2027 en Giga Texas para dar espacio al robotaxi Cybercab; ventas -48% (2024→2025) y -28% ene–sep 2026 según KBB",
-    "palabras_clave": [
-      "tesla",
-      "cybertruck",
-      "cybercab",
-      "robotaxi",
-      "elon musk",
-      "autos eléctricos"
-    ],
-    "metricool_post_id": "420615930",
-    "formato": "1imagen"
-  },
-  {
-    "fecha": "2026-11-09",
-    "tema": "La junta de Nvidia abre una investigación independiente sobre si el CEO Jensen Huang fue blanco de espionaje extranjero, tras admitir una infidelidad; acción -4% fuera de horario; Congreso pide que testifique el 18 de noviembre",
-    "palabras_clave": [
-      "nvidia",
-      "jensen huang",
-      "espionaje",
-      "china",
-      "ceo",
-      "investigación"
-    ],
-    "metricool_post_id": "421602086",
-    "formato": "carrusel"
-  },
-  {
-    "fecha": "2026-11-10",
-    "tema": "Anthropic lanza Claude Fable 5.2 y Mythos 5.2: Fable resolvió 2 problemas abiertos de física de agujeros negros (preprints) y coordinó 1.000+ agentes durante 8 días para crear un sistema operativo; hasta 30% más rápidos",
-    "palabras_clave": [
-      "anthropic",
-      "claude",
-      "fable 5.2",
-      "mythos 5.2",
-      "agujeros negros",
-      "ia",
-      "agentes"
-    ],
-    "metricool_post_id": "422945812",
-    "formato": "1imagen"
-  },
-  {
-    "fecha": "2026-11-11",
-    "tema": "Anthropic fija su salida a bolsa en Nasdaq (símbolo ANT): US$70–78 por acción, hasta US$64.4 mil millones a recaudar, debut previsto el 19 de noviembre, valoración de +US$1 billón; colocación privada de US$26 mil millones de Google, Nvidia, Microsoft y otros",
-    "palabras_clave": [
-      "anthropic",
-      "claude",
-      "ipo",
-      "bolsa",
-      "nasdaq",
-      "ant",
-      "valoración",
-      "ia"
-    ],
-    "metricool_post_id": "424228927",
-    "formato": "carrusel"
-  },
-  {
-    "fecha": "2026-11-12",
-    "tema": "Amazon presenta Ring Robotics: Ring Drone Cam, dron de seguridad que vuela dentro de casa (US$249.99, llega a EE. UU. el 27 ene. 2027, ~8 min de vuelo, 2K, 165 g) y Rover Cam para negocios (US$999.99, 16 dic.)",
-    "palabras_clave": [
-      "amazon",
-      "ring",
-      "drone cam",
-      "rover cam",
-      "dron",
-      "seguridad",
-      "hogar inteligente",
-      "robótica"
-    ],
-    "metricool_post_id": "425480703",
-    "formato": "1imagen"
-  },
-  {
-    "fecha": "2026-11-14",
-    "tema": "Jensen Huang renuncia como CEO de Nvidia tras 33 años (la cofundó en 1993); Colette Kress (CFO) es CEO interina; la acción cayó más de 13% al abrir el jueves 12 nov.; sin razón oficial, tras escándalo de infidelidad e investigación por espionaje extranjero",
-    "palabras_clave": [
-      "nvidia",
-      "jensen huang",
-      "renuncia",
-      "ceo",
-      "colette kress",
-      "bolsa",
-      "chips"
-    ],
-    "metricool_post_id": "427882956",
-    "formato": "1imagen"
-  }
+ {
+  "fecha": "2026-10-23",
+  "tema": "iPhone Duo, primer iPhone plegable, llega a tiendas (US$1,999)",
+  "palabras_clave": [
+   "apple",
+   "iphone duo",
+   "plegable",
+   "smartphone"
+  ],
+  "metricool_post_id": "404703622"
+ },
+ {
+  "fecha": "2026-10-24",
+  "tema": "IA de Microsoft (MAI-DxO) acierta 83% de casos médicos complejos vs 36% de médicos generales",
+  "palabras_clave": [
+   "microsoft",
+   "mai-dxo",
+   "ia",
+   "medicina",
+   "diagnóstico"
+  ],
+  "metricool_post_id": "404704149"
+ },
+ {
+  "fecha": "2026-10-25",
+  "tema": "Claude Mythos 5 intentó atacar a desarrolladores reales de GitHub durante una prueba del AISI británico (9 de 43 pruebas)",
+  "palabras_clave": [
+   "anthropic",
+   "mythos 5",
+   "aisi",
+   "ciberseguridad",
+   "ia",
+   "agentes"
+  ],
+  "metricool_post_id": "405564722"
+ },
+ {
+  "fecha": "2026-10-26",
+  "tema": "Estudio de Convovo: Grok 4.7 elige republicanos 92% y GPT-6.1 demócratas 97% en 479 contiendas de EE. UU.; no coinciden en +90%",
+  "palabras_clave": [
+   "grok",
+   "openai",
+   "gpt-6.1",
+   "sesgo político",
+   "ia",
+   "elecciones"
+  ],
+  "metricool_post_id": "406434473"
+ },
+ {
+  "fecha": "2026-10-27",
+  "tema": "Anthropic presenta su S-1 para salir a bolsa en el Nasdaq (ANT): US$16,300 millones en ventas en el 1er semestre de 2026",
+  "palabras_clave": [
+   "anthropic",
+   "claude",
+   "ipo",
+   "bolsa",
+   "nasdaq",
+   "s-1"
+  ],
+  "metricool_post_id": "407634377"
+ },
+ {
+  "fecha": "2026-10-28",
+  "tema": "OpenAI dice que sus modelos de IA refutaron la Hipótesis del Tiempo Exponencial (1999); expertos de UC San Diego y MIT la revisan",
+  "palabras_clave": [
+   "openai",
+   "hipótesis del tiempo exponencial",
+   "eth",
+   "matemáticas",
+   "ciencia",
+   "ia"
+  ],
+  "metricool_post_id": "408759158"
+ },
+ {
+  "fecha": "2026-10-29",
+  "tema": "Apple lanza su primera MacBook Pro con pantalla OLED táctil e Isla Dinámica (desde US$2,899, llega el 6 de noviembre)",
+  "palabras_clave": [
+   "apple",
+   "macbook pro",
+   "pantalla táctil",
+   "oled",
+   "isla dinámica",
+   "laptop"
+  ],
+  "metricool_post_id": "409890777"
+ },
+ {
+  "fecha": "2026-10-30",
+  "tema": "Google lanza Gemini 4 Carbon, su IA más potente (#1 en Artificial Analysis, 59 pts), solo para defensores de ciberseguridad del programa Fairwind",
+  "palabras_clave": [
+   "google",
+   "gemini 4 carbon",
+   "ia",
+   "ciberseguridad",
+   "fairwind",
+   "modelo"
+  ],
+  "metricool_post_id": "411022111"
+ },
+ {
+  "fecha": "2026-10-31",
+  "tema": "Hackers de Corea del Norte (TraderTraitor) roban ~US$6,300 millones en cripto a Binance en ~20 minutos, el mayor robo cripto de la historia",
+  "palabras_clave": [
+   "binance",
+   "hackeo",
+   "criptomonedas",
+   "corea del norte",
+   "ciberseguridad",
+   "robo"
+  ],
+  "metricool_post_id": "412041970"
+ },
+ {
+  "fecha": "2026-11-01",
+  "tema": "Apple supera a Nvidia y vuelve a ser la empresa más valiosa del mundo (US$5.03 billones vs US$4.93 billones; Nvidia -4.2% por dudas sobre el gasto en IA)",
+  "palabras_clave": [
+   "apple",
+   "nvidia",
+   "bolsa",
+   "valor de mercado",
+   "wall street",
+   "ia"
+  ],
+  "metricool_post_id": "412794768"
+ },
+ {
+  "fecha": "2026-11-02",
+  "tema": "Sam Altman dice que es 'bastante terrible' que la RAM esté en PCs personales (usada ~5% del tiempo) y no en centros de datos de IA; DRAM subió 93–98% en el 1T 2026",
+  "palabras_clave": [
+   "sam altman",
+   "openai",
+   "ram",
+   "dram",
+   "centros de datos",
+   "hardware"
+  ],
+  "metricool_post_id": "413768855",
+  "formato": "1imagen"
+ },
+ {
+  "fecha": "2026-11-03",
+  "tema": "Hackers calientan a 50 °C neveras y congeladores de supermercados en 5+ países europeos (Suecia, Bélgica, Luxemburgo, Irlanda, Estonia); en octubre ya atacaron ~700 en Francia",
+  "palabras_clave": [
+   "ciberataque",
+   "supermercados",
+   "neveras",
+   "refrigeración",
+   "europa",
+   "ciberseguridad"
+  ],
+  "metricool_post_id": "415053995",
+  "formato": "carrusel"
+ },
+ {
+  "fecha": "2026-11-04",
+  "tema": "GTA VI: Rockstar confirma que la precarga arranca el 10 de noviembre y pide hasta 212 GB; sale el 19 de noviembre en PS5 y Xbox Series X|S",
+  "palabras_clave": [
+   "gta vi",
+   "gta 6",
+   "rockstar",
+   "videojuegos",
+   "ps5",
+   "xbox",
+   "precarga"
+  ],
+  "metricool_post_id": "416301649",
+  "formato": "1imagen"
+ },
+ {
+  "fecha": "2026-11-05",
+  "tema": "OpenAI lanza ChatGPT Images 2.6: crea GIFs animados desde texto o foto, edición cuadro por cuadro; +4.000 millones de imágenes por semana entre ChatGPT y la API",
+  "palabras_clave": [
+   "chatgpt",
+   "openai",
+   "gif",
+   "images 2.6",
+   "ia generativa",
+   "imágenes"
+  ],
+  "metricool_post_id": "417538784",
+  "formato": "carrusel"
+ },
+ {
+  "fecha": "2026-11-06",
+  "tema": "OpenAI lanza GPT-6 Cyber (solo para defensores, programa Daybreak Red): halló 81 fallas graves nuevas en Firefox y creó 948 exploits de escalada de privilegios en Linux",
+  "palabras_clave": [
+   "openai",
+   "gpt-6 cyber",
+   "ciberseguridad",
+   "firefox",
+   "linux",
+   "vulnerabilidades",
+   "ia"
+  ],
+  "metricool_post_id": "418738248",
+  "formato": "1imagen"
+ },
+ {
+  "fecha": "2026-11-07",
+  "tema": "Crash tecnológico del jueves 5 de noviembre: el Nasdaq 100 cae 6.3% y pierde US$2.3 billones, el índice de chips -12%, Nvidia y Qualcomm -9%+; miedo a más reglas para la IA tras las elecciones de medio término; rebote parcial el viernes",
+  "palabras_clave": [
+   "bolsa",
+   "nasdaq",
+   "nvidia",
+   "qualcomm",
+   "chips",
+   "crash",
+   "ia",
+   "wall street"
+  ],
+  "metricool_post_id": "419822105",
+  "formato": "carrusel"
+ },
+ {
+  "fecha": "2026-11-08",
+  "tema": "Tesla dejará de fabricar el Cybertruck hacia mediados de 2027 en Giga Texas para dar espacio al robotaxi Cybercab; ventas -48% (2024→2025) y -28% ene–sep 2026 según KBB",
+  "palabras_clave": [
+   "tesla",
+   "cybertruck",
+   "cybercab",
+   "robotaxi",
+   "elon musk",
+   "autos eléctricos"
+  ],
+  "metricool_post_id": "420615930",
+  "formato": "1imagen"
+ },
+ {
+  "fecha": "2026-11-09",
+  "tema": "La junta de Nvidia abre una investigación independiente sobre si el CEO Jensen Huang fue blanco de espionaje extranjero, tras admitir una infidelidad; acción -4% fuera de horario; Congreso pide que testifique el 18 de noviembre",
+  "palabras_clave": [
+   "nvidia",
+   "jensen huang",
+   "espionaje",
+   "china",
+   "ceo",
+   "investigación"
+  ],
+  "metricool_post_id": "421602086",
+  "formato": "carrusel"
+ },
+ {
+  "fecha": "2026-11-10",
+  "tema": "Anthropic lanza Claude Fable 5.2 y Mythos 5.2: Fable resolvió 2 problemas abiertos de física de agujeros negros (preprints) y coordinó 1.000+ agentes durante 8 días para crear un sistema operativo; hasta 30% más rápidos",
+  "palabras_clave": [
+   "anthropic",
+   "claude",
+   "fable 5.2",
+   "mythos 5.2",
+   "agujeros negros",
+   "ia",
+   "agentes"
+  ],
+  "metricool_post_id": "422945812",
+  "formato": "1imagen"
+ },
+ {
+  "fecha": "2026-11-11",
+  "tema": "Anthropic fija su salida a bolsa en Nasdaq (símbolo ANT): US$70–78 por acción, hasta US$64.4 mil millones a recaudar, debut previsto el 19 de noviembre, valoración de +US$1 billón; colocación privada de US$26 mil millones de Google, Nvidia, Microsoft y otros",
+  "palabras_clave": [
+   "anthropic",
+   "claude",
+   "ipo",
+   "bolsa",
+   "nasdaq",
+   "ant",
+   "valoración",
+   "ia"
+  ],
+  "metricool_post_id": "424228927",
+  "formato": "carrusel"
+ },
+ {
+  "fecha": "2026-11-12",
+  "tema": "Amazon presenta Ring Robotics: Ring Drone Cam, dron de seguridad que vuela dentro de casa (US$249.99, llega a EE. UU. el 27 ene. 2027, ~8 min de vuelo, 2K, 165 g) y Rover Cam para negocios (US$999.99, 16 dic.)",
+  "palabras_clave": [
+   "amazon",
+   "ring",
+   "drone cam",
+   "rover cam",
+   "dron",
+   "seguridad",
+   "hogar inteligente",
+   "robótica"
+  ],
+  "metricool_post_id": "425480703",
+  "formato": "1imagen"
+ },
+ {
+  "fecha": "2026-11-14",
+  "tema": "Jensen Huang renuncia como CEO de Nvidia tras 33 años (la cofundó en 1993); Colette Kress (CFO) es CEO interina; la acción cayó más de 13% al abrir el jueves 12 nov.; sin razón oficial, tras escándalo de infidelidad e investigación por espionaje extranjero",
+  "palabras_clave": [
+   "nvidia",
+   "jensen huang",
+   "renuncia",
+   "ceo",
+   "colette kress",
+   "bolsa",
+   "chips"
+  ],
+  "metricool_post_id": "427882956",
+  "formato": "1imagen"
+ },
+ {
+  "fecha": "2026-11-15",
+  "tema": "SpaceX atrapa por primera vez con la torre una Starship que volvía de órbita (Flight 15): despegó el 13 nov. desde Texas, soltó 26 Starlink V3, ~22.5 h de vuelo; el propulsor abortó su captura y cayó al Golfo de México",
+  "categoria": "espacio",
+  "palabras_clave": [
+   "SpaceX",
+   "Starship",
+   "Flight 15",
+   "Mechazilla",
+   "Starlink",
+   "cohetes reutilizables"
+  ],
+  "datos_curiosos": [
+   "La primera captura de un propulsor Super Heavy por la torre fue el 13 de octubre de 2024; la torre tiene el apodo de Mechazilla",
+   "El cohete mide como un edificio de 41 pisos y el propulsor usa 33 motores Raptor"
+  ],
+  "metricool_post_id": 428752517,
+  "formato": "reel"
+ }
 ]
