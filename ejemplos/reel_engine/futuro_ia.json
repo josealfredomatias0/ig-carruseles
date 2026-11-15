@@ -1,0 +1,65 @@
+{
+ "voice": "em_alex",
+ "scenes": [
+  {"say": [["¿Cómo será el mundo en 2030?", "¿Cómo será el mundo en el dos mil treinta?"],
+           ["No es ciencia ficción: son datos.", "No es ciencia ficción: son datos."]],
+   "elements": [
+    {"type": "text", "text": "¿Cómo será el mundo en", "size": 80, "at": 0},
+    {"type": "big", "text": "2030?", "size": 240, "color": "yellow", "at": 0.4},
+    {"type": "text", "text": "No es ciencia ficción: son datos.", "size": 60, "weight": "med", "color": "grey", "at": "s1"}]},
+
+  {"say": [["Según el Foro Económico Mundial, para 2030 se crearán 170 millones de empleos", "Según el Foro Económico Mundial, para el dos mil treinta se crearán ciento setenta millones de empleos,"],
+           ["y desaparecerán 92 millones.", "y desaparecerán noventa y dos millones."],
+           ["Saldo: 78 millones más.", "Saldo: setenta y ocho millones más."]],
+   "elements": [
+    {"type": "text", "text": "Trabajo", "size": 96, "color": "yellow", "at": 0},
+    {"type": "text", "text": "Empleos hacia 2030 (Foro Económico Mundial)", "size": 42, "weight": "med", "color": "grey", "at": 0.3},
+    {"type": "bar", "label": "Se crean", "value": 170, "max": 170, "unit": " millones", "color": "a", "at": "s0+2.2"},
+    {"type": "bar", "label": "Desaparecen", "value": 92, "max": 170, "unit": " millones", "color": "b", "at": "s1"},
+    {"type": "big", "text": "+78 M", "size": 170, "color": "yellow", "at": "s2"}]},
+
+  {"say": [["El FMI calcula que la IA tocará cerca del 40% de los trabajos del mundo.", "El efe eme i calcula que la i a tocará cerca del cuarenta por ciento de los trabajos del mundo."],
+           ["Ojo: no es que desaparezcan, es que cambian.", "Ojo: no es que desaparezcan, es que cambian."]],
+   "elements": [
+    {"type": "text", "text": "Trabajos expuestos a la IA", "size": 70, "at": 0},
+    {"type": "big", "text": "40%", "size": 260, "color": "b", "at": "s0+2.0"},
+    {"type": "text", "text": "del empleo mundial (FMI)", "size": 46, "weight": "med", "color": "grey", "at": "s0+2.4"},
+    {"type": "chips", "pieces": ["no desaparecen", "cambian"], "size": 54, "step": 0.6, "at": "s1"}]},
+
+  {"say": [["En ciencia, una IA llamada AlphaFold predijo la forma de unos 200 millones de proteínas", "En ciencia, una i a llamada álfafold, predijo la forma de unos doscientos millones de proteínas,"],
+           ["y sus creadores ganaron el Nobel de Química 2024.", "y sus creadores ganaron el Nobel de Química dos mil veinticuatro."]],
+   "elements": [
+    {"type": "text", "text": "Ciencia y salud", "size": 96, "color": "a", "at": 0},
+    {"type": "big", "text": "200 M", "size": 220, "at": "s0+2.5"},
+    {"type": "text", "text": "proteínas descifradas por una IA", "size": 54, "weight": "med", "color": "grey", "at": "s0+2.9"},
+    {"type": "text", "text": "Nobel de Química 2024", "size": 74, "color": "yellow", "at": "s1+1.0"}]},
+
+  {"say": [["La IA generativa podría sumar hasta 4.4 billones de dólares al año", "La i a generativa podría sumar hasta cuatro punto cuatro billones de dólares al año:"],
+           ["como agregar otra economía del tamaño del Reino Unido.", "como agregar otra economía del tamaño del Reino Unido."]],
+   "elements": [
+    {"type": "text", "text": "Economía", "size": 96, "color": "c", "at": 0},
+    {"type": "big", "text": "$4.4", "size": 230, "color": "yellow", "at": "s0+2.2"},
+    {"type": "text", "text": "billones de dólares al año", "size": 60, "at": "s0+2.5"},
+    {"type": "text", "text": "(trillion en inglés · McKinsey)", "size": 38, "weight": "med", "color": "grey", "at": "s0+2.8"},
+    {"type": "text", "text": "= otro Reino Unido", "size": 74, "color": "c", "at": "s1+0.8"}]},
+
+  {"say": [["El reto: tanta IA necesita energía.", "El reto: tanta i a necesita energía."],
+           ["Los centros de datos van a gastar más del doble de electricidad para 2030,", "Los centros de datos van a gastar más del doble de electricidad para el dos mil treinta,"],
+           ["tanto como Japón entero hoy.", "tanto como Japón entero hoy."]],
+   "elements": [
+    {"type": "text", "text": "El reto: energía", "size": 96, "color": "b", "at": 0},
+    {"type": "text", "text": "Electricidad de centros de datos (AIE)", "size": 42, "weight": "med", "color": "grey", "at": 0.3},
+    {"type": "bar", "label": "2024", "value": 415, "max": 945, "unit": " TWh", "color": "grey", "at": "s1"},
+    {"type": "bar", "label": "2030", "value": 945, "max": 945, "unit": " TWh", "color": "b", "at": "s1+1.2"},
+    {"type": "text", "text": "≈ todo Japón hoy", "size": 80, "color": "yellow", "at": "s2"}]},
+
+  {"say": [["Y casi el 40% de las habilidades que usas hoy van a cambiar.", "Y casi el cuarenta por ciento de las habilidades que usas hoy, van a cambiar."],
+           ["El futuro no es de la IA: es de quien aprende a usarla.", "El futuro no es de la i a: es de quien aprende a usarla."],
+           ["Sígueme para más.", "Sígueme para más."]],
+   "elements": [
+    {"type": "text", "text": "~40% de tus habilidades cambiarán", "size": 70, "at": 0.2},
+    {"type": "gap", "h": 40},
+    {"type": "text", "text": "El futuro no es de la IA:", "size": 80, "color": "grey", "at": "s1"},
+    {"type": "text", "text": "es de quien aprende a usarla", "size": 96, "color": "yellow", "at": "s1+1.6"}]}
+ ]
+}

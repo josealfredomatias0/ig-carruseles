@@ -1,0 +1,57 @@
+{
+ "voice": "em_alex",
+ "scenes": [
+  {"say": [["Se acabó una era: Jensen Huang ya no es el CEO de Nvidia,", "Se acabó una era: Yénsen Juang, ya no es el ceo de Envidia,"],
+           ["después de 33 años.", "después de treinta y tres años."]],
+   "elements": [
+    {"type": "text", "text": "SE ACABÓ UNA ERA", "size": 96, "color": "b", "at": 0},
+    {"type": "text", "text": "Jensen Huang ya no es CEO de Nvidia", "size": 74, "at": 0.6},
+    {"type": "big", "text": "33 años", "size": 210, "color": "yellow", "at": "s1"}]},
+
+  {"say": [["Renunció tras reportes de relaciones extramatrimoniales,", "Renunció tras reportes de relaciones extramatrimoniales,"],
+           ["una de ellas con una supuesta espía china.", "una de ellas, con una supuesta espía china."],
+           ["Y fue citado a declarar ante el Congreso.", "Y fue citado a declarar ante el Congreso."]],
+   "elements": [
+    {"type": "text", "text": "¿Qué pasó?", "size": 110, "color": "yellow", "at": 0},
+    {"type": "list", "items": ["Reportes de relaciones extramatrimoniales", "Una, con una supuesta espía china", "Citado a declarar ante el Congreso de EE. UU."], "size": 54, "at": "s0+0.3", "step": 2.4}]},
+
+  {"say": [["El golpe: Nvidia ha perdido 1.76 billones de dólares en valor de mercado.", "El golpe: Envidia ha perdido uno punto setenta y seis billones de dólares, en valor de mercado."]],
+   "elements": [
+    {"type": "text", "text": "El golpe en la bolsa", "size": 84, "at": 0},
+    {"type": "big", "text": "-$1.76", "size": 230, "color": "b", "at": "s0+2.0"},
+    {"type": "text", "text": "billones de dólares en valor de mercado", "size": 56, "at": "s0+2.4"},
+    {"type": "text", "text": "(trillion en inglés · CNN)", "size": 38, "weight": "med", "color": "grey", "at": "s0+2.6"}]},
+
+  {"say": [["Colette Kress, la jefa de finanzas, es la CEO interina", "Colét Kres, la jefa de finanzas, es la ceo interina,"],
+           ["mientras la junta busca reemplazo.", "mientras la junta busca reemplazo."]],
+   "elements": [
+    {"type": "text", "text": "¿Quién manda ahora?", "size": 84, "at": 0},
+    {"type": "text", "text": "Colette Kress", "size": 130, "color": "a", "at": 0.5},
+    {"type": "chips", "pieces": ["CFO", "→", "CEO interina"], "size": 58, "step": 0.4, "at": "s0+1.6"}]},
+
+  {"say": [["Dato curioso: Nvidia nació en 1993 en una mesa de un Denny's en San José.", "Dato curioso: Envidia nació en el mil novecientos noventa y tres, en una mesa de un Dénis, en San José."],
+           ["Y Huang había lavado platos en esa misma cadena.", "Y Juang había lavado platos, en esa misma cadena."]],
+   "elements": [
+    {"type": "text", "text": "DATO CURIOSO #1", "size": 64, "color": "c", "at": 0},
+    {"type": "big", "text": "1993", "size": 230, "color": "yellow", "at": 0.4},
+    {"type": "text", "text": "Nació en una mesa de un restaurante Denny's", "size": 64, "at": "s0+1.5"},
+    {"type": "text", "text": "…donde Huang había lavado platos", "size": 52, "weight": "med", "color": "grey", "at": "s1"}]},
+
+  {"say": [["El nombre viene de “invidia”: envidia en latín.", "El nombre viene de invidia: envidia, en latín."],
+           ["Por eso su logo es verde: verde de envidia.", "Por eso su logo es verde: verde de envidia."]],
+   "elements": [
+    {"type": "text", "text": "DATO CURIOSO #2", "size": 64, "color": "c", "at": 0},
+    {"type": "chips", "pieces": ["NV", "IDIA"], "size": 90, "step": 0.4, "at": 0.4},
+    {"type": "text", "text": "invidia = envidia (latín)", "size": 76, "at": "s0+0.8"},
+    {"type": "text", "text": "Logo verde = “verde de envidia”", "size": 64, "color": "#76B900", "at": "s1"}]},
+
+  {"say": [["Y en 2025 fue la primera empresa en valer 5 billones de dólares.", "Y en el dos mil veinticinco, fue la primera empresa en valer cinco billones de dólares."],
+           ["¿Quién debería dirigir Nvidia ahora? Te leo en los comentarios.", "¿Quién debería dirigir Envidia ahora? Te leo en los comentarios."]],
+   "elements": [
+    {"type": "text", "text": "DATO CURIOSO #3", "size": 64, "color": "c", "at": 0},
+    {"type": "big", "text": "$5", "size": 230, "color": "yellow", "at": "s0+1.5"},
+    {"type": "text", "text": "billones: la primera empresa en llegar", "size": 58, "at": "s0+1.9"},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "¿Quién debería dirigir Nvidia ahora?", "size": 66, "color": "a", "at": "s1"}]}
+ ]
+}
