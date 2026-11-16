@@ -322,5 +322,26 @@
   ],
   "metricool_post_id": 428752517,
   "formato": "reel"
+ },
+ {
+  "fecha": "2026-11-16",
+  "tema": "Caída global de Microsoft 365 (12–13 nov.): Outlook, Teams, OneDrive y Copilot fuera por más de 12 horas; reportes desde 74 países y ~130 mil quejas en Downdetector en el pico; Microsoft dice que fue sobrecarga, no hackeo",
+  "categoria": "caidas",
+  "palabras_clave": [
+   "Microsoft",
+   "Outlook",
+   "Teams",
+   "Copilot",
+   "caída",
+   "outage",
+   "Downdetector"
+  ],
+  "datos_curiosos": [
+   "Hotmail nació el 4 de julio de 1996 y su nombre escondía HTML (HoTMaiL)",
+   "Microsoft compró Hotmail en 1997 por ~US$400 millones; pasó a ser Outlook en 2013",
+   "Primer email en 1971: Ray Tomlinson eligió la @"
+  ],
+  "metricool_post_id": 429841189,
+  "formato": "reel"
  }
 ]

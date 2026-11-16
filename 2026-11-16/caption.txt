@@ -1,6 +1,6 @@
 Microsoft se cayó en medio mundo: Outlook, Teams y Copilot fuera por más de 12 horas 😱 Quédate al final: datos curiosos que casi nadie sabe 👀
 
-📧 El jueves 12 de noviembre, cerca del mediodía (hora RD), millones de personas no podían abrir su correo de Outlook.
+📧 El jueves 12 de noviembre, cerca del mediodía (hora RD), miles de personas en todo el mundo no podían abrir su correo de Outlook.
 🌎 Hubo reportes de fallas desde 74 países y cerca de 130 mil quejas en Downdetector en el peor momento.
 🛠️ Microsoft asegura que no fue un hackeo, sino una sobrecarga en sus servidores.
 ✅ Consejo: ten un correo de respaldo, guarda tus archivos importantes y desconfía de mensajes que usen la caída como excusa.
