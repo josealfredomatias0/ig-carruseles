@@ -1,0 +1,316 @@
+{
+ "voice": "em_alex",
+ "scenes": [
+  {
+   "say": [
+    [
+     "Outlook, Teams y Copilot se cayeron en medio mundo",
+     "Áutluk, Tims y Copáilot, se cayeron en medio mundo,"
+    ],
+    [
+     "durante más de 12 horas.",
+     "durante más de doce horas."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "MICROSOFT SE CAYÓ",
+     "size": 100,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Outlook, Teams y Copilot fuera de servicio",
+     "size": 70,
+     "at": 0.6
+    },
+    {
+     "type": "big",
+     "text": "+12 horas",
+     "size": 200,
+     "color": "yellow",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Empezó el jueves 12, cerca del mediodía en República Dominicana.",
+     "Empezó el jueves doce, cerca del mediodía en República Dominicana."
+    ],
+    [
+     "Mucha gente no podía abrir su correo ni en el celular.",
+     "Mucha gente no podía abrir su correo, ni en el celular."
+    ],
+    [
+     "Y también fallaron Teams, OneDrive y Copilot.",
+     "Y también fallaron Tims, Uan dráiv y Copáilot."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Qué pasó?",
+     "size": 110,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "Jueves 12 de noviembre, cerca del mediodía (hora RD)",
+      "Correos que no abrían en web, app ni celular",
+      "También fallaron Teams, OneDrive y Copilot"
+     ],
+     "size": 54,
+     "at": "s0+0.3",
+     "step": 3.0
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Hubo reportes desde 74 países,",
+     "Hubo reportes desde setenta y cuatro países,"
+    ],
+    [
+     "y cerca de 130 mil quejas en Downdetector.",
+     "y cerca de ciento treinta mil quejas en Daun detéctor."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "El impacto",
+     "size": 90,
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "74",
+     "size": 240,
+     "color": "b",
+     "at": "s0+1.2"
+    },
+    {
+     "type": "text",
+     "text": "países con reportes de fallas",
+     "size": 62,
+     "at": "s0+1.5"
+    },
+    {
+     "type": "bar",
+     "label": "Quejas en Downdetector (pico)",
+     "value": 130,
+     "max": 140,
+     "unit": " mil",
+     "color": "b",
+     "at": "s1+0.8"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Microsoft dice que no fue un hackeo, sino una sobrecarga.",
+     "Máicrosoft dice que no fue un jaqueo, sino una sobrecarga."
+    ],
+    [
+     "Ten un correo de respaldo, guarda tus archivos clave,",
+     "Ten un correo de respaldo, guarda tus archivos clave,"
+    ],
+    [
+     "y desconfía de correos que usen la caída como excusa.",
+     "y desconfía de correos que usen la caída como excusa."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "No fue un hackeo",
+     "size": 96,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Según Microsoft, fue una sobrecarga de sus servidores",
+     "size": 54,
+     "weight": "med",
+     "color": "grey",
+     "at": 0.6
+    },
+    {
+     "type": "text",
+     "text": "¿Qué hacer?",
+     "size": 80,
+     "color": "yellow",
+     "at": "s1"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Ten un correo de respaldo",
+      "Guarda tus archivos clave",
+      "Desconfía de correos que usen la caída de excusa"
+     ],
+     "size": 52,
+     "at": "s1+0.8",
+     "step": 1.6
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso: Outlook antes era Hotmail, y nació el 4 de julio de 1996.",
+     "Dato curioso: Áutluk antes era Jótmeil, y nació el cuatro de julio, de mil novecientos noventa y seis."
+    ],
+    [
+     "Su nombre escondía las letras HTML, el lenguaje de las páginas web.",
+     "Su nombre escondía las letras, hache te eme ele, el lenguaje de las páginas web."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #1",
+     "size": 64,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "HoTMaiL",
+     "size": 190,
+     "color": "yellow",
+     "at": 0.4
+    },
+    {
+     "type": "text",
+     "text": "Nació el 4 de julio de 1996",
+     "size": 64,
+     "at": "s0+2.0"
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "H",
+      "T",
+      "M",
+      "L"
+     ],
+     "size": 90,
+     "step": 0.3,
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "el lenguaje de las páginas web",
+     "size": 52,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+1.5"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Microsoft lo compró en 1997 por unos 400 millones de dólares.",
+     "Máicrosoft lo compró en mil novecientos noventa y siete, por unos cuatrocientos millones de dólares."
+    ],
+    [
+     "Y en 2013 pasó a llamarse Outlook.",
+     "Y en el dos mil trece, pasó a llamarse Áutluk."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #2",
+     "size": 64,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "$400",
+     "size": 230,
+     "color": "yellow",
+     "at": "s0+2.2"
+    },
+    {
+     "type": "text",
+     "text": "millones pagó Microsoft en 1997",
+     "size": 58,
+     "at": "s0+2.5"
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Hotmail",
+      "→",
+      "Outlook (2013)"
+     ],
+     "size": 58,
+     "step": 0.4,
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Y el primer correo electrónico se envió en 1971.",
+     "Y el primer correo electrónico, se envió en mil novecientos setenta y uno."
+    ],
+    [
+     "Ray Tomlinson eligió la arroba para separar el nombre del destino.",
+     "Réi Tómlinson eligió la arroba, para separar el nombre del destino."
+    ],
+    [
+     "¿Te afectó la caída? Cuéntame, y sígueme para más noticias tech.",
+     "¿Te afectó la caída? Cuéntame, y sígueme para más noticias tec."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #3",
+     "size": 64,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "1971",
+     "size": 220,
+     "color": "yellow",
+     "at": "s0+2.0"
+    },
+    {
+     "type": "text",
+     "text": "Primer email: Ray Tomlinson eligió la @",
+     "size": 60,
+     "at": "s1"
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "¿Te afectó la caída?",
+     "size": 70,
+     "color": "a",
+     "at": "s2"
+    }
+   ]
+  }
+ ]
+}
