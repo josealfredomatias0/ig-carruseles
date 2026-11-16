@@ -1,0 +1,53 @@
+{
+ "voice": "em_alex",
+ "speed": 1.1,
+ "theme": {"bg":"#0A1A2F","yellow":"#FFD23F","a":"#4FC3F7","b":"#FF6B6B","c":"#B39DDB","d":"#5EE6A8"},
+ "scenes": [
+  {"say": [["¿Quieres hacer tu maestría en Europa pagando mucho menos?", "¿Quieres hacer tu maestría en Europa, pagando mucho menos?"]],
+   "elements": [
+    {"type": "text", "text": "¿Maestría en Europa?", "size": 96, "color": "yellow", "at": 0},
+    {"type": "big", "text": "BECA", "size": 230, "color": "d", "at": 0.7},
+    {"type": "text", "text": "Países Bajos · 2027-2028", "size": 56, "weight": "med", "color": "grey", "at": 1.2}]},
+
+  {"say": [["La Universidad Radboud, en Países Bajos,", "La Universidad Rádbaud, en Países Bajos,"],
+           ["abrió el Programa de Becas Radboud para maestrías en inglés.", "abrió el Programa de Becas Rádbaud, para maestrías en inglés."]],
+   "elements": [
+    {"type": "text", "text": "Universidad Radboud", "size": 80, "color": "grey", "at": 0},
+    {"type": "text", "text": "Radboud Scholarship Programme", "size": 96, "color": "a", "at": 0.4},
+    {"type": "text", "text": "Maestrías en inglés", "size": 64, "at": "s1"},
+    {"type": "chips", "pieces": ["Nijmegen", "Inicio: sept. 2027"], "size": 52, "step": 0.4, "at": "s1+1.4"}]},
+
+  {"say": [["La beca baja la matrícula a unos 2,771 euros al año,", "La beca baja la matrícula, a unos dos mil setecientos setenta y un euros al año,"],
+           ["cuando normalmente puede costar unos 19,000 euros.", "cuando normalmente puede costar unos diecinueve mil euros."]],
+   "elements": [
+    {"type": "text", "text": "Tu matrícula baja a", "size": 84, "at": 0},
+    {"type": "big", "text": "€2,771", "size": 210, "color": "d", "at": "s0+1.8"},
+    {"type": "text", "text": "aprox. al año (monto por confirmar)", "size": 50, "weight": "med", "color": "grey", "at": "s0+2.2"},
+    {"type": "text", "text": "en vez de unos €19,000", "size": 70, "color": "yellow", "at": "s1"}]},
+
+  {"say": [["Requisitos: pasaporte de fuera de la Unión Europea,", "Requisitos: pasaporte de fuera de la Unión Europea,"],
+           ["licenciatura de fuera de Países Bajos,", "licenciatura de fuera de Países Bajos,"],
+           ["estar admitido en la maestría y cumplir el requisito de inglés.", "estar admitido en la maestría, y cumplir el requisito de inglés."]],
+   "elements": [
+    {"type": "text", "text": "Requisitos clave", "size": 90, "color": "yellow", "at": 0},
+    {"type": "list", "items": ["Pasaporte de fuera de la UE/EEE", "Licenciatura de fuera de Países Bajos", "Admisión completa a la maestría", "Nivel de inglés requerido"], "size": 54, "at": "s0", "step": 2.0}]},
+
+  {"say": [["Se aplica junto con la maestría, con tu currículum y dos cartas de recomendación.", "Se aplica junto con la maestría, con tu currículum, y dos cartas de recomendación."],
+           ["La fecha límite es el 31 de enero de 2027.", "La fecha límite, es el treinta y uno de enero, del dos mil veintisiete."]],
+   "elements": [
+    {"type": "chips", "pieces": ["CV", "2 cartas de recomendación"], "size": 52, "step": 0.5, "at": 0.3},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "Fecha límite", "size": 90, "at": "s1"},
+    {"type": "big", "text": "31 ENE", "size": 220, "color": "yellow", "at": "s1+1.0"},
+    {"type": "text", "text": "2027", "size": 100, "color": "yellow", "at": "s1+1.6"}]},
+
+  {"say": [["El enlace oficial y todos los detalles están en la descripción.", "El enlace oficial, y todos los detalles, están en la descripción."],
+           ["Compártelo con quien lo necesite y sigue la página para más oportunidades.", "Compártelo con quien lo necesite, y sigue la página para más oportunidades."]],
+   "elements": [
+    {"type": "text", "text": "Enlace oficial y detalles", "size": 76, "at": 0},
+    {"type": "text", "text": "en la descripción", "size": 96, "color": "a", "at": 0.5},
+    {"type": "gap", "h": 40},
+    {"type": "text", "text": "Compártelo y sigue la página", "size": 64, "color": "d", "at": "s1"},
+    {"type": "text", "text": "Oportunidades para Dominicanos", "size": 50, "weight": "med", "color": "grey", "at": "s1+1.0"}]}
+ ]
+}
