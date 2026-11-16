@@ -1,0 +1,57 @@
+{
+ "voice": "em_alex", "speed": 1.08,
+ "theme": {"bg":"#0B0B12","yellow":"#F5C542","a":"#7DD3FC","b":"#F87171","c":"#C4B5FD","d":"#86EFAC"},
+ "scenes": [
+  {"say": [["En 1518, una ciudad entera empezó a bailar…", "En mil quinientos dieciocho, una ciudad entera empezó a bailar,"],
+           ["y nadie podía parar.", "y nadie podía parar."]],
+   "elements": [
+    {"type":"text","text":"LA PLAGA DEL BAILE","size":96,"color":"yellow","at":0},
+    {"type":"big","text":"1518","size":230,"color":"b","at":0.6},
+    {"type":"text","text":"y nadie podía parar","size":80,"color":"white","at":"s1"}]},
+  {"say": [["Estrasburgo, hoy en Francia. Julio de 1518.", "Estrasburgo, hoy en Francia. Julio de mil quinientos dieciocho."],
+           ["Una mujer, Frau Troffea, sale a la calle y empieza a bailar sola.", "Una mujer, Frau Trofea, sale a la calle y empieza a bailar sola."]],
+   "elements": [
+    {"type":"text","text":"Estrasburgo","size":110,"color":"a","at":0},
+    {"type":"text","text":"julio de 1518","size":70,"color":"grey","weight":"med","at":"s0+1.6"},
+    {"type":"text","text":"Frau Troffea","size":100,"color":"c","at":"s1+0.8"},
+    {"type":"text","text":"baila sola en la calle","size":64,"color":"white","weight":"med","at":"s1+2.5"}]},
+  {"say": [["Según las crónicas, bailó durante días, casi sin descanso.", "Según las crónicas, bailó durante días, casi sin descanso."],
+           ["En pocos días, más de treinta personas bailaban con ella.", "En pocos días, más de treinta personas bailaban con ella."]],
+   "elements": [
+    {"type":"text","text":"Días bailando","size":90,"color":"yellow","at":0.4},
+    {"type":"big","text":"+30","size":230,"color":"b","at":"s1+1.2"},
+    {"type":"text","text":"se unen en pocos días","size":66,"color":"white","weight":"med","at":"s1+2"}]},
+  {"say": [["En un mes, una crónica de la época habla de unas cuatrocientas personas.", "En un mes, una crónica de la época habla de unas cuatrocientas personas."]],
+   "elements": [
+    {"type":"text","text":"En un mes","size":90,"color":"a","at":0},
+    {"type":"big","text":"~400","size":230,"color":"b","at":"s0+2.8"},
+    {"type":"text","text":"bailarines","size":80,"color":"white","at":"s0+3.4"}]},
+  {"say": [["¿La solución de los médicos? Más baile.", "¿La solución de los médicos? Más baile."],
+           ["Abrieron salones, montaron tarimas y pagaron músicos.", "Abrieron salones, montaron tarimas, y pagaron músicos."]],
+   "elements": [
+    {"type":"text","text":"¿La cura?","size":90,"color":"yellow","at":0},
+    {"type":"text","text":"MÁS BAILE","size":130,"color":"b","at":"s0+1.6"},
+    {"type":"list","items":["Salones","Tarimas","Músicos pagados"],"size":64,"step":0.6,"at":"s1"}]},
+  {"say": [["No funcionó. Prohibieron la música y llevaron a los bailarines", "No funcionó. Prohibieron la música, y llevaron a los bailarines"],
+           ["al santuario de San Vito, en Saverne, con zapatos rojos.", "al santuario de San Vito, en Saberne, con zapatos rojos."]],
+   "elements": [
+    {"type":"text","text":"Música prohibida","size":86,"color":"b","at":"s0+1"},
+    {"type":"text","text":"Santuario de San Vito","size":80,"color":"c","at":"s1+0.3"},
+    {"type":"text","text":"Saverne","size":70,"color":"grey","weight":"med","at":"s1+1.8"},
+    {"type":"text","text":"zapatos rojos","size":90,"color":"b","at":"s1+2.8"}]},
+  {"say": [["Lo que se sabe: no fue magia.", "Lo que se sabe: no fue magia."],
+           ["El historiador John Waller habla de una histeria colectiva, tras años de hambre y enfermedad.", "El historiador Yon Güóler habla de una histeria colectiva, tras años de hambre y enfermedad."],
+           ["Cuántos murieron, sigue sin estar claro.", "Cuántos murieron, sigue sin estar claro."]],
+   "elements": [
+    {"type":"text","text":"LO QUE SE SABE","size":80,"color":"d","at":0},
+    {"type":"text","text":"Histeria colectiva","size":96,"color":"yellow","at":"s1+2.4"},
+    {"type":"chips","pieces":["hambre","miedo","enfermedad"],"size":56,"step":0.4,"at":"s1+3.6"},
+    {"type":"text","text":"Muertes: sin confirmar","size":66,"color":"b","at":"s2"}]},
+  {"say": [["¿Tú crees que algo así podría pasar hoy?", "¿Tú crees que algo así podría pasar hoy?"],
+           ["Suscríbete para más misterios e historia.", "Suscríbete para más misterios e historia."]],
+   "elements": [
+    {"type":"text","text":"¿Podría pasar hoy?","size":90,"color":"yellow","at":0},
+    {"type":"gap","h":30},
+    {"type":"text","text":"Suscríbete para más misterios e historia","size":50,"weight":"med","color":"grey","at":"s1"}]}
+ ]
+}
