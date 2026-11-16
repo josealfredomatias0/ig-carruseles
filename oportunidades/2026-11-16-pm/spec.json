@@ -1,0 +1,246 @@
+{
+ "voice": "em_alex",
+ "speed": 1.1,
+ "theme": {
+  "bg": "#0A1A2F",
+  "yellow": "#FFD23F",
+  "a": "#4FC3F7",
+  "b": "#FF6B6B",
+  "c": "#B39DDB",
+  "d": "#5EE6A8"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "¿Tienes una startup y quieres mostrarla a inversionistas?",
+     "¿Tienes una startup, y quieres mostrarla a inversionistas?"
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Tienes una startup?",
+     "size": 96,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "CONCURSO",
+     "size": 165,
+     "color": "d",
+     "at": 0.8
+    },
+    {
+     "type": "text",
+     "text": "Inscripción gratis",
+     "size": 64,
+     "weight": "med",
+     "color": "grey",
+     "at": 1.4
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "South Summit Brazil abrió su Startup Competition 2027,",
+     "Sáut Sámit Brasil, abrió su Startup Competition dos mil veintisiete,"
+    ],
+    [
+     "una competencia para startups de cualquier país.",
+     "una competencia para startups de cualquier país."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "South Summit Brazil",
+     "size": 96,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Startup Competition 2027",
+     "size": 78,
+     "at": 0.5
+    },
+    {
+     "type": "list",
+     "items": [
+      "Cualquier país",
+      "Cualquier sector",
+      "Cualquier etapa"
+     ],
+     "size": 56,
+     "at": "s1",
+     "step": 0.5
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Se escogen cincuenta finalistas,",
+     "Se escogen cincuenta finalistas,"
+    ],
+    [
+     "que presentan su pitch de tres minutos ante inversionistas y empresas en Porto Alegre.",
+     "que presentan su pitch de tres minutos, ante inversionistas y empresas, en Porto Alegre."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "50",
+     "size": 240,
+     "color": "d",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "finalistas",
+     "size": 84,
+     "at": 0.6
+    },
+    {
+     "type": "text",
+     "text": "Pitch de 3 minutos",
+     "size": 66,
+     "color": "yellow",
+     "at": "s1+1.0"
+    },
+    {
+     "type": "text",
+     "text": "Porto Alegre · 14 al 16 de abril 2027",
+     "size": 52,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+2.5"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Inscribirse es gratis.",
+     "Inscribirse es gratis."
+    ],
+    [
+     "Hay premios como ganador global, más escalable, más disruptiva y mejor equipo.",
+     "Hay premios como ganador global, más escalable, más disruptiva, y mejor equipo."
+    ],
+    [
+     "Y los inscritos tienen cincuenta por ciento de descuento en las entradas.",
+     "Y los inscritos tienen cincuenta por ciento de descuento en las entradas."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Inscripción GRATIS",
+     "size": 90,
+     "color": "d",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "Ganador global",
+      "Más escalable",
+      "Más disruptiva",
+      "Mejor equipo"
+     ],
+     "size": 56,
+     "at": "s1",
+     "step": 0.9
+    },
+    {
+     "type": "text",
+     "text": "50% de descuento en entradas",
+     "size": 58,
+     "color": "yellow",
+     "at": "s2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Las inscripciones cierran el catorce de diciembre.",
+     "Las inscripciones cierran, el catorce de diciembre."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Fecha límite",
+     "size": 90,
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "14 DIC",
+     "size": 220,
+     "color": "b",
+     "at": 0.9
+    },
+    {
+     "type": "text",
+     "text": "2026",
+     "size": 100,
+     "color": "b",
+     "at": 1.3
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El enlace oficial y todos los detalles están en la descripción.",
+     "El enlace oficial, y todos los detalles, están en la descripción."
+    ],
+    [
+     "Compártelo con quien lo necesite y sigue la página para más oportunidades.",
+     "Compártelo con quien lo necesite, y sigue la página para más oportunidades."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Enlace oficial y detalles",
+     "size": 76,
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "en la descripción",
+     "size": 96,
+     "color": "a",
+     "at": 0.5
+    },
+    {
+     "type": "gap",
+     "h": 40
+    },
+    {
+     "type": "text",
+     "text": "Compártelo y sigue la página",
+     "size": 64,
+     "color": "d",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Oportunidades para Dominicanos",
+     "size": 50,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+1.0"
+    }
+   ]
+  }
+ ]
+}
