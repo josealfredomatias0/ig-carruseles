@@ -1,0 +1,70 @@
+{
+ "voice": "em_alex", "speed": 1.08,
+ "theme": {"bg":"#0B0B12","yellow":"#F5C542","a":"#7DD3FC","b":"#F87171","c":"#C4B5FD","d":"#86EFAC"},
+ "scenes": [
+  {"say": [["Durante siglos, miles buscaron El Dorado, la ciudad de oro.", "Durante siglos, miles buscaron El Dorado, la ciudad de oro."],
+           ["Pero El Dorado nunca fue una ciudad.", "Pero El Dorado, nunca fue una ciudad."]],
+   "elements": [
+    {"type": "text", "text": "EL DORADO", "size": 130, "color": "yellow", "at": 0},
+    {"type": "text", "text": "¿La ciudad de oro?", "size": 76, "color": "c", "at": 0.8},
+    {"type": "big", "text": "NO", "size": 230, "color": "b", "at": "s1+1.2"}]},
+
+  {"say": [["Era un hombre. Su origen está en los muiscas,", "Era un hombre. Su origen está en los muiscas,"],
+           ["un pueblo de los Andes de Colombia, cerca de la actual Bogotá.", "un pueblo de los Andes de Colombia, cerca de la actual Bogotá."]],
+   "elements": [
+    {"type": "text", "text": "Era un hombre", "size": 100, "color": "yellow", "at": 0},
+    {"type": "text", "text": "Los muiscas", "size": 120, "color": "a", "at": "s0+1.5"},
+    {"type": "text", "text": "Andes de Colombia, cerca de Bogotá", "size": 58, "weight": "med", "color": "grey", "at": "s1+0.8"}]},
+
+  {"say": [["Cuando un nuevo jefe tomaba el poder,", "Cuando un nuevo jefe tomaba el poder,"],
+           ["lo cubrían de polvo de oro y lo llevaban en balsa", "lo cubrían de polvo de oro, y lo llevaban en balsa"],
+           ["al centro de la laguna de Guatavita.", "al centro de la laguna de Guatavita."]],
+   "elements": [
+    {"type": "text", "text": "El ritual", "size": 100, "color": "yellow", "at": 0},
+    {"type": "chips", "pieces": ["Nuevo jefe", "→", "Polvo de oro"], "size": 58, "step": 0.4, "at": "s1"},
+    {"type": "text", "text": "Laguna de Guatavita", "size": 88, "color": "a", "at": "s2"}]},
+
+  {"say": [["Allí lanzaban al agua oro y esmeraldas,", "Allí lanzaban al agua oro y esmeraldas,"],
+           ["como ofrenda a sus dioses.", "como ofrenda a sus dioses."],
+           ["Los españoles lo llamaron: el hombre dorado.", "Los españoles lo llamaron: el hombre dorado."]],
+   "elements": [
+    {"type": "text", "text": "La ofrenda", "size": 100, "color": "yellow", "at": 0},
+    {"type": "list", "items": ["Oro", "Esmeraldas"], "size": 70, "at": "s0+0.5", "step": 0.9},
+    {"type": "gap", "h": 20},
+    {"type": "text", "text": "“El hombre dorado”", "size": 90, "color": "c", "at": "s2+1.2"}]},
+
+  {"say": [["Esa historia desató la fiebre:", "Esa historia desató la fiebre:"],
+           ["Gonzalo Jiménez de Quesada, Walter Raleigh y muchos más", "Gonzalo Jiménez de Quesada, Wolter Ráli, y muchos más,"],
+           ["la persiguieron por selvas y ríos.", "la persiguieron por selvas y ríos."]],
+   "elements": [
+    {"type": "text", "text": "La fiebre del oro", "size": 96, "color": "b", "at": 0},
+    {"type": "text", "text": "Gonzalo Jiménez de Quesada", "size": 64, "color": "a", "at": "s1"},
+    {"type": "text", "text": "Walter Raleigh", "size": 64, "color": "a", "at": "s1+2.2"},
+    {"type": "text", "text": "y muchos más...", "size": 52, "weight": "med", "color": "grey", "at": "s1+3.2"}]},
+
+  {"say": [["Hasta intentaron vaciar la laguna.", "Hasta intentaron vaciar la laguna."],
+           ["Hallaron piezas de oro en la orilla, pero el gran tesoro nunca apareció.", "Hallaron piezas de oro en la orilla, pero el gran tesoro, nunca apareció."]],
+   "elements": [
+    {"type": "text", "text": "¿Vaciar la laguna?", "size": 96, "color": "yellow", "at": 0},
+    {"type": "text", "text": "Piezas de oro en la orilla", "size": 66, "color": "d", "at": "s1"},
+    {"type": "text", "text": "El gran tesoro: nunca apareció", "size": 66, "color": "b", "at": "s1+2.4"}]},
+
+  {"say": [["Lo que se sabe: en mil novecientos sesenta y nueve, en una cueva de Pasca,", "Lo que se sabe: en mil novecientos sesenta y nueve, en una cueva de Pasca,"],
+           ["apareció la Balsa Muisca: una pieza de oro que muestra ese ritual.", "apareció la Balsa Muisca: una pieza de oro que muestra ese ritual."],
+           ["Hoy está en el Museo del Oro de Bogotá.", "Hoy está en el Museo del Oro de Bogotá."]],
+   "elements": [
+    {"type": "text", "text": "LO QUE SE SABE", "size": 80, "color": "d", "at": 0},
+    {"type": "big", "text": "1969", "size": 220, "color": "yellow", "at": "s0+1.2"},
+    {"type": "text", "text": "La Balsa Muisca", "size": 90, "color": "yellow", "at": "s1+0.8"},
+    {"type": "text", "text": "Museo del Oro, Bogotá", "size": 60, "color": "a", "at": "s2"}]},
+
+  {"say": [["La ciudad de oro fue un mito. El ritual, real.", "La ciudad de oro fue un mito. El ritual, real."],
+           ["¿Conocías esta historia? Suscríbete para más misterios e historia.", "¿Conocías esta historia? Suscríbete para más misterios e historia."]],
+   "elements": [
+    {"type": "chips", "pieces": ["Ciudad de oro:", "MITO"], "size": 64, "step": 0.4, "at": 0},
+    {"type": "chips", "pieces": ["El ritual:", "REAL"], "size": 64, "step": 0.4, "at": "s0+1.6"},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "¿Conocías esta historia?", "size": 72, "color": "yellow", "at": "s1"},
+    {"type": "text", "text": "Suscríbete para más misterios e historia", "size": 50, "weight": "med", "color": "grey", "at": "s1+1.8"}]}
+ ]
+}
