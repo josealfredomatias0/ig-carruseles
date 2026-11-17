@@ -1,0 +1,358 @@
+{
+ "voice": "em_alex",
+ "speed": 1.08,
+ "theme": {
+  "bg": "#0B0B12",
+  "yellow": "#F5C542",
+  "a": "#7DD3FC",
+  "b": "#F87171",
+  "c": "#C4B5FD",
+  "d": "#86EFAC"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "Un cacique taíno resistió catorce años en las montañas de nuestra isla.",
+     "Un cacique taíno resistió catorce años, en las montañas de nuestra isla."
+    ],
+    [
+     "Y al final, España tuvo que negociar con él.",
+     "Y al final, España tuvo que negociar con él."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "ENRIQUILLO",
+     "size": 140,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "el cacique que no se rindió",
+     "size": 64,
+     "color": "grey",
+     "weight": "med",
+     "at": 0.5
+    },
+    {
+     "type": "big",
+     "text": "14 años",
+     "size": 220,
+     "color": "b",
+     "at": "s0+1.6"
+    },
+    {
+     "type": "text",
+     "text": "España tuvo que negociar",
+     "size": 70,
+     "color": "a",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Nació en Jaragua, en el suroeste de La Española.",
+     "Nació en Jaragua, en el suroeste de La Española."
+    ],
+    [
+     "Lo criaron frailes, que le enseñaron a leer y a escribir.",
+     "Lo criaron frailes, que le enseñaron a leer y a escribir."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Quién era?",
+     "size": 100,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Jaragua",
+      "La Española"
+     ],
+     "size": 70,
+     "step": 0.5,
+     "at": "s0+0.5"
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "Educado por frailes",
+     "size": 76,
+     "color": "a",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "sabía leer y escribir en castellano",
+     "size": 56,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+1.5"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Pero fue entregado en encomienda a un español, Valenzuela.",
+     "Pero fue entregado en encomienda, a un español, Valenzuela."
+    ],
+    [
+     "Le quitó su yegua y abusó de su esposa, Mencía.",
+     "Le quitó su yegua, y abusó de su esposa, Mencía."
+    ],
+    [
+     "Pidió justicia, y nadie lo escuchó.",
+     "Pidió justicia, y nadie lo escuchó."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "La injusticia",
+     "size": 100,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "Encomienda bajo Valenzuela",
+      "Le quitan su yegua",
+      "Abusos contra su esposa Mencía",
+      "Pide justicia: nadie lo escucha"
+     ],
+     "size": 56,
+     "at": "s0+0.3",
+     "step": 2.0
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "En mil quinientos diecinueve, se fue con su gente a la Sierra de Bahoruco.",
+     "En mil quinientos diecinueve, se fue con su gente a la Sierra de Bahoruco."
+    ],
+    [
+     "Desde allí resistió a las tropas que mandaban a capturarlo.",
+     "Desde allí, resistió a las tropas que mandaban a capturarlo."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "La rebelión",
+     "size": 100,
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "1519",
+     "size": 230,
+     "color": "yellow",
+     "at": "s0+0.3"
+    },
+    {
+     "type": "text",
+     "text": "Sierra de Bahoruco",
+     "size": 84,
+     "color": "a",
+     "at": "s0+2.8"
+    },
+    {
+     "type": "text",
+     "text": "Ninguna tropa logró capturarlo",
+     "size": 58,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "En mil quinientos treinta y tres, Carlos Quinto envió al capitán Barrionuevo.",
+     "En mil quinientos treinta y tres, Carlos Quinto envió al capitán Barrionuevo."
+    ],
+    [
+     "No a pelear, sino a pactar la paz.",
+     "No a pelear, sino a pactar la paz."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "1533",
+     "size": 230,
+     "color": "yellow",
+     "at": "s0+0.3"
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Carlos V",
+      "→",
+      "Barrionuevo"
+     ],
+     "size": 64,
+     "step": 0.5,
+     "at": "s0+2.2"
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "A pactar la paz",
+     "size": 86,
+     "color": "d",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El acuerdo prometía libertad para él y su gente.",
+     "El acuerdo prometía libertad, para él y su gente."
+    ],
+    [
+     "Se cumplió a medias, y Enriquillo murió hacia mil quinientos treinta y cinco.",
+     "Se cumplió a medias, y Enriquillo murió hacia mil quinientos treinta y cinco."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Lo que se sabe",
+     "size": 96,
+     "color": "d",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Libertad para él y los suyos",
+     "size": 70,
+     "at": "s0+0.5"
+    },
+    {
+     "type": "text",
+     "text": "...cumplida solo a medias",
+     "size": 64,
+     "color": "b",
+     "at": "s1"
+    },
+    {
+     "type": "big",
+     "text": "≈1535",
+     "size": 200,
+     "color": "grey",
+     "at": "s1+1.8"
+    },
+    {
+     "type": "text",
+     "text": "año aproximado de su muerte",
+     "size": 48,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+2.1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso: el lago más grande del Caribe lleva su nombre.",
+     "Dato curioso: el lago más grande del Caribe lleva su nombre."
+    ],
+    [
+     "El Lago Enriquillo, antes llamado lago de Jaragua.",
+     "El lago Enriquillo, antes llamado lago de Jaragua."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO",
+     "size": 72,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "El lago más grande del Caribe",
+     "size": 66,
+     "at": 0.4
+    },
+    {
+     "type": "text",
+     "text": "Lago Enriquillo",
+     "size": 120,
+     "color": "a",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "antes: lago de Jaragua",
+     "size": 56,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+1.5"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Conocías la historia de Enriquillo? Cuéntame en los comentarios.",
+     "¿Conocías la historia de Enriquillo? Cuéntame en los comentarios."
+    ],
+    [
+     "Y suscríbete para más misterios e historia.",
+     "Y suscríbete para más misterios e historia."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Conocías esta historia?",
+     "size": 90,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Cuéntame en los comentarios",
+     "size": 62,
+     "at": "s0+1.5"
+    },
+    {
+     "type": "gap",
+     "h": 40
+    },
+    {
+     "type": "text",
+     "text": "Suscríbete para más misterios e historia",
+     "size": 58,
+     "color": "a",
+     "at": "s1"
+    }
+   ]
+  }
+ ]
+}
