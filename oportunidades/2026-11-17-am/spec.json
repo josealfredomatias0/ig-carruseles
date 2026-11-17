@@ -1,0 +1,68 @@
+{
+ "voice": "em_alex",
+ "speed": 1.1,
+ "theme": {"bg":"#0A1A2F","yellow":"#FFD23F","a":"#4FC3F7","b":"#FF6B6B","c":"#B39DDB","d":"#5EE6A8"},
+ "scenes": [
+  {
+   "say": [["¿Quieres hacer una maestría en Europa sin pagar?", "¿Quieres hacer una maestría en Europa, sin pagar?"]],
+   "elements": [
+    {"type": "text", "text": "Maestría en Europa", "size": 96, "color": "yellow", "at": 0},
+    {"type": "big", "text": "BECA 100%", "size": 165, "color": "d", "at": 0.8},
+    {"type": "text", "text": "Matrícula + manutención", "size": 64, "weight": "med", "color": "grey", "at": 1.5}
+   ]
+  },
+  {
+   "say": [["La Universidad de Maastricht, en Países Bajos,", "La Universidad de Mástrij, en Países Bajos,"],
+           ["abrió su beca NL-High Potential para el año 2027-2028.", "abrió su beca ene ele Jai Pótenshal, para el año dos mil veintisiete, dos mil veintiocho."]],
+   "elements": [
+    {"type": "text", "text": "Universidad de Maastricht", "size": 84, "color": "a", "at": 0},
+    {"type": "text", "text": "Países Bajos", "size": 64, "weight": "med", "color": "grey", "at": 0.6},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "Beca NL-High Potential", "size": 84, "at": "s1"},
+    {"type": "text", "text": "2027-2028", "size": 110, "color": "yellow", "at": "s1+1.2"}
+   ]
+  },
+  {
+   "say": [["Son dieciocho becas completas:", "Son dieciocho becas completas:"],
+           ["cubren la matrícula y dan mil quinientos cincuenta euros al mes para vivir,", "cubren la matrícula, y dan mil quinientos cincuenta euros al mes, para vivir,"],
+           ["además del seguro y los costos de la visa.", "además del seguro, y los costos de la visa."]],
+   "elements": [
+    {"type": "big", "text": "18", "size": 220, "color": "d", "at": 0.2},
+    {"type": "text", "text": "becas completas", "size": 80, "at": 0.5},
+    {"type": "text", "text": "€1,550 al mes", "size": 96, "color": "yellow", "at": "s1+2.2"},
+    {"type": "chips", "pieces": ["Matrícula", "Seguro", "Visa"], "at": "s2"}
+   ]
+  },
+  {
+   "say": [["Es para personas de fuera de la Unión Europea,", "Es para personas de fuera de la Unión Europea,"],
+           ["de hasta treinta y cinco años, con promedio de setenta y cinco de cien o más,", "de hasta treinta y cinco años, con promedio de setenta y cinco de cien, o más,"],
+           ["y admitidas en una maestría participante.", "y admitidas en una maestría participante."]],
+   "elements": [
+    {"type": "text", "text": "¿Quién puede aplicar?", "size": 80, "color": "a", "at": 0},
+    {"type": "list", "items": ["Fuera de la Unión Europea", "Hasta 35 años", "Promedio de 75/100 o más", "Admitido en la maestría"], "size": 56, "at": "s1", "step": 1.2}
+   ]
+  },
+  {
+   "say": [["Ojo: la solicitud a la maestría debe estar completa antes del diez de diciembre.", "Ojo: la solicitud a la maestría, debe estar completa antes del diez de diciembre."],
+           ["La beca cierra el primero de febrero.", "La beca cierra, el primero de febrero."]],
+   "elements": [
+    {"type": "text", "text": "Admisión a la maestría", "size": 70, "at": 0},
+    {"type": "big", "text": "10 DIC", "size": 210, "color": "b", "at": 0.8},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "Beca: cierra el", "size": 70, "at": "s1"},
+    {"type": "text", "text": "1 FEB 2027", "size": 120, "color": "yellow", "at": "s1+0.8"}
+   ]
+  },
+  {
+   "say": [["El enlace oficial y todos los detalles están en la descripción.", "El enlace oficial, y todos los detalles, están en la descripción."],
+           ["Compártelo con quien lo necesite y sigue la página para más oportunidades.", "Compártelo con quien lo necesite, y sigue la página para más oportunidades."]],
+   "elements": [
+    {"type": "text", "text": "Enlace oficial y detalles", "size": 76, "at": 0},
+    {"type": "text", "text": "en la descripción", "size": 96, "color": "a", "at": 0.5},
+    {"type": "gap", "h": 40},
+    {"type": "text", "text": "Compártelo y sigue la página", "size": 64, "color": "d", "at": "s1"},
+    {"type": "text", "text": "Oportunidades para Dominicanos", "size": 50, "weight": "med", "color": "grey", "at": "s1+1.0"}
+   ]
+  }
+ ]
+}
