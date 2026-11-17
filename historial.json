@@ -343,5 +343,27 @@
   ],
   "metricool_post_id": 429841189,
   "formato": "reel"
+ },
+ {
+  "fecha": "2026-11-17",
+  "tema": "Ataque a la cadena de suministro de Optimizely (16 nov.): hackers usaron una falla en el registro de cuentas para inyectar código en webs de clientes como CNN, BBC y Zoom; 188 scripts infectados en 178 organizaciones; robaba tarjetas y cambiaba direcciones cripto",
+  "categoria": "ciberseguridad",
+  "palabras_clave": [
+   "Optimizely",
+   "supply chain",
+   "skimmer",
+   "CNN",
+   "BBC",
+   "Zoom",
+   "cripto",
+   "tarjetas"
+  ],
+  "datos_curiosos": [
+   "Optimizely nació tras la campaña de Obama 2008: un test A/B subió los registros 40.6% (estimación de 60 M USD extra)",
+   "British Airways 2018: ataque Magecart expuso a 429.612 clientes; multa de 20 M de libras (ICO, 2020)",
+   "Las cookies las inventó Lou Montulli en Netscape en 1994 (primer uso: 13 oct. 1994)"
+  ],
+  "metricool_post_id": 431236154,
+  "formato": "reel"
  }
 ]
