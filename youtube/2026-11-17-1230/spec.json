@@ -1,0 +1,319 @@
+{
+ "voice": "em_alex",
+ "speed": 1.08,
+ "theme": {
+  "bg": "#0B0B12",
+  "yellow": "#F5C542",
+  "a": "#7DD3FC",
+  "b": "#F87171",
+  "c": "#C4B5FD",
+  "d": "#86EFAC"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "Existe un libro de hace unos 600 años",
+     "Existe un libro de hace unos seiscientos años,"
+    ],
+    [
+     "que nadie en el mundo ha podido leer.",
+     "que nadie en el mundo, ha podido leer."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "EL LIBRO QUE NADIE PUEDE LEER",
+     "size": 86,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "600 años",
+     "size": 210,
+     "color": "yellow",
+     "at": 0.6
+    },
+    {
+     "type": "text",
+     "text": "y sigue sin descifrarse",
+     "size": 64,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Es el manuscrito Voynich.",
+     "Es el manuscrito Vóinich."
+    ],
+    [
+     "Hoy se guarda en la Universidad de Yale, en Estados Unidos.",
+     "Hoy se guarda en la Universidad de Yeil, en Estados Unidos."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "El manuscrito",
+     "size": 80,
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "VOYNICH",
+     "size": 150,
+     "color": "c",
+     "at": 0.3
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Yale",
+      "EE. UU."
+     ],
+     "size": 60,
+     "step": 0.4,
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Tiene más de 200 páginas de pergamino,",
+     "Tiene más de doscientas páginas de pergamino,"
+    ],
+    [
+     "escritas en un alfabeto que no se parece a ningún idioma conocido.",
+     "escritas en un alfabeto, que no se parece a ningún idioma conocido."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "+200",
+     "size": 220,
+     "color": "yellow",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "páginas de pergamino",
+     "size": 70,
+     "at": 0.6
+    },
+    {
+     "type": "gap",
+     "h": 20
+    },
+    {
+     "type": "text",
+     "text": "Alfabeto desconocido",
+     "size": 84,
+     "color": "b",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Está lleno de plantas que nadie ha identificado con certeza,",
+     "Está lleno de plantas que nadie ha identificado con certeza,"
+    ],
+    [
+     "diagramas de estrellas, y mujeres en estanques.",
+     "diagramas de estrellas, y mujeres en estanques."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Qué hay dentro?",
+     "size": 100,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "Plantas sin identificar",
+      "Diagramas de estrellas",
+      "Mujeres en baños",
+      "Posibles recetas"
+     ],
+     "size": 62,
+     "at": "s0+0.5",
+     "step": 1.3
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Se dice que el emperador Rodolfo II pagó por él 600 ducados de oro.",
+     "Se dice que el emperador Rodolfo segundo, pagó por él seiscientos ducados de oro."
+    ],
+    [
+     "Y en 1912, el librero Wilfrid Voynich se lo compró a unos jesuitas cerca de Roma.",
+     "Y en mil novecientos doce, el librero Uílfrid Vóinich, se lo compró a unos jesuitas, cerca de Roma."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Rodolfo II",
+     "size": 96,
+     "color": "c",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "600 ducados de oro (según la tradición)",
+     "size": 54,
+     "weight": "med",
+     "color": "grey",
+     "at": "s0+2.0"
+    },
+    {
+     "type": "big",
+     "text": "1912",
+     "size": 220,
+     "color": "yellow",
+     "at": "s1+0.8"
+    },
+    {
+     "type": "text",
+     "text": "Wilfrid Voynich lo compra cerca de Roma",
+     "size": 58,
+     "at": "s1+1.6"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Muchos pensaron que era un fraude del propio Voynich.",
+     "Muchos pensaron que era un fraude, del propio Vóinich."
+    ],
+    [
+     "Pero la prueba de carbono catorce fechó su pergamino entre 1404 y 1438.",
+     "Pero la prueba de carbono catorce, fechó su pergamino entre mil cuatrocientos cuatro, y mil cuatrocientos treinta y ocho."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Un fraude?",
+     "size": 110,
+     "color": "b",
+     "at": 0.2
+    },
+    {
+     "type": "text",
+     "text": "Carbono 14 dice:",
+     "size": 70,
+     "color": "d",
+     "at": "s1"
+    },
+    {
+     "type": "big",
+     "text": "1404–1438",
+     "size": 170,
+     "color": "yellow",
+     "at": "s1+2.5"
+    },
+    {
+     "type": "text",
+     "text": "Es auténticamente medieval",
+     "size": 60,
+     "color": "d",
+     "at": "s1+4.5"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Criptógrafos y computadoras lo han intentado por más de un siglo.",
+     "Criptógrafos y computadoras, lo han intentado por más de un siglo."
+    ],
+    [
+     "Y hasta hoy, nadie ha logrado descifrarlo.",
+     "Y hasta hoy, nadie ha logrado descifrarlo."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Lo que se sabe",
+     "size": 90,
+     "color": "d",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Más de un siglo de intentos",
+     "size": 66,
+     "at": 0.5
+    },
+    {
+     "type": "big",
+     "text": "SIN DESCIFRAR",
+     "size": 140,
+     "color": "b",
+     "at": "s1+0.5"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Código secreto, idioma perdido, o una broma de hace seis siglos?",
+     "¿Código secreto, idioma perdido, o una broma de hace seis siglos?"
+    ],
+    [
+     "Te leo en los comentarios. Suscríbete para más misterios e historia.",
+     "Te leo en los comentarios. Suscríbete, para más misterios e historia."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "chips",
+     "pieces": [
+      "¿Código?",
+      "¿Idioma?",
+      "¿Broma?"
+     ],
+     "size": 58,
+     "step": 0.8,
+     "at": 0.3
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "¿Tú qué crees?",
+     "size": 110,
+     "color": "yellow",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Suscríbete para más misterios e historia",
+     "size": 56,
+     "color": "a",
+     "at": "s1+1.5"
+    }
+   ]
+  }
+ ]
+}
