@@ -1,0 +1,285 @@
+{
+ "voice": "em_alex",
+ "speed": 1.1,
+ "theme": {
+  "bg": "#0A1A2F",
+  "yellow": "#FFD23F",
+  "a": "#4FC3F7",
+  "b": "#FF6B6B",
+  "c": "#B39DDB",
+  "d": "#5EE6A8"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "¿Tienes una startup de tecnología?",
+     "¿Tienes una startup de tecnología?"
+    ],
+    [
+     "Hay fondos sin ceder acciones.",
+     "Hay fondos, sin ceder acciones."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Tienes una startup?",
+     "size": 96,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "FONDOS",
+     "size": 210,
+     "color": "d",
+     "at": 0.8
+    },
+    {
+     "type": "text",
+     "text": "Sin ceder acciones",
+     "size": 66,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Start-Up Chile, la aceleradora del Gobierno de Chile con Corfo,",
+     "Estárt op Chile, la aceleradora del Gobierno de Chile con Corfo,"
+    ],
+    [
+     "abrió su convocatoria BIG 13 para startups de todo el mundo.",
+     "abrió su convocatoria Big trece, para startups de todo el mundo."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Start-Up Chile",
+     "size": 110,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Gobierno de Chile · CORFO",
+     "size": 56,
+     "weight": "med",
+     "color": "grey",
+     "at": 0.6
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "Convocatoria BIG 13",
+     "size": 84,
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Startups tecnológicas",
+     "size": 62,
+     "color": "d",
+     "at": "s1+1.2"
+    },
+    {
+     "type": "text",
+     "text": "de todo el mundo",
+     "size": 62,
+     "color": "d",
+     "at": "s1+1.6"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Ofrece tres programas con dinero sin ceder participación:",
+     "Ofrece tres programas, con dinero sin ceder participación:"
+    ],
+    [
+     "Build, con 15 millones de pesos chilenos,",
+     "Build, con quince millones de pesos chilenos,"
+    ],
+    [
+     "Ignite, con 30 millones, y Growth, con 75 millones.",
+     "Ígnait, con treinta millones, y Grouz, con setenta y cinco millones."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Hasta",
+     "size": 70,
+     "color": "grey",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "$75M",
+     "size": 220,
+     "color": "d",
+     "at": 0.4
+    },
+    {
+     "type": "text",
+     "text": "pesos chilenos · equity free",
+     "size": 54,
+     "weight": "med",
+     "color": "grey",
+     "at": 0.8
+    },
+    {
+     "type": "list",
+     "items": [
+      "Build: $15M CLP",
+      "Ignite: $30M CLP",
+      "Growth: $75M CLP"
+     ],
+     "size": 58,
+     "at": "s1",
+     "step": 1.6
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Es para emprendedores chilenos o extranjeros, mayores de 18 años,",
+     "Es para emprendedores chilenos o extranjeros, mayores de dieciocho años,"
+    ],
+    [
+     "con un proyecto de base tecnológica que use a Chile como plataforma.",
+     "con un proyecto de base tecnológica, que use a Chile como plataforma."
+    ],
+    [
+     "La postulación es en línea.",
+     "La postulación es en línea."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Quién puede aplicar?",
+     "size": 80,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "Chilenos o extranjeros",
+      "Mayores de 18 años",
+      "Startup tecnológica",
+      "Chile como plataforma"
+     ],
+     "size": 58,
+     "at": 0.6,
+     "step": 1.0
+    },
+    {
+     "type": "text",
+     "text": "Postulación en línea",
+     "size": 60,
+     "color": "d",
+     "at": "s2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Las postulaciones cierran el 24 de noviembre,",
+     "Las postulaciones cierran el veinticuatro de noviembre,"
+    ],
+    [
+     "a las 12 del mediodía, hora dominicana. ¡Queda una semana!",
+     "a las doce del mediodía, hora dominicana. ¡Queda una semana!"
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Fecha límite",
+     "size": 90,
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "24 NOV",
+     "size": 220,
+     "color": "b",
+     "at": 0.9
+    },
+    {
+     "type": "text",
+     "text": "12:00 m. hora de RD",
+     "size": 70,
+     "color": "b",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "¡Queda una semana!",
+     "size": 64,
+     "color": "yellow",
+     "at": "s1+2.0"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El enlace oficial y todos los detalles están en la descripción.",
+     "El enlace oficial, y todos los detalles, están en la descripción."
+    ],
+    [
+     "Compártelo con quien lo necesite y sigue la página para más oportunidades.",
+     "Compártelo con quien lo necesite, y sigue la página para más oportunidades."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Enlace oficial y detalles",
+     "size": 76,
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "en la descripción",
+     "size": 96,
+     "color": "a",
+     "at": 0.5
+    },
+    {
+     "type": "gap",
+     "h": 40
+    },
+    {
+     "type": "text",
+     "text": "Compártelo y sigue la página",
+     "size": 64,
+     "color": "d",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Oportunidades para Dominicanos",
+     "size": 50,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+1.0"
+    }
+   ]
+  }
+ ]
+}
