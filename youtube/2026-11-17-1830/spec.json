@@ -1,0 +1,51 @@
+{
+ "voice": "em_alex", "speed": 1.08,
+ "theme": {"bg":"#0B0B12","yellow":"#F5C542","a":"#7DD3FC","b":"#F87171","c":"#C4B5FD","d":"#86EFAC"},
+ "scenes": [
+  {"say": [["Durante siglos, los marineros temieron a un monstruo","Durante siglos, los marineros temieron a un monstruo,"],["capaz de hundir barcos enteros.","capaz de hundir barcos enteros."]],
+   "elements": [
+    {"type":"text","text":"EL MONSTRUO DE LOS MARES","size":84,"color":"b","at":0},
+    {"type":"big","text":"KRAKEN","size":220,"color":"c","at":0.6},
+    {"type":"text","text":"¿mito o realidad?","size":64,"weight":"med","color":"grey","at":"s1"}]},
+  {"say": [["Lo llamaban el kraken.","Lo llamaban, el kraken."],["Su leyenda nació en los mares de Noruega.","Su leyenda nació en los mares de Noruega."]],
+   "elements": [
+    {"type":"text","text":"La leyenda del","size":80,"at":0},
+    {"type":"text","text":"KRAKEN","size":150,"color":"c","at":0.3},
+    {"type":"chips","pieces":["Noruega","Escandinavia"],"size":60,"step":0.4,"at":"s1"}]},
+  {"say": [["En 1752, el obispo Erik Pontoppidan escribió","En mil setecientos cincuenta y dos, el obispo Érik Pontópidan escribió,"],["que era tan grande que los marineros lo confundían con una isla.","que era tan grande, que los marineros lo confundían con una isla."]],
+   "elements": [
+    {"type":"big","text":"1752","size":220,"color":"yellow","at":0.3},
+    {"type":"text","text":"Erik Pontoppidan","size":80,"color":"c","at":1.2},
+    {"type":"text","text":"Historia natural de Noruega","size":54,"weight":"med","color":"grey","at":1.8},
+    {"type":"text","text":"\"Lo confundían con una isla\"","size":64,"color":"a","at":"s1"}]},
+  {"say": [["Según él, podía arrastrar barcos al fondo","Según él, podía arrastrar barcos al fondo,"],["y crear remolinos al sumergirse.","y crear remolinos al sumergirse."]],
+   "elements": [
+    {"type":"text","text":"Cuenta la leyenda...","size":90,"color":"c","at":0},
+    {"type":"list","items":["Arrastraba barcos al fondo","Creaba remolinos gigantes","Parecía una isla"],"size":62,"at":"s0+0.5","step":1.3}]},
+  {"say": [["Pero detrás del mito hay un animal real:","Pero detrás del mito, hay un animal real:"],["el calamar gigante, descrito por la ciencia en 1857.","el calamar gigante, descrito por la ciencia en mil ochocientos cincuenta y siete."]],
+   "elements": [
+    {"type":"text","text":"Lo que se sabe","size":90,"color":"d","at":0},
+    {"type":"text","text":"CALAMAR GIGANTE","size":110,"color":"yellow","at":"s1"},
+    {"type":"text","text":"Architeuthis","size":64,"weight":"med","color":"d","at":"s1+1.2"},
+    {"type":"big","text":"1857","size":200,"color":"a","at":"s1+2.5"}]},
+  {"say": [["Puede superar los doce metros con sus tentáculos,","Puede superar los doce metros, con sus tentáculos,"],["y tiene los ojos más grandes del reino animal.","y tiene los ojos más grandes, del reino animal."]],
+   "elements": [
+    {"type":"big","text":"+12 m","size":220,"color":"yellow","at":0.3},
+    {"type":"text","text":"de largo con tentáculos","size":66,"at":0.9},
+    {"type":"gap","h":20},
+    {"type":"text","text":"Ojos del tamaño de","size":70,"color":"a","at":"s1"},
+    {"type":"text","text":"un balón de fútbol","size":70,"color":"a","at":"s1+0.4"}]},
+  {"say": [["Y es tan esquivo, que nadie lo fotografió vivo en su hábitat","Y es tan esquivo, que nadie lo fotografió vivo en su hábitat,"],["hasta 2004, en aguas profundas de Japón.","hasta el dos mil cuatro, en aguas profundas de Japón."]],
+   "elements": [
+    {"type":"text","text":"Dato curioso","size":90,"color":"yellow","at":0},
+    {"type":"text","text":"Primera foto en su hábitat","size":66,"at":0.6},
+    {"type":"big","text":"2004","size":220,"color":"b","at":"s1"},
+    {"type":"text","text":"Islas Ogasawara, Japón","size":60,"color":"a","at":"s1+1.2"}]},
+  {"say": [["Así que el kraken no hundía barcos, pero sí existe algo parecido.","Así que el kraken no hundía barcos, pero sí existe algo parecido."],["¿Tú lo sabías? Suscríbete para más misterios e historia.","¿Tú lo sabías? Suscríbete, para más misterios e historia."]],
+   "elements": [
+    {"type":"chips","pieces":["Mito","Realidad"],"size":64,"step":0.8,"at":0.3},
+    {"type":"gap","h":30},
+    {"type":"text","text":"¿Tú lo sabías?","size":110,"color":"yellow","at":"s1"},
+    {"type":"text","text":"Suscríbete para más misterios e historia","size":56,"color":"a","at":"s1+1.5"}]}
+ ]
+}
