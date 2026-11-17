@@ -1,0 +1,12 @@
+🚨 Si entraste a CNN, la BBC o Zoom este lunes, esto te interesa. Quédate al final: datos curiosos que casi nadie sabe 👀
+
+Unos hackers aprovecharon una falla en Optimizely, una herramienta que muchas webs usan para hacer pruebas, y colaron código malicioso en las páginas de sus clientes el 16 de noviembre.
+🔢 Un investigador encontró 188 scripts infectados en 178 organizaciones.
+💳 El código buscaba datos de tarjetas y cambiaba direcciones de billeteras cripto por las del atacante.
+✅ Qué hacer: revisa tu estado de cuenta si pagaste en una web así, verifica completa cualquier dirección cripto antes de enviar y mantén tu iPhone actualizado.
+
+¿Revisas tus estados de cuenta cada mes o solo cuando algo sale mal? Te leo 👇
+
+Fuente: BleepingComputer, Hudson Rock (Infostealers), crypto.news, BreachHistory, CNBC, Computing, Guinness World Records.
+
+#tecnologia #tech #technews #rd #josealfredomatias1 #datoscuriosos #ciberseguridad #hackeo #seguridadinformatica #cripto #internet #republicadominicana #noticiastech

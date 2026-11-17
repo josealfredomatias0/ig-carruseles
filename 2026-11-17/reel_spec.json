@@ -1,0 +1,330 @@
+{
+ "voice": "em_alex",
+ "scenes": [
+  {
+   "say": [
+    [
+     "¿Entraste a la web de CNN, la BBC o Zoom este lunes?",
+     "¿Entraste a la web de ce ene ene, la be be ce, o Zum, este lunes?"
+    ],
+    [
+     "Había un código escondido para robarte.",
+     "Había un código escondido, para robarte."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "ALERTA DE HACKEO",
+     "size": 96,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "CNN · BBC · Zoom",
+     "size": 84,
+     "at": 0.4
+    },
+    {
+     "type": "big",
+     "text": "178",
+     "size": 220,
+     "color": "yellow",
+     "at": 0.8
+    },
+    {
+     "type": "text",
+     "text": "organizaciones afectadas",
+     "size": 58,
+     "at": 1.1
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Hackers usaron una falla en Optimizely, una herramienta de pruebas web,",
+     "Jákers usaron una falla en Óptimaisli, una herramienta de pruebas web,"
+    ],
+    [
+     "y metieron su código en las webs de sus clientes.",
+     "y metieron su código, en las webs de sus clientes."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Qué pasó?",
+     "size": 110,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "Falla en Optimizely, herramienta de pruebas web",
+      "Metieron código en webs ajenas",
+      "Fue el 16 de noviembre"
+     ],
+     "size": 54,
+     "at": "s0+0.3",
+     "step": 2.0
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Un investigador contó 188 scripts infectados,",
+     "Un investigador contó ciento ochenta y ocho escrips infectados,"
+    ],
+    [
+     "en 178 organizaciones.",
+     "en ciento setenta y ocho organizaciones."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Los números",
+     "size": 84,
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "188",
+     "size": 220,
+     "color": "b",
+     "at": "s0+1.6"
+    },
+    {
+     "type": "text",
+     "text": "scripts infectados",
+     "size": 64,
+     "at": "s0+1.9"
+    },
+    {
+     "type": "bar",
+     "label": "Organizaciones afectadas",
+     "value": 178,
+     "max": 200,
+     "unit": "",
+     "color": "b",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Qué robaba? Datos de tarjetas,",
+     "¿Qué robaba? Datos de tarjetas,"
+    ],
+    [
+     "y cambiaba direcciones de criptomonedas por las del atacante.",
+     "y cambiaba direcciones de criptomonedas, por las del atacante."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Qué robaba?",
+     "size": 100,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Tarjetas",
+      "Cripto",
+      "Cookies"
+     ],
+     "size": 64,
+     "step": 0.5,
+     "at": "s0+0.8"
+    },
+    {
+     "type": "text",
+     "text": "Cambiaba la dirección de tu billetera cripto por la del atacante",
+     "size": 56,
+     "weight": "med",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Si pagaste ahí, revisa tu estado de cuenta.",
+     "Si pagaste ahí, revisa tu estado de cuenta."
+    ],
+    [
+     "Verifica la dirección cripto completa.",
+     "Verifica la dirección cripto completa."
+    ],
+    [
+     "Y actualiza tu iPhone.",
+     "Y actualiza tu áifon."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Qué hacer?",
+     "size": 110,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "Revisa tu estado de cuenta",
+      "Verifica la dirección cripto",
+      "Actualiza tu iPhone"
+     ],
+     "size": 58,
+     "at": "s0",
+     "step": 1.9
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso: Optimizely nació de la campaña de Obama en 2008.",
+     "Dato curioso: Óptimaisli nació de la campaña de Obama, en el dos mil ocho."
+    ],
+    [
+     "Un cambio de botón y foto subió los registros un 40 por ciento.",
+     "Un cambio de botón y foto, subió los registros un cuarenta por ciento."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #1",
+     "size": 64,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Nació en la campaña de Obama 2008",
+     "size": 70,
+     "at": 0.4
+    },
+    {
+     "type": "big",
+     "text": "+40%",
+     "size": 220,
+     "color": "yellow",
+     "at": "s1+2.0"
+    },
+    {
+     "type": "text",
+     "text": "más registros",
+     "size": 60,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+2.3"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "En 2018, un ataque así a British Airways expuso a 429 mil clientes.",
+     "En el dos mil dieciocho, un ataque así a Brítish Érguéis, expuso a cuatrocientos veintinueve mil clientes."
+    ],
+    [
+     "Multa: 20 millones de libras.",
+     "Multa: veinte millones de libras."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #2",
+     "size": 64,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "British Airways, 2018",
+     "size": 80,
+     "at": 0.4
+    },
+    {
+     "type": "text",
+     "text": "429.612 clientes expuestos",
+     "size": 60,
+     "weight": "med",
+     "at": "s0+2.8"
+    },
+    {
+     "type": "big",
+     "text": "£20M",
+     "size": 220,
+     "color": "b",
+     "at": "s1+0.8"
+    },
+    {
+     "type": "text",
+     "text": "de multa",
+     "size": 60,
+     "color": "grey",
+     "weight": "med",
+     "at": "s1+1.1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Y las cookies las inventó Lou Montulli, en Netscape, en 1994.",
+     "Y las cúquis, las inventó Lu Montuli, en Nétskeip, en mil novecientos noventa y cuatro."
+    ],
+    [
+     "¿Revisas tu estado de cuenta? Comenta y sígueme para más noticias tech.",
+     "¿Revisas tu estado de cuenta? Comenta, y sígueme para más noticias tec."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #3",
+     "size": 64,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "1994",
+     "size": 210,
+     "color": "yellow",
+     "at": "s0+2.8"
+    },
+    {
+     "type": "text",
+     "text": "Lou Montulli, en Netscape",
+     "size": 62,
+     "at": "s0+3.1"
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "¿Revisas tu estado de cuenta?",
+     "size": 60,
+     "color": "a",
+     "at": "s1"
+    }
+   ]
+  }
+ ]
+}
