@@ -1,0 +1,64 @@
+{
+ "voice": "em_alex",
+ "scenes": [
+  {"say": [["Después de 13 años de espera, GTA 6 sale este jueves.", "Después de trece años de espera, ge te a seis, sale este jueves."]],
+   "elements": [
+    {"type": "text", "text": "13 AÑOS DE ESPERA", "size": 92, "color": "b", "at": 0},
+    {"type": "big", "text": "GTA 6", "size": 230, "color": "yellow", "at": 0.3},
+    {"type": "text", "text": "sale el jueves 19 de nov.", "size": 66, "at": 0.8}]},
+
+  {"say": [["Grand Theft Auto 6 llega el 19 de noviembre", "Gran Zeft Oto seis, llega el diecinueve de noviembre,"],
+           ["a PlayStation 5 y Xbox Series X y S.", "a PlayStation cinco, y Xbox Series equis y ese."],
+           ["En PC todavía no tiene fecha.", "En pe ce, todavía no tiene fecha."]],
+   "elements": [
+    {"type": "text", "text": "¿Qué pasa?", "size": 110, "color": "yellow", "at": 0},
+    {"type": "list", "items": ["Jueves 19 de noviembre", "PS5 y Xbox Series X|S", "PC: todavía sin fecha"], "size": 60, "at": "s0+0.3", "step": 2.2}]},
+
+  {"say": [["Prepara espacio: la descarga pesa hasta 212 gigas,", "Prepara espacio: la descarga pesa hasta doscientos doce gigas,"],
+           ["según Rockstar. La predescarga abrió el 10 de noviembre.", "según Rocstar. La predescarga abrió el diez de noviembre."]],
+   "elements": [
+    {"type": "text", "text": "Prepara espacio", "size": 90, "at": 0},
+    {"type": "big", "text": "212 GB", "size": 220, "color": "b", "at": "s0+1.6"},
+    {"type": "text", "text": "de descarga, según Rockstar", "size": 60, "at": "s1"},
+    {"type": "text", "text": "Predescarga abierta desde el 10 de nov.", "size": 46, "weight": "med", "color": "grey", "at": "s1+1.5"}]},
+
+  {"say": [["La historia vuelve a Vice City, en el estado ficticio de Leonida,", "La historia vuelve a Vais Siti, en el estado ficticio de Leonida,"],
+           ["con Jason y Lucía como protagonistas.", "con Yéison y Lucía como protagonistas."]],
+   "elements": [
+    {"type": "text", "text": "¿Dónde y con quién?", "size": 84, "at": 0},
+    {"type": "text", "text": "Vice City", "size": 140, "color": "a", "at": "s0+1.0"},
+    {"type": "text", "text": "Leonida: una Florida ficticia", "size": 58, "weight": "med", "color": "grey", "at": "s0+2.5"},
+    {"type": "chips", "pieces": ["Jason", "+", "Lucía"], "size": 70, "step": 0.4, "at": "s1+0.3"}]},
+
+  {"say": [["Y se hizo esperar: iba para 2025,", "Y se hizo esperar: iba para el dos mil veinticinco,"],
+           ["luego para el 26 de mayo, y al final, noviembre.", "luego para el veintiséis de mayo, y al final, noviembre."]],
+   "elements": [
+    {"type": "text", "text": "Dos retrasos", "size": 100, "color": "b", "at": 0},
+    {"type": "list", "items": ["2025", "26 de mayo de 2026", "19 de noviembre de 2026"], "size": 62, "at": "s0+1.6", "step": 1.5}]},
+
+  {"say": [["Dato curioso: GTA 5 ya superó los 230 millones de copias vendidas.", "Dato curioso: ge te a cinco, ya superó los doscientos treinta millones de copias vendidas."],
+           ["Es el juego más vendido de la última década.", "Es el juego más vendido de la última década."]],
+   "elements": [
+    {"type": "text", "text": "DATO CURIOSO #1", "size": 64, "color": "c", "at": 0},
+    {"type": "big", "text": "230 M", "size": 220, "color": "yellow", "at": "s0+2.5"},
+    {"type": "text", "text": "copias vendidas de GTA V", "size": 64, "at": "s0+2.9"},
+    {"type": "text", "text": "El más vendido de la última década", "size": 50, "weight": "med", "color": "grey", "at": "s1"}]},
+
+  {"say": [["Su segundo tráiler sumó 475 millones de vistas en 24 horas,", "Su segundo tráiler, sumó cuatrocientos setenta y cinco millones de vistas, en veinticuatro horas,"],
+           ["más que el de Deadpool y Wolverine.", "más que el de Dedpul y Guolverin."]],
+   "elements": [
+    {"type": "text", "text": "DATO CURIOSO #2", "size": 64, "color": "c", "at": 0},
+    {"type": "big", "text": "475 M", "size": 220, "color": "yellow", "at": "s0+1.8"},
+    {"type": "text", "text": "vistas en 24 horas (tráiler 2)", "size": 60, "at": "s0+3.0"},
+    {"type": "text", "text": "Más que Deadpool y Wolverine: 365 M", "size": 50, "weight": "med", "color": "grey", "at": "s1"}]},
+
+  {"say": [["¿Lo vas a jugar el primer día? Te leo en los comentarios.", "¿Lo vas a jugar el primer día? Te leo en los comentarios."],
+           ["Sígueme para más noticias tech.", "Sígueme para más noticias tec."]],
+   "elements": [
+    {"type": "text", "text": "¿Lo vas a jugar el primer día?", "size": 84, "color": "a", "at": 0},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "Te leo en los comentarios", "size": 60, "at": "s0+1.5"},
+    {"type": "gap", "h": 40},
+    {"type": "text", "text": "Sígueme para más noticias tech", "size": 60, "color": "yellow", "at": "s1"}]}
+ ]
+}
