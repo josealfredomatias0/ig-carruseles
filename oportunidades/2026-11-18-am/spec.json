@@ -1,0 +1,253 @@
+{
+ "voice": "em_alex",
+ "speed": 1.1,
+ "theme": {
+  "bg": "#0A1A2F",
+  "yellow": "#FFD23F",
+  "a": "#4FC3F7",
+  "b": "#FF6B6B",
+  "c": "#B39DDB",
+  "d": "#5EE6A8"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "¿Terminando el bachillerato? Estudia tu carrera en México gratis.",
+     "¿Terminando el bachillerato? Estudia tu carrera en México, gratis."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Carrera universitaria",
+     "size": 90,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "BECA 100%",
+     "size": 165,
+     "color": "d",
+     "at": 0.8
+    },
+    {
+     "type": "text",
+     "text": "en México",
+     "size": 72,
+     "weight": "med",
+     "color": "grey",
+     "at": 1.6
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El Tec de Monterrey abrió Líderes del Mañana 2027,",
+     "El Tec de Monterrey abrió, Líderes del Mañana dos mil veintisiete,"
+    ],
+    [
+     "y República Dominicana está entre los países que pueden aplicar.",
+     "y República Dominicana está entre los países que pueden aplicar."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Tec de Monterrey",
+     "size": 90,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Líderes del Mañana",
+     "size": 84,
+     "at": 0.8
+    },
+    {
+     "type": "text",
+     "text": "2027",
+     "size": 110,
+     "color": "yellow",
+     "at": 1.2
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "Abierta a República Dominicana",
+     "size": 62,
+     "color": "d",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "La beca cubre el cien por ciento de la colegiatura,",
+     "La beca cubre, el cien por ciento de la colegiatura,"
+    ],
+    [
+     "para iniciar una carrera profesional en agosto de 2027.",
+     "para iniciar una carrera profesional, en agosto de dos mil veintisiete."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "100%",
+     "size": 230,
+     "color": "d",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "de la colegiatura",
+     "size": 84,
+     "at": 0.8
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "Inicio: agosto 2027",
+     "size": 76,
+     "color": "yellow",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Necesitas tener veintidós años o menos, promedio de noventa o más,",
+     "Necesitas tener veintidós años o menos, promedio de noventa o más,"
+    ],
+    [
+     "participar en proyectos sociales, y presentar la prueba de aptitud académica.",
+     "participar en proyectos sociales, y presentar la prueba de aptitud académica."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Requisitos clave",
+     "size": 80,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "22 años o menos",
+      "Promedio de 90/100 o más",
+      "Proyectos sociales",
+      "Prueba PAA: 1,360 puntos"
+     ],
+     "size": 56,
+     "at": 0.6,
+     "step": 1.2
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El registro cierra el veintiséis de febrero de 2027.",
+     "El registro cierra, el veintiséis de febrero de dos mil veintisiete."
+    ],
+    [
+     "Si quieres el área de salud, el doce de febrero.",
+     "Si quieres el área de salud, el doce de febrero."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Cierre del registro",
+     "size": 76,
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "26 FEB",
+     "size": 210,
+     "color": "yellow",
+     "at": 0.8
+    },
+    {
+     "type": "text",
+     "text": "2027",
+     "size": 90,
+     "color": "grey",
+     "at": 1.2
+    },
+    {
+     "type": "gap",
+     "h": 20
+    },
+    {
+     "type": "text",
+     "text": "Área de Salud: 12 FEB",
+     "size": 70,
+     "color": "b",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El enlace oficial y todos los detalles están en la descripción.",
+     "El enlace oficial, y todos los detalles, están en la descripción."
+    ],
+    [
+     "Compártelo con quien lo necesite y sigue la página para más oportunidades.",
+     "Compártelo con quien lo necesite, y sigue la página para más oportunidades."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Enlace oficial y detalles",
+     "size": 76,
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "en la descripción",
+     "size": 96,
+     "color": "a",
+     "at": 0.5
+    },
+    {
+     "type": "gap",
+     "h": 40
+    },
+    {
+     "type": "text",
+     "text": "Compártelo y sigue la página",
+     "size": 64,
+     "color": "d",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Oportunidades para Dominicanos",
+     "size": 50,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+1.0"
+    }
+   ]
+  }
+ ]
+}
