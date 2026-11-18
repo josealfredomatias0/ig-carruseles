@@ -1,0 +1,352 @@
+{
+ "voice": "em_alex",
+ "speed": 1.08,
+ "theme": {
+  "bg": "#0B0B12",
+  "yellow": "#F5C542",
+  "a": "#7DD3FC",
+  "b": "#F87171",
+  "c": "#C4B5FD",
+  "d": "#86EFAC"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "En Santo Domingo hay una fortaleza que lleva más de 500 años en pie.",
+     "En Santo Domingo, hay una fortaleza que lleva más de quinientos años en pie."
+    ],
+    [
+     "La más antigua construida por europeos en América.",
+     "La más antigua construida por europeos en América."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "LA FORTALEZA",
+     "size": 120,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "más antigua de América",
+     "size": 64,
+     "color": "grey",
+     "weight": "med",
+     "at": 0.4
+    },
+    {
+     "type": "big",
+     "text": "+500",
+     "size": 230,
+     "color": "a",
+     "at": "s0+2.0"
+    },
+    {
+     "type": "text",
+     "text": "años en pie",
+     "size": 70,
+     "at": "s0+2.3"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Se llama Fortaleza Ozama, a orillas del río del mismo nombre.",
+     "Se llama Fortaleza Ozama, a orillas del río del mismo nombre."
+    ],
+    [
+     "Su construcción empezó en 1502, bajo el gobernador Nicolás de Ovando.",
+     "Su construcción empezó en mil quinientos dos, bajo el gobernador Nicolás de Ovando."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Fortaleza Ozama",
+     "size": 110,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Santo Domingo",
+      "Río Ozama"
+     ],
+     "size": 62,
+     "step": 0.5,
+     "at": "s0+1.0"
+    },
+    {
+     "type": "big",
+     "text": "1502",
+     "size": 230,
+     "color": "a",
+     "at": "s1+1.2"
+    },
+    {
+     "type": "text",
+     "text": "Gobernador Nicolás de Ovando",
+     "size": 58,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+2.6"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "La obra la dirigió el maestro Gómez García Varela.",
+     "La obra la dirigió el maestro, Gómez García Varela."
+    ],
+    [
+     "Y sus muros se levantaron con piedra coralina, sacada del mar.",
+     "Y sus muros se levantaron con piedra coralina, sacada del mar."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Cómo se hizo?",
+     "size": 100,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Maestro Gómez García Varela",
+     "size": 64,
+     "color": "a",
+     "at": "s0+1.0"
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "Piedra coralina",
+     "size": 110,
+     "color": "d",
+     "at": "s1+1.5"
+    },
+    {
+     "type": "text",
+     "text": "sacada del mar",
+     "size": 56,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+2.5"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Su Torre del Homenaje mide unos 18 metros de alto.",
+     "Su Torre del Homenaje mide unos dieciocho metros de alto."
+    ],
+    [
+     "Vigilaba el río y el puerto.",
+     "Vigilaba el río y el puerto."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Torre del Homenaje",
+     "size": 100,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "18 m",
+     "size": 230,
+     "color": "a",
+     "at": "s0+1.8"
+    },
+    {
+     "type": "text",
+     "text": "vigilaba el río y el puerto",
+     "size": 64,
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "En 1586, el corsario inglés Francis Drake tomó la ciudad.",
+     "En mil quinientos ochenta y seis, el corsario inglés, Francis Dreik, tomó la ciudad."
+    ],
+    [
+     "Y se llevó la artillería de la fortaleza.",
+     "Y se llevó la artillería de la fortaleza."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "El ataque",
+     "size": 100,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "1586",
+     "size": 230,
+     "color": "yellow",
+     "at": "s0+0.3"
+    },
+    {
+     "type": "text",
+     "text": "Francis Drake",
+     "size": 90,
+     "color": "b",
+     "at": "s0+2.6"
+    },
+    {
+     "type": "text",
+     "text": "se llevó su artillería",
+     "size": 60,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Allí estuvieron presos Juan Pablo Duarte y otros trinitarios.",
+     "Allí estuvieron presos Juan Pablo Duarte, y otros trinitarios."
+    ],
+    [
+     "Funcionó como prisión hasta la década de 1960.",
+     "Funcionó como prisión, hasta la década de mil novecientos sesenta."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Una cárcel",
+     "size": 110,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Juan Pablo Duarte",
+     "size": 90,
+     "color": "yellow",
+     "at": "s0+1.0"
+    },
+    {
+     "type": "text",
+     "text": "y otros trinitarios",
+     "size": 60,
+     "weight": "med",
+     "color": "grey",
+     "at": "s0+2.0"
+    },
+    {
+     "type": "text",
+     "text": "prisión hasta los años 60",
+     "size": 66,
+     "color": "a",
+     "at": "s1+0.5"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Se dice que hasta Cristóbal Colón estuvo preso allí.",
+     "Se dice que hasta Cristóbal Colón estuvo preso allí."
+    ],
+    [
+     "Pero no cuadra: lo arrestaron en 1500, dos años antes de la obra.",
+     "Pero no cuadra: lo arrestaron en mil quinientos, dos años antes de la obra."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "EL MITO",
+     "size": 90,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "¿Colón preso aquí?",
+     "size": 90,
+     "color": "c",
+     "at": 0.4
+    },
+    {
+     "type": "text",
+     "text": "Lo que se sabe",
+     "size": 80,
+     "color": "d",
+     "at": "s1"
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Arresto: 1500",
+      "Obra: 1502"
+     ],
+     "size": 64,
+     "step": 0.8,
+     "at": "s1+1.8"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Ya visitaste la Fortaleza Ozama? Cuéntame en los comentarios.",
+     "¿Ya visitaste la Fortaleza Ozama? Cuéntame en los comentarios."
+    ],
+    [
+     "Y suscríbete para más misterios e historia.",
+     "Y suscríbete para más misterios e historia."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Ya la visitaste?",
+     "size": 96,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Cuéntame en los comentarios",
+     "size": 62,
+     "at": "s0+1.5"
+    },
+    {
+     "type": "gap",
+     "h": 40
+    },
+    {
+     "type": "text",
+     "text": "Suscríbete para más misterios e historia",
+     "size": 58,
+     "color": "a",
+     "at": "s1"
+    }
+   ]
+  }
+ ]
+}
