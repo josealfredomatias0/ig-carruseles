@@ -1,0 +1,269 @@
+{
+ "voice": "em_alex",
+ "speed": 1.1,
+ "theme": {
+  "bg": "#0A1A2F",
+  "yellow": "#FFD23F",
+  "a": "#4FC3F7",
+  "b": "#FF6B6B",
+  "c": "#B39DDB",
+  "d": "#5EE6A8"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "¿Investigas en una universidad de América Latina?",
+     "¿Investigas en una universidad de América Latina?"
+    ],
+    [
+     "Esto te interesa.",
+     "Esto te interesa."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Eres investigador?",
+     "size": 96,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "BECA",
+     "size": 230,
+     "color": "d",
+     "at": 0.8
+    },
+    {
+     "type": "text",
+     "text": "Gastos cubiertos en EE. UU.",
+     "size": 62,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El Instituto de Investigación Cualitativa y Multimétodo, IQMR,",
+     "El Instituto de Investigación Cualitativa y Multimétodo, i cu eme erre,"
+    ],
+    [
+     "de la Universidad de Syracuse, abrió su convocatoria 2027.",
+     "de la Universidad de Sírakius, abrió su convocatoria dos mil veintisiete."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "IQMR 2027",
+     "size": 200,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Investigación cualitativa",
+     "size": 64,
+     "at": 0.8
+    },
+    {
+     "type": "text",
+     "text": "y multimétodo",
+     "size": 64,
+     "at": 1.0
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "Universidad de Syracuse, EE. UU.",
+     "size": 56,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Hay cinco plazas para investigadores de instituciones latinoamericanas.",
+     "Hay cinco plazas, para investigadores de instituciones latinoamericanas."
+    ],
+    [
+     "Cubre la participación, el alojamiento, comidas y el pasaje de ida y vuelta.",
+     "Cubre la participación, el alojamiento, comidas, y el pasaje de ida y vuelta."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "5 PLAZAS",
+     "size": 200,
+     "color": "d",
+     "at": 0.4
+    },
+    {
+     "type": "text",
+     "text": "para América Latina",
+     "size": 62,
+     "weight": "med",
+     "color": "grey",
+     "at": 0.9
+    },
+    {
+     "type": "list",
+     "items": [
+      "Participación cubierta",
+      "Alojamiento",
+      "Estipendio para comidas",
+      "Pasaje aéreo ida y vuelta"
+     ],
+     "size": 58,
+     "at": "s1",
+     "step": 1.0
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Es para investigadores vinculados a instituciones académicas de la región,",
+     "Es para investigadores vinculados a instituciones académicas de la región,"
+    ],
+    [
+     "como estudiantes de posgrado y profesores jóvenes en ciencias sociales.",
+     "como estudiantes de posgrado, y profesores jóvenes, en ciencias sociales."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Para quién es?",
+     "size": 84,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "Investigadores",
+      "Estudiantes de posgrado",
+      "Profesores jóvenes"
+     ],
+     "size": 58,
+     "at": 0.8,
+     "step": 0.9
+    },
+    {
+     "type": "text",
+     "text": "Instituciones académicas",
+     "size": 60,
+     "color": "d",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "de América Latina",
+     "size": 60,
+     "color": "d",
+     "at": "s1+0.4"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "La fecha límite es el 1 de diciembre de 2026.",
+     "La fecha límite es el uno de diciembre, de dos mil veintiséis."
+    ],
+    [
+     "¡Quedan menos de dos semanas!",
+     "¡Quedan menos de dos semanas!"
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Fecha límite",
+     "size": 90,
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "1 DIC",
+     "size": 230,
+     "color": "b",
+     "at": 0.9
+    },
+    {
+     "type": "text",
+     "text": "2026",
+     "size": 80,
+     "color": "b",
+     "at": 1.2
+    },
+    {
+     "type": "text",
+     "text": "¡Menos de dos semanas!",
+     "size": 64,
+     "color": "yellow",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El enlace oficial y todos los detalles están en la descripción.",
+     "El enlace oficial, y todos los detalles, están en la descripción."
+    ],
+    [
+     "Compártelo con quien lo necesite y sigue la página para más oportunidades.",
+     "Compártelo con quien lo necesite, y sigue la página para más oportunidades."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Enlace oficial y detalles",
+     "size": 76,
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "en la descripción",
+     "size": 96,
+     "color": "a",
+     "at": 0.5
+    },
+    {
+     "type": "gap",
+     "h": 40
+    },
+    {
+     "type": "text",
+     "text": "Compártelo y sigue la página",
+     "size": 64,
+     "color": "d",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Oportunidades para Dominicanos",
+     "size": 50,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+1.0"
+    }
+   ]
+  }
+ ]
+}
