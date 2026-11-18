@@ -1,0 +1,333 @@
+{
+ "voice": "em_alex",
+ "speed": 1.08,
+ "theme": {
+  "bg": "#0B0B12",
+  "yellow": "#F5C542",
+  "a": "#7DD3FC",
+  "b": "#F87171",
+  "c": "#C4B5FD",
+  "d": "#86EFAC"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "En 1983, una alarma dijo: cinco misiles nucleares van hacia la URSS.",
+     "En mil novecientos ochenta y tres, una alarma dijo: cinco misiles nucleares van hacia la Unión Soviética."
+    ],
+    [
+     "Un solo hombre no le creyó.",
+     "Un solo hombre no le creyó."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "ALERTA NUCLEAR",
+     "size": 110,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "5",
+     "size": 240,
+     "color": "yellow",
+     "at": "s0+1.6"
+    },
+    {
+     "type": "text",
+     "text": "misiles en la pantalla",
+     "size": 64,
+     "weight": "med",
+     "color": "grey",
+     "at": "s0+1.9"
+    },
+    {
+     "type": "text",
+     "text": "un hombre dijo: NO",
+     "size": 76,
+     "color": "a",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "26 de septiembre de 1983, de madrugada.",
+     "Veintiséis de septiembre de mil novecientos ochenta y tres, de madrugada."
+    ],
+    [
+     "Un búnker al sur de Moscú, en plena Guerra Fría.",
+     "Un búnker al sur de Moscú, en plena Guerra Fría."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "26/09/1983",
+     "size": 170,
+     "color": "yellow",
+     "at": 0.3
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Serpujov-15",
+      "sur de Moscú"
+     ],
+     "size": 60,
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Guerra Fría",
+     "size": 80,
+     "color": "c",
+     "at": "s1+1.8"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "De guardia: Stanislav Petrov, teniente coronel de 44 años.",
+     "De guardia: Stanislav Petrov, teniente coronel de cuarenta y cuatro años."
+    ],
+    [
+     "Vigilaba los satélites que detectan misiles.",
+     "Vigilaba los satélites que detectan misiles."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Stanislav Petrov",
+     "size": 110,
+     "color": "yellow",
+     "at": 0.2
+    },
+    {
+     "type": "text",
+     "text": "teniente coronel",
+     "size": 64,
+     "weight": "med",
+     "color": "grey",
+     "at": 0.6
+    },
+    {
+     "type": "big",
+     "text": "44",
+     "size": 220,
+     "color": "a",
+     "at": "s0+2.2"
+    },
+    {
+     "type": "text",
+     "text": "años",
+     "size": 64,
+     "at": "s0+2.4"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "De pronto: un misil lanzado desde Estados Unidos.",
+     "De pronto: un misil lanzado desde Estados Unidos."
+    ],
+    [
+     "Luego más. En total, cinco.",
+     "Luego más. En total, cinco."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "LANZAMIENTO",
+     "size": 120,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "1 misil detectado",
+      "+ 4 más detrás",
+      "Total: 5"
+     ],
+     "size": 70,
+     "step": 0.6,
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Tenía minutos. Avisar podía desatar una respuesta nuclear.",
+     "Tenía minutos. Avisar podía desatar una respuesta nuclear."
+    ],
+    [
+     "Lo reportó como falsa alarma.",
+     "Lo reportó como falsa alarma."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "solo minutos",
+     "size": 100,
+     "color": "yellow",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "¿avisar o esperar?",
+     "size": 76,
+     "color": "grey",
+     "weight": "med",
+     "at": "s0+1.6"
+    },
+    {
+     "type": "text",
+     "text": "FALSA ALARMA",
+     "size": 120,
+     "color": "d",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Un ataque real no empezaría con solo cinco misiles.",
+     "Un ataque real no empezaría con solo cinco misiles."
+    ],
+    [
+     "Y los radares de tierra no veían nada.",
+     "Y los radares de tierra no veían nada."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Su lógica",
+     "size": 100,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "pocos misiles",
+      "sistema nuevo"
+     ],
+     "size": 48,
+     "at": "s0+1.0"
+    },
+    {
+     "type": "text",
+     "text": "radares: nada",
+     "size": 84,
+     "color": "a",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Acertó: era el sol reflejado en nubes muy altas.",
+     "Acertó: era el sol reflejado en nubes muy altas."
+    ],
+    [
+     "¿Su premio? Un regaño. Y secreto hasta 1998.",
+     "¿Su premio? Un regaño. Y secreto hasta mil novecientos noventa y ocho."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "LO QUE PASÓ",
+     "size": 96,
+     "color": "d",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "sol + nubes altas",
+     "size": 84,
+     "color": "yellow",
+     "at": "s0+1.2"
+    },
+    {
+     "type": "text",
+     "text": "= falsos misiles",
+     "size": 70,
+     "weight": "med",
+     "at": "s0+1.8"
+    },
+    {
+     "type": "big",
+     "text": "1998",
+     "size": 200,
+     "color": "c",
+     "at": "s1+1.6"
+    },
+    {
+     "type": "text",
+     "text": "sale a la luz",
+     "size": 60,
+     "color": "grey",
+     "at": "s1+1.9"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Lo llaman el hombre que salvó al mundo. ¿Tú habrías confiado en la máquina?",
+     "Lo llaman el hombre que salvó al mundo. ¿Tú habrías confiado en la máquina?"
+    ],
+    [
+     "Suscríbete para más misterios e historia.",
+     "Suscríbete para más misterios e historia."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "el hombre que",
+     "size": 80,
+     "color": "grey",
+     "weight": "med",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "SALVÓ AL MUNDO",
+     "size": 110,
+     "color": "yellow",
+     "at": 0.4
+    },
+    {
+     "type": "text",
+     "text": "¿Tú habrías confiado en la máquina?",
+     "size": 64,
+     "color": "a",
+     "at": "s0+2.6"
+    },
+    {
+     "type": "text",
+     "text": "Suscríbete",
+     "size": 90,
+     "color": "d",
+     "at": "s1"
+    }
+   ]
+  }
+ ]
+}
