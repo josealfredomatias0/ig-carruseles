@@ -1,0 +1,78 @@
+{
+ "voice": "em_alex",
+ "speed": 1.1,
+ "theme": {"bg":"#0A1A2F","yellow":"#FFD23F","a":"#4FC3F7","b":"#FF6B6B","c":"#B39DDB","d":"#5EE6A8"},
+ "scenes": [
+  {
+   "say": [
+    ["¿Tienes una idea para sacar gente de la pobreza?", "¿Tienes una idea para sacar gente de la pobreza?"],
+    ["Pueden financiarte.", "Pueden financiarte."]
+   ],
+   "elements": [
+    {"type": "text", "text": "¿Emprendedor social?", "size": 96, "color": "yellow", "at": 0},
+    {"type": "big", "text": "FONDOS", "size": 220, "color": "d", "at": 0.8},
+    {"type": "text", "text": "para lanzar tu proyecto", "size": 62, "weight": "med", "color": "grey", "at": "s1"}
+   ]
+  },
+  {
+   "say": [
+    ["El D-Prize es una competencia global para nuevos emprendedores,", "El di práis, es una competencia global para nuevos emprendedores,"],
+    ["que llevan soluciones probadas a comunidades pobres.", "que llevan soluciones probadas a comunidades pobres."]
+   ],
+   "elements": [
+    {"type": "big", "text": "D-PRIZE", "size": 210, "color": "a", "at": 0},
+    {"type": "text", "text": "Competencia global", "size": 70, "at": 0.8},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "Soluciones probadas", "size": 58, "weight": "med", "color": "grey", "at": "s1"},
+    {"type": "text", "text": "para comunidades pobres", "size": 58, "weight": "med", "color": "grey", "at": "s1+0.4"}
+   ]
+  },
+  {
+   "say": [
+    ["Ofrece hasta 20,000 dólares", "Ofrece hasta veinte mil dólares,"],
+    ["para un piloto de tres meses, sin importar de dónde seas.", "para un piloto de tres meses, sin importar de dónde seas."]
+   ],
+   "elements": [
+    {"type": "text", "text": "Hasta", "size": 80, "at": 0},
+    {"type": "big", "text": "US$20,000", "size": 190, "color": "d", "at": 0.6},
+    {"type": "text", "text": "Piloto de 3 meses", "size": 66, "at": "s1"},
+    {"type": "text", "text": "Abierto a todo el mundo", "size": 58, "weight": "med", "color": "grey", "at": "s1+0.8"}
+   ]
+  },
+  {
+   "say": [
+    ["Es para organizaciones nuevas, en países en desarrollo.", "Es para organizaciones nuevas, en países en desarrollo."],
+    ["Debes vivir donde operas, y la propuesta va en inglés.", "Debes vivir donde operas, y la propuesta va en inglés."]
+   ],
+   "elements": [
+    {"type": "text", "text": "Requisitos clave", "size": 84, "color": "yellow", "at": 0},
+    {"type": "list", "items": ["Organización nueva", "País en desarrollo", "Vivir donde operas", "Propuesta en inglés"], "size": 58, "at": 0.8, "step": 1.0}
+   ]
+  },
+  {
+   "say": [
+    ["El plazo extendido cierra el 6 de diciembre de 2026.", "El plazo extendido cierra el seis de diciembre, de dos mil veintiséis."],
+    ["Pero debes registrarte antes.", "Pero debes registrarte antes."]
+   ],
+   "elements": [
+    {"type": "text", "text": "Fecha límite", "size": 90, "at": 0},
+    {"type": "big", "text": "6 DIC", "size": 230, "color": "b", "at": 0.9},
+    {"type": "text", "text": "2026", "size": 80, "color": "b", "at": 1.2},
+    {"type": "text", "text": "¡Regístrate antes!", "size": 66, "color": "yellow", "at": "s1"}
+   ]
+  },
+  {
+   "say": [
+    ["El enlace oficial y todos los detalles están en la descripción.", "El enlace oficial, y todos los detalles, están en la descripción."],
+    ["Compártelo con quien lo necesite y sigue la página para más oportunidades.", "Compártelo con quien lo necesite, y sigue la página para más oportunidades."]
+   ],
+   "elements": [
+    {"type": "text", "text": "Enlace oficial y detalles", "size": 76, "at": 0},
+    {"type": "text", "text": "en la descripción", "size": 96, "color": "a", "at": 0.5},
+    {"type": "gap", "h": 40},
+    {"type": "text", "text": "Compártelo y sigue la página", "size": 64, "color": "d", "at": "s1"},
+    {"type": "text", "text": "Oportunidades para Dominicanos", "size": 50, "weight": "med", "color": "grey", "at": "s1+1.0"}
+   ]
+  }
+ ]
+}
