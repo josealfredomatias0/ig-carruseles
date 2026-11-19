@@ -1,0 +1,284 @@
+{
+ "voice": "em_alex",
+ "speed": 1.1,
+ "theme": {
+  "bg": "#0A1A2F",
+  "yellow": "#FFD23F",
+  "a": "#4FC3F7",
+  "b": "#FF6B6B",
+  "c": "#B39DDB",
+  "d": "#5EE6A8"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "¿Tienes entre 15 y 35 años? Hay miles de becas en tecnología para ti.",
+     "¿Tienes entre quince y treinta y cinco años? Hay miles de becas en tecnología, para ti."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Jóvenes de 15 a 35",
+     "size": 84,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "BECAS",
+     "size": 220,
+     "color": "d",
+     "at": 0.8
+    },
+    {
+     "type": "text",
+     "text": "en ciencia y tecnología",
+     "size": 70,
+     "weight": "med",
+     "color": "grey",
+     "at": 1.6
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El Ministerio de la Juventud abrió Generación STEAM 2.0,",
+     "El Ministerio de la Juventud abrió, Generación Stim dos punto cero,"
+    ],
+    [
+     "con becas en ciencia, tecnología, ingeniería, arte y matemáticas.",
+     "con becas en ciencia, tecnología, ingeniería, arte y matemáticas."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Ministerio de la Juventud",
+     "size": 76,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Generación",
+     "size": 96,
+     "at": 0.8
+    },
+    {
+     "type": "text",
+     "text": "STEAM 2.0",
+     "size": 130,
+     "color": "yellow",
+     "at": 1.2
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Ciencia",
+      "Tecnología",
+      "Ingeniería"
+     ],
+     "at": "s1",
+     "size": 50
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Arte",
+      "Matemáticas"
+     ],
+     "at": "s1+0.8",
+     "size": 50
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Son 23,900 becas en 444 programas de formación.",
+     "Son veintitrés mil novecientas becas, en cuatrocientos cuarenta y cuatro programas de formación."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "23,900",
+     "size": 210,
+     "color": "d",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "becas",
+     "size": 90,
+     "at": 0.9
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "444 programas",
+     "size": 80,
+     "color": "yellow",
+     "at": 2.2
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Cursos y certificaciones al cien por ciento,",
+     "Cursos y certificaciones, al cien por ciento,"
+    ],
+    [
+     "licenciaturas online con setenta por ciento,",
+     "licenciaturas online, con setenta por ciento,"
+    ],
+    [
+     "y maestrías internacionales del cincuenta al cien por ciento.",
+     "y maestrías internacionales, del cincuenta al cien por ciento."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Qué cubre?",
+     "size": 80,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "gap",
+     "h": 20
+    },
+    {
+     "type": "text",
+     "text": "Cursos y certificaciones",
+     "size": 60,
+     "at": "s0"
+    },
+    {
+     "type": "text",
+     "text": "100%",
+     "size": 100,
+     "color": "d",
+     "at": "s0+0.6"
+    },
+    {
+     "type": "text",
+     "text": "Licenciaturas online: 70%",
+     "size": 60,
+     "color": "yellow",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Maestrías: 50% a 100%",
+     "size": 60,
+     "color": "a",
+     "at": "s2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Se aplica solo por el portal Beca tu Futuro.",
+     "Se aplica solo, por el portal Beca tu Futuro."
+    ],
+    [
+     "La convocatoria cierra el veintinueve de diciembre.",
+     "La convocatoria cierra, el veintinueve de diciembre."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Aplica en Beca tu Futuro",
+     "size": 72,
+     "at": 0
+    },
+    {
+     "type": "gap",
+     "h": 20
+    },
+    {
+     "type": "text",
+     "text": "Cierre",
+     "size": 76,
+     "color": "grey",
+     "at": "s1"
+    },
+    {
+     "type": "big",
+     "text": "29 DIC",
+     "size": 220,
+     "color": "yellow",
+     "at": "s1+0.6"
+    },
+    {
+     "type": "text",
+     "text": "2026",
+     "size": 90,
+     "color": "grey",
+     "at": "s1+1.0"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El enlace oficial y todos los detalles están en la descripción.",
+     "El enlace oficial, y todos los detalles, están en la descripción."
+    ],
+    [
+     "Compártelo con quien lo necesite y sigue la página para más oportunidades.",
+     "Compártelo con quien lo necesite, y sigue la página para más oportunidades."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Enlace oficial y detalles",
+     "size": 76,
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "en la descripción",
+     "size": 96,
+     "color": "a",
+     "at": 0.5
+    },
+    {
+     "type": "gap",
+     "h": 40
+    },
+    {
+     "type": "text",
+     "text": "Compártelo y sigue la página",
+     "size": 64,
+     "color": "d",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Oportunidades para Dominicanos",
+     "size": 50,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+1.0"
+    }
+   ]
+  }
+ ]
+}
