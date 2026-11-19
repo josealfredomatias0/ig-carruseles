@@ -1,0 +1,375 @@
+{
+ "voice": "em_alex",
+ "speed": 1.08,
+ "theme": {
+  "bg": "#0B0B12",
+  "yellow": "#F5C542",
+  "a": "#7DD3FC",
+  "b": "#F87171",
+  "c": "#C4B5FD",
+  "d": "#86EFAC"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "En 1582, millones de personas se acostaron el jueves 4 de octubre...",
+     "En mil quinientos ochenta y dos, millones de personas se acostaron el jueves cuatro de octubre..."
+    ],
+    [
+     "y despertaron el viernes 15.",
+     "y despertaron, el viernes quince."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Octubre de 1582",
+     "size": 80,
+     "color": "c",
+     "weight": "med",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "JUEVES 4",
+     "size": 200,
+     "color": "a",
+     "at": 0.8
+    },
+    {
+     "type": "text",
+     "text": "↓",
+     "size": 90,
+     "color": "grey",
+     "at": "s1"
+    },
+    {
+     "type": "big",
+     "text": "VIERNES 15",
+     "size": 165,
+     "color": "yellow",
+     "at": "s1+0.4"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Diez días borrados? Fue por orden del papa Gregorio XIII.",
+     "¿Diez días borrados? Fue por orden del papa Gregorio trece."
+    ],
+    [
+     "Su bula Inter gravissimas creó el calendario que usamos hoy.",
+     "Su bula, ínter gravísimas, creó el calendario que usamos hoy."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "10 DÍAS",
+     "size": 210,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Papa Gregorio XIII",
+     "size": 90,
+     "color": "yellow",
+     "at": "s0+2.0"
+    },
+    {
+     "type": "gap",
+     "h": 20
+    },
+    {
+     "type": "text",
+     "text": "Bula Inter gravissimas",
+     "size": 62,
+     "color": "c",
+     "at": "s1+0.3"
+    },
+    {
+     "type": "text",
+     "text": "= el calendario gregoriano",
+     "size": 62,
+     "color": "d",
+     "at": "s1+2.0"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El calendario de Julio César contaba años de 365 días y cuarto.",
+     "El calendario de Julio César, contaba años de trescientos sesenta y cinco días y cuarto."
+    ],
+    [
+     "Unos 11 minutos más que el año solar; en siglos, sumó diez días.",
+     "Unos once minutos más que el año solar; en siglos, sumó diez días."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "El problema",
+     "size": 100,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Calendario juliano",
+      "365,25 días"
+     ],
+     "size": 56,
+     "step": 0.6,
+     "at": "s0+1.0"
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "big",
+     "text": "+11 min",
+     "size": 220,
+     "color": "b",
+     "at": "s1+1.0"
+    },
+    {
+     "type": "text",
+     "text": "cada año",
+     "size": 60,
+     "color": "grey",
+     "weight": "med",
+     "at": "s1+1.4"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "España, Portugal e Italia saltaron primero.",
+     "España, Portugal e Italia, saltaron primero."
+    ],
+    [
+     "Gran Bretaña esperó hasta 1752: del 2 al 14 de septiembre.",
+     "Gran Bretaña esperó hasta mil setecientos cincuenta y dos: del dos, al catorce de septiembre."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "1582",
+     "size": 110,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "España",
+      "Portugal",
+      "Italia"
+     ],
+     "size": 58,
+     "step": 0.4,
+     "at": "s0+0.2"
+    },
+    {
+     "type": "gap",
+     "h": 40
+    },
+    {
+     "type": "text",
+     "text": "Gran Bretaña · 1752",
+     "size": 84,
+     "color": "a",
+     "at": "s1"
+    },
+    {
+     "type": "big",
+     "text": "2 → 14",
+     "size": 200,
+     "color": "b",
+     "at": "s1+2.6"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Se dice que la gente protestó gritando: devuélvannos nuestros 11 días.",
+     "Se dice que la gente protestó gritando: ¡devuélvannos nuestros once días!"
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Se dice que...",
+     "size": 70,
+     "color": "c",
+     "weight": "med",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "«¡Devuélvannos nuestros",
+     "size": 80,
+     "color": "white",
+     "at": "s0+1.8"
+    },
+    {
+     "type": "big",
+     "text": "11 DÍAS!»",
+     "size": 200,
+     "color": "b",
+     "at": "s0+2.6"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Pero los historiadores no han hallado pruebas de esos motines.",
+     "Pero los historiadores, no han hallado pruebas de esos motines."
+    ],
+    [
+     "La idea se popularizó por un cuadro de William Hogarth.",
+     "La idea se popularizó, por un cuadro de Uíliam Jógart."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Lo que se sabe",
+     "size": 96,
+     "color": "d",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "No hay pruebas de esos motines",
+     "size": 66,
+     "color": "white",
+     "at": "s0+1.0"
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "El origen: un cuadro",
+     "size": 64,
+     "color": "grey",
+     "weight": "med",
+     "at": "s1+0.5"
+    },
+    {
+     "type": "text",
+     "text": "William Hogarth",
+     "size": 110,
+     "color": "yellow",
+     "at": "s1+2.2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso: Santa Teresa de Ávila murió justo la noche del 4,",
+     "Dato curioso: Santa Teresa de Ávila, murió justo la noche del cuatro,"
+    ],
+    [
+     "y la enterraron al día siguiente... el 15 de octubre.",
+     "y la enterraron al día siguiente... el quince de octubre."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Dato curioso",
+     "size": 90,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Santa Teresa de Ávila",
+     "size": 90,
+     "color": "c",
+     "at": "s0+1.0"
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Murió el 4",
+      "→",
+      "Enterrada el 15"
+     ],
+     "size": 56,
+     "step": 0.5,
+     "at": "s1"
+    },
+    {
+     "type": "big",
+     "text": "¡Al día siguiente!",
+     "size": 110,
+     "color": "a",
+     "at": "s1+1.6"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Conocías esta historia?",
+     "¿Conocías esta historia?"
+    ],
+    [
+     "Suscríbete para más misterios e historia.",
+     "Suscríbete, para más misterios e historia."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Conocías esta historia?",
+     "size": 90,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Cuéntamelo en los comentarios",
+     "size": 60,
+     "color": "white",
+     "weight": "med",
+     "at": 0.8
+    },
+    {
+     "type": "gap",
+     "h": 50
+    },
+    {
+     "type": "text",
+     "text": "Suscríbete",
+     "size": 120,
+     "color": "b",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "para más misterios e historia",
+     "size": 60,
+     "color": "grey",
+     "at": "s1+0.4"
+    }
+   ]
+  }
+ ]
+}
