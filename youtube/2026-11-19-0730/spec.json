@@ -1,0 +1,367 @@
+{
+ "voice": "em_alex",
+ "speed": 1.08,
+ "theme": {
+  "bg": "#0B0B12",
+  "yellow": "#F5C542",
+  "a": "#7DD3FC",
+  "b": "#F87171",
+  "c": "#C4B5FD",
+  "d": "#86EFAC"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "En el campo dominicano se habla de un animal que no es un animal.",
+     "En el campo dominicano, se habla de un animal que no es un animal."
+    ],
+    [
+     "Dicen que da riqueza, pero a un precio terrible.",
+     "Dicen que da riqueza, pero a un precio terrible."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Cuenta la leyenda...",
+     "size": 70,
+     "color": "c",
+     "weight": "med",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "EL BACÁ",
+     "size": 210,
+     "color": "yellow",
+     "at": 0.6
+    },
+    {
+     "type": "text",
+     "text": "riqueza a un precio terrible",
+     "size": 62,
+     "color": "b",
+     "at": "s1+0.8"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Es el bacá, una leyenda muy contada en el sur de República Dominicana.",
+     "Es el bacá, una leyenda muy contada en el sur de República Dominicana."
+    ],
+    [
+     "Según la tradición, nace de un pacto con el diablo.",
+     "Según la tradición, nace de un pacto con el diablo."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "El bacá",
+     "size": 120,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Folclor dominicano",
+      "El Sur"
+     ],
+     "size": 54,
+     "step": 0.6,
+     "at": "s0+1.6"
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "Un pacto con el diablo",
+     "size": 84,
+     "color": "b",
+     "at": "s1+1.0"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Cuentan que toma forma de perro negro, toro, cerdo o gato.",
+     "Cuentan que toma forma de perro negro, toro, cerdo o gato."
+    ],
+    [
+     "Y casi siempre, con los ojos rojos.",
+     "Y casi siempre, con los ojos rojos."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Cambia de forma",
+     "size": 100,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "Perro negro",
+      "Toro",
+      "Cerdo",
+      "Gato"
+     ],
+     "size": 76,
+     "step": 0.55,
+     "at": "s0+1.2"
+    },
+    {
+     "type": "text",
+     "text": "ojos rojos",
+     "size": 110,
+     "color": "b",
+     "at": "s1+0.8"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El trato: riqueza y protección para su dueño.",
+     "El trato: riqueza y protección para su dueño."
+    ],
+    [
+     "A cambio, dicen, de un alma: la suya o la de un ser querido.",
+     "A cambio, dicen, de un alma: la suya, o la de un ser querido."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "El trato",
+     "size": 110,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Riqueza",
+      "Protección"
+     ],
+     "size": 70,
+     "step": 0.6,
+     "at": "s0+0.8"
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "A cambio de...",
+     "size": 64,
+     "color": "grey",
+     "weight": "med",
+     "at": "s1"
+    },
+    {
+     "type": "big",
+     "text": "UN ALMA",
+     "size": 200,
+     "color": "b",
+     "at": "s1+1.6"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Según la leyenda, solo sale de noche y cuida las tierras de su amo.",
+     "Según la leyenda, solo sale de noche, y cuida las tierras de su amo."
+    ],
+    [
+     "Y si el dueño muere, el bacá pasa a su hijo mayor.",
+     "Y si el dueño muere, el bacá pasa a su hijo mayor."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Las reglas",
+     "size": 100,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Solo sale de noche",
+     "size": 80,
+     "color": "a",
+     "at": "s0+1.0"
+    },
+    {
+     "type": "text",
+     "text": "cuida las tierras de su amo",
+     "size": 58,
+     "color": "grey",
+     "weight": "med",
+     "at": "s0+2.6"
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "Se hereda al hijo mayor",
+     "size": 76,
+     "color": "b",
+     "at": "s1+1.2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "La historiadora Lauren Derby, de UCLA, estudió estos relatos en la frontera con Haití.",
+     "La historiadora Lóren Dérbi, de la u ce ele a, estudió estos relatos en la frontera con Haití."
+    ],
+    [
+     "Para ella, hablan de dinero mal habido, de historia y del deseo de libertad.",
+     "Para ella, hablan de dinero mal habido, de historia, y del deseo de libertad."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Lo que se sabe",
+     "size": 96,
+     "color": "d",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Lauren Derby",
+     "size": 90,
+     "color": "yellow",
+     "at": "s0+0.8"
+    },
+    {
+     "type": "text",
+     "text": "historiadora, UCLA",
+     "size": 56,
+     "color": "grey",
+     "weight": "med",
+     "at": "s0+1.6"
+    },
+    {
+     "type": "text",
+     "text": "Dinero mal habido",
+     "size": 76,
+     "color": "b",
+     "at": "s1+1.0"
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Historia",
+      "Libertad"
+     ],
+     "size": 60,
+     "step": 0.6,
+     "at": "s1+2.4"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso: en Haití se le llama baka.",
+     "Dato curioso: en Haití se le llama, baka."
+    ],
+    [
+     "Y según Derby, el nombre vendría probablemente de la palabra vaca.",
+     "Y según Dérbi, el nombre vendría, probablemente, de la palabra vaca."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Dato curioso",
+     "size": 96,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "En Haití: baka",
+     "size": 90,
+     "color": "c",
+     "at": "s0+1.0"
+    },
+    {
+     "type": "gap",
+     "h": 20
+    },
+    {
+     "type": "text",
+     "text": "¿El origen del nombre?",
+     "size": 60,
+     "color": "grey",
+     "weight": "med",
+     "at": "s1"
+    },
+    {
+     "type": "big",
+     "text": "VACA",
+     "size": 220,
+     "color": "d",
+     "at": "s1+2.4"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Alguna vez te contaron una historia del bacá? Cuéntala en los comentarios.",
+     "¿Alguna vez te contaron una historia del bacá? Cuéntala en los comentarios."
+    ],
+    [
+     "Y suscríbete para más misterios e historia.",
+     "Y suscríbete para más misterios e historia."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Te contaron una historia del bacá?",
+     "size": 80,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Cuéntala en los comentarios",
+     "size": 62,
+     "at": "s0+2.0"
+    },
+    {
+     "type": "gap",
+     "h": 40
+    },
+    {
+     "type": "text",
+     "text": "Suscríbete para más misterios e historia",
+     "size": 58,
+     "color": "a",
+     "at": "s1"
+    }
+   ]
+  }
+ ]
+}
