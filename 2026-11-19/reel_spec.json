@@ -1,0 +1,58 @@
+{
+ "voice": "em_alex",
+ "scenes": [
+  {"say": [["Instagram está probando una app solo para tus mensajes.", "Instagram está probando una app, solo para tus mensajes."],
+           ["Se llama Direct.", "Se llama, Dairect."]],
+   "elements": [
+    {"type": "text", "text": "TUS DMs SE MUDAN", "size": 96, "color": "a", "at": 0},
+    {"type": "text", "text": "Instagram prueba una app solo para mensajes", "size": 66, "at": 0.6},
+    {"type": "big", "text": "DIRECT", "size": 200, "color": "yellow", "at": "s1"}]},
+
+  {"say": [["Meta la lanzó en prueba en Turquía y Tailandia, para Android e iPhone.", "Meta la lanzó en prueba, en Turquía y Tailandia, para Android y áifon."],
+           ["Y no necesitas cuenta de Instagram: entras con tu correo o tu teléfono.", "Y no necesitas cuenta de Instagram: entras con tu correo, o tu teléfono."]],
+   "elements": [
+    {"type": "text", "text": "¿Qué pasó?", "size": 110, "color": "yellow", "at": 0},
+    {"type": "list", "items": ["En prueba en Turquía y Tailandia", "Para Android e iPhone", "Sin cuenta de Instagram: correo o teléfono"], "size": 54, "at": "s0+0.3", "step": 2.0}]},
+
+  {"say": [["Si ya usas Instagram, entras con tu mismo usuario,", "Si ya usas Instagram, entras con tu mismo usuario,"],
+           ["y tus chats aparecen en las dos apps.", "y tus chats aparecen en las dos apps."]],
+   "elements": [
+    {"type": "text", "text": "Tus chats, sincronizados", "size": 80, "at": 0},
+    {"type": "chips", "pieces": ["Instagram", "⇄", "Direct"], "size": 72, "step": 0.4, "at": "s0+0.8"},
+    {"type": "big", "text": "2 apps", "size": 200, "color": "a", "at": "s1"},
+    {"type": "text", "text": "los mismos mensajes", "size": 58, "weight": "med", "color": "grey", "at": "s1+0.5"}]},
+
+  {"say": [["¿Y la seguridad? Si no tienes Instagram, solo tus contactos pueden escribirte.", "¿Y la seguridad? Si no tienes Instagram, solo tus contactos pueden escribirte."],
+           ["Y los padres pueden ver con quién chatean sus hijos y ponerles límite de tiempo.", "Y los padres pueden ver con quién chatean sus hijos, y ponerles límite de tiempo."]],
+   "elements": [
+    {"type": "text", "text": "¿Y la seguridad?", "size": 100, "color": "b", "at": 0},
+    {"type": "list", "items": ["Sin Instagram: solo tus contactos te escriben", "Padres ven con quién chatean sus hijos", "Límite de tiempo diario"], "size": 52, "at": "s0+1.2", "step": 2.6},
+    {"type": "text", "text": "Edad mínima: 13 años", "size": 50, "weight": "med", "color": "grey", "at": "s1+2.5"}]},
+
+  {"say": [["Dato curioso: no es la primera vez.", "Dato curioso: no es la primera vez."],
+           ["En 2017 Instagram probó otra app Direct en seis países, incluidos Chile y Uruguay.", "En el dos mil diecisiete, Instagram probó otra app Dairect, en seis países, incluidos Chile y Uruguay."],
+           ["En 2019 la cerró.", "En el dos mil diecinueve, la cerró."]],
+   "elements": [
+    {"type": "text", "text": "DATO CURIOSO #1", "size": 64, "color": "c", "at": 0},
+    {"type": "big", "text": "2017", "size": 230, "color": "yellow", "at": "s1"},
+    {"type": "text", "text": "Otra app Direct, en 6 países (Chile y Uruguay incluidos)", "size": 58, "at": "s1+1.5"},
+    {"type": "text", "text": "En 2019 la cerraron", "size": 62, "color": "b", "at": "s2"}]},
+
+  {"say": [["Instagram empezó como una app llamada Burbn.", "Instagram empezó como una app llamada, Bérbon."],
+           ["Y cuando Facebook la compró en 2012 por mil millones de dólares, tenía solo 13 empleados.", "Y cuando Feisbuk la compró en el dos mil doce, por mil millones de dólares, tenía solo trece empleados."]],
+   "elements": [
+    {"type": "text", "text": "DATO CURIOSO #2", "size": 64, "color": "c", "at": 0},
+    {"type": "text", "text": "Su primer nombre: Burbn", "size": 76, "at": "s0+0.5"},
+    {"type": "text", "text": "Facebook la compró por US$1,000 millones (2012)", "size": 56, "at": "s1+1.5"},
+    {"type": "big", "text": "13", "size": 230, "color": "yellow", "at": "s1+4.2"},
+    {"type": "text", "text": "empleados", "size": 64, "color": "c", "at": "s1+4.4"}]},
+
+  {"say": [["¿Usarías una app aparte solo para los mensajes de Instagram? Te leo en los comentarios.", "¿Usarías una app aparte, solo para los mensajes de Instagram? Te leo en los comentarios."],
+           ["Y sígueme para más noticias tech.", "Y sígueme para más noticias tec."]],
+   "elements": [
+    {"type": "text", "text": "¿Usarías una app aparte solo para tus DMs?", "size": 78, "color": "a", "at": 0},
+    {"type": "big", "text": "¿SÍ o NO?", "size": 170, "color": "yellow", "at": "s0+1.5"},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "Sígueme para más noticias tech", "size": 58, "weight": "med", "color": "grey", "at": "s1"}]}
+ ]
+}
