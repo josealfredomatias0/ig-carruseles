@@ -1,0 +1,63 @@
+{
+ "voice": "em_alex", "speed": 1.08,
+ "theme": {"bg":"#0B0B12","yellow":"#F5C542","a":"#7DD3FC","b":"#F87171","c":"#C4B5FD","d":"#86EFAC"},
+ "scenes": [
+  {"say": [["Al norte de República Dominicana, bajo el mar...", "Al norte de República Dominicana, bajo el mar..."],
+           ["hay un galeón que se hundió cargado de plata.", "hay un galeón que se hundió, cargado de plata."]],
+   "elements": [
+    {"type":"text","text":"Al norte de RD","size":80,"color":"a","weight":"med","at":0},
+    {"type":"big","text":"UN TESORO","size":165,"color":"yellow","at":"s1"},
+    {"type":"text","text":"hundido en el mar","size":66,"color":"grey","weight":"med","at":"s1+1.0"}]},
+  {"say": [["Era el galeón Nuestra Señora de la Concepción.", "Era el galeón, Nuestra Señora de la Concepción."],
+           ["En 1641 viajaba de América hacia España.", "En mil seiscientos cuarenta y uno, viajaba de América hacia España."]],
+   "elements": [
+    {"type":"text","text":"Galeón","size":70,"color":"grey","weight":"med","at":0},
+    {"type":"text","text":"Nuestra Señora de la Concepción","size":76,"color":"c","at":0.3},
+    {"type":"gap","h":20},
+    {"type":"big","text":"1641","size":230,"color":"yellow","at":"s1+0.6"},
+    {"type":"text","text":"América → España","size":64,"color":"a","weight":"med","at":"s1+1.6"}]},
+  {"say": [["Una tormenta lo dejó dañado y perdido.", "Una tormenta lo dejó dañado y perdido."],
+           ["Terminó chocando contra los arrecifes del Banco de la Plata.", "Terminó chocando, contra los arrecifes del Banco de la Plata."]],
+   "elements": [
+    {"type":"chips","pieces":["Tormenta","Daños","Rumbo perdido"],"size":56,"step":0.5,"at":0.2},
+    {"type":"gap","h":30},
+    {"type":"text","text":"Banco de la Plata","size":100,"color":"yellow","at":"s1+1.4"},
+    {"type":"text","text":"arrecifes al norte de La Española","size":56,"color":"grey","weight":"med","at":"s1+2.2"}]},
+  {"say": [["Llevaba más de 100 toneladas de plata y oro, según los cálculos.", "Llevaba más de cien toneladas de plata y oro, según los cálculos."],
+           ["Y por décadas, nadie pudo encontrarlo.", "Y por décadas, nadie pudo encontrarlo."]],
+   "elements": [
+    {"type":"big","text":"+100 t","size":220,"color":"yellow","at":"s0+1.0"},
+    {"type":"text","text":"de plata y oro (estimado)","size":60,"color":"grey","weight":"med","at":"s0+1.6"},
+    {"type":"gap","h":30},
+    {"type":"text","text":"Perdido por décadas","size":80,"color":"b","at":"s1"}]},
+  {"say": [["En 1687, el capitán William Phips lo halló...", "En mil seiscientos ochenta y siete, el capitán Uíliam Fips lo halló..."],
+           ["y sacó unas 30 toneladas de plata. Inglaterra lo nombró caballero.", "y sacó unas treinta toneladas de plata. Inglaterra lo nombró caballero."]],
+   "elements": [
+    {"type":"text","text":"1687","size":110,"color":"yellow","at":0.3},
+    {"type":"text","text":"William Phips","size":90,"color":"a","at":"s0+2.4"},
+    {"type":"gap","h":20},
+    {"type":"big","text":"~30 t","size":220,"color":"d","at":"s1+0.8"},
+    {"type":"text","text":"Sir William Phips","size":60,"color":"c","weight":"med","at":"s1+3.0"}]},
+  {"say": [["Pero no se lo llevó todo.", "Pero, no se lo llevó todo."],
+           ["En 1978, el buzo Burt Webber volvió a encontrar el naufragio.", "En mil novecientos setenta y ocho, el buzo Burt Uéber volvió a encontrar el naufragio."]],
+   "elements": [
+    {"type":"text","text":"Lo que quedó...","size":80,"color":"grey","weight":"med","at":0},
+    {"type":"big","text":"1978","size":230,"color":"yellow","at":"s1+0.4"},
+    {"type":"text","text":"Burt Webber lo redescubre","size":66,"color":"a","at":"s1+2.4"}]},
+  {"say": [["Sacaron miles de monedas de plata,", "Sacaron miles de monedas de plata,"],
+           ["y piezas importantes quedaron para República Dominicana.", "y piezas importantes quedaron para República Dominicana."]],
+   "elements": [
+    {"type":"text","text":"Miles de monedas","size":96,"color":"yellow","at":0.2},
+    {"type":"text","text":"de plata del siglo XVII","size":60,"color":"grey","weight":"med","at":0.8},
+    {"type":"gap","h":30},
+    {"type":"text","text":"Patrimonio de RD","size":90,"color":"d","at":"s1+1.0"}]},
+  {"say": [["¿Crees que todavía queda plata allá abajo?", "¿Crees que todavía queda plata allá abajo?"],
+           ["Suscríbete para más misterios e historia.", "Suscríbete para más misterios, e historia."]],
+   "elements": [
+    {"type":"text","text":"¿Todavía queda plata","size":82,"color":"white","at":0},
+    {"type":"text","text":"allá abajo?","size":82,"color":"yellow","at":0.3},
+    {"type":"gap","h":40},
+    {"type":"text","text":"Suscríbete","size":96,"color":"a","at":"s1"},
+    {"type":"text","text":"más misterios e historia","size":56,"color":"grey","weight":"med","at":"s1+0.5"}]}
+ ]
+}
