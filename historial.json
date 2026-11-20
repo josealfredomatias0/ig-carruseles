@@ -407,5 +407,27 @@
   ],
   "metricool_post_id": 434000655,
   "formato": "reel"
+ },
+ {
+  "fecha": "2026-11-20",
+  "tema": "Grupo de hackers N0n publica datos de clientes de Visa, Mastercard y JPMorgan Chase robados a proveedores externos (confirmado 19 nov.): 16 mil+ correos ligados a JPMorgan (Reuters), nombres, teléfonos y datos de marketing; sin números de tarjeta; rescate de 48 h no pagado; consejos contra phishing",
+  "categoria": "ciberseguridad",
+  "palabras_clave": [
+   "Visa",
+   "Mastercard",
+   "JPMorgan",
+   "Chase",
+   "N0n",
+   "filtración",
+   "phishing",
+   "proveedores externos"
+  ],
+  "datos_curiosos": [
+   "Diners Club (1950) fue la primera tarjeta multiuso y era de cartón",
+   "Visa nació en 1958 como BankAmericard y se llamó Visa desde 1976; según Visa el nombre suena igual en todos los idiomas",
+   "Mastercard se llamaba Master Charge hasta 1979"
+  ],
+  "metricool_post_id": 435358577,
+  "formato": "reel"
  }
 ]
