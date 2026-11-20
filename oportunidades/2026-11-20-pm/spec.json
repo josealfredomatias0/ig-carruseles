@@ -1,0 +1,258 @@
+{
+ "voice": "em_alex",
+ "speed": 1.1,
+ "theme": {
+  "bg": "#0A1A2F",
+  "yellow": "#FFD23F",
+  "a": "#4FC3F7",
+  "b": "#FF6B6B",
+  "c": "#B39DDB",
+  "d": "#5EE6A8"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "¿Tienes una startup en República Dominicana?",
+     "¿Tienes una estártap en República Dominicana?"
+    ],
+    [
+     "Llévala a Madrid.",
+     "Llévala a Madrid."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Tienes una startup?",
+     "size": 96,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "CONCURSO",
+     "size": 165,
+     "color": "d",
+     "at": 0.8
+    },
+    {
+     "type": "text",
+     "text": "rumbo a Madrid",
+     "size": 66,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "South Summit abrió su Startup Competition 2027,",
+     "Sáuz Sámit abrió su competencia de estártaps, dos mil veintisiete,"
+    ],
+    [
+     "una de las vitrinas de innovación más grandes de Europa.",
+     "una de las vitrinas de innovación más grandes de Europa."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "SOUTH",
+     "size": 190,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "SUMMIT",
+     "size": 190,
+     "color": "a",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "Startup Competition 2027",
+     "size": 70,
+     "at": 0.8
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "Madrid, España",
+     "size": 60,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Aplicar es gratis, y escogen 100 finalistas",
+     "Aplicar es gratis, y escogen cien finalistas,"
+    ],
+    [
+     "que hacen su pitch ante inversionistas, del 2 al 4 de junio.",
+     "que hacen su pitch ante inversionistas, del dos al cuatro de junio."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Aplicar es GRATIS",
+     "size": 80,
+     "color": "d",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "100",
+     "size": 240,
+     "color": "yellow",
+     "at": "s1+1.0"
+    },
+    {
+     "type": "text",
+     "text": "finalistas",
+     "size": 70,
+     "at": "s1+1.4"
+    },
+    {
+     "type": "text",
+     "text": "Pitch en Madrid: 2 al 4 de junio",
+     "size": 56,
+     "weight": "med",
+     "color": "grey",
+     "at": "s2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Es para startups de cualquier país, sector y etapa,",
+     "Es para estártaps de cualquier país, sector y etapa,"
+    ],
+    [
+     "constituidas legalmente, con su perfil en inglés.",
+     "constituidas legalmente, con su perfil en inglés."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Requisitos clave",
+     "size": 84,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "Cualquier país",
+      "Cualquier sector y etapa",
+      "Constituida legalmente",
+      "Perfil en inglés"
+     ],
+     "size": 58,
+     "at": 0.8,
+     "step": 1.0
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "La fecha límite es el 31 de enero de 2027.",
+     "La fecha límite es el treinta y uno de enero, de dos mil veintisiete."
+    ],
+    [
+     "Puedes guardar un borrador y editarlo.",
+     "Puedes guardar un borrador, y editarlo."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Fecha límite",
+     "size": 90,
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "31 ENE",
+     "size": 230,
+     "color": "b",
+     "at": 0.9
+    },
+    {
+     "type": "text",
+     "text": "2027",
+     "size": 80,
+     "color": "b",
+     "at": 1.2
+    },
+    {
+     "type": "text",
+     "text": "Guarda tu borrador",
+     "size": 66,
+     "color": "yellow",
+     "at": "s2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El enlace oficial y todos los detalles están en la descripción.",
+     "El enlace oficial, y todos los detalles, están en la descripción."
+    ],
+    [
+     "Compártelo con quien lo necesite y sigue la página para más oportunidades.",
+     "Compártelo con quien lo necesite, y sigue la página para más oportunidades."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Enlace oficial y detalles",
+     "size": 76,
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "en la descripción",
+     "size": 96,
+     "color": "a",
+     "at": 0.5
+    },
+    {
+     "type": "gap",
+     "h": 40
+    },
+    {
+     "type": "text",
+     "text": "Compártelo y sigue la página",
+     "size": 64,
+     "color": "d",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Oportunidades para Dominicanos",
+     "size": 50,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+1.0"
+    }
+   ]
+  }
+ ]
+}
