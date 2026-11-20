@@ -1,0 +1,64 @@
+{
+ "voice": "em_alex", "speed": 1.08,
+ "theme": {"bg":"#0B0B12","yellow":"#F5C542","a":"#7DD3FC","b":"#F87171","c":"#C4B5FD","d":"#86EFAC"},
+ "scenes": [
+  {"say": [["En 1977 llegó una señal del espacio...", "En mil novecientos setenta y siete, llegó una señal del espacio..."],
+           ["tan extraña que un astrónomo solo pudo escribir: Wow.", "tan extraña, que un astrónomo solo pudo escribir: guau."]],
+   "elements": [
+    {"type":"text","text":"Una señal del espacio","size":80,"color":"a","weight":"med","at":0},
+    {"type":"big","text":"WOW!","size":240,"color":"yellow","at":"s1+1.6"},
+    {"type":"text","text":"1977","size":70,"color":"grey","weight":"med","at":"s1+2.0"}]},
+  {"say": [["Fue el 15 de agosto de 1977,", "Fue el quince de agosto, de mil novecientos setenta y siete,"],
+           ["en el radiotelescopio Big Ear, de la Universidad Estatal de Ohio.", "en el radiotelescopio Big Ir, de la Universidad Estatal de Ojáio."]],
+   "elements": [
+    {"type":"big","text":"15 AGO 1977","size":170,"color":"yellow","at":0.3},
+    {"type":"gap","h":20},
+    {"type":"text","text":"Radiotelescopio Big Ear","size":80,"color":"a","at":"s1+0.6"},
+    {"type":"text","text":"Universidad Estatal de Ohio, EE. UU.","size":54,"color":"grey","weight":"med","at":"s1+1.6"}]},
+  {"say": [["Días después, Jerry Ehman revisó las hojas impresas.", "Días después, Yérri Éman revisó las hojas impresas."],
+           ["Encerró en un círculo este código y escribió: Wow.", "Encerró en un círculo este código, y escribió: guau."]],
+   "elements": [
+    {"type":"text","text":"Jerry Ehman","size":110,"color":"c","at":0.3},
+    {"type":"text","text":"astrónomo voluntario del proyecto SETI","size":52,"color":"grey","weight":"med","at":0.8},
+    {"type":"gap","h":30},
+    {"type":"big","text":"6EQUJ5","size":200,"color":"yellow","at":"s1+0.8"}]},
+  {"say": [["No es un mensaje: cada carácter mide la intensidad.", "No es un mensaje: cada carácter, mide la intensidad."],
+           ["La U marca una señal unas 30 veces más fuerte que el ruido.", "La u, marca una señal unas treinta veces más fuerte que el ruido."]],
+   "elements": [
+    {"type":"chips","pieces":["6","E","Q","U","J","5"],"size":90,"step":0.25,"at":0.2},
+    {"type":"text","text":"= intensidad, no un mensaje","size":64,"color":"d","at":"s0+1.2"},
+    {"type":"gap","h":30},
+    {"type":"big","text":"x30","size":230,"color":"yellow","at":"s1+1.2"},
+    {"type":"text","text":"más fuerte que el ruido de fondo","size":56,"color":"grey","weight":"med","at":"s1+1.8"}]},
+  {"say": [["Duró 72 segundos, cerca de 1420 megahercios: la frecuencia del hidrógeno.", "Duró setenta y dos segundos, cerca de mil cuatrocientos veinte megahercios: la frecuencia del hidrógeno."],
+           ["Y venía de la constelación de Sagitario.", "Y venía, de la constelación de Sagitario."]],
+   "elements": [
+    {"type":"big","text":"72 s","size":220,"color":"yellow","at":"s0+0.4"},
+    {"type":"text","text":"~1420 MHz · frecuencia del hidrógeno","size":56,"color":"a","weight":"med","at":"s0+2.0"},
+    {"type":"gap","h":30},
+    {"type":"text","text":"Constelación de Sagitario","size":76,"color":"c","at":"s1+0.8"}]},
+  {"say": [["La buscaron decenas de veces, con varios telescopios.", "La buscaron decenas de veces, con varios telescopios."],
+           ["Nunca volvió a aparecer.", "Nunca volvió a aparecer."]],
+   "elements": [
+    {"type":"list","items":["Big Ear: un mes y un año después","VLA (1995-1996)","Australia (1999)","Breakthrough Listen (2022)"],"size":54,"step":0.8,"at":0.3},
+    {"type":"gap","h":30},
+    {"type":"big","text":"NUNCA","size":200,"color":"b","at":"s1"},
+    {"type":"text","text":"se repitió","size":66,"color":"grey","weight":"med","at":"s1+0.5"}]},
+  {"say": [["En 2024, científicos del observatorio de Arecibo propusieron una explicación natural:", "En dos mil veinticuatro, científicos del observatorio de Arecibo, propusieron una explicación natural:"],
+           ["una nube de hidrógeno que brilló de golpe. Aún no está confirmada.", "una nube de hidrógeno, que brilló de golpe. Aún no está confirmada."]],
+   "elements": [
+    {"type":"text","text":"LO QUE SE SABE","size":70,"color":"d","at":0},
+    {"type":"big","text":"2024","size":200,"color":"yellow","at":"s0+0.5"},
+    {"type":"text","text":"Hipótesis de Arecibo (Puerto Rico)","size":58,"color":"a","weight":"med","at":"s0+2.0"},
+    {"type":"text","text":"Nube de hidrógeno que brilló de golpe","size":64,"color":"white","at":"s1"},
+    {"type":"text","text":"(sin confirmar)","size":50,"color":"grey","weight":"med","at":"s1+2.6"}]},
+  {"say": [["¿Extraterrestres o hidrógeno? ¿Tú qué crees?", "¿Extraterrestres, o hidrógeno? ¿Tú qué crees?"],
+           ["Suscríbete para más misterios e historia.", "Suscríbete, para más misterios e historia."]],
+   "elements": [
+    {"type":"text","text":"¿Extraterrestres...","size":90,"color":"c","at":0.2},
+    {"type":"text","text":"...o hidrógeno?","size":90,"color":"d","at":1.2},
+    {"type":"gap","h":30},
+    {"type":"text","text":"Te leo en los comentarios","size":60,"color":"grey","weight":"med","at":"s0+1.5"},
+    {"type":"text","text":"Suscríbete para más misterios e historia","size":58,"color":"yellow","at":"s1"}]}
+ ]
+}
