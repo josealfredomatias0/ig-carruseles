@@ -1,0 +1,310 @@
+{
+ "voice": "em_alex",
+ "scenes": [
+  {
+   "say": [
+    [
+     "¿Tienes una tarjeta Visa o Mastercard? Ojo con esto.",
+     "¿Tienes una tarjeta Visa o Máster card? Ojo con esto."
+    ],
+    [
+     "Hackers publicaron datos de clientes de Visa, Mastercard y JPMorgan Chase.",
+     "Unos hackers publicaron datos de clientes de Visa, Máster card, y Yei Pi Morgan Cheis."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿TIENES VISA O MASTERCARD?",
+     "size": 92,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "HACKEO",
+     "size": 210,
+     "color": "yellow",
+     "at": 0.8
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Visa",
+      "Mastercard",
+      "JPMorgan"
+     ],
+     "size": 60,
+     "step": 0.5,
+     "at": "s1+1.5"
+    },
+    {
+     "type": "text",
+     "text": "Datos de clientes publicados",
+     "size": 64,
+     "at": "s1+0.4"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Un grupo llamado N0n, que sería ruso, atacó a proveedores externos de estas empresas.",
+     "Un grupo llamado Non, que sería ruso, atacó a proveedores externos de estas empresas."
+    ],
+    [
+     "Dio 48 horas para pagar. Nadie pagó, y publicó los datos.",
+     "Dio cuarenta y ocho horas para pagar. Nadie pagó, y publicó los datos."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Qué pasó?",
+     "size": 110,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "El grupo N0n, que sería ruso",
+      "Atacó a proveedores externos, no a los bancos",
+      "Pidió rescate: 48 horas",
+      "Nadie pagó: publicó los datos"
+     ],
+     "size": 54,
+     "at": "s0+0.5",
+     "step": 1.9
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Solo de JPMorgan, más de 16 mil correos de clientes, según Reuters.",
+     "Solo de Yei Pi Morgan, más de dieciséis mil correos de clientes, según Róiters."
+    ],
+    [
+     "La buena noticia: no se filtraron números de tarjeta.",
+     "La buena noticia: no se filtraron números de tarjeta."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Los números",
+     "size": 84,
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "16 mil+",
+     "size": 210,
+     "color": "b",
+     "at": "s0+2.2"
+    },
+    {
+     "type": "text",
+     "text": "correos de clientes ligados a JPMorgan (Reuters)",
+     "size": 54,
+     "at": "s0+2.6"
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "Sin números de tarjeta",
+     "size": 76,
+     "color": "a",
+     "at": "s1+0.8"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El riesgo real: correos y mensajes falsos que se hacen pasar por tu banco.",
+     "El riesgo real: correos y mensajes falsos, que se hacen pasar por tu banco."
+    ],
+    [
+     "No abras enlaces, nunca des tu PIN ni códigos, y activa las alertas de compra.",
+     "No abras enlaces, nunca des tu pin ni códigos, y activa las alertas de compra."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Qué hacer?",
+     "size": 110,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "Desconfía de correos o SMS \"de tu banco\"",
+      "Usa la app oficial, no enlaces",
+      "Nunca des tu PIN ni códigos",
+      "Activa alertas de compra"
+     ],
+     "size": 54,
+     "at": "s0+0.5",
+     "step": 2.0
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso: la primera tarjeta para pagar en muchos lugares fue Diners Club, en 1950.",
+     "Dato curioso: la primera tarjeta para pagar en muchos lugares, fue Dáiners Clab, en mil novecientos cincuenta."
+    ],
+    [
+     "¡Y era de cartón!",
+     "¡Y era de cartón!"
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #1",
+     "size": 64,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "1950",
+     "size": 230,
+     "color": "yellow",
+     "at": "s0+3.0"
+    },
+    {
+     "type": "text",
+     "text": "Diners Club",
+     "size": 96,
+     "at": "s0+2.0"
+    },
+    {
+     "type": "text",
+     "text": "la primera tarjeta multiuso",
+     "size": 60,
+     "weight": "med",
+     "at": "s0+2.4"
+    },
+    {
+     "type": "text",
+     "text": "…¡y era de cartón!",
+     "size": 64,
+     "color": "a",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Visa no siempre se llamó así: nació en 1958 como BankAmericard.",
+     "Visa no siempre se llamó así: nació en mil novecientos cincuenta y ocho, como Bank Américard."
+    ],
+    [
+     "En 1976 pasó a ser Visa: según la empresa, suena igual en todos los idiomas.",
+     "En mil novecientos setenta y seis pasó a ser Visa: según la empresa, suena igual en todos los idiomas."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #2",
+     "size": 64,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "BankAmericard",
+      "→",
+      "VISA"
+     ],
+     "size": 64,
+     "step": 0.6,
+     "at": "s0+1.5"
+    },
+    {
+     "type": "big",
+     "text": "1976",
+     "size": 220,
+     "color": "yellow",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Según Visa: suena igual en todo idioma",
+     "size": 52,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+2.5"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Y Mastercard se llamaba Master Charge, hasta 1979.",
+     "Y Máster card se llamaba Máster Charch, hasta mil novecientos setenta y nueve."
+    ],
+    [
+     "¿Te ha llegado un correo raro de tu banco? Cuéntame en los comentarios, y sígueme para más noticias tech.",
+     "¿Te ha llegado un correo raro de tu banco? Cuéntame en los comentarios, y sígueme para más noticias tec."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #3",
+     "size": 64,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Master Charge",
+      "→",
+      "Mastercard"
+     ],
+     "size": 60,
+     "step": 0.5,
+     "at": "s0+0.6"
+    },
+    {
+     "type": "big",
+     "text": "1979",
+     "size": 210,
+     "color": "yellow",
+     "at": "s0+2.2"
+    },
+    {
+     "type": "text",
+     "text": "¿Te ha llegado un correo raro de tu banco?",
+     "size": 62,
+     "color": "a",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Sígueme para más noticias tech",
+     "size": 50,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+3"
+    }
+   ]
+  }
+ ],
+ "speed": 1.18
+}

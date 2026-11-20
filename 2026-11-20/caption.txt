@@ -1,0 +1,12 @@
+🚨 Hackers publicaron datos de clientes de Visa, Mastercard y JPMorgan Chase. Quédate al final: datos curiosos que casi nadie sabe 👀
+
+🔓 Un grupo llamado N0n atacó a proveedores externos de estas empresas, pidió rescate y, como nadie pagó, publicó lo robado.
+📧 Solo de JPMorgan hay más de 16 mil correos de clientes; también salieron nombres, teléfonos y datos de campañas de marketing.
+💳 Lo bueno: según las empresas, NO se filtraron números de tarjeta y sus sistemas de pago no fueron afectados.
+⚠️ El riesgo real es el phishing: correos y SMS falsos que se hacen pasar por tu banco. No abras enlaces, usa la app oficial y nunca des tu PIN ni códigos.
+
+¿Te ha llegado alguna vez un mensaje raro "de tu banco"? Cuéntame abajo 👇
+
+Fuente: Euronews, SecurityWeek, PYMNTS (con datos de Reuters y WSJ); History.com, Visa y Mastercard (datos curiosos)
+
+#tecnologia #tech #technews #ciberseguridad #hackers #phishing #visa #mastercard #seguridaddigital #finanzas #rd #republicadominicana #josealfredomatias1 #datoscuriosos
