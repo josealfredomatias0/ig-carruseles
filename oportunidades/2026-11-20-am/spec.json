@@ -1,0 +1,44 @@
+{
+ "voice": "em_alex",
+ "speed": 1.1,
+ "theme": {"bg":"#0A1A2F","yellow":"#FFD23F","a":"#4FC3F7","b":"#FF6B6B","c":"#B39DDB","d":"#5EE6A8"},
+ "scenes": [
+  {"say": [["¿Te imaginas estudiar una maestría en Suecia sin pagar matrícula?", "¿Te imaginas estudiar una maestría en Suecia, sin pagar matrícula?"]],
+   "elements": [
+    {"type": "text", "text": "Maestría en Suecia", "size": 84, "color": "yellow", "at": 0},
+    {"type": "big", "text": "BECA", "size": 230, "color": "d", "at": 0.8},
+    {"type": "text", "text": "matrícula 100% cubierta", "size": 70, "weight": "med", "color": "grey", "at": 1.6}]},
+  {"say": [["La Universidad de Uppsala ofrece la Uppsala University Global Scholarship,", "La Universidad de Úpsala, ofrece la beca Global de la Universidad de Úpsala,"], ["para estudiantes de fuera de Europa.", "para estudiantes de fuera de Europa."]],
+   "elements": [
+    {"type": "text", "text": "Universidad de Uppsala", "size": 76, "color": "a", "at": 0},
+    {"type": "text", "text": "Global Scholarship", "size": 110, "color": "yellow", "at": 1.0},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "Para estudiantes de fuera de la UE", "size": 58, "weight": "med", "color": "grey", "at": "s1"}]},
+  {"say": [["Cubre el cien por ciento de la matrícula de una maestría internacional.", "Cubre el cien por ciento, de la matrícula de una maestría internacional."], ["Ojo: no cubre los gastos de vida.", "Ojo, no cubre los gastos de vida."]],
+   "elements": [
+    {"type": "text", "text": "¿Qué cubre?", "size": 80, "color": "a", "at": 0},
+    {"type": "big", "text": "100%", "size": 230, "color": "d", "at": 0.7},
+    {"type": "text", "text": "de la matrícula", "size": 80, "at": 1.1},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "No cubre gastos de vida", "size": 62, "color": "b", "at": "s1"}]},
+  {"say": [["Puedes aplicar si eres ciudadano de un país fuera de la Unión Europea,", "Puedes aplicar si eres ciudadano de un país, fuera de la Unión Europea,"], ["cumples los requisitos del programa,", "cumples los requisitos del programa,"], ["y pones la maestría de Uppsala como tu primera opción.", "y pones la maestría de Úpsala, como tu primera opción."]],
+   "elements": [
+    {"type": "text", "text": "Requisitos clave", "size": 80, "color": "a", "at": 0},
+    {"type": "gap", "h": 20},
+    {"type": "list", "items": ["Ciudadano fuera de UE/EEE", "Cumplir requisitos del programa", "Uppsala como 1ra opción", "Buen récord académico"], "size": 56, "step": 1.6, "at": 0.6}]},
+  {"say": [["Primero aplicas a la maestría hasta el quince de enero.", "Primero aplicas a la maestría, hasta el quince de enero."], ["Luego, la beca se solicita del dieciséis de enero al primero de febrero.", "Luego, la beca se solicita, del dieciséis de enero, al primero de febrero."]],
+   "elements": [
+    {"type": "text", "text": "Admisión hasta", "size": 70, "color": "grey", "at": 0},
+    {"type": "big", "text": "15 ENE", "size": 210, "color": "b", "at": 0.6},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "Beca: 16 ene - 1 feb", "size": 76, "color": "yellow", "at": "s1"},
+    {"type": "text", "text": "2027", "size": 80, "color": "grey", "at": "s1+0.8"}]},
+  {"say": [["El enlace oficial y todos los detalles están en la descripción.", "El enlace oficial, y todos los detalles, están en la descripción."], ["Compártelo con quien lo necesite y sigue la página para más oportunidades.", "Compártelo con quien lo necesite, y sigue la página para más oportunidades."]],
+   "elements": [
+    {"type": "text", "text": "Enlace oficial y detalles", "size": 76, "at": 0},
+    {"type": "text", "text": "en la descripción", "size": 96, "color": "a", "at": 0.5},
+    {"type": "gap", "h": 40},
+    {"type": "text", "text": "Compártelo y sigue la página", "size": 64, "color": "d", "at": "s1"},
+    {"type": "text", "text": "Oportunidades para Dominicanos", "size": 50, "weight": "med", "color": "grey", "at": "s1+1.0"}]}
+ ]
+}
