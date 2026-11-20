@@ -1,0 +1,321 @@
+{
+ "voice": "em_alex",
+ "speed": 1.08,
+ "theme": {
+  "bg": "#0B0B12",
+  "yellow": "#F5C542",
+  "a": "#7DD3FC",
+  "b": "#F87171",
+  "c": "#C4B5FD",
+  "d": "#86EFAC"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "En Santo Domingo hay una catedral con una torre que nunca se terminó...",
+     "En Santo Domingo, hay una catedral con una torre que nunca se terminó..."
+    ],
+    [
+     "y la razón te va a sorprender.",
+     "y la razón, te va a sorprender."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Santo Domingo",
+     "size": 80,
+     "color": "a",
+     "weight": "med",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "LA TORRE",
+     "size": 200,
+     "color": "yellow",
+     "at": "s0+1.6"
+    },
+    {
+     "type": "text",
+     "text": "que nunca se terminó",
+     "size": 70,
+     "color": "b",
+     "at": "s0+2.6"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Es la Catedral Primada de América, en la Ciudad Colonial.",
+     "Es la Catedral Primada de América, en la Ciudad Colonial."
+    ],
+    [
+     "Se consagró el 31 de agosto de 1541.",
+     "Se consagró el treinta y uno de agosto, de mil quinientos cuarenta y uno."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Catedral Primada de América",
+     "size": 84,
+     "color": "c",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "Ciudad Colonial · Santo Domingo",
+     "size": 54,
+     "color": "grey",
+     "weight": "med",
+     "at": "s0+1.5"
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "big",
+     "text": "1541",
+     "size": 230,
+     "color": "yellow",
+     "at": "s1+1.0"
+    },
+    {
+     "type": "text",
+     "text": "consagrada el 31 de agosto",
+     "size": 58,
+     "color": "a",
+     "weight": "med",
+     "at": "s1+1.4"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Es de estilo gótico, con bóvedas de nervios, algo rarísimo fuera de Europa.",
+     "Es de estilo gótico, con bóvedas de nervios, algo rarísimo fuera de Europa."
+    ],
+    [
+     "Y en 1546 el papa Paulo III la nombró primada de América.",
+     "Y en mil quinientos cuarenta y seis, el papa Paulo tercero, la nombró primada de América."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "chips",
+     "pieces": [
+      "Gótica",
+      "Bóvedas de nervios"
+     ],
+     "size": 50,
+     "step": 0.5,
+     "at": 0.3
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "big",
+     "text": "1546",
+     "size": 210,
+     "color": "yellow",
+     "at": "s1+0.6"
+    },
+    {
+     "type": "text",
+     "text": "Paulo III: Primada de América",
+     "size": 62,
+     "color": "c",
+     "at": "s1+2.0"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Iba a tener un gran campanario, pero en 1547 las obras de la torre se detuvieron.",
+     "Iba a tener un gran campanario, pero en mil quinientos cuarenta y siete, las obras de la torre se detuvieron."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "El gran campanario",
+     "size": 90,
+     "color": "white",
+     "at": 0.2
+    },
+    {
+     "type": "big",
+     "text": "1547",
+     "size": 220,
+     "color": "b",
+     "at": "s0+3.0"
+    },
+    {
+     "type": "text",
+     "text": "obras detenidas",
+     "size": 66,
+     "color": "grey",
+     "weight": "med",
+     "at": "s0+4.2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Por qué? Porque iba a ser más alta que la Torre del Homenaje de la Fortaleza Ozama,",
+     "¿Por qué? Porque iba a ser más alta que la Torre del Homenaje, de la Fortaleza Ozama,"
+    ],
+    [
+     "y estorbaba la vista de los centinelas que vigilaban la ciudad.",
+     "y estorbaba la vista de los centinelas, que vigilaban la ciudad."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Por qué?",
+     "size": 110,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "Superaba la Torre del Homenaje",
+      "Fortaleza Ozama",
+      "Estorbaba a los centinelas"
+     ],
+     "size": 58,
+     "at": "s0+1.2",
+     "step": 1.8
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "En 1586, el corsario Francis Drake la usó como cuartel y la saqueó.",
+     "En mil quinientos ochenta y seis, el corsario Fransis Dreik, la usó como cuartel y la saqueó."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Francis Drake",
+     "size": 110,
+     "color": "b",
+     "at": "s0+3.0"
+    },
+    {
+     "type": "big",
+     "text": "1586",
+     "size": 210,
+     "color": "yellow",
+     "at": "s0+0.8"
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Cuartel",
+      "Saqueo"
+     ],
+     "size": 60,
+     "step": 0.5,
+     "at": "s0+4.4"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso: allí descansaron los restos de Cristóbal Colón hasta 1795,",
+     "Dato curioso: allí descansaron los restos de Cristóbal Colón, hasta mil setecientos noventa y cinco,"
+    ],
+    [
+     "cuando los españoles se los llevaron a La Habana.",
+     "cuando los españoles se los llevaron a La Habana."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO",
+     "size": 84,
+     "color": "d",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Restos de Colón",
+     "size": 100,
+     "color": "white",
+     "at": "s0+1.6"
+    },
+    {
+     "type": "big",
+     "text": "1795",
+     "size": 210,
+     "color": "yellow",
+     "at": "s0+4.0"
+    },
+    {
+     "type": "text",
+     "text": "rumbo a La Habana",
+     "size": 62,
+     "color": "a",
+     "weight": "med",
+     "at": "s1+1.0"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Conocías esta historia? Cuéntamelo en los comentarios.",
+     "¿Conocías esta historia? Cuéntamelo en los comentarios."
+    ],
+    [
+     "Suscríbete para más misterios e historia.",
+     "Suscríbete, para más misterios e historia."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Conocías esta historia?",
+     "size": 92,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "gap",
+     "h": 40
+    },
+    {
+     "type": "text",
+     "text": "Suscríbete",
+     "size": 110,
+     "color": "d",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "para más misterios e historia",
+     "size": 58,
+     "color": "grey",
+     "weight": "med",
+     "at": "s1+0.6"
+    }
+   ]
+  }
+ ]
+}
