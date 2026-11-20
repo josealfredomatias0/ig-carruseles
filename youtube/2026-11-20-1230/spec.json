@@ -1,0 +1,64 @@
+{
+ "voice": "em_alex", "speed": 1.08,
+ "theme": {"bg":"#0B0B12","yellow":"#F5C542","a":"#7DD3FC","b":"#F87171","c":"#C4B5FD","d":"#86EFAC"},
+ "scenes": [
+  {"say": [["Una isla poderosa se hundió en el mar en un solo día y una noche...", "Una isla poderosa, se hundió en el mar, en un solo día y una noche..."],
+           ["¿O nunca existió?", "¿O nunca existió?"]],
+   "elements": [
+    {"type":"text","text":"La isla que se hundió","size":84,"color":"a","weight":"med","at":0},
+    {"type":"big","text":"ATLÁNTIDA","size":165,"color":"yellow","at":0.8},
+    {"type":"text","text":"¿O nunca existió?","size":80,"color":"b","at":"s1"}]},
+  {"say": [["Todo empieza con Platón, el filósofo griego, hace unos 2.400 años,", "Todo empieza con Platón, el filósofo griego, hace unos dos mil cuatrocientos años,"],
+           ["en dos de sus diálogos: Timeo y Critias.", "en dos de sus diálogos: Timeo, y Critias."]],
+   "elements": [
+    {"type":"text","text":"Platón","size":130,"color":"c","at":0.3},
+    {"type":"text","text":"filósofo griego","size":56,"color":"grey","weight":"med","at":0.8},
+    {"type":"big","text":"~2.400 años","size":150,"color":"yellow","at":"s0+2.6"},
+    {"type":"chips","pieces":["Timeo","Critias"],"size":70,"step":0.4,"at":"s1+1.2"}]},
+  {"say": [["Según su relato, el sabio Solón la oyó de un sacerdote egipcio.", "Según su relato, el sabio Solón, la oyó de un sacerdote egipcio."],
+           ["La isla estaba más allá de las Columnas de Hércules.", "La isla estaba, más allá de las Columnas de Hércules."]],
+   "elements": [
+    {"type":"text","text":"Cuenta la historia...","size":70,"color":"c","weight":"med","at":0},
+    {"type":"chips","pieces":["Egipto","→","Solón","→","Platón"],"size":56,"step":0.5,"at":"s0+0.6"},
+    {"type":"gap","h":30},
+    {"type":"text","text":"Más allá de las Columnas de Hércules","size":72,"color":"a","at":"s1+0.6"},
+    {"type":"text","text":"(se suele pensar en el estrecho de Gibraltar)","size":44,"color":"grey","weight":"med","at":"s1+1.8"}]},
+  {"say": [["Era más grande que Libia y Asia juntas, y quiso conquistar el Mediterráneo.", "Era más grande que Libia y Asia juntas, y quiso conquistar el Mediterráneo."],
+           ["Habría existido 9.000 años antes de Solón.", "Habría existido, nueve mil años antes de Solón."]],
+   "elements": [
+    {"type":"list","items":["Más grande que Libia y Asia juntas","Un imperio que quiso conquistar el Mediterráneo"],"size":56,"step":2.0,"at":0.3},
+    {"type":"gap","h":30},
+    {"type":"big","text":"9.000","size":220,"color":"yellow","at":"s1+0.8"},
+    {"type":"text","text":"años antes de Solón","size":64,"color":"grey","weight":"med","at":"s1+1.2"}]},
+  {"say": [["Pero Atenas la venció. Y como castigo de los dioses,", "Pero Atenas la venció. Y como castigo de los dioses,"],
+           ["en un solo día y una noche, desapareció bajo el mar.", "en un solo día y una noche, desapareció bajo el mar."]],
+   "elements": [
+    {"type":"text","text":"Atenas la vence","size":84,"color":"a","at":0.3},
+    {"type":"text","text":"Castigo de los dioses","size":76,"color":"c","at":"s0+1.6"},
+    {"type":"gap","h":20},
+    {"type":"big","text":"1 DÍA","size":200,"color":"b","at":"s1+0.6"},
+    {"type":"text","text":"y una noche: hundida en el mar","size":62,"color":"white","at":"s1+1.4"}]},
+  {"say": [["Lo que se sabe: no hay ninguna prueba de que existiera.", "Lo que se sabe: no hay ninguna prueba, de que existiera."],
+           ["Los expertos la ven como una fábula moral inventada por Platón.", "Los expertos la ven como una fábula moral, inventada por Platón."]],
+   "elements": [
+    {"type":"text","text":"LO QUE SE SABE","size":70,"color":"d","at":0},
+    {"type":"big","text":"0 pruebas","size":190,"color":"yellow","at":"s0+1.0"},
+    {"type":"text","text":"Una fábula moral sobre el orgullo y el castigo","size":62,"color":"white","at":"s1+0.6"},
+    {"type":"text","text":"Y Platón nunca terminó el Critias","size":50,"color":"grey","weight":"med","at":"s1+2.6"}]},
+  {"say": [["Pero pudo inspirarse en algo real: hace unos 3.600 años,", "Pero pudo inspirarse en algo real: hace unos tres mil seiscientos años,"],
+           ["un volcán arrasó la isla griega de Santorini, junto a los minoicos.", "un volcán arrasó la isla griega de Santorini, junto a los minoicos."]],
+   "elements": [
+    {"type":"text","text":"DATO CURIOSO","size":64,"color":"c","at":0},
+    {"type":"big","text":"~3.600","size":210,"color":"yellow","at":"s0+2.4"},
+    {"type":"text","text":"años: erupción del volcán de Santorini","size":58,"color":"b","at":"s1+0.4"},
+    {"type":"text","text":"cerca de la civilización minoica (Creta)","size":48,"color":"grey","weight":"med","at":"s1+3.0"}]},
+  {"say": [["¿Mito, o un recuerdo de una catástrofe real? ¿Tú qué crees?", "¿Mito, o un recuerdo de una catástrofe real? ¿Tú qué crees?"],
+           ["Suscríbete para más misterios e historia.", "Suscríbete, para más misterios e historia."]],
+   "elements": [
+    {"type":"text","text":"¿Mito...","size":90,"color":"c","at":0.2},
+    {"type":"text","text":"...o catástrofe real?","size":90,"color":"d","at":1.0},
+    {"type":"gap","h":30},
+    {"type":"text","text":"Te leo en los comentarios","size":60,"color":"grey","weight":"med","at":"s0+1.5"},
+    {"type":"text","text":"Suscríbete para más misterios e historia","size":58,"color":"yellow","at":"s1"}]}
+ ]
+}
