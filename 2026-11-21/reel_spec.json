@@ -1,0 +1,313 @@
+{
+ "voice": "em_alex",
+ "scenes": [
+  {
+   "say": [
+    [
+     "GTA 6 hizo historia:",
+     "Ge te a seis, hizo historia:"
+    ],
+    [
+     "3,790 millones de dólares en ventas… en un solo día.",
+     "tres mil setecientos noventa millones de dólares en ventas, en un solo día."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "RÉCORD HISTÓRICO",
+     "size": 96,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "GTA 6 vendió en un día",
+     "size": 74,
+     "at": 0.6
+    },
+    {
+     "type": "big",
+     "text": "$3,790",
+     "size": 220,
+     "color": "yellow",
+     "at": "s1+0.3"
+    },
+    {
+     "type": "text",
+     "text": "millones de dólares",
+     "size": 70,
+     "at": "s1+0.8"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Salió el 19 de noviembre en PS5 y Xbox.",
+     "Salió el diecinueve de noviembre, en PlayStation cinco y Xbox."
+    ],
+    [
+     "La cifra es oficial, de Take-Two y Rockstar.",
+     "La cifra es oficial, de Teic Tu, y Rocstar."
+    ],
+    [
+     "Y van 32.5 millones de copias, con preventas.",
+     "Y van treinta y dos punto cinco millones de copias, con preventas."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Qué pasó?",
+     "size": 110,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "Salió el 19 de noviembre en PS5 y Xbox",
+      "Cifra oficial de Take-Two y Rockstar",
+      "32.5 millones de copias (preventas + día 1)"
+     ],
+     "size": 54,
+     "at": "s0+0.3",
+     "step": 2.1
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Según Rockstar, es el mayor lanzamiento del entretenimiento de la historia.",
+     "Según Rocstar, es el mayor lanzamiento del entretenimiento, de la historia."
+    ],
+    [
+     "Supera toda la taquilla de la última película de Spider-Man.",
+     "Supera toda la taquilla, de la última película de Spáiderman."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "El mayor lanzamiento del entretenimiento",
+     "size": 70,
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "#1",
+     "size": 200,
+     "color": "a",
+     "at": 0.6
+    },
+    {
+     "type": "bar",
+     "label": "Spider-Man: toda su taquilla",
+     "value": 2500,
+     "max": 3790,
+     "unit": " millones",
+     "color": "d",
+     "at": "s1"
+    },
+    {
+     "type": "bar",
+     "label": "GTA 6 (un solo día)",
+     "value": 3790,
+     "max": 3790,
+     "unit": " millones",
+     "color": "yellow",
+     "at": "s1+1.2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Ojo: son ventas al público, no ganancia limpia.",
+     "Ojo: son ventas al público, no ganancia limpia."
+    ],
+    [
+     "Aun así, nada en el entretenimiento había vendido tanto en un día.",
+     "Aun así, nada en el entretenimiento, había vendido tanto en un día."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "OJO",
+     "size": 120,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Son ventas al público, no ganancia limpia",
+     "size": 64,
+     "at": 0.4
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Juegos",
+      "Cine",
+      "Música"
+     ],
+     "size": 60,
+     "step": 0.4,
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Nadie vendió tanto en un día",
+     "size": 64,
+     "color": "yellow",
+     "at": "s1+1.6"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso: en 2013, GTA 5 hizo 815 millones en su primer día, según Guinness.",
+     "Dato curioso: en el dos mil trece, ge te a cinco hizo ochocientos quince millones en su primer día, según Guiness."
+    ],
+    [
+     "GTA 6 hizo casi cinco veces más.",
+     "Ge te a seis, hizo casi cinco veces más."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #1",
+     "size": 64,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "GTA 5 en 2013 (Guinness)",
+     "size": 66,
+     "at": 0.4
+    },
+    {
+     "type": "bar",
+     "label": "GTA 5: primer día",
+     "value": 815,
+     "max": 3790,
+     "unit": " M",
+     "color": "c",
+     "at": "s0+2.5"
+    },
+    {
+     "type": "bar",
+     "label": "GTA 6: primer día",
+     "value": 3790,
+     "max": 3790,
+     "unit": " M",
+     "color": "yellow",
+     "at": "s1"
+    },
+    {
+     "type": "big",
+     "text": "x5",
+     "size": 190,
+     "color": "yellow",
+     "at": "s1+1.0"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El primer GTA no se iba a llamar así: su nombre era Race'n'Chase,",
+     "El primer ge te a, no se iba a llamar así: su nombre era Reis an Cheis,"
+    ],
+    [
+     "y tú eras el policía. Pero era aburrido, y te pasaron al lado del ladrón.",
+     "y tú eras el policía. Pero era aburrido, y te pasaron al lado del ladrón."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #2",
+     "size": 64,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Su primer nombre:",
+     "size": 70,
+     "at": 0.4
+    },
+    {
+     "type": "text",
+     "text": "Race'n'Chase",
+     "size": 130,
+     "color": "yellow",
+     "at": "s0+1.8"
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Policía",
+      "→",
+      "Ladrón"
+     ],
+     "size": 64,
+     "step": 0.4,
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Y nació en 1997 en Dundee, Escocia, de los creadores de Lemmings.",
+     "Y nació en mil novecientos noventa y siete, en Dandi, Escocia, de los creadores de Lémings."
+    ],
+    [
+     "¿Ya lo juegas? Te leo en comentarios. Sígueme para más noticias tech.",
+     "¿Ya lo juegas? Te leo en comentarios. Sígueme para más noticias tec."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #3",
+     "size": 64,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "1997",
+     "size": 220,
+     "color": "yellow",
+     "at": "s0+1.2"
+    },
+    {
+     "type": "text",
+     "text": "Dundee, Escocia: los creadores de Lemmings",
+     "size": 60,
+     "at": "s0+2.6"
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "¿Ya lo estás jugando?",
+     "size": 76,
+     "color": "a",
+     "at": "s1"
+    }
+   ]
+  }
+ ]
+}
