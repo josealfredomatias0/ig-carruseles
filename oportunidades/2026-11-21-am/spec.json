@@ -1,0 +1,43 @@
+{
+ "voice": "em_alex",
+ "speed": 1.1,
+ "theme": {"bg":"#0A1A2F","yellow":"#FFD23F","a":"#4FC3F7","b":"#FF6B6B","c":"#B39DDB","d":"#5EE6A8"},
+ "scenes": [
+  {"say": [["¿Quieres aprender a innovar y emprender, desde tu casa, con beca de la OEA?", "¿Quieres aprender a innovar y emprender, desde tu casa, con beca de la o e a?"]],
+   "elements": [
+    {"type": "text", "text": "Curso en línea", "size": 84, "color": "yellow", "at": 0},
+    {"type": "big", "text": "BECA OEA", "size": 200, "color": "d", "at": 0.8},
+    {"type": "text", "text": "innovación y emprendimiento", "size": 66, "weight": "med", "color": "grey", "at": 1.6}]},
+  {"say": [["La OEA y la Universidad del Desarrollo de Chile", "La o e a, y la Universidad del Desarrollo de Chile,"], ["ofrecen becas para el certificado dLab en Innovación y Emprendimiento Global.", "ofrecen becas para el certificado di lab, en Innovación y Emprendimiento Global."]],
+   "elements": [
+    {"type": "text", "text": "OEA + Universidad del Desarrollo", "size": 66, "color": "a", "at": 0},
+    {"type": "text", "text": "(Chile)", "size": 56, "weight": "med", "color": "grey", "at": 0.6},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "Certificado dLab", "size": 110, "color": "yellow", "at": "s1"},
+    {"type": "text", "text": "Innovación y Emprendimiento Global", "size": 60, "at": "s1+1.0"}]},
+  {"say": [["La beca cubre tres mil cuatrocientos dólares, el ochenta y nueve por ciento del costo.", "La beca cubre tres mil cuatrocientos dólares, el ochenta y nueve por ciento del costo."], ["Tú solo pagas cuatrocientos dólares.", "Tú solo pagas, cuatrocientos dólares."]],
+   "elements": [
+    {"type": "text", "text": "La beca cubre", "size": 80, "color": "a", "at": 0},
+    {"type": "big", "text": "US$3,400", "size": 200, "color": "d", "at": "s0+0.8"},
+    {"type": "text", "text": "89% del costo del curso", "size": 70, "at": "s0+2.2"},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "Tú pagas: US$400", "size": 66, "color": "yellow", "at": "s1"}]},
+  {"say": [["Es cien por ciento en línea, en inglés, y dura cuatro meses.", "Es cien por ciento en línea, en inglés, y dura cuatro meses."], ["Pueden aplicar ciudadanos o residentes permanentes de países de la OEA, como República Dominicana.", "Pueden aplicar ciudadanos, o residentes permanentes, de países de la o e a, como República Dominicana."]],
+   "elements": [
+    {"type": "text", "text": "Lo que debes saber", "size": 80, "color": "a", "at": 0},
+    {"type": "gap", "h": 20},
+    {"type": "list", "items": ["100% en línea", "Clases en inglés", "Dura 4 meses", "Abierto a República Dominicana"], "size": 58, "step": 1.3, "at": 0.5}]},
+  {"say": [["La fecha límite para aplicar es el treinta y uno de enero de dos mil veintisiete.", "La fecha límite para aplicar, es el treinta y uno de enero, de dos mil veintisiete."]],
+   "elements": [
+    {"type": "text", "text": "Fecha límite", "size": 80, "color": "grey", "at": 0},
+    {"type": "big", "text": "31 ENE", "size": 220, "color": "b", "at": 1.2},
+    {"type": "text", "text": "2027", "size": 90, "color": "yellow", "at": 1.8}]},
+  {"say": [["El enlace oficial y todos los detalles están en la descripción.", "El enlace oficial, y todos los detalles, están en la descripción."], ["Compártelo con quien lo necesite y sigue la página para más oportunidades.", "Compártelo con quien lo necesite, y sigue la página para más oportunidades."]],
+   "elements": [
+    {"type": "text", "text": "Enlace oficial y detalles", "size": 76, "at": 0},
+    {"type": "text", "text": "en la descripción", "size": 96, "color": "a", "at": 0.5},
+    {"type": "gap", "h": 40},
+    {"type": "text", "text": "Compártelo y sigue la página", "size": 64, "color": "d", "at": "s1"},
+    {"type": "text", "text": "Oportunidades para Dominicanos", "size": 50, "weight": "med", "color": "grey", "at": "s1+1.0"}]}
+ ]
+}
