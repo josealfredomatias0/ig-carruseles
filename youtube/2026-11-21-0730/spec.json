@@ -1,0 +1,393 @@
+{
+ "voice": "em_alex",
+ "speed": 1.08,
+ "theme": {
+  "bg": "#0B0B12",
+  "yellow": "#F5C542",
+  "a": "#7DD3FC",
+  "b": "#F87171",
+  "c": "#C4B5FD",
+  "d": "#86EFAC"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "Este soldado siguió peleando la Segunda Guerra Mundial...",
+     "Este soldado, siguió peleando la Segunda Guerra Mundial..."
+    ],
+    [
+     "casi 29 años después de que terminara.",
+     "casi veintinueve años, después de que terminara."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "La guerra terminó en 1945...",
+     "size": 70,
+     "color": "a",
+     "weight": "med",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "él siguió peleando",
+     "size": 80,
+     "color": "white",
+     "at": "s0+1.5"
+    },
+    {
+     "type": "big",
+     "text": "29 AÑOS",
+     "size": 220,
+     "color": "yellow",
+     "at": "s1+0.6"
+    },
+    {
+     "type": "text",
+     "text": "más",
+     "size": 66,
+     "color": "grey",
+     "weight": "med",
+     "at": "s1+1.4"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Hiroo Onoda, subteniente japonés,",
+     "Jiroo Onoda, subteniente japonés,"
+    ],
+    [
+     "llegó en 1944 a la isla de Lubang, en Filipinas.",
+     "llegó en mil novecientos cuarenta y cuatro, a la isla de Lubang, en Filipinas."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Hiroo Onoda",
+     "size": 120,
+     "color": "c",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "subteniente del ejército japonés",
+     "size": 54,
+     "color": "grey",
+     "weight": "med",
+     "at": 0.9
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "big",
+     "text": "1944",
+     "size": 210,
+     "color": "yellow",
+     "at": "s1+0.5"
+    },
+    {
+     "type": "text",
+     "text": "Isla de Lubang, Filipinas",
+     "size": 70,
+     "color": "a",
+     "at": "s1+2.4"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Su orden: nunca rendirse.",
+     "Su orden: nunca rendirse."
+    ],
+    [
+     "Su jefe le prometió: volveremos por ti.",
+     "Su jefe, le prometió: volveremos por ti."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "LA ORDEN",
+     "size": 70,
+     "color": "grey",
+     "weight": "med",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "NO RENDIRSE",
+     "size": 170,
+     "color": "b",
+     "at": "s0+0.6"
+    },
+    {
+     "type": "gap",
+     "h": 40
+    },
+    {
+     "type": "text",
+     "text": "\"Pase lo que pase,",
+     "size": 70,
+     "color": "white",
+     "at": "s1+1.0"
+    },
+    {
+     "type": "text",
+     "text": "volveremos por ti\"",
+     "size": 70,
+     "color": "yellow",
+     "at": "s1+1.6"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "En 1945 cayeron panfletos: la guerra terminó.",
+     "En mil novecientos cuarenta y cinco, cayeron panfletos: la guerra terminó."
+    ],
+    [
+     "Onoda creyó que era propaganda enemiga.",
+     "Onoda creyó, que era propaganda enemiga."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "1945",
+     "size": 220,
+     "color": "yellow",
+     "at": "s0+0.3"
+    },
+    {
+     "type": "text",
+     "text": "\"La guerra ha terminado\"",
+     "size": 72,
+     "color": "d",
+     "at": "s0+2.2"
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "Su respuesta:",
+     "size": 56,
+     "color": "grey",
+     "weight": "med",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "\"Es propaganda enemiga\"",
+     "size": 76,
+     "color": "b",
+     "at": "s1+0.8"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Sus tres compañeros se rindieron o murieron.",
+     "Sus tres compañeros, se rindieron o murieron."
+    ],
+    [
+     "Desde 1972, quedó solo.",
+     "Desde mil novecientos setenta y dos, quedó solo."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "list",
+     "items": [
+      "Akatsu: se rindió en 1950",
+      "Shimada: muerto en 1954",
+      "Kozuka: muerto en 1972"
+     ],
+     "size": 56,
+     "step": 0.7,
+     "at": 0.4
+    },
+    {
+     "type": "gap",
+     "h": 40
+    },
+    {
+     "type": "big",
+     "text": "SOLO",
+     "size": 220,
+     "color": "b",
+     "at": "s1+0.8"
+    },
+    {
+     "type": "text",
+     "text": "desde 1972",
+     "size": 66,
+     "color": "grey",
+     "weight": "med",
+     "at": "s1+1.4"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "En 1974, un joven japonés lo encontró, pero Onoda solo obedecería a su comandante.",
+     "En mil novecientos setenta y cuatro, un joven japonés lo encontró, pero Onoda solo obedecería a su comandante."
+    ],
+    [
+     "Su antiguo mayor viajó a la isla y le ordenó rendirse.",
+     "Su antiguo mayor, viajó a la isla, y le ordenó rendirse."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "1974",
+     "size": 210,
+     "color": "yellow",
+     "at": "s0+0.3"
+    },
+    {
+     "type": "text",
+     "text": "Lo encuentra Norio Suzuki",
+     "size": 66,
+     "color": "a",
+     "at": "s0+2.0"
+    },
+    {
+     "type": "text",
+     "text": "\"Solo obedezco a mi comandante\"",
+     "size": 58,
+     "color": "white",
+     "at": "s0+3.6"
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "9 de marzo: el mayor Taniguchi",
+     "size": 62,
+     "color": "c",
+     "at": "s1+0.2"
+    },
+    {
+     "type": "text",
+     "text": "le ordena rendirse",
+     "size": 62,
+     "color": "d",
+     "at": "s1+2.0"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Volvió a Japón como héroe, aunque en Filipinas lo acusan de hasta treinta muertes.",
+     "Volvió a Japón como héroe, aunque en Filipinas, lo acusan de hasta treinta muertes."
+    ],
+    [
+     "Murió en 2014.",
+     "Murió en dos mil catorce."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "LO QUE SE SABE",
+     "size": 70,
+     "color": "d",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Héroe en Japón",
+     "size": 76,
+     "color": "white",
+     "at": "s0+0.5"
+    },
+    {
+     "type": "text",
+     "text": "Polémica en Filipinas:",
+     "size": 64,
+     "color": "b",
+     "at": "s0+2.2"
+    },
+    {
+     "type": "text",
+     "text": "acusado de hasta 30 muertes",
+     "size": 60,
+     "color": "grey",
+     "weight": "med",
+     "at": "s0+3.2"
+    },
+    {
+     "type": "big",
+     "text": "† 2014",
+     "size": 170,
+     "color": "yellow",
+     "at": "s1+0.3"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Lealtad admirable, o terquedad trágica? ¿Tú qué piensas?",
+     "¿Lealtad admirable, o terquedad trágica? ¿Tú qué piensas?"
+    ],
+    [
+     "Suscríbete para más misterios e historia.",
+     "Suscríbete, para más misterios e historia."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Lealtad admirable...",
+     "size": 84,
+     "color": "d",
+     "at": 0.2
+    },
+    {
+     "type": "text",
+     "text": "...o terquedad trágica?",
+     "size": 84,
+     "color": "b",
+     "at": 1.4
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "Te leo en los comentarios",
+     "size": 60,
+     "color": "grey",
+     "weight": "med",
+     "at": "s0+2.5"
+    },
+    {
+     "type": "text",
+     "text": "Suscríbete para más misterios e historia",
+     "size": 58,
+     "color": "yellow",
+     "at": "s1"
+    }
+   ]
+  }
+ ]
+}
