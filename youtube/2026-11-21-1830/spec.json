@@ -1,0 +1,54 @@
+{"voice":"em_alex","speed":1.08,
+ "theme":{"bg":"#0B0B12","yellow":"#F5C542","a":"#7DD3FC","b":"#F87171","c":"#C4B5FD","d":"#86EFAC"},
+ "scenes":[
+  {"say":[["La foto más famosa de un monstruo...","La foto más famosa de un monstruo..."],
+          ["era un juguete.","era un juguete."]],
+   "elements":[
+    {"type":"text","text":"La foto más famosa de un monstruo","size":74,"color":"white","at":0},
+    {"type":"big","text":"¿FALSA?","size":220,"color":"b","at":"s1"}]},
+  {"say":[["Estamos en el lago Ness, en Escocia.","Estamos en el lago Nes, en Escocia."],
+          ["Cuenta la leyenda que en sus aguas vive Nessie.","Cuenta la leyenda, que en sus aguas vive Nesi."]],
+   "elements":[
+    {"type":"text","text":"Lago Ness, Escocia","size":96,"color":"a","at":0.3},
+    {"type":"gap","h":30},
+    {"type":"big","text":"NESSIE","size":220,"color":"c","at":"s1+1.4"},
+    {"type":"text","text":"según la leyenda","size":58,"color":"grey","weight":"med","at":"s1+2.0"}]},
+  {"say":[["La historia es antigua: en el siglo siete, un monje escribió","La historia es antigua: en el siglo siete, un monje escribió,"],
+          ["que San Columba espantó a una bestia en el río Ness.","que San Columba, espantó a una bestia en el río Nes."]],
+   "elements":[
+    {"type":"text","text":"UNA LEYENDA ANTIGUA","size":76,"color":"grey","weight":"med","at":0},
+    {"type":"big","text":"Siglo VII","size":190,"color":"yellow","at":"s0+1.4"},
+    {"type":"text","text":"San Columba y la bestia del río Ness","size":60,"color":"c","at":"s1+0.6"}]},
+  {"say":[["Pero la fiebre moderna empezó en 1933,","Pero la fiebre moderna empezó en mil novecientos treinta y tres,"],
+          ["cuando una nueva carretera junto al lago trajo más ojos... y más avistamientos.","cuando una nueva carretera junto al lago, trajo más ojos... y más avistamientos."]],
+   "elements":[
+    {"type":"text","text":"LA FIEBRE MODERNA","size":76,"color":"grey","weight":"med","at":0},
+    {"type":"big","text":"1933","size":230,"color":"yellow","at":"s0+1.6"},
+    {"type":"chips","pieces":["Carretera","→","Avistamientos"],"size":50,"step":0.5,"at":"s1+1.0"}]},
+  {"say":[["En abril de 1934, un diario de Londres publicó la foto:","En abril de mil novecientos treinta y cuatro, un diario de Londres publicó la foto:"],
+          ["un cuello largo saliendo del agua. Atribuida a un médico.","un cuello largo, saliendo del agua. Atribuida a un médico."]],
+   "elements":[
+    {"type":"big","text":"1934","size":230,"color":"yellow","at":"s0+1.0"},
+    {"type":"text","text":"\"La foto del cirujano\"","size":78,"color":"a","at":"s0+3.5"},
+    {"type":"text","text":"Un cuello largo saliendo del agua","size":58,"color":"white","weight":"med","at":"s1"}]},
+  {"say":[["Sesenta años después, se reveló el truco:","Sesenta años después, se reveló el truco:"],
+          ["era un submarino de juguete con una cabeza falsa pegada.","era un submarino de juguete, con una cabeza falsa pegada."]],
+   "elements":[
+    {"type":"text","text":"LO QUE SE SABE","size":70,"color":"grey","weight":"med","at":0},
+    {"type":"big","text":"1994","size":220,"color":"d","at":"s0+0.8"},
+    {"type":"text","text":"Submarino de juguete","size":84,"color":"d","at":"s1+0.6"},
+    {"type":"text","text":"+ cabeza falsa","size":66,"color":"white","weight":"med","at":"s1+2.0"}]},
+  {"say":[["Y en 2018, científicos de Nueva Zelanda analizaron el ADN del agua del lago.","Y en dos mil dieciocho, científicos de Nueva Zelanda analizaron el a de ene del agua del lago."],
+          ["Ni rastro de reptiles. Pero sí, muchísimas anguilas.","Ni rastro de reptiles. Pero sí, muchísimas anguilas."]],
+   "elements":[
+    {"type":"text","text":"DATO CURIOSO","size":66,"color":"c","at":0},
+    {"type":"big","text":"ADN","size":220,"color":"yellow","at":"s0+3.2"},
+    {"type":"list","items":["Reptiles: ninguno","Anguilas: muchísimas"],"size":64,"at":"s1","step":1.6}]},
+  {"say":[["¿Tú crees que hay algo en el lago Ness? Te leo en los comentarios.","¿Tú crees que hay algo en el lago Nes? Te leo en los comentarios."],
+          ["Suscríbete para más misterios e historia.","Suscríbete, para más misterios e historia."]],
+   "elements":[
+    {"type":"text","text":"¿Tú lo crees?","size":120,"color":"yellow","at":0.2},
+    {"type":"text","text":"Te leo en los comentarios","size":60,"color":"white","weight":"med","at":"s0+1.6"},
+    {"type":"gap","h":40},
+    {"type":"text","text":"Suscríbete para más misterios e historia","size":56,"color":"a","weight":"med","at":"s1"}]}
+ ]}
