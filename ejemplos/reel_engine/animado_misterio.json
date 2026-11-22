@@ -1,0 +1,8 @@
+{"voice":"em_alex","speed":1.12,"background":"stars","transition":"slide",
+ "theme":{"bg":"#0B0B12","yellow":"#F5C542","a":"#7DD3FC","b":"#F87171","c":"#C4B5FD","d":"#86EFAC"},
+ "scenes":[
+  {"say":[["Este barco navegaba solo.","Este barco navegaba solo."]],"elements":[{"type":"icon","name":"ship","size":300,"color":"a","at":0},{"type":"big","text":"VACÍO","size":200,"color":"b","at":0}]},
+  {"say":[["Cuenta la leyenda...","Cuenta la leyenda..."]],"elements":[{"type":"icon","name":"moon","size":280,"color":"c","at":0},{"type":"icon","name":"scroll","size":260,"color":"c","at":0.3}]},
+  {"say":[["Lo que se sabe.","Lo que se sabe."]],"elements":[{"type":"icon","name":"magnifier","size":280,"color":"d","at":0},{"type":"icon","name":"hourglass","size":260,"color":"yellow","at":0.3}]},
+  {"say":[["Alguien lo vio aquí.","Alguien lo vio aquí."]],"elements":[{"type":"icon","name":"eye","size":280,"color":"a","at":0},{"type":"icon","name":"map","size":260,"color":"b","at":0.3}]}
+ ]}

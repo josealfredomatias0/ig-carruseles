@@ -195,15 +195,112 @@ def icon_img(name, sz, u, col):
         r_ = math.sin(u * 2) * 8
         f = font("bold", int(300 * k)); w = d.textlength("?", font=f)
         d.text((200 * k - w / 2, 20 * k + r_ * k), "?", font=f, fill=C(col))
+    elif name == "magnifier":  # lupa que recorre: investigación, pistas, "lo que se sabe"
+        ox, oy = 30 * math.sin(u * 1.6), 20 * math.sin(u * 2.3)
+        cx, cy = 170 + ox, 165 + oy
+        d.line(P(cx + 70, cy + 70, cx + 160, cy + 160), fill=C("#C68B59"), width=int(34 * k))
+        d.ellipse(P(cx - 105, cy - 105, cx + 105, cy + 105), fill=C(col, 50), outline=C(col), width=int(16 * k))
+        d.arc(P(cx - 75, cy - 75, cx + 75, cy + 75), 200, 250, fill=C("white", 200), width=int(10 * k))
+    elif name == "hourglass":  # reloj de arena: tiempo, años, historia
+        ang = 0
+        fl = (u % 3.0) / 3.0
+        d.rounded_rectangle(P(110, 50, 290, 72), radius=8 * k, fill=C("#C68B59")); d.rounded_rectangle(P(110, 328, 290, 350), radius=8 * k, fill=C("#C68B59"))
+        d.polygon(P(130, 72, 270, 72, 208, 200, 192, 200), outline=C(col), width=int(7 * k))
+        d.polygon(P(192, 200, 208, 200, 270, 328, 130, 328), outline=C(col), width=int(7 * k))
+        top = 1 - fl; ty = 200 - 110 * top
+        if top > 0.02:
+            hw = (200 - ty) / 128 * 70
+            d.polygon(P(200 - hw, ty, 200 + hw, ty, 204, 196, 196, 196), fill=C("yellow"))
+        bh = 100 * fl
+        d.polygon(P(200 - 10 - bh * 0.55, 326, 200 + 10 + bh * 0.55, 326, 200, 326 - bh), fill=C("yellow"))
+        if top > 0.02:
+            for q in range(4):
+                yy = 200 + ((u * 260 + q * 30) % 120)
+                d.ellipse(P(197, yy, 203, yy + 6), fill=C("yellow"))
+    elif name == "scroll":  # pergamino que se desenrolla: leyenda, tradición, relato antiguo
+        o = ease(u / 1.0); h_ = 40 + 220 * o
+        d.rectangle(P(110, 80, 290, 80 + h_), fill=C("#E8D5A8"))
+        for l in range(6):
+            yy = 115 + l * 32
+            if yy + 8 < 80 + h_ - 10: d.rounded_rectangle(P(135, yy, 265 - (l % 2) * 35, yy + 8), radius=4 * k, fill=C("#8B6F47"))
+        for yy in (80, 80 + h_):
+            d.rounded_rectangle(P(90, yy - 22, 310, yy + 22), radius=22 * k, fill=C("#C9A86A"), outline=C("#8B6F47"), width=int(5 * k))
+        if o >= 1:
+            g = 0.5 + 0.5 * math.sin(u * 3)
+            d.ellipse(P(230, 230, 280, 280), fill=C("b", int(150 + 100 * g)))
+    elif name == "eye":  # ojo que parpadea y mira: avistamientos, "alguien vio…", vigilancia
+        cyc = u % 3.2; bl = 1 - (math.sin((cyc - 2.9) / 0.3 * math.pi) if 2.9 < cyc < 3.2 else 0)
+        h_ = 95 * max(0.05, bl); look = 35 * math.sin(u * 1.3)
+        d.ellipse(P(40, 200 - h_, 360, 200 + h_), fill=C("#F2F2F7"), outline=C(col), width=int(10 * k))
+        if bl > 0.3:
+            im2 = Image.new("RGBA", im.size, (0, 0, 0, 0)); d2 = ImageDraw.Draw(im2)
+            d2.ellipse(P(150 + look, 140, 250 + look, 240), fill=C(col)); d2.ellipse(P(178 + look, 168, 222 + look, 212), fill=C("#0B0B12"))
+            d2.ellipse(P(200 + look, 165, 216 + look, 181), fill=C("white"))
+            m = Image.new("L", im.size, 0); ImageDraw.Draw(m).ellipse(P(46, 206 - h_, 354, 194 + h_), fill=255)
+            im.paste(im2, (0, 0), Image.composite(im2.getchannel("A"), m, m))
+        for q in range(5):
+            x = 80 + q * 60; d.line(P(x, 200 - h_ - 10, x - 10 + q * 5, 200 - h_ - 45), fill=C(col), width=int(7 * k))
+    elif name == "ship":  # barco que se mece en las olas: mar, naufragios, navegantes
+        rk = math.sin(u * 2) * 6; by = 200 + math.sin(u * 2.4) * 8
+        r = math.radians(rk)
+        def R(x, y): return ((200 + (x - 200) * math.cos(r) - (y - by) * math.sin(r)) * k, (by + (x - 200) * math.sin(r) + (y - by) * math.cos(r)) * k)
+        d.polygon([R(x, y) for x, y in ((70, by), (330, by), (290, by + 60), (110, by + 60))], fill=C("#8B5E3C"))
+        d.line([R(200, by), R(200, by - 170)], fill=C("#C68B59"), width=int(10 * k))
+        d.polygon([R(x, y) for x, y in ((208, by - 160), (208, by - 20), (300, by - 30))], fill=C("#F2F2F7"))
+        d.polygon([R(x, y) for x, y in ((192, by - 140), (192, by - 20), (120, by - 30))], fill=C("#E5E5EE"))
+        d.polygon([R(x, y) for x, y in ((200, by - 170), (200, by - 145), (240, by - 158))], fill=C("b"))
+        for row in range(2):
+            pts = [(x, 290 + row * 40 + 10 * math.sin(x / 30 + u * 3 + row)) for x in range(0, 401, 10)]
+            d.line([(x * k, y * k) for x, y in pts], fill=C(col, 230 - row * 80), width=int(10 * k))
+    elif name == "map":  # mapa con pin que cae: lugares, "dónde pasó"
+        d.polygon(P(40, 110, 150, 80, 250, 110, 360, 80, 360, 320, 250, 350, 150, 320, 40, 350), fill=C("#E8D5A8"))
+        d.line(P(150, 80, 150, 320), fill=C("#C9A86A"), width=int(4 * k)); d.line(P(250, 110, 250, 350), fill=C("#C9A86A"), width=int(4 * k))
+        d.line(P(70, 290, 120, 240, 170, 260, 220, 200), fill=C("#8B6F47"), width=int(6 * k))
+        b = ease((u - 0.3) / 0.5); py = 60 + 130 * b
+        if b > 0:
+            if b >= 1:
+                g = (u * 1.2) % 1; d.ellipse(P(255 - 50 * g, 215 - 18 * g, 255 + 50 * g, 215 + 18 * g), outline=C(col, int(255 * (1 - g))), width=int(5 * k))
+            d.polygon(P(225, py - 10, 285, py - 10, 255, py + 30), fill=C(col)); d.ellipse(P(220, py - 70, 290, py), fill=C(col))
+            d.ellipse(P(243, py - 47, 267, py - 23), fill=C("#0B0B12"))
+    elif name == "moon":  # luna con nubes: leyendas, noche, lo sobrenatural
+        g = 0.5 + 0.5 * math.sin(u * 2)
+        for r_ in range(5, 0, -1): d.ellipse(P(200 - 110 - r_ * 14, 170 - 110 - r_ * 14, 200 + 110 + r_ * 14, 170 + 110 + r_ * 14), fill=C(col, int(10 * g)))
+        d.ellipse(P(90, 60, 310, 280), fill=C("#F2EFD8"))
+        for x, y, rr in ((150, 120, 22), (240, 180, 30), (180, 220, 16)): d.ellipse(P(x - rr, y - rr, x + rr, y + rr), fill=C("#D8D3B0"))
+        for j, (yy, sp) in enumerate(((250, 40), (300, -30))):
+            x = (u * sp + j * 150) % 520 - 60
+            for dx, rr in ((0, 40), (45, 55), (95, 40)): d.ellipse(P(x + dx - rr, yy - rr * 0.7, x + dx + rr, yy + rr * 0.7), fill=C("#3A3A4E", 235))
     out = im.resize((sz, sz), Image.LANCZOS)
     if a < 1:
         al = out.getchannel("A").point(lambda v: int(v * a)); out.putalpha(al)
     return out
 
+def _bg_stars(T):
+    """Fondo de misterio: estrellas que titilan + niebla que se desplaza despacio."""
+    if "stars" not in _bg_cache:
+        rnd = np.random.default_rng(11)
+        _bg_cache["stars"] = [(float(rnd.uniform(0, W)), float(rnd.uniform(0, H)), float(rnd.uniform(1.5, 4.5)), float(rnd.uniform(0, 6.3)), float(rnd.uniform(0.6, 2.2))) for _ in range(140)]
+        _bg_cache["fog"] = [(float(rnd.uniform(-200, W)), float(rnd.uniform(0, H)), float(rnd.uniform(180, 380)), float(rnd.uniform(8, 22)), CHIP_COLORS[int(rnd.integers(0, 5))]) for _ in range(9)]
+        _bg_cache["fog_img"] = {}
+    im = Image.new("RGB", (W, H), BG)
+    fog = Image.new("RGB", (W // 4, H // 4), BG); fd = ImageDraw.Draw(fog)
+    for x, y, r, sp, cc in _bg_cache["fog"]:
+        xx = ((x + T * sp + r) % (W + 2 * r)) - r
+        fd.ellipse([(xx - r) / 4, (y - r * 0.6) / 4, (xx + r) / 4, (y + r * 0.6) / 4], fill=mix(cc, 0.07))
+    from PIL import ImageFilter
+    fog = fog.filter(ImageFilter.GaussianBlur(10)).resize((W, H), Image.BILINEAR)
+    im = fog; d = ImageDraw.Draw(im)
+    for x, y, r, ph, sp in _bg_cache["stars"]:
+        al = 0.25 + 0.55 * (0.5 + 0.5 * math.sin(T * sp + ph))
+        yy = (y + T * 6) % H
+        d.ellipse([x - r, yy - r, x + r, yy + r], fill=mix("white", al))
+    return im
+
 _bg_cache = {}
 def background(T):
     kind = SPEC.get("background")
     if not kind: return Image.new("RGB", (W, H), BG)
+    if kind == "stars": return _bg_stars(T)
     if "base" not in _bg_cache:
         b = Image.new("RGB", (W, H), BG); d = ImageDraw.Draw(b); gc = mix("d", 0.10)
         for x in range(0, W + 1, 90): d.line([(x, 0), (x, H)], fill=gc, width=2)
