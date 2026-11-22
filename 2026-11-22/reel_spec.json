@@ -1,0 +1,305 @@
+{
+ "voice": "em_alex",
+ "scenes": [
+  {
+   "say": [
+    [
+     "La compraron por 12 mil millones de dólares…",
+     "La compraron por doce mil millones de dólares…"
+    ],
+    [
+     "y cinco años después, la venden por menos de un tercio.",
+     "y cinco años después, la venden por menos de un tercio."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "MAILCHIMP, EN VENTA",
+     "size": 84,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "En 2021 costó US$12,000 M",
+     "size": 66,
+     "weight": "med",
+     "color": "grey",
+     "at": 0.6
+    },
+    {
+     "type": "big",
+     "text": "$3,680 M",
+     "size": 200,
+     "color": "yellow",
+     "at": "s1+1.2"
+    },
+    {
+     "type": "text",
+     "text": "cinco años después",
+     "size": 64,
+     "at": "s1+1.6"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Intuit vende Mailchimp a la italiana Bending Spoons,",
+     "Íntuit vende Meilchimp, a la italiana Béndin Spuns,"
+    ],
+    [
+     "por 3,680 millones de dólares.",
+     "por tres mil seiscientos ochenta millones de dólares."
+    ],
+    [
+     "La venta se cerraría a inicios de 2027.",
+     "La venta se cerraría a inicios del dos mil veintisiete."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Qué pasó?",
+     "size": 110,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "Intuit vende Mailchimp a Bending Spoons (Italia)",
+      "Precio: US$3,680 millones",
+      "Cierre previsto: inicios de 2027"
+     ],
+     "size": 54,
+     "at": "s0+0.3",
+     "step": 2.6
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "En dos mil veintiuno, Intuit pagó 12 mil millones.",
+     "En el dos mil veintiuno, Íntuit pagó doce mil millones."
+    ],
+    [
+     "Hoy vale cerca de un 70% menos.",
+     "Hoy vale cerca de un setenta por ciento menos."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Los números",
+     "size": 96,
+     "at": 0
+    },
+    {
+     "type": "bar",
+     "label": "2021: compra de Intuit",
+     "value": 12000,
+     "max": 12000,
+     "unit": " M",
+     "color": "a",
+     "at": "s0"
+    },
+    {
+     "type": "bar",
+     "label": "2026: venta a Bending Spoons",
+     "value": 3680,
+     "max": 12000,
+     "unit": " M",
+     "color": "b",
+     "at": "s1"
+    },
+    {
+     "type": "big",
+     "text": "-70%",
+     "size": 200,
+     "color": "b",
+     "at": "s1+1.0"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Usas Mailchimp? Por ahora nada cambia:",
+     "¿Usas Meilchimp? Por ahora, nada cambia:"
+    ],
+    [
+     "la venta aún necesita aprobación de los reguladores.",
+     "la venta aún necesita aprobación de los reguladores."
+    ],
+    [
+     "E Intuit dice que se enfocará en herramientas de IA para pequeños negocios.",
+     "E Íntuit dice que se enfocará en herramientas de i a, para pequeños negocios."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Y a ti qué?",
+     "size": 110,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "Por ahora, Mailchimp sigue igual",
+      "Falta la aprobación de los reguladores",
+      "Intuit apuesta por IA para pequeños negocios"
+     ],
+     "size": 54,
+     "at": "s0+0.3",
+     "step": 3.0
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso: Bending Spoons es la misma empresa dueña de Evernote,",
+     "Dato curioso: Béndin Spuns, es la misma empresa dueña de Évernout,"
+    ],
+    [
+     "WeTransfer, Vimeo, Eventbrite y AOL.",
+     "Uí Transfer, Vímeo, Íventbrait, y a o ele."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #1",
+     "size": 64,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Bending Spoons ya es dueña de…",
+     "size": 70,
+     "at": 0.4
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Evernote",
+      "WeTransfer",
+      "Vimeo"
+     ],
+     "size": 56,
+     "step": 0.5,
+     "at": "s1"
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Eventbrite",
+      "AOL"
+     ],
+     "size": 56,
+     "step": 0.5,
+     "at": "s1+1.5"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Mailchimp nació en 2001 en Atlanta, como un proyecto paralelo,",
+     "Meilchimp nació en el dos mil uno, en Atlanta, como un proyecto paralelo,"
+    ],
+    [
+     "pagado con la indemnización de su fundador tras perder su empleo.",
+     "pagado con la indemnización de su fundador, tras perder su empleo."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #2",
+     "size": 64,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "2001",
+     "size": 230,
+     "color": "yellow",
+     "at": 0.4
+    },
+    {
+     "type": "text",
+     "text": "Nació como proyecto paralelo en Atlanta",
+     "size": 62,
+     "at": "s0+1.5"
+    },
+    {
+     "type": "text",
+     "text": "…con su indemnización por despido",
+     "size": 48,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Y nunca aceptó dinero de inversionistas: fue rentable desde el primer día,",
+     "Y nunca aceptó dinero de inversionistas: fue rentable desde el primer día,"
+    ],
+    [
+     "y en 2019 ya facturaba unos 700 millones de dólares al año.",
+     "y en el dos mil diecinueve, ya facturaba unos setecientos millones de dólares al año."
+    ],
+    [
+     "¿Buen negocio o mala venta? Te leo en los comentarios. Sígueme para más noticias tech.",
+     "¿Buen negocio, o mala venta? Te leo en los comentarios. Sígueme para más noticias tec."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #3",
+     "size": 64,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Cero dinero de inversionistas",
+     "size": 70,
+     "at": 0.4
+    },
+    {
+     "type": "big",
+     "text": "$700 M",
+     "size": 210,
+     "color": "yellow",
+     "at": "s1+1.0"
+    },
+    {
+     "type": "text",
+     "text": "al año en ingresos (2019)",
+     "size": 56,
+     "at": "s1+1.4"
+    },
+    {
+     "type": "text",
+     "text": "¿Buen negocio o mala venta?",
+     "size": 66,
+     "color": "a",
+     "at": "s2"
+    }
+   ]
+  }
+ ]
+}
