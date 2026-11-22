@@ -1,0 +1,292 @@
+{
+ "voice": "em_alex",
+ "scenes": [
+  {
+   "say": [
+    [
+     "¿Por qué Trump está tan obsesionado con ganar la carrera de la IA?",
+     "¿Por qué Trámp, está tan obsesionado con ganar la carrera de la i a?"
+    ],
+    [
+     "Te doy mi teoría, y luego, la otra cara.",
+     "Te doy mi teoría, y luego, la otra cara."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "OPINIÓN",
+     "size": 60,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Trump y la carrera de la IA",
+     "size": 70,
+     "at": 0.4
+    },
+    {
+     "type": "big",
+     "text": "¿Por qué?",
+     "size": 200,
+     "color": "yellow",
+     "at": "s0+2.0"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "En julio de 2025 lanzó su plan: Ganar la carrera de la IA.",
+     "En julio del dos mil veinticinco, lanzó su plan: Ganar la carrera de la i a."
+    ],
+    [
+     "Más de noventa acciones para dominarla, frente a China.",
+     "Más de noventa acciones, para dominarla, frente a China."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "El plan",
+     "size": 110,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "“Ganar la carrera de la IA”",
+     "size": 72,
+     "color": "a",
+     "at": "s0+1.5"
+    },
+    {
+     "type": "big",
+     "text": "+90",
+     "size": 220,
+     "color": "yellow",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "acciones del gobierno (julio 2025)",
+     "size": 54,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+0.4"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Ahora, el contexto: Trump enfrentó cuatro casos penales.",
+     "Ahora, el contexto: Trámp enfrentó cuatro casos penales."
+    ],
+    [
+     "En Nueva York lo declararon culpable de 34 cargos, pero sin cárcel, y apela.",
+     "En Nueva York lo declararon culpable de treinta y cuatro cargos, pero sin cárcel, y apela."
+    ],
+    [
+     "Los de documentos secretos, el seis de enero y Georgia, fueron desestimados.",
+     "Los de documentos secretos, el seis de enero, y Yórya, fueron desestimados."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "4 casos penales",
+     "size": 100,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "Nueva York: culpable de 34 cargos (sin cárcel, en apelación)",
+      "Documentos clasificados: desestimado",
+      "Asalto al Capitolio (6 de enero): desestimado",
+      "Georgia (elecciones 2020): desestimado"
+     ],
+     "size": 50,
+     "at": "s1",
+     "step": 2.2
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Y en lo civil: fraude en Nueva York, multa anulada, pero el fraude se mantuvo.",
+     "Y en lo civil: fraude en Nueva York, multa anulada, pero el fraude se mantuvo."
+    ],
+    [
+     "Y el caso de E. Jean Carroll: más de ochenta y tres millones por difamación.",
+     "Y el caso de I Yin Cárol: más de ochenta y tres millones, por difamación."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Casos civiles",
+     "size": 100,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Fraude en NY: multa anulada, fraude confirmado",
+     "size": 56,
+     "at": "s0+0.5"
+    },
+    {
+     "type": "big",
+     "text": "$83.3 M",
+     "size": 190,
+     "color": "yellow",
+     "at": "s1+1.5"
+    },
+    {
+     "type": "text",
+     "text": "por difamación (caso E. Jean Carroll)",
+     "size": 52,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+1.9"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Y el apoyo: solo un 32% aprueba su gestión, según Reuters e Ipsos.",
+     "Y el apoyo: solo un treinta y dos por ciento aprueba su gestión, según Róiters e Ípsos."
+    ],
+    [
+     "Y en noviembre, los demócratas recuperaron el Congreso.",
+     "Y en noviembre, los demócratas recuperaron el Congreso."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Su aprobación",
+     "size": 96,
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "32%",
+     "size": 230,
+     "color": "b",
+     "at": "s0+1.8"
+    },
+    {
+     "type": "text",
+     "text": "Reuters/Ipsos, noviembre 2026",
+     "size": 48,
+     "weight": "med",
+     "color": "grey",
+     "at": "s0+2.2"
+    },
+    {
+     "type": "text",
+     "text": "Demócratas recuperan el Congreso",
+     "size": 58,
+     "color": "a",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Mi teoría: con tribunales, encuestas y Congreso en contra,",
+     "Mi teoría: con tribunales, encuestas y Congreso en contra,"
+    ],
+    [
+     "ganarle a China en IA sería el gran legado que podría dejar para la historia,",
+     "ganarle a China en i a, sería el gran legado que podría dejar para la historia,"
+    ],
+    [
+     "y una forma de recuperar apoyo.",
+     "y una forma de recuperar apoyo."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "MI TEORÍA",
+     "size": 90,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Tribunales",
+      "Encuestas",
+      "Congreso"
+     ],
+     "size": 56,
+     "step": 0.5,
+     "at": "s0+0.8"
+    },
+    {
+     "type": "text",
+     "text": "Ganar la IA = su legado",
+     "size": 84,
+     "color": "yellow",
+     "at": "s1+1.0"
+    },
+    {
+     "type": "text",
+     "text": "Es opinión, no un hecho comprobado",
+     "size": 46,
+     "weight": "med",
+     "color": "grey",
+     "at": "s2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "La otra cara: la Casa Blanca dice que es por economía y seguridad nacional.",
+     "La otra cara: la Casa Blanca dice que es por economía, y seguridad nacional."
+    ],
+    [
+     "¿Tú qué crees: legado o estrategia? Te leo en los comentarios.",
+     "¿Tú qué crees: legado, o estrategia? Te leo en los comentarios."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "LA OTRA CARA",
+     "size": 90,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Casa Blanca: economía y seguridad nacional",
+     "size": 64,
+     "at": "s0+1.5"
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "¿Legado o estrategia?",
+     "size": 84,
+     "color": "yellow",
+     "at": "s1"
+    }
+   ]
+  }
+ ]
+}
