@@ -1,0 +1,246 @@
+{
+ "voice": "em_alex",
+ "speed": 1.12,
+ "background": "stars",
+ "theme": {
+  "bg": "#0B0B12",
+  "yellow": "#F5C542",
+  "a": "#7DD3FC",
+  "b": "#F87171",
+  "c": "#C4B5FD",
+  "d": "#86EFAC"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "Este faro se apagó…",
+     "Este faro se apagó,"
+    ],
+    [
+     "…y sus tres guardianes desaparecieron.",
+     "y sus tres guardianes desaparecieron."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Sus guardianes",
+     "size": 96,
+     "color": "white",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "3",
+     "size": 240,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "DESAPARECIERON",
+     "size": 110,
+     "weight": "bold",
+     "color": "b",
+     "at": 0
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Islas Flannan, Escocia. Diciembre de 1900.",
+     "Islas Flánan, Escocia. Diciembre de mil novecientos."
+    ],
+    [
+     "Un barco ve que la luz no está encendida.",
+     "Un barco ve que la luz no está encendida."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "map",
+     "size": 240,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "1900",
+     "size": 200,
+     "color": "a",
+     "at": 0.2
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Escocia",
+      "Islas Flannan"
+     ],
+     "color": "a",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "La luz, apagada",
+     "size": 80,
+     "color": "yellow",
+     "at": "s2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El relevo llega once días después.",
+     "El relevo llega once días después."
+    ],
+    [
+     "Puertas cerradas, camas sin hacer, el reloj parado.",
+     "Puertas cerradas, camas sin hacer, el reloj parado."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "11 DÍAS",
+     "size": 200,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "Puertas cerradas",
+      "Camas sin hacer",
+      "Reloj parado"
+     ],
+     "size": 80,
+     "step": 0.7,
+     "at": "s2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Faltaban dos abrigos. El tercero seguía colgado…",
+     "Faltaban dos abrigos. El tercero seguía colgado."
+    ],
+    [
+     "…y nadie supo por qué.",
+     "Y nadie supo por qué."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "question",
+     "size": 220,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "2 de 3",
+     "size": 200,
+     "color": "c",
+     "at": 0.2
+    },
+    {
+     "type": "text",
+     "text": "abrigos desaparecidos",
+     "size": 80,
+     "color": "white",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "En el muelle, a 34 metros sobre el mar, todo estaba destrozado.",
+     "En el muelle, a treinta y cuatro metros sobre el mar, todo estaba destrozado."
+    ],
+    [
+     "Lo más probable: una ola gigante se los llevó.",
+     "Lo más probable: una ola gigante se los llevó."
+    ],
+    [
+     "Nunca encontraron los cuerpos.",
+     "Nunca encontraron los cuerpos."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "LO QUE SE SABE",
+     "size": 80,
+     "weight": "bold",
+     "color": "d",
+     "at": 0
+    },
+    {
+     "type": "bar",
+     "label": "Daños sobre el mar",
+     "value": 34,
+     "max": 40,
+     "unit": " m",
+     "color": "d",
+     "at": 0.3
+    },
+    {
+     "type": "big",
+     "text": "OLA GIGANTE",
+     "size": 140,
+     "color": "d",
+     "at": "s2"
+    },
+    {
+     "type": "text",
+     "text": "Cuerpos: nunca hallados",
+     "size": 72,
+     "color": "b",
+     "at": "s3"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Tú qué crees que pasó?",
+     "¿Tú qué crees que pasó?"
+    ],
+    [
+     "Desde esa noche, nadie volvió a ver a los tres.",
+     "Desde esa noche, nadie volvió a ver a los tres."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "¿QUÉ PASÓ?",
+     "size": 160,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Te leo en comentarios",
+     "size": 72,
+     "color": "white",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Sigue para más misterios",
+     "size": 48,
+     "color": "grey",
+     "at": "s2"
+    }
+   ]
+  }
+ ]
+}
