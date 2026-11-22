@@ -1,0 +1,338 @@
+{
+ "voice": "em_alex",
+ "speed": 1.08,
+ "theme": {
+  "bg": "#0B0B12",
+  "yellow": "#F5C542",
+  "a": "#7DD3FC",
+  "b": "#F87171",
+  "c": "#C4B5FD",
+  "d": "#86EFAC"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "Napoleón era bajito...",
+     "Napoleón era bajito..."
+    ],
+    [
+     "¿o eso nos hicieron creer?",
+     "¿o eso nos hicieron creer?"
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Napoleón era bajito...",
+     "size": 84,
+     "color": "white",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "¿MITO?",
+     "size": 230,
+     "color": "c",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Napoleón Bonaparte, emperador de Francia a inicios del siglo diecinueve.",
+     "Napoleón Bonaparte, emperador de Francia, a inicios del siglo diecinueve."
+    ],
+    [
+     "Su fama de hombre pequeño dura hasta hoy.",
+     "Su fama de hombre pequeño, dura hasta hoy."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Napoleón Bonaparte",
+     "size": 96,
+     "color": "a",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "Emperador de Francia",
+     "size": 60,
+     "color": "grey",
+     "weight": "med",
+     "at": "s0+1.6"
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "big",
+     "text": "Siglo XIX",
+     "size": 190,
+     "color": "yellow",
+     "at": "s0+3.0"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Las fuentes francesas de su época decían que medía cinco pies y dos pulgadas.",
+     "Las fuentes francesas de su época decían, que medía cinco pies y dos pulgadas."
+    ],
+    [
+     "Suena muy bajito, ¿verdad?",
+     "Suena muy bajito, ¿verdad?"
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "SEGÚN FUENTES FRANCESAS",
+     "size": 64,
+     "color": "grey",
+     "weight": "med",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "5 pies 2",
+     "size": 200,
+     "color": "yellow",
+     "at": "s0+2.4"
+    },
+    {
+     "type": "text",
+     "text": "¿Solo 1,57 metros?",
+     "size": 72,
+     "color": "b",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El truco: la pulgada francesa medía unos dos coma siete centímetros.",
+     "El truco: la pulgada francesa, medía unos dos coma siete centímetros."
+    ],
+    [
+     "La inglesa, solo dos coma cincuenta y cuatro.",
+     "La inglesa, solo dos coma cincuenta y cuatro."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "EL TRUCO: LAS PULGADAS",
+     "size": 70,
+     "color": "grey",
+     "weight": "med",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Pulgada francesa",
+     "size": 62,
+     "color": "a",
+     "weight": "med",
+     "at": "s0+1.2"
+    },
+    {
+     "type": "big",
+     "text": "2,71 cm",
+     "size": 190,
+     "color": "a",
+     "at": "s0+1.2"
+    },
+    {
+     "type": "text",
+     "text": "Pulgada inglesa",
+     "size": 62,
+     "color": "b",
+     "weight": "med",
+     "at": "s1"
+    },
+    {
+     "type": "big",
+     "text": "2,54 cm",
+     "size": 190,
+     "color": "b",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Convertido bien, Napoleón medía cerca de un metro sesenta y ocho.",
+     "Convertido bien, Napoleón medía cerca de un metro sesenta y ocho."
+    ],
+    [
+     "Normal, o un poco más que el francés promedio de su tiempo.",
+     "Normal, o un poco más, que el francés promedio de su tiempo."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "LO QUE SE SABE",
+     "size": 70,
+     "color": "grey",
+     "weight": "med",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "1,68 m",
+     "size": 220,
+     "color": "d",
+     "at": "s0+1.8"
+    },
+    {
+     "type": "text",
+     "text": "Estatura normal para su época",
+     "size": 64,
+     "color": "white",
+     "weight": "med",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Y la fama? Caricaturistas británicos, como James Gilrei, lo dibujaban diminuto.",
+     "¿Y la fama? Caricaturistas británicos, como Yeims Gílrei, lo dibujaban diminuto."
+    ],
+    [
+     "Lo llamaban el pequeño Boni. Y Gilrei nunca lo vio en persona.",
+     "Lo llamaban, el pequeño Bóni. Y Gílrei, nunca lo vio en persona."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "PROPAGANDA BRITÁNICA",
+     "size": 70,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "James Gillray",
+     "size": 96,
+     "color": "yellow",
+     "at": "s0+2.6"
+    },
+    {
+     "type": "text",
+     "text": "\"Little Boney\"",
+     "size": 110,
+     "color": "c",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Nunca lo vio en persona",
+     "size": 58,
+     "color": "grey",
+     "weight": "med",
+     "at": "s1+2.4"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso: sus soldados lo llamaban el pequeño cabo, por cariño, no por su estatura.",
+     "Dato curioso: sus soldados lo llamaban, el pequeño cabo, por cariño, no por su estatura."
+    ],
+    [
+     "Y su guardia de granaderos era de hombres muy altos.",
+     "Y su guardia de granaderos, era de hombres muy altos."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO",
+     "size": 66,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "\"El pequeño cabo\"",
+     "size": 100,
+     "color": "yellow",
+     "at": "s0+1.4"
+    },
+    {
+     "type": "text",
+     "text": "Apodo de cariño",
+     "size": 62,
+     "color": "d",
+     "weight": "med",
+     "at": "s0+3.4"
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Guardia",
+      "=",
+      "Hombres altos"
+     ],
+     "size": 50,
+     "step": 0.5,
+     "at": "s1+0.8"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Tú también creías que era bajito? Te leo en los comentarios.",
+     "¿Tú también creías que era bajito? Te leo en los comentarios."
+    ],
+    [
+     "Suscríbete para más misterios e historia.",
+     "Suscríbete, para más misterios e historia."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Tú lo creías?",
+     "size": 120,
+     "color": "yellow",
+     "at": 0.2
+    },
+    {
+     "type": "text",
+     "text": "Te leo en los comentarios",
+     "size": 60,
+     "color": "white",
+     "weight": "med",
+     "at": "s0+1.6"
+    },
+    {
+     "type": "gap",
+     "h": 40
+    },
+    {
+     "type": "text",
+     "text": "Suscríbete para más misterios e historia",
+     "size": 56,
+     "color": "a",
+     "weight": "med",
+     "at": "s1"
+    }
+   ]
+  }
+ ]
+}
