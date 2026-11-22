@@ -1,0 +1,237 @@
+{
+ "voice": "em_alex",
+ "speed": 1.12,
+ "background": "stars",
+ "theme": {
+  "bg": "#0B0B12",
+  "yellow": "#F5C542",
+  "a": "#7DD3FC",
+  "b": "#F87171",
+  "c": "#C4B5FD",
+  "d": "#86EFAC"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "Sus pies están al revés…",
+     "Sus pies están al revés,"
+    ],
+    [
+     "…y sus huellas te mandan para el otro lado.",
+     "y sus huellas te mandan para el otro lado."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Sus pies están",
+     "size": 96,
+     "color": "white",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "AL REVÉS",
+     "size": 180,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "y sus huellas te engañan",
+     "size": 72,
+     "color": "yellow",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Es la ciguapa, la leyenda dominicana.",
+     "Es la ciguapa, la leyenda dominicana."
+    ],
+    [
+     "Vive en los montes del Cibao, y sale de noche.",
+     "Vive en los montes del Cibao, y sale de noche."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "moon",
+     "size": 260,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "CIGUAPA",
+     "size": 200,
+     "color": "c",
+     "at": 0.2
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Montes",
+      "Cibao",
+      "De noche"
+     ],
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Pelo larguísimo que le cubre el cuerpo.",
+     "Pelo larguísimo que le cubre el cuerpo."
+    ],
+    [
+     "Quien sigue sus huellas… se aleja de ella.",
+     "Quien sigue sus huellas, se aleja de ella."
+    ],
+    [
+     "Y atraparla es casi imposible.",
+     "Y atraparla, es casi imposible."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "list",
+     "items": [
+      "Pelo hasta las rodillas",
+      "Huellas hacia atrás"
+     ],
+     "size": 64,
+     "step": 1.8,
+     "at": "s0"
+    },
+    {
+     "type": "big",
+     "text": "IMPOSIBLE",
+     "size": 170,
+     "color": "a",
+     "at": "s2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dicen que solo un perro negro de cinco patas puede cazarla…",
+     "Dicen que solo un perro negro de cinco patas, puede cazarla."
+    ],
+    [
+     "…y en cautiverio, se muere enseguida.",
+     "y en cautiverio, se muere enseguida."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Un perro negro de",
+     "size": 84,
+     "color": "white",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "5 PATAS",
+     "size": 210,
+     "color": "yellow",
+     "at": "s0+1.2"
+    },
+    {
+     "type": "text",
+     "text": "En cautiverio, muere",
+     "size": 80,
+     "color": "b",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Lo comprobado: el primer relato escrito es de 1866.",
+     "Lo comprobado: el primer relato escrito es de mil ochocientos sesenta y seis."
+    ],
+    [
+     "¿Mito taíno o invento? Todavía se discute.",
+     "¿Mito taíno, o invento? Todavía se discute."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "LO COMPROBADO",
+     "size": 80,
+     "color": "d",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "1866",
+     "size": 220,
+     "color": "d",
+     "at": "s0+1.0"
+    },
+    {
+     "type": "text",
+     "text": "F. J. Angulo Guridi",
+     "size": 60,
+     "weight": "med",
+     "color": "grey",
+     "at": "s0+1.6"
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "¿Taína?",
+      "¿Inventada?"
+     ],
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Tú crees en ella?",
+     "¿Tú crees en ella?"
+    ],
+    [
+     "Si la ves, no la sigas… porque",
+     "Si la ves, no la sigas, porque"
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Tú crees en la ciguapa?",
+     "size": 90,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "NO LA SIGAS",
+     "size": 148,
+     "color": "b",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Sigue para más misterios",
+     "size": 48,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+0.8"
+    }
+   ]
+  }
+ ]
+}
