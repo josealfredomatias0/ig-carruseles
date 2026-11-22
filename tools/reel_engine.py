@@ -74,6 +74,157 @@ def synth():
         res.append((np.concatenate(pieces), t, subs))
     return res
 
+# ---------- 1b. animated icons, background ----------
+import math
+def _ic_canvas(sz): return Image.new("RGBA", (sz * 2, sz * 2), (0, 0, 0, 0))
+def C(c, al=255): return rgb(c) + (al,) if isinstance(c, str) else tuple(c[:3]) + (al,)
+
+def icon_img(name, sz, u, col):
+    """u = seconds since the icon appeared. Drawn at 2x then downsampled (antialias)."""
+    im = _ic_canvas(sz); d = ImageDraw.Draw(im); S = sz * 2; k = S / 400.0
+    P = lambda *v: [x * k for x in v]
+    a = ease(u / 0.5)
+    if name == "chip":
+        g = 0.5 + 0.5 * math.sin(u * 4)
+        for r in range(6, 0, -1):
+            d.rounded_rectangle(P(100 - r * 9, 100 - r * 9, 300 + r * 9, 300 + r * 9), radius=40 * k,
+                                fill=C(col, int(14 * g * a)))
+        for i in range(5):
+            on = (u * 6 + i) % 5 < 1.2
+            cc = C("yellow") if on else C(col, 200)
+            o = 125 + i * 37.5
+            for x0, y0, x1, y1 in ((o - 7, 55, o + 7, 100), (o - 7, 300, o + 7, 345),
+                                   (55, o - 7, 100, o + 7), (300, o - 7, 345, o + 7)):
+                d.rounded_rectangle(P(x0, y0, x1, y1), radius=5 * k, fill=cc)
+        d.rounded_rectangle(P(100, 100, 300, 300), radius=30 * k, fill=C("#1B1B28"), outline=C(col), width=int(8 * k))
+        f = font("bold", int(90 * k)); w = d.textlength("IA", font=f)
+        d.text((200 * k - w / 2, 200 * k - f.size * 0.62), "IA", font=f, fill=C(col))
+    elif name == "gavel":
+        d.rounded_rectangle(P(215, 318, 365, 356), radius=10 * k, fill=C("#8B5E3C"))
+        d.rounded_rectangle(P(232, 302, 348, 322), radius=8 * k, fill=C("#A0704A"))
+        cyc = (u % 1.6) / 1.6
+        lift = (1 - ease(cyc / 0.3)) if cyc < 0.3 else (0 if cyc < 0.5 else ease((cyc - 0.5) / 0.5))
+        ang = math.radians(-50 * lift); px, py = 70, 250
+        def rot(x, y):
+            c, s_ = math.cos(ang), math.sin(ang)
+            return ((px + x * c - y * s_) * k, (py + x * s_ + y * c) * k)
+        d.polygon([rot(*q) for q in ((0, -9), (200, -9), (200, 9), (0, 9))], fill=C("#C68B59"))
+        d.polygon([rot(*q) for q in ((180, -52), (240, -52), (240, 52), (180, 52))], fill=C(col))
+        d.polygon([rot(*q) for q in ((172, -58), (248, -58), (248, -44), (172, -44))], fill=C("yellow"))
+        d.polygon([rot(*q) for q in ((172, 44), (248, 44), (248, 58), (172, 58))], fill=C("yellow"))
+        if 0.28 < cyc < 0.55:
+            for x0, y0, x1, y1 in ((215, 290, 190, 262), (340, 285, 362, 252), (375, 312, 398, 296)):
+                d.line(P(x0, y0, x1, y1), fill=C("yellow"), width=int(9 * k))
+    elif name == "scales":
+        tilt = math.sin(u * 2.2) * 12
+        d.rectangle(P(192, 110, 208, 330), fill=C(col)); d.rounded_rectangle(P(130, 325, 270, 350), radius=10 * k, fill=C(col))
+        d.ellipse(P(185, 92, 215, 122), fill=C("yellow"))
+        r = math.radians(tilt); L = 140
+        lx, ly = 200 - L * math.cos(r), 115 - L * math.sin(r); rx, ry = 200 + L * math.cos(r), 115 + L * math.sin(r)
+        d.line([(lx * k, ly * k), (rx * k, ry * k)], fill=C(col), width=int(12 * k))
+        for x, y, cc in ((lx, ly, "a"), (rx, ry, "b")):
+            d.line([(x * k, y * k), ((x - 45) * k, (y + 110) * k)], fill=C("grey"), width=int(4 * k))
+            d.line([(x * k, y * k), ((x + 45) * k, (y + 110) * k)], fill=C("grey"), width=int(4 * k))
+            d.chord(P(x - 65, y + 70, x + 65, y + 150), 0, 180, fill=C(cc))
+    elif name == "race":
+        for j, (lab, cc, sp) in enumerate((("EE. UU.", "d", 1.0), ("China", "b", 0.93))):
+            y = 110 + j * 150
+            d.rounded_rectangle(P(20, y + 40, 380, y + 52), radius=6 * k, fill=C("#2A2A38"))
+            for m in range(0, 360, 40):
+                d.rectangle(P(20 + m + ((u * 160) % 40), y + 44, 36 + m + ((u * 160) % 40), y + 48), fill=C("#4A4A5A"))
+            prog = 0.1 + 0.8 * ease(min(1, u / 3.0)) * sp + 0.04 * math.sin(u * 3 + j * 2)
+            x = 20 + prog * 260
+            d.rounded_rectangle(P(x, y, x + 70, y + 70), radius=12 * k, fill=C("#1B1B28"), outline=C(cc), width=int(6 * k))
+            for q in range(3):
+                d.rectangle(P(x + 14 + q * 18, y - 10, x + 22 + q * 18, y), fill=C(cc))
+                d.rectangle(P(x + 14 + q * 18, y + 70, x + 22 + q * 18, y + 80), fill=C(cc))
+            for q in range(3):  # speed lines
+                d.line(P(x - 20 - q * 22, y + 20 + q * 15, x - 50 - q * 22, y + 20 + q * 15), fill=C(cc, 150), width=int(5 * k))
+            f = font("bold", int(34 * k)); d.text((20 * k, (y - 58) * k), lab, font=f, fill=C(cc))
+        d.rectangle(P(370, 90, 380, 380), fill=C("white"))
+        for q in range(8):
+            d.rectangle(P(380, 90 + q * 18, 392, 99 + q * 18), fill=C("white" if q % 2 else "grey"))
+    elif name == "docs":
+        for i in range(4):
+            b = ease((u - i * 0.35) / 0.4)
+            if b <= 0: continue
+            x, y = 110 + i * 22, 90 + i * 34 - (1 - b) * 120
+            d.rounded_rectangle(P(x, y, x + 170, y + 220), radius=14 * k, fill=C("#F5F5FA", int(255 * b)), outline=C(col, int(255 * b)), width=int(5 * k))
+            for l in range(5):
+                d.rounded_rectangle(P(x + 22, y + 40 + l * 30, x + 148 - (l % 2) * 40, y + 50 + l * 30), radius=4 * k, fill=C("#9696A5", int(255 * b)))
+        sb = ease((u - 1.6) / 0.3)
+        if sb > 0:  # stamp
+            sc = 1 + (1 - sb) * 0.6
+            d.rounded_rectangle(P(200 - 90 * sc, 250 - 38 * sc, 200 + 90 * sc, 250 + 38 * sc), radius=10 * k, outline=C("b"), width=int(8 * k))
+            f = font("bold", int(46 * k * sc)); w = d.textlength("CASO", font=f)
+            d.text((200 * k - w / 2, 250 * k - f.size * 0.6), "CASO", font=f, fill=C("b"))
+    elif name == "trend_down":
+        pts = [(40, 110), (110, 150), (170, 130), (240, 210), (300, 190), (360, 300)]
+        d.line(P(40, 340, 370, 340), fill=C("grey"), width=int(5 * k)); d.line(P(40, 60, 40, 340), fill=C("grey"), width=int(5 * k))
+        prog = ease(u / 1.6) * (len(pts) - 1); n = int(prog)
+        seg = pts[:n + 1]
+        if n < len(pts) - 1:
+            f_ = prog - n; a0, b0 = pts[n], pts[n + 1]; seg = seg + [(a0[0] + (b0[0] - a0[0]) * f_, a0[1] + (b0[1] - a0[1]) * f_)]
+        if len(seg) > 1: d.line([(x * k, y * k) for x, y in seg], fill=C(col), width=int(14 * k), joint="curve")
+        x, y = seg[-1]; d.ellipse(P(x - 16, y - 16, x + 16, y + 16), fill=C(col))
+        if prog >= len(pts) - 1.01:
+            d.polygon(P(360, 330, 330, 290, 385, 285), fill=C(col))
+    elif name == "ballot":
+        cyc = (u % 1.8) / 1.8; y = 30 + 190 * ease(cyc / 0.7)
+        d.rounded_rectangle(P(160, y, 240, y + 110), radius=8 * k, fill=C("white"))
+        d.line(P(178, y + 55, 195, y + 75, 225, y + 30), fill=C(col), width=int(9 * k))
+        d.rectangle(P(80, 200, 320, 400), fill=(0, 0, 0, 0))
+        im2 = Image.new("RGBA", im.size, (0, 0, 0, 0)); d2 = ImageDraw.Draw(im2)
+        d2.rounded_rectangle(P(90, 200, 310, 350), radius=16 * k, fill=C("#1B1B28"), outline=C(col), width=int(7 * k))
+        d2.rounded_rectangle(P(150, 192, 250, 208), radius=6 * k, fill=C("#0E0E14"), outline=C("white"), width=int(4 * k))
+        f = font("bold", int(46 * k)); w = d2.textlength("VOTO", font=f)
+        d2.text((200 * k - w / 2, 250 * k), "VOTO", font=f, fill=C(col))
+        im.alpha_composite(im2)
+    elif name == "trophy":
+        bob = math.sin(u * 2.5) * 8
+        d.chord(P(120, 70 + bob, 280, 250 + bob), 0, 180, fill=C("yellow")); d.rectangle(P(120, 70 + bob, 280, 160 + bob), fill=C("yellow"))
+        for x0 in (80, 270):
+            d.arc(P(x0, 95 + bob, x0 + 50, 175 + bob), 90 if x0 > 100 else 270, 90 if x0 < 100 else 270, fill=C("yellow"), width=int(14 * k))
+        d.rectangle(P(185, 245 + bob, 215, 295 + bob), fill=C("yellow")); d.rounded_rectangle(P(135, 290 + bob, 265, 325 + bob), radius=8 * k, fill=C("#C9A227"))
+        f = font("bold", int(50 * k)); w = d.textlength("IA", font=f); d.text((200 * k - w / 2, 110 * k + bob * k), "IA", font=f, fill=C("#0E0E14"))
+        for i in range(6):
+            ph = u * 1.5 + i * 1.05; r_ = 150 + 30 * math.sin(ph * 1.3); al = int(255 * (0.5 + 0.5 * math.sin(ph * 3)))
+            x, y = 200 + r_ * math.cos(ph), 190 + r_ * math.sin(ph) * 0.8; s_ = 12
+            d.polygon(P(x, y - s_, x + s_ / 3, y - s_ / 3, x + s_, y, x + s_ / 3, y + s_ / 3, x, y + s_, x - s_ / 3, y + s_ / 3, x - s_, y, x - s_ / 3, y - s_ / 3), fill=C("white", al))
+    elif name == "question":
+        r_ = math.sin(u * 2) * 8
+        f = font("bold", int(300 * k)); w = d.textlength("?", font=f)
+        d.text((200 * k - w / 2, 20 * k + r_ * k), "?", font=f, fill=C(col))
+    out = im.resize((sz, sz), Image.LANCZOS)
+    if a < 1:
+        al = out.getchannel("A").point(lambda v: int(v * a)); out.putalpha(al)
+    return out
+
+_bg_cache = {}
+def background(T):
+    kind = SPEC.get("background")
+    if not kind: return Image.new("RGB", (W, H), BG)
+    if "base" not in _bg_cache:
+        b = Image.new("RGB", (W, H), BG); d = ImageDraw.Draw(b); gc = mix("d", 0.10)
+        for x in range(0, W + 1, 90): d.line([(x, 0), (x, H)], fill=gc, width=2)
+        for y in range(0, H + 1, 90): d.line([(0, y), (W, y)], fill=gc, width=2)
+        for x in range(0, W + 1, 90):
+            for y in range(0, H + 1, 90):
+                if (x * 7 + y * 13) % 5 == 0: d.ellipse([x - 5, y - 5, x + 5, y + 5], fill=mix("d", 0.22))
+        _bg_cache["base"] = b
+        rnd = np.random.default_rng(7)
+        _bg_cache["pulses"] = [(int(rnd.integers(0, W // 90 + 1)), int(rnd.integers(0, H // 90 + 1)), int(rnd.integers(0, 2)),
+                                float(rnd.uniform(0, 10)), float(rnd.uniform(60, 140)), CHIP_COLORS[int(rnd.integers(0, 5))]) for _ in range(26)]
+    im = _bg_cache["base"].copy(); d = ImageDraw.Draw(im)
+    for gx, gy, horiz, ph, sp, cc in _bg_cache["pulses"]:
+        pos = (ph * 100 + T * sp) % (H if not horiz else W)
+        x, y = (pos, gy * 90) if horiz else (gx * 90, pos)
+        for tl in range(6):
+            al = 0.35 * (1 - tl / 6); off = tl * 9
+            xx, yy = (x - off, y) if horiz else (x, y - off)
+            d.ellipse([xx - 5, yy - 5, xx + 5, yy + 5], fill=mix(cc, al))
+    return im
+
 # ---------- 2. layout ----------
 def resolve_at(at, subs):
     """at: number, or 's<N>' / 's<N>+x' = when spoken line N of the scene starts."""
@@ -94,11 +245,16 @@ def el_height(e):
         f = font("bold", e.get("size", 54))
         return sum(max(1, len(wrap(i, f, 800))) * int(f.size * 1.22) + 70 for i in e["items"])
     if t == "gap": return e.get("h", 40)
+    if t == "icon": return e.get("size", 320)
     return 0
 
-def draw_el(d, e, y, t, at):
+def draw_el(im, d, e, y, t, at):
     typ, col = e["type"], e.get("color", "white")
     a = ease((t - at) / 0.45)
+    if typ == "icon":
+        if t < at: return
+        sz = e.get("size", 320); ic = icon_img(e["name"], sz, t - at, e.get("color", "a"))
+        im.paste(ic, (int((W - sz) / 2), int(y + (1 - a) * 40)), ic); return
     if typ == "text":
         if a <= 0: return
         f = font(e.get("weight", "bold"), e.get("size", 72))
@@ -170,11 +326,27 @@ def main():
                 dd = (s1 - s0) * len(g) / n; chunks.append((t0, t0 + dd, g)); t0 += dd
     subf = font("bold", 62)
 
+    TR = 0.35 if SPEC.get("transition") else 0
+    def scene_layer(i, t):
+        L = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(L)
+        for e, y, at in layouts[i]: draw_el(L, d, e, y, t, at)
+        return L
     def frame(T):
-        im = Image.new("RGB", (W, H), BG); d = ImageDraw.Draw(im)
-        d.rectangle([0, 0, W * T / total, 10], fill=rgb("yellow"))
+        im = background(T); d = ImageDraw.Draw(im)
         i = max(k for k in range(len(starts)) if starts[k] <= T); t = T - starts[i]
-        for e, y, at in layouts[i]: draw_el(d, e, y, t, at)
+        if TR and i > 0 and t < TR:
+            p = ease(t / TR); kind = SPEC.get("transition")
+            old = scene_layer(i - 1, durs[i - 1] - 0.01); new = scene_layer(i, t)
+            if kind == "zoom":
+                o = old.resize((int(W * (1 + .25 * p)), int(H * (1 + .25 * p)))); o.putalpha(o.getchannel("A").point(lambda v: int(v * (1 - p))))
+                im.paste(o, (-(o.width - W) // 2, -(o.height - H) // 2), o)
+                n = new.resize((int(W * (0.8 + .2 * p)), int(H * (0.8 + .2 * p)))); n.putalpha(n.getchannel("A").point(lambda v: int(v * p)))
+                im.paste(n, ((W - n.width) // 2, (H - n.height) // 2), n)
+            else:
+                im.paste(old, (int(-W * p), 0), old); im.paste(new, (int(W * (1 - p)), 0), new)
+        else:
+            L = scene_layer(i, t); im.paste(L, (0, 0), L)
+        d.rectangle([0, 0, W * T / total, 10], fill=rgb("yellow"))
         cur = [c for c in chunks if c[0] <= T < c[1] + 0.12]
         if cur and SPEC.get("subtitles", True):
             txt = cur[-1][2]; w = d.textlength(txt, font=subf); x, y = (W - w) / 2, 1640
