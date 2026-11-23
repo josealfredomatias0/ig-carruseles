@@ -1,0 +1,42 @@
+{
+ "voice": "em_alex",
+ "speed": 1.1,
+ "theme": {"bg":"#0A1A2F","yellow":"#FFD23F","a":"#4FC3F7","b":"#FF6B6B","c":"#B39DDB","d":"#5EE6A8"},
+ "scenes": [
+  {"say": [["¿Usas la tecnología para combatir la pobreza? Este premio es para ti.", "¿Usas la tecnología para combatir la pobreza? Este premio es para ti."]],
+   "elements": [
+    {"type": "text", "text": "Jóvenes de 18 a 35 años", "size": 76, "color": "yellow", "at": 0},
+    {"type": "big", "text": "PREMIO", "size": 220, "color": "d", "at": 0.8},
+    {"type": "text", "text": "para proyectos de impacto", "size": 66, "weight": "med", "color": "grey", "at": 1.6}]},
+  {"say": [["Global Citizen y Cisco abrieron el Premio de Liderazgo Juvenil 2027.", "Glóbal Sítisen y Sisco, abrieron el Premio de Liderazgo Juvenil, dos mil veintisiete."]],
+   "elements": [
+    {"type": "text", "text": "Global Citizen Prize", "size": 96, "color": "yellow", "at": 0},
+    {"type": "text", "text": "Cisco Youth Leadership", "size": 80, "color": "a", "at": 0.8},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "Premio de Liderazgo Juvenil 2027", "size": 62, "at": 2.0}]},
+  {"say": [["Este año habrá tres ganadores, y cada uno recibe doscientos cincuenta mil dólares", "Este año habrá tres ganadores, y cada uno recibe, doscientos cincuenta mil dólares,"], ["para su organización.", "para su organización."]],
+   "elements": [
+    {"type": "text", "text": "3 ganadores", "size": 90, "color": "a", "at": 0},
+    {"type": "big", "text": "US$250,000", "size": 160, "color": "d", "at": "s0+2.2"},
+    {"type": "text", "text": "para cada uno", "size": 70, "at": "s0+3.0"},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "El dinero va a tu organización", "size": 58, "weight": "med", "color": "grey", "at": "s1"}]},
+  {"say": [["Debes tener de dieciocho a treinta y cinco años, y participar en una iniciativa que use tecnología contra la pobreza y la desigualdad.", "Debes tener de dieciocho a treinta y cinco años, y participar en una iniciativa que use tecnología, contra la pobreza y la desigualdad."], ["Aplicas de forma individual, con un video de uno a dos minutos.", "Aplicas de forma individual, con un video de uno a dos minutos."]],
+   "elements": [
+    {"type": "text", "text": "Requisitos clave", "size": 80, "color": "a", "at": 0},
+    {"type": "gap", "h": 20},
+    {"type": "list", "items": ["De 18 a 35 años", "Iniciativa con tecnología", "Contra pobreza y desigualdad", "Video de 1 a 2 minutos"], "size": 58, "step": 1.6, "at": 0.6}]},
+  {"say": [["Las solicitudes cierran el dieciocho de diciembre. ¡No lo dejes para última hora!", "Las solicitudes cierran, el dieciocho de diciembre. ¡No lo dejes para última hora!"]],
+   "elements": [
+    {"type": "text", "text": "Fecha límite", "size": 80, "color": "grey", "at": 0},
+    {"type": "big", "text": "18 DIC", "size": 220, "color": "b", "at": 1.0},
+    {"type": "text", "text": "2026", "size": 90, "color": "yellow", "at": 1.6}]},
+  {"say": [["El enlace oficial y todos los detalles están en la descripción.", "El enlace oficial, y todos los detalles, están en la descripción."], ["Compártelo con quien lo necesite y sigue la página para más oportunidades.", "Compártelo con quien lo necesite, y sigue la página para más oportunidades."]],
+   "elements": [
+    {"type": "text", "text": "Enlace oficial y detalles", "size": 76, "at": 0},
+    {"type": "text", "text": "en la descripción", "size": 96, "color": "a", "at": 0.5},
+    {"type": "gap", "h": 40},
+    {"type": "text", "text": "Compártelo y sigue la página", "size": 64, "color": "d", "at": "s1"},
+    {"type": "text", "text": "Oportunidades para Dominicanos", "size": 50, "weight": "med", "color": "grey", "at": "s1+1.0"}]}
+ ]
+}
