@@ -113,6 +113,17 @@ def icon_img(name, sz, u, col):
                       outline=C("yellow" if on else col, int(255 * b)), width=int(7 * k))
             w = d.textlength(t, font=f)
             d.text((cx * k - w / 2, cy * k - f.size * 0.62), t, font=f, fill=C("yellow" if on else "white", int(255 * b)))
+    elif name == "lock":
+        # candado que se cierra y brilla (cifrado, seguridad, contrasenas)
+        cl = ease(min(1, u / 0.8)); up = (1 - cl) * 45
+        g = 0.5 + 0.5 * math.sin(u * 4)
+        for r in range(5, 0, -1):
+            d.rounded_rectangle(P(95 - r * 8, 175 - r * 8, 305 + r * 8, 345 + r * 8), radius=36 * k, fill=C(col, int(12 * g)))
+        d.arc(P(130, 60 - up, 270, 230 - up), 180, 360, fill=C("grey"), width=int(26 * k))
+        d.rectangle(P(130, 145 - up, 156, 190), fill=C("grey")); d.rectangle(P(244, 145 - up, 270, 190 - (up if up > 0 else 0)), fill=C("grey"))
+        d.rounded_rectangle(P(95, 175, 305, 345), radius=36 * k, fill=C("#1B1B28"), outline=C(col), width=int(9 * k))
+        d.ellipse(P(178, 225, 222, 269), fill=C("yellow" if cl >= 1 else col))
+        d.rounded_rectangle(P(192, 255, 208, 305), radius=6 * k, fill=C("yellow" if cl >= 1 else col))
     elif name == "gavel":
         d.rounded_rectangle(P(215, 318, 365, 356), radius=10 * k, fill=C("#8B5E3C"))
         d.rounded_rectangle(P(232, 302, 348, 322), radius=8 * k, fill=C("#A0704A"))

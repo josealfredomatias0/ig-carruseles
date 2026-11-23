@@ -1,12 +1,12 @@
-🤯 ¿La IA ayudó a resolver el mayor misterio de las matemáticas, que llevaba 167 años sin respuesta? Quédate al final: datos curiosos que casi nadie sabe 👀
+🤯 ¿La IA ayudó a resolver el mayor misterio de las matemáticas, que llevaba 167 años sin respuesta?
 
-🧮 El 20 de noviembre, el matemático Levent Alpöge (Anthropic) publicó una prueba de la hipótesis de Riemann, hecha con ayuda de la IA Claude.
-💻 No es un paper: son unos 17 millones de líneas de código en Lean, un programa que revisa demostraciones paso a paso. La comunidad de Lean y Mathlib dice que la verificación por computadora es correcta.
-🤔 Pero los humanos todavía no entienden bien las ideas detrás, y expertos dicen que eso podría tomar meses o años. Aún no es oficial ni hay premio entregado.
-🔐 La hipótesis trata de cómo se reparten los números primos, la base de mucha de la criptografía que protege internet.
+🔢 La hipótesis de Riemann (1859) dice que los números primos, que parecen salir al azar, siguen un patrón oculto.
+🧮 El 20 de noviembre, el matemático Levent Alpöge (Anthropic) publicó una prueba hecha con ayuda de la IA Claude: unos 17 millones de líneas de código en Lean, ya verificadas por computadora según la comunidad de Lean y Mathlib.
+🔐 ¿Para qué sirve? Nos diría con precisión cómo se reparten los primos y confirmaría muchísimos teoremas que la daban por cierta. Y los primos son la base del cifrado que protege tus compras en línea.
+🤔 Pero ningún humano la entiende del todo todavía: aún no es oficial ni hay premio entregado.
 
 ¿Confiarías en una prueba que ninguna persona entiende todavía? Te leo abajo 👇
 
 Fuente: comunicado oficial de Lean/Mathlib, IBM Think y The Next Web
 
-#tecnologia #tech #technews #matematicas #ciencia #inteligenciaartificial #ia #claude #riemann #programacion #rd #republicadominicana #josealfredomatias1 #datoscuriosos
+#tecnologia #tech #technews #matematicas #ciencia #inteligenciaartificial #ia #claude #riemann #programacion #rd #republicadominicana #josealfredomatias1
