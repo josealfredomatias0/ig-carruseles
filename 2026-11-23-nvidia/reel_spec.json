@@ -1,0 +1,44 @@
+{
+ "voice": "em_alex",
+ "background": "circuit",
+ "transition": "slide",
+ "scenes": [
+  {"say": [["Giro total: Jensen Huang vuelve a ser el CEO de Nvidia,", "Giro total: Yénsen Juang, vuelve a ser el ceo de Envidia,"],
+           ["solo 11 días después de renunciar.", "solo once días después de renunciar."]],
+   "elements": [
+    {"type": "text", "text": "GIRO TOTAL", "size": 90, "color": "b", "at": 0},
+    {"type": "text", "text": "Huang vuelve a Nvidia", "size": 70, "at": 0.5},
+    {"type": "icon", "name": "chip", "size": 260, "color": "a", "at": 0.8},
+    {"type": "big", "text": "11 días", "size": 190, "color": "yellow", "at": "s1"}]},
+
+  {"say": [["Renunció el 12 de noviembre, tras reportes de una relación con una mujer sospechosa de espiar para China.", "Renunció el doce de noviembre, tras reportes de una relación con una mujer sospechosa de espiar para China."],
+           ["Hoy, la junta lo restituyó por unanimidad.", "Hoy, la junta lo restituyó por unanimidad."]],
+   "elements": [
+    {"type": "text", "text": "¿Qué pasó?", "size": 110, "color": "yellow", "at": 0},
+    {"type": "icon", "name": "docs", "size": 250, "color": "b", "at": 0.3},
+    {"type": "list", "items": ["12 nov.: renuncia", "Investigan posible espionaje", "23 nov.: vuelve, voto unánime"], "size": 52, "at": "s0+0.6", "step": 2.4}]},
+
+  {"say": [["La junta dice que el gobierno de Estados Unidos le aseguró que no es un riesgo para la seguridad nacional.", "La junta dice que el gobierno de Estados Unidos, le aseguró que no es un riesgo para la seguridad nacional."],
+           ["Pero ojo: la investigación sigue.", "Pero ojo: la investigación sigue."]],
+   "elements": [
+    {"type": "text", "text": "¿Por qué volvió?", "size": 100, "color": "yellow", "at": 0},
+    {"type": "icon", "name": "scales", "size": 250, "color": "a", "at": 0.3},
+    {"type": "text", "text": "EE. UU.: “no es un riesgo”", "size": 66, "color": "a", "at": "s0+1.5"},
+    {"type": "text", "text": "La investigación sigue", "size": 66, "color": "b", "at": "s1"}]},
+
+  {"say": [["¿Y la bolsa? La acción se disparó casi un 30 por ciento.", "¿Y la bolsa? La acción se disparó, casi un treinta por ciento."]],
+   "elements": [
+    {"type": "text", "text": "La reacción", "size": 100, "at": 0},
+    {"type": "icon", "name": "trophy", "size": 250, "color": "yellow", "at": 0.3},
+    {"type": "text", "text": "La acción subió casi", "size": 64, "at": "s0+1.6"},
+    {"type": "big", "text": "+30%", "size": 200, "color": "a", "at": "s0+2.6"}]},
+
+  {"say": [["Colette Kress, que era CEO interina, sigue como jefa de finanzas.", "Colét Kres, que era ceo interina, sigue como jefa de finanzas."],
+           ["¿Fue buena decisión? Te leo. Sígueme para más noticias tech.", "¿Fue buena decisión? Te leo. Sígueme para más noticias tec."]],
+   "elements": [
+    {"type": "text", "text": "¿Y ahora?", "size": 110, "color": "yellow", "at": 0},
+    {"type": "icon", "name": "question", "size": 240, "color": "a", "at": 0.3},
+    {"type": "text", "text": "Colette Kress sigue como CFO", "size": 62, "at": "s0+0.8"},
+    {"type": "text", "text": "¿Fue buena decisión?", "size": 70, "color": "a", "at": "s1"}]}
+ ]
+}
