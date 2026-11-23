@@ -1,0 +1,43 @@
+{
+ "voice": "em_alex",
+ "speed": 1.1,
+ "theme": {"bg":"#0A1A2F","yellow":"#FFD23F","a":"#4FC3F7","b":"#FF6B6B","c":"#B39DDB","d":"#5EE6A8"},
+ "scenes": [
+  {"say": [["¿Te imaginas estudiar en Inglaterra con una beca de hasta veintiséis mil libras?", "¿Te imaginas estudiar en Inglaterra, con una beca de hasta veintiséis mil libras?"]],
+   "elements": [
+    {"type": "text", "text": "Estudia en el Reino Unido", "size": 76, "color": "yellow", "at": 0},
+    {"type": "big", "text": "BECA", "size": 230, "color": "d", "at": 0.8},
+    {"type": "text", "text": "Universidad de Bristol", "size": 70, "weight": "med", "color": "grey", "at": 1.6}]},
+  {"say": [["La Universidad de Bristol, en el Reino Unido,", "La Universidad de Brístol, en el Reino Unido,"], ["abrió sus becas Think Big para estudiantes internacionales.", "abrió sus becas, Tink Big, para estudiantes internacionales."]],
+   "elements": [
+    {"type": "text", "text": "Universidad de Bristol", "size": 84, "color": "a", "at": 0},
+    {"type": "text", "text": "(Reino Unido)", "size": 56, "weight": "med", "color": "grey", "at": 0.6},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "Becas Think Big", "size": 120, "color": "yellow", "at": "s1"},
+    {"type": "text", "text": "para estudiantes internacionales", "size": 60, "at": "s1+1.0"}]},
+  {"say": [["En maestría, la beca va de tres mil hasta veintiséis mil libras.", "En maestría, la beca va de tres mil, hasta veintiséis mil libras."], ["En grado, seis mil quinientas o trece mil libras.", "En grado, seis mil quinientas, o trece mil libras."]],
+   "elements": [
+    {"type": "text", "text": "Maestría: hasta", "size": 80, "color": "a", "at": 0},
+    {"type": "big", "text": "£26,000", "size": 210, "color": "d", "at": "s0+1.2"},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "Grado: £6,500 o £13,000", "size": 70, "color": "yellow", "at": "s1"},
+    {"type": "text", "text": "descuento en la matrícula", "size": 56, "weight": "med", "color": "grey", "at": "s1+1.2"}]},
+  {"say": [["Es para estudiantes internacionales, como los dominicanos, que apliquen a un programa presencial.", "Es para estudiantes internacionales, como los dominicanos, que apliquen a un programa presencial."], ["No necesitas tener la admisión aprobada para pedir la beca.", "No necesitas tener la admisión aprobada, para pedir la beca."]],
+   "elements": [
+    {"type": "text", "text": "Lo que debes saber", "size": 80, "color": "a", "at": 0},
+    {"type": "gap", "h": 20},
+    {"type": "list", "items": ["Estudiantes internacionales", "Grado o maestría presencial", "Primero aplicas al programa", "No hace falta la admisión"], "size": 58, "step": 1.4, "at": 0.5}]},
+  {"say": [["La fecha límite es el diecinueve de marzo de dos mil veintisiete.", "La fecha límite es el diecinueve de marzo, de dos mil veintisiete."]],
+   "elements": [
+    {"type": "text", "text": "Fecha límite", "size": 80, "color": "grey", "at": 0},
+    {"type": "big", "text": "19 MAR", "size": 220, "color": "b", "at": 1.0},
+    {"type": "text", "text": "2027", "size": 90, "color": "yellow", "at": 1.6}]},
+  {"say": [["El enlace oficial y todos los detalles están en la descripción.", "El enlace oficial, y todos los detalles, están en la descripción."], ["Compártelo con quien lo necesite y sigue la página para más oportunidades.", "Compártelo con quien lo necesite, y sigue la página para más oportunidades."]],
+   "elements": [
+    {"type": "text", "text": "Enlace oficial y detalles", "size": 76, "at": 0},
+    {"type": "text", "text": "en la descripción", "size": 96, "color": "a", "at": 0.5},
+    {"type": "gap", "h": 40},
+    {"type": "text", "text": "Compártelo y sigue la página", "size": 64, "color": "d", "at": "s1"},
+    {"type": "text", "text": "Oportunidades para Dominicanos", "size": 50, "weight": "med", "color": "grey", "at": "s1+1.0"}]}
+ ]
+}
