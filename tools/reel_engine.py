@@ -99,6 +99,20 @@ def icon_img(name, sz, u, col):
         d.rounded_rectangle(P(100, 100, 300, 300), radius=30 * k, fill=C("#1B1B28"), outline=C(col), width=int(8 * k))
         f = font("bold", int(90 * k)); w = d.textlength("IA", font=f)
         d.text((200 * k - w / 2, 200 * k - f.size * 0.62), "IA", font=f, fill=C(col))
+    elif name == "primes":
+        # numeros primos que aparecen uno a uno en fichas redondas; el activo brilla
+        nums = ["2", "3", "5", "7", "11", "13"]
+        f = font("bold", int(72 * k))
+        for i, t in enumerate(nums):
+            b = ease((u - i * 0.25) / 0.35)
+            if b <= 0: continue
+            cx, cy = 72 + (i % 3) * 128, 130 + (i // 3) * 140
+            on = int(u * 2.5) % 6 == i
+            r = 58 + (6 if on else 0)
+            d.ellipse(P(cx - r, cy - r, cx + r, cy + r), fill=C("#1B1B28", int(255 * b)),
+                      outline=C("yellow" if on else col, int(255 * b)), width=int(7 * k))
+            w = d.textlength(t, font=f)
+            d.text((cx * k - w / 2, cy * k - f.size * 0.62), t, font=f, fill=C("yellow" if on else "white", int(255 * b)))
     elif name == "gavel":
         d.rounded_rectangle(P(215, 318, 365, 356), radius=10 * k, fill=C("#8B5E3C"))
         d.rounded_rectangle(P(232, 302, 348, 322), radius=8 * k, fill=C("#A0704A"))
