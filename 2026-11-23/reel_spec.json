@@ -1,0 +1,63 @@
+{
+ "voice": "em_alex",
+ "background": "circuit",
+ "transition": "slide",
+ "scenes": [
+  {"say": [["¿La IA ayudó a resolver el mayor misterio de las matemáticas?", "¿La i a ayudó a resolver el mayor misterio de las matemáticas?"],
+           ["Un enigma de 167 años.", "Un enigma de ciento sesenta y siete años."]],
+   "elements": [
+    {"type": "text", "text": "HISTÓRICO", "size": 64, "color": "c", "at": 0},
+    {"type": "text", "text": "La hipótesis de Riemann", "size": 76, "at": 0.4},
+    {"type": "icon", "name": "question", "size": 280, "color": "a", "at": 0.7},
+    {"type": "big", "text": "167 años", "size": 190, "color": "yellow", "at": "s1"}]},
+
+  {"say": [["El 20 de noviembre, Levent Alpöge, matemático de Anthropic,", "El veinte de noviembre, Lévent Alpógue, matemático de Ántropic,"],
+           ["publicó una prueba hecha con ayuda de Claude, una IA.", "publicó una prueba, hecha con ayuda de Clód, una i a."]],
+   "elements": [
+    {"type": "text", "text": "¿Qué pasó?", "size": 110, "color": "yellow", "at": 0},
+    {"type": "icon", "name": "chip", "size": 260, "color": "a", "at": 0.3},
+    {"type": "list", "items": ["20 nov.: Alpöge publica la prueba", "Hecha con ayuda de Claude (IA)", "Sin paper: todo en código"], "size": 52, "at": "s0+0.6", "step": 2.0}]},
+
+  {"say": [["La prueba ocupa 17 millones de líneas de código.", "La prueba ocupa diecisiete millones de líneas de código."],
+           ["Y la comunidad de Lean ya la verificó por computadora.", "Y la comunidad de Lin, ya la verificó por computadora."]],
+   "elements": [
+    {"type": "text", "text": "Los números", "size": 96, "at": 0},
+    {"type": "icon", "name": "trophy", "size": 250, "color": "yellow", "at": 0.3},
+    {"type": "big", "text": "17 M", "size": 190, "color": "yellow", "at": "s0+1.2"},
+    {"type": "text", "text": "líneas de código (Lean)", "size": 60, "at": "s0+1.6"},
+    {"type": "text", "text": "Verificada por computadora", "size": 58, "color": "a", "at": "s1+1.0"}]},
+
+  {"say": [["Pero ojo: todavía ningún humano la entiende del todo.", "Pero ojo: todavía ningún humano la entiende del todo."],
+           ["Expertos dicen que comprenderla podría tomar meses, o años.", "Expertos dicen que comprenderla, podría tomar meses, o años."]],
+   "elements": [
+    {"type": "text", "text": "La otra cara", "size": 100, "color": "b", "at": 0},
+    {"type": "icon", "name": "scales", "size": 260, "color": "b", "at": 0.3},
+    {"type": "list", "items": ["La máquina dice: es correcta", "Humanos: aún no la entienden", "Entenderla: meses o años"], "size": 52, "at": "s0+0.6", "step": 2.2}]},
+
+  {"say": [["Dato curioso: antes de esto, ya se habían comprobado más de 12 billones de casos,", "Dato curioso: antes de esto, ya se habían comprobado más de doce billones de casos,"],
+           ["y todos cumplían la hipótesis.", "y todos cumplían la hipótesis."]],
+   "elements": [
+    {"type": "text", "text": "DATO CURIOSO #1", "size": 64, "color": "c", "at": 0},
+    {"type": "icon", "name": "chip", "size": 240, "color": "c", "at": 0.3},
+    {"type": "big", "text": "+12", "size": 190, "color": "yellow", "at": "s0+3.0"},
+    {"type": "text", "text": "billones de ceros comprobados", "size": 58, "at": "s0+3.4"},
+    {"type": "text", "text": "(trillion en inglés · 2021)", "size": 40, "weight": "med", "color": "grey", "at": "s0+3.6"}]},
+
+  {"say": [["Resolverla vale un millón de dólares del Instituto Clay.", "Resolverla vale un millón de dólares, del Instituto Cléi."],
+           ["Y el ruso Grigori Perelman, que resolvió otro de esos problemas, rechazó su millón.", "Y el ruso Grigori Pérelman, que resolvió otro de esos problemas, rechazó su millón."]],
+   "elements": [
+    {"type": "text", "text": "DATO CURIOSO #2", "size": 64, "color": "c", "at": 0},
+    {"type": "icon", "name": "trophy", "size": 240, "color": "yellow", "at": 0.3},
+    {"type": "big", "text": "US$1 M", "size": 180, "color": "yellow", "at": "s0+1.0"},
+    {"type": "text", "text": "Perelman lo rechazó en 2010", "size": 60, "color": "b", "at": "s1+2.0"}]},
+
+  {"say": [["Y Lean, el programa que la verificó, nació en 2013 en Microsoft.", "Y Lin, el programa que la verificó, nació en el dos mil trece, en Máicrosoft."],
+           ["¿Confías en una prueba que nadie entiende? Te leo. Sígueme para más noticias tech.", "¿Confías en una prueba que nadie entiende? Te leo. Sígueme para más noticias tec."]],
+   "elements": [
+    {"type": "text", "text": "DATO CURIOSO #3", "size": 64, "color": "c", "at": 0},
+    {"type": "text", "text": "Lean nació en Microsoft", "size": 68, "at": 0.4},
+    {"type": "big", "text": "2013", "size": 180, "color": "yellow", "at": "s0+2.0"},
+    {"type": "icon", "name": "question", "size": 220, "color": "a", "at": "s1"},
+    {"type": "text", "text": "¿Confías sin entenderla?", "size": 64, "color": "a", "at": "s1"}]}
+ ]
+}
