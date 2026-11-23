@@ -1,0 +1,244 @@
+{
+ "voice": "em_alex",
+ "speed": 1.12,
+ "background": "stars",
+ "theme": {
+  "bg": "#0B0B12",
+  "yellow": "#F5C542",
+  "a": "#7DD3FC",
+  "b": "#F87171",
+  "c": "#C4B5FD",
+  "d": "#86EFAC"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "Este país era libre…",
+     "Este país era libre,"
+    ],
+    [
+     "…y su propio presidente lo devolvió a España.",
+     "y su propio presidente lo devolvió a España."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Un país libre…",
+     "size": 96,
+     "color": "white",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "DEVUELTO",
+     "size": 180,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "a España",
+     "size": 110,
+     "weight": "bold",
+     "color": "yellow",
+     "at": "s2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "República Dominicana, 1861.",
+     "República Dominicana, mil ochocientos sesenta y uno."
+    ],
+    [
+     "Pedro Santana anuncia la anexión.",
+     "Pedro Santana anuncia la anexión."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "map",
+     "size": 220,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "1861",
+     "size": 220,
+     "color": "a",
+     "at": 0.2
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Pedro Santana",
+      "Anexión"
+     ],
+     "color": "a",
+     "at": "s2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Volvió a ser colonia.",
+     "Volvió a ser colonia."
+    ],
+    [
+     "Pero dos años después… estalló todo.",
+     "Pero dos años después, estalló todo."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "COLONIA",
+     "size": 210,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "otra vez",
+     "size": 90,
+     "color": "white",
+     "at": 0.4
+    },
+    {
+     "type": "text",
+     "text": "2 años después…",
+     "size": 90,
+     "weight": "bold",
+     "color": "yellow",
+     "at": "s2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "1863: un grupo alza la bandera en Capotillo.",
+     "En mil ochocientos sesenta y tres, un grupo alza la bandera en Capotillo."
+    ],
+    [
+     "Empieza la Guerra de la Restauración.",
+     "Empieza la Guerra de la Restauración."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "1863",
+     "size": 220,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Capotillo",
+      "Dajabón"
+     ],
+     "color": "yellow",
+     "at": "s1+1.2"
+    },
+    {
+     "type": "text",
+     "text": "GUERRA DE LA RESTAURACIÓN",
+     "size": 84,
+     "weight": "bold",
+     "color": "b",
+     "at": "s2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "España perdió miles de soldados, sobre todo por fiebres.",
+     "España perdió miles de soldados, sobre todo por fiebres."
+    ],
+    [
+     "En 1865, se fue para siempre.",
+     "En mil ochocientos sesenta y cinco, se fue para siempre."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "LO QUE PASÓ",
+     "size": 80,
+     "weight": "bold",
+     "color": "d",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "Miles de soldados muertos",
+      "La mayoría por enfermedades"
+     ],
+     "size": 76,
+     "step": 0.7,
+     "at": "s1"
+    },
+    {
+     "type": "big",
+     "text": "1865",
+     "size": 220,
+     "color": "d",
+     "at": "s2"
+    },
+    {
+     "type": "text",
+     "text": "España se retira",
+     "size": 80,
+     "color": "white",
+     "at": "s2+0.5"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Conocías esta historia?",
+     "¿Conocías esta historia?"
+    ],
+    [
+     "Un país que tuvo que ganar su libertad… dos veces.",
+     "Un país que tuvo que ganar su libertad, dos veces."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "2 VECES",
+     "size": 190,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "ganó su libertad",
+     "size": 84,
+     "weight": "bold",
+     "color": "d",
+     "at": "s2"
+    },
+    {
+     "type": "text",
+     "text": "Sigue para más historias",
+     "size": 48,
+     "color": "grey",
+     "at": "s2"
+    }
+   ]
+  }
+ ]
+}
