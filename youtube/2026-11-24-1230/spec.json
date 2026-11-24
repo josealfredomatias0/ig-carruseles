@@ -1,0 +1,256 @@
+{
+ "voice": "em_alex",
+ "speed": 1.12,
+ "background": "stars",
+ "theme": {
+  "bg": "#0B0B12",
+  "yellow": "#F5C542",
+  "a": "#7DD3FC",
+  "b": "#F87171",
+  "c": "#C4B5FD",
+  "d": "#86EFAC"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "Este barco quedó abandonado en el hielo…",
+     "Este barco quedó abandonado en el hielo,"
+    ],
+    [
+     "…y siguió apareciendo durante 38 años.",
+     "y siguió apareciendo durante treinta y ocho años."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "38 AÑOS",
+     "size": 220,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "un barco sin nadie",
+     "size": 96,
+     "weight": "bold",
+     "color": "white",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "…apareciendo solo",
+     "size": 100,
+     "weight": "bold",
+     "color": "b",
+     "at": "s2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Es el Baychimo, atrapado en el hielo de Alaska, 1931.",
+     "Es el Beichimo, atrapado en el hielo de Alaska, en mil novecientos treinta y uno."
+    ],
+    [
+     "Quince hombres se quedaron a vigilarlo.",
+     "Quince hombres se quedaron a vigilarlo."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "BAYCHIMO",
+     "size": 190,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Alaska",
+      "1931"
+     ],
+     "color": "yellow",
+     "at": "s1+1.2"
+    },
+    {
+     "type": "big",
+     "text": "15",
+     "size": 200,
+     "color": "a",
+     "at": "s2"
+    },
+    {
+     "type": "text",
+     "text": "hombres lo vigilan",
+     "size": 80,
+     "weight": "bold",
+     "color": "white",
+     "at": "s2+0.3"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Un 24 de noviembre, como hoy, llegó una tormenta.",
+     "Un veinticuatro de noviembre, como hoy, llegó una tormenta."
+    ],
+    [
+     "Cuando pasó… el barco ya no estaba.",
+     "Cuando pasó, el barco ya no estaba."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "24 NOV",
+     "size": 220,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "una tormenta",
+     "size": 96,
+     "weight": "bold",
+     "color": "white",
+     "at": "s1+1.5"
+    },
+    {
+     "type": "text",
+     "text": "EL BARCO NO ESTABA",
+     "size": 96,
+     "weight": "bold",
+     "color": "b",
+     "at": "s2+0.8"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Pero no se hundió. Lo vieron a la deriva una y otra vez.",
+     "Pero no se hundió. Lo vieron a la deriva una y otra vez."
+    ],
+    [
+     "Algunos subieron a bordo… nadie pudo llevárselo.",
+     "Algunos subieron a bordo, nadie pudo llevárselo."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "A LA DERIVA",
+     "size": 170,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "1932",
+      "1933",
+      "1962",
+      "1969"
+     ],
+     "size": 90,
+     "step": 0.5,
+     "at": "s1+1.2"
+    },
+    {
+     "type": "text",
+     "text": "nadie pudo llevárselo",
+     "size": 84,
+     "weight": "bold",
+     "color": "yellow",
+     "at": "s2+1.0"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Última vez visto: 1969, en el hielo.",
+     "Última vez visto: mil novecientos sesenta y nueve, en el hielo."
+    ],
+    [
+     "Lo han buscado. Nunca lo han encontrado.",
+     "Lo han buscado. Nunca lo han encontrado."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "LO QUE SE SABE",
+     "size": 80,
+     "weight": "bold",
+     "color": "d",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "1969",
+     "size": 230,
+     "color": "d",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "última vez visto",
+     "size": 84,
+     "weight": "bold",
+     "color": "white",
+     "at": 0.4
+    },
+    {
+     "type": "text",
+     "text": "NUNCA HALLADO",
+     "size": 110,
+     "weight": "bold",
+     "color": "b",
+     "at": "s2+1.0"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Tú crees que sigue ahí afuera?",
+     "¿Tú crees que sigue ahí afuera?"
+    ],
+    [
+     "Porque este barco quedó abandonado… y siguió navegando solo.",
+     "Porque este barco quedó abandonado, y siguió navegando, solo."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "¿SIGUE AHÍ?",
+     "size": 150,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "navegando solo",
+     "size": 100,
+     "weight": "bold",
+     "color": "a",
+     "at": "s2+1.0"
+    },
+    {
+     "type": "text",
+     "text": "Sigue para más misterios",
+     "size": 48,
+     "color": "grey",
+     "at": "s2"
+    }
+   ]
+  }
+ ]
+}
