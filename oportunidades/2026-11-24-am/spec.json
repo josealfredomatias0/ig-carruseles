@@ -1,0 +1,43 @@
+{
+ "voice": "em_alex",
+ "speed": 1.1,
+ "theme": {"bg":"#0A1A2F","yellow":"#FFD23F","a":"#4FC3F7","b":"#FF6B6B","c":"#B39DDB","d":"#5EE6A8"},
+ "scenes": [
+  {"say": [["¿Quieres hacer un doctorado financiado en Chile? Esta beca cierra en días.", "¿Quieres hacer un doctorado financiado en Chile? Esta beca, cierra en días."]],
+   "elements": [
+    {"type": "text", "text": "Doctorado en Chile", "size": 80, "color": "yellow", "at": 0},
+    {"type": "big", "text": "BECA", "size": 230, "color": "d", "at": 0.8},
+    {"type": "text", "text": "Cierra en días", "size": 70, "color": "b", "at": "s0+2.4"}]},
+  {"say": [["La ANID, agencia de investigación del Gobierno de Chile,", "La anid, agencia de investigación del Gobierno de Chile,"], ["abrió la Beca de Doctorado Nacional 2027, también para extranjeros.", "abrió la Beca de Doctorado Nacional, dos mil veintisiete, también para extranjeros."]],
+   "elements": [
+    {"type": "text", "text": "ANID", "size": 130, "color": "a", "at": 0},
+    {"type": "text", "text": "Gobierno de Chile", "size": 60, "weight": "med", "color": "grey", "at": 0.6},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "Beca de Doctorado Nacional 2027", "size": 84, "color": "yellow", "at": "s1"},
+    {"type": "text", "text": "abierta a extranjeros", "size": 64, "color": "d", "at": "s1+2.0"}]},
+  {"say": [["Hay hasta mil becas, que financian tu doctorado hasta por cuatro años.", "Hay hasta mil becas, que financian tu doctorado, hasta por cuatro años."], ["Y la OEA da mil doscientos dólares extra para instalarte.", "Y la o e a, da mil doscientos dólares extra para instalarte."]],
+   "elements": [
+    {"type": "text", "text": "Hasta", "size": 70, "color": "a", "at": 0},
+    {"type": "big", "text": "1,000 BECAS", "size": 170, "color": "d", "at": "s0+0.6"},
+    {"type": "text", "text": "hasta 4 años de doctorado", "size": 64, "at": "s0+2.0"},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "+ US$1,200 de la OEA", "size": 74, "color": "yellow", "at": "s1"}]},
+  {"say": [["Necesitas una licenciatura, y estar admitido o postulando a un doctorado acreditado en Chile.", "Necesitas una licenciatura, y estar admitido, o postulando, a un doctorado acreditado en Chile."], ["Además, buen índice o estar en el treinta por ciento superior de tu promoción.", "Además, buen índice, o estar en el treinta por ciento superior de tu promoción."]],
+   "elements": [
+    {"type": "text", "text": "Requisitos clave", "size": 80, "color": "a", "at": 0},
+    {"type": "gap", "h": 20},
+    {"type": "list", "items": ["Licenciatura o equivalente", "Doctorado acreditado en Chile", "Admitido o postulando", "Excelencia académica"], "size": 58, "step": 1.5, "at": 0.5}]},
+  {"say": [["La fecha límite es el veintisiete de noviembre, a la una de la tarde, hora de Chile.", "La fecha límite es el veintisiete de noviembre, a la una de la tarde, hora de Chile."]],
+   "elements": [
+    {"type": "text", "text": "Fecha límite", "size": 80, "color": "grey", "at": 0},
+    {"type": "big", "text": "27 NOV", "size": 220, "color": "b", "at": 1.0},
+    {"type": "text", "text": "2026 · 1:00 p.m. (Chile)", "size": 70, "color": "yellow", "at": 1.8}]},
+  {"say": [["El enlace oficial y todos los detalles están en la descripción.", "El enlace oficial, y todos los detalles, están en la descripción."], ["Compártelo con quien lo necesite y sigue la página para más oportunidades.", "Compártelo con quien lo necesite, y sigue la página para más oportunidades."]],
+   "elements": [
+    {"type": "text", "text": "Enlace oficial y detalles", "size": 76, "at": 0},
+    {"type": "text", "text": "en la descripción", "size": 96, "color": "a", "at": 0.5},
+    {"type": "gap", "h": 40},
+    {"type": "text", "text": "Compártelo y sigue la página", "size": 64, "color": "d", "at": "s1"},
+    {"type": "text", "text": "Oportunidades para Dominicanos", "size": 50, "weight": "med", "color": "grey", "at": "s1+1.0"}]}
+ ]
+}
