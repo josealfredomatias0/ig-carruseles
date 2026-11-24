@@ -273,41 +273,41 @@
   {
    "say": [
     [
-     "La otra cara: Grok enfrenta investigaciones por imágenes falsas, y tener piezas no garantiza ganar.",
-     "La otra cara: Grok enfrenta investigaciones por imágenes falsas, y tener piezas, no garantiza ganar."
+     "¿Estrategia maestra o demasiado poder en una sola mano?",
+     "¿Estrategia maestra, o demasiado poder en una sola mano?"
     ],
     [
-     "¿Estrategia maestra o demasiado poder? Te leo. Sígueme para más noticias tech.",
-     "¿Estrategia maestra, o demasiado poder? Te leo. Sígueme para más noticias tec."
+     "Te leo en los comentarios. Sígueme para más noticias tech.",
+     "Te leo en los comentarios. Sígueme para más noticias tec."
     ]
    ],
    "elements": [
     {
      "type": "text",
-     "text": "LA OTRA CARA",
-     "size": 90,
-     "color": "a",
+     "text": "Y tú, ¿qué opinas?",
+     "size": 92,
+     "color": "yellow",
      "at": 0
     },
     {
      "type": "icon",
-     "name": "scales",
+     "name": "question",
      "size": 260,
      "color": "a",
      "at": 0.3
     },
     {
      "type": "text",
-     "text": "Grok, investigada por deepfakes",
-     "size": 58,
-     "at": "s0+1.5"
+     "text": "¿Estrategia maestra o demasiado poder?",
+     "size": 72,
+     "at": "s0+0.5"
     },
     {
      "type": "text",
-     "text": "¿Estrategia maestra o demasiado poder?",
-     "size": 72,
-     "color": "yellow",
-     "at": "s1"
+     "text": "Sígueme para más noticias tech",
+     "size": 56,
+     "color": "a",
+     "at": "s1+1.5"
     }
    ]
   }
