@@ -1,0 +1,315 @@
+{
+ "voice": "em_alex",
+ "background": "circuit",
+ "transition": "slide",
+ "speed": 1.2,
+ "scenes": [
+  {
+   "say": [
+    [
+     "Parece que Elon Musk perdió la carrera de la IA.",
+     "Parece que Ílon Mosk, perdió la carrera de la i a."
+    ],
+    [
+     "Mi teoría: no es así. Está jugando otra partida.",
+     "Mi teoría: no es así. Está jugando otra partida."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "OPINIÓN",
+     "size": 60,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Musk y la carrera de la IA",
+     "size": 70,
+     "at": 0.3
+    },
+    {
+     "type": "icon",
+     "name": "question",
+     "size": 260,
+     "color": "a",
+     "at": 0.5
+    },
+    {
+     "type": "big",
+     "text": "¿Perdió?",
+     "size": 180,
+     "color": "yellow",
+     "at": 1.2
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Lo que se ve: Grok va detrás de ChatGPT, Gemini y Claude en uso.",
+     "Lo que se ve: Grok, va detrás de Chat yi pi ti, Yémini y Clod, en uso."
+    ],
+    [
+     "Y según la prensa, el propio Musk admitió que van atrás.",
+     "Y según la prensa, el propio Mosk admitió que van atrás."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Lo que parece",
+     "size": 100,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "trend_down",
+     "size": 260,
+     "color": "b",
+     "at": 0.2
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "ChatGPT",
+      "Gemini",
+      "Claude"
+     ],
+     "size": 58,
+     "step": 0.5,
+     "at": "s0+1.5"
+    },
+    {
+     "type": "text",
+     "text": "…y Grok, más atrás",
+     "size": 66,
+     "color": "b",
+     "at": "s0+3.0"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Pero Musk no compite solo con una app. Tiene las piezas de toda la máquina.",
+     "Pero Mosk no compite solo con una app. Tiene las piezas de toda la máquina."
+    ],
+    [
+     "Cohetes, internet, datos, autos, chips cerebrales, e inteligencia artificial.",
+     "Cohetes, internet, datos, autos, chips cerebrales, e inteligencia artificial."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Las piezas",
+     "size": 110,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "chip",
+     "size": 240,
+     "color": "a",
+     "at": 0.2
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "SpaceX",
+      "Starlink",
+      "X"
+     ],
+     "size": 60,
+     "step": 0.45,
+     "at": "s1"
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Tesla",
+      "Neuralink",
+      "Grok"
+     ],
+     "size": 60,
+     "step": 0.45,
+     "at": "s1+1.4"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "En 2025 unió X con su empresa de IA. Y en febrero de 2026, la metió dentro de SpaceX.",
+     "En el dos mil veinticinco, unió X con su empresa de i a. Y en febrero del dos mil veintiséis, la metió dentro de SpaceX."
+    ],
+    [
+     "Valor combinado: 1.25 billones de dólares.",
+     "Valor combinado: un billón doscientos cincuenta mil millones de dólares."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Todo bajo un mismo techo",
+     "size": 76,
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "merge",
+     "size": 260,
+     "color": "a",
+     "at": 0.3
+    },
+    {
+     "type": "big",
+     "text": "$1.25 billones",
+     "size": 140,
+     "color": "yellow",
+     "at": "s1+0.3"
+    },
+    {
+     "type": "text",
+     "text": "(1.25 trillion en inglés) · feb. 2026",
+     "size": 48,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+0.8"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Mira cómo encajan: Starlink da internet a más de 12 millones de clientes.",
+     "Mira cómo encajan: Estárlink da internet a más de doce millones de clientes."
+    ],
+    [
+     "X le da datos en tiempo real. Colossus, su supercomputadora en Memphis, le da el músculo.",
+     "Equis le da datos en tiempo real. Colosus, su supercomputadora en Ménfis, le da el músculo."
+    ],
+    [
+     "Y Grok ya va dentro de los Tesla.",
+     "Y Grok, ya va dentro de los Tesla."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Cómo encajan",
+     "size": 100,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "eye",
+     "size": 220,
+     "color": "a",
+     "at": 0.2
+    },
+    {
+     "type": "list",
+     "items": [
+      "Starlink: internet, +12 M clientes",
+      "X: datos en tiempo real",
+      "Colossus: poder de cómputo",
+      "Tesla: Grok dentro del auto"
+     ],
+     "size": 52,
+     "at": "s0",
+     "step": 2.6
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Internet, datos, cómputo, autos y cohetes, en una sola mano.",
+     "Internet, datos, cómputo, autos y cohetes, en una sola mano."
+    ],
+    [
+     "Por eso creo que no se dejó ganar: está armando la estructura para controlarlo todo.",
+     "Por eso creo que no se dejó ganar: está armando la estructura, para controlarlo todo."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "MI TEORÍA",
+     "size": 90,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "trophy",
+     "size": 260,
+     "color": "a",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "No compite por una app: arma la estructura",
+     "size": 68,
+     "color": "yellow",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Es opinión, no un hecho comprobado",
+     "size": 46,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+1.5"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "La otra cara: Grok enfrenta investigaciones por imágenes falsas, y tener piezas no garantiza ganar.",
+     "La otra cara: Grok enfrenta investigaciones por imágenes falsas, y tener piezas, no garantiza ganar."
+    ],
+    [
+     "¿Estrategia maestra o demasiado poder? Te leo. Sígueme para más noticias tech.",
+     "¿Estrategia maestra, o demasiado poder? Te leo. Sígueme para más noticias tec."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "LA OTRA CARA",
+     "size": 90,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "scales",
+     "size": 260,
+     "color": "a",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "Grok, investigada por deepfakes",
+     "size": 58,
+     "at": "s0+1.5"
+    },
+    {
+     "type": "text",
+     "text": "¿Estrategia maestra o demasiado poder?",
+     "size": 72,
+     "color": "yellow",
+     "at": "s1"
+    }
+   ]
+  }
+ ]
+}
