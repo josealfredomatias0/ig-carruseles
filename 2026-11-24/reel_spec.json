@@ -1,0 +1,330 @@
+{
+ "voice": "em_alex",
+ "background": "circuit",
+ "transition": "slide",
+ "scenes": [
+  {
+   "say": [
+    [
+     "Bomba en la ciberseguridad: una gigante compra a otra.",
+     "Bomba en la ciberseguridad: una gigante, compra a otra."
+    ],
+    [
+     "CrowdStrike se queda con Zscaler por 43,900 millones de dólares.",
+     "Cráudstraik se queda con Zíscaler, por cuarenta y tres mil novecientos millones de dólares."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "ÚLTIMA HORA",
+     "size": 60,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "CrowdStrike compra Zscaler",
+     "size": 64,
+     "at": 0.3
+    },
+    {
+     "type": "icon",
+     "name": "merge",
+     "size": 280,
+     "color": "a",
+     "at": 0.5
+    },
+    {
+     "type": "big",
+     "text": "$43,900 M",
+     "size": 175,
+     "color": "yellow",
+     "at": 1.2
+    },
+    {
+     "type": "text",
+     "text": "dólares, todo en acciones",
+     "size": 52,
+     "weight": "med",
+     "color": "grey",
+     "at": 1.5
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Lo anunciaron este lunes 23 de noviembre.",
+     "Lo anunciaron este lunes, veintitrés de noviembre."
+    ],
+    [
+     "CrowdStrike protege computadoras; Zscaler, las conexiones a internet y la nube.",
+     "Cráudstraik protege computadoras; Zíscaler, las conexiones a internet y la nube."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Qué pasó?",
+     "size": 110,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "shield",
+     "size": 260,
+     "color": "a",
+     "at": 0.3
+    },
+    {
+     "type": "list",
+     "items": [
+      "Anuncio: lunes 23 de noviembre",
+      "CrowdStrike: cuida PCs",
+      "Zscaler: cuida redes y nube"
+     ],
+     "size": 54,
+     "at": "s0",
+     "step": 2.0
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Pagan un 34% más de lo que valía Zscaler en bolsa.",
+     "Pagan un treinta y cuatro por ciento más, de lo que valía Zíscaler en bolsa."
+    ],
+    [
+     "Juntas sumarán más de 10,000 millones en ingresos recurrentes al año.",
+     "Juntas, sumarán más de diez mil millones de dólares en ingresos recurrentes al año."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Los números",
+     "size": 100,
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "scales",
+     "size": 240,
+     "color": "a",
+     "at": 0.2
+    },
+    {
+     "type": "big",
+     "text": "+34%",
+     "size": 190,
+     "color": "yellow",
+     "at": "s0+1.0"
+    },
+    {
+     "type": "text",
+     "text": "de prima: ~US$260 por acción",
+     "size": 54,
+     "weight": "med",
+     "color": "grey",
+     "at": "s0+1.4"
+    },
+    {
+     "type": "text",
+     "text": "+US$10,000 M en ingresos recurrentes al año",
+     "size": 54,
+     "color": "a",
+     "at": "s1+0.5"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Por qué te importa? Su apuesta es que usar IA en el trabajo sea más seguro.",
+     "¿Por qué te importa? Su apuesta, es que usar i a en el trabajo, sea más seguro."
+    ],
+    [
+     "Aún faltan los permisos de reguladores: tardaría cerca de un año.",
+     "Aún faltan los permisos de los reguladores: tardaría cerca de un año."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Por qué te importa?",
+     "size": 88,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "lock",
+     "size": 250,
+     "color": "a",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "Meta: usar IA de forma segura",
+     "size": 66,
+     "at": "s0+2.0"
+    },
+    {
+     "type": "icon",
+     "name": "gavel",
+     "size": 200,
+     "color": "b",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Falta el permiso de reguladores (~1 año)",
+     "size": 52,
+     "color": "grey",
+     "weight": "med",
+     "at": "s1+0.8"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso #1: en julio de 2024, una actualización fallida de CrowdStrike tumbó Windows.",
+     "Dato curioso número uno: en julio del dos mil veinticuatro, una actualización fallida de Cráudstraik, tumbó Uíndous."
+    ],
+    [
+     "Unos 8.5 millones de computadoras con pantalla azul, y miles de vuelos cancelados.",
+     "Unos ocho millones y medio de computadoras, con pantalla azul, y miles de vuelos cancelados."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #1",
+     "size": 80,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "bsod",
+     "size": 280,
+     "color": "a",
+     "at": 0.3
+    },
+    {
+     "type": "big",
+     "text": "8.5 M",
+     "size": 190,
+     "color": "b",
+     "at": "s1+0.3"
+    },
+    {
+     "type": "text",
+     "text": "PCs con Windows caídas (julio 2024)",
+     "size": 54,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+0.8"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso #2: el fundador de Zscaler, Jay Chaudhry, creció en una aldea de la India.",
+     "Dato curioso número dos: el fundador de Zíscaler, Yei Chódri, creció en una aldea de la India."
+    ],
+    [
+     "No tuvo luz ni agua corriente hasta la adolescencia, y a veces estudiaba bajo un árbol.",
+     "No tuvo luz, ni agua corriente, hasta la adolescencia. Y a veces, estudiaba bajo un árbol."
+    ],
+    [
+     "Hoy es multimillonario.",
+     "Hoy, es multimillonario."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #2",
+     "size": 80,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "eye",
+     "size": 240,
+     "color": "a",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "Una aldea de ~800 personas",
+     "size": 56,
+     "at": "s0+2.5"
+    },
+    {
+     "type": "big",
+     "text": "Sin luz",
+     "size": 180,
+     "color": "yellow",
+     "at": "s1+0.3"
+    },
+    {
+     "type": "text",
+     "text": "Hoy: multimillonario",
+     "size": 66,
+     "color": "a",
+     "at": "s2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Es bueno que tan pocas empresas protejan a casi todos?",
+     "¿Es bueno, que tan pocas empresas protejan a casi todos?"
+    ],
+    [
+     "Te leo en los comentarios. Sígueme para más noticias tech.",
+     "Te leo en los comentarios. Sígueme para más noticias tec."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Y tú, ¿qué opinas?",
+     "size": 92,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "question",
+     "size": 260,
+     "color": "a",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "Pocas empresas protegiendo a casi todos: ¿bueno o riesgoso?",
+     "size": 60,
+     "at": "s0+0.5"
+    },
+    {
+     "type": "text",
+     "text": "Sígueme para más noticias tech",
+     "size": 56,
+     "color": "a",
+     "at": "s1+1.5"
+    }
+   ]
+  }
+ ],
+ "speed": 1.2
+}

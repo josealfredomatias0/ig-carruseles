@@ -287,6 +287,44 @@ def icon_img(name, sz, u, col):
                 g = (u * 1.2) % 1; d.ellipse(P(255 - 50 * g, 215 - 18 * g, 255 + 50 * g, 215 + 18 * g), outline=C(col, int(255 * (1 - g))), width=int(5 * k))
             d.polygon(P(225, py - 10, 285, py - 10, 255, py + 30), fill=C(col)); d.ellipse(P(220, py - 70, 290, py), fill=C(col))
             d.ellipse(P(243, py - 47, 267, py - 23), fill=C("#0B0B12"))
+    elif name == "shield":  # escudo con palomita que brilla: ciberseguridad, protección
+        g = 0.5 + 0.5 * math.sin(u * 3.5)
+        sh = lambda s: [((200 + (x - 200) * s) * k, (200 + (y - 200) * s) * k) for x, y in
+                        ((200, 40), (330, 90), (320, 230), (200, 360), (80, 230), (70, 90))]
+        for r in range(5, 0, -1):
+            d.polygon(sh(1 + r * 0.05), fill=C(col, int(14 * g)))
+        d.polygon(sh(1.0), fill=C("#1B1B28"), outline=C(col), width=int(10 * k))
+        d.polygon(sh(0.8), outline=C(col, 120), width=int(5 * k))
+        c_ = ease((u - 0.3) / 0.6)
+        if c_ > 0:
+            p0, p1, p2 = (140, 205), (185, 255), (265, 150)
+            if c_ < 0.4:
+                f_ = c_ / 0.4; pts = [p0, (p0[0] + (p1[0] - p0[0]) * f_, p0[1] + (p1[1] - p0[1]) * f_)]
+            else:
+                f_ = (c_ - 0.4) / 0.6; pts = [p0, p1, (p1[0] + (p2[0] - p1[0]) * f_, p1[1] + (p2[1] - p1[1]) * f_)]
+            d.line([(x * k, y * k) for x, y in pts], fill=C("yellow"), width=int(24 * k), joint="curve")
+    elif name == "merge":  # dos bloques que se juntan en uno: compras, fusiones, alianzas
+        j = ease(u / 1.0); off = (1 - j) * 70
+        g = 0.5 + 0.5 * math.sin(u * 4)
+        if j >= 1:
+            for r in range(5, 0, -1):
+                d.rounded_rectangle(P(40 - r * 8, 120 - r * 8, 360 + r * 8, 280 + r * 8), radius=30 * k, fill=C("yellow", int(12 * g)))
+        d.rounded_rectangle(P(40 - off, 120, 200 - off, 280), radius=26 * k, fill=C(col), outline=C("white"), width=int(6 * k))
+        d.rounded_rectangle(P(200 + off, 120, 360 + off, 280), radius=26 * k, fill=C("b"), outline=C("white"), width=int(6 * k))
+        f = font("bold", int(110 * k))
+        for t, cx in (("A", 120 - off), ("B", 280 + off)):
+            w = d.textlength(t, font=f); d.text((cx * k - w / 2, 200 * k - f.size * 0.62), t, font=f, fill=C("#0E0E14"))
+        if j >= 1:
+            fp = font("bold", int(70 * k)); w = d.textlength("+", font=fp)
+            d.ellipse(P(165, 165, 235, 235), fill=C("yellow")); d.text((200 * k - w / 2, 200 * k - fp.size * 0.62), "+", font=fp, fill=C("#0E0E14"))
+    elif name == "bsod":  # pantalla azul de error con carita triste que parpadea: caídas, fallas, "se cayó todo"
+        fl = 1 if (u % 1.2) < 1.0 else 0
+        d.rounded_rectangle(P(40, 50, 360, 270), radius=18 * k, fill=C("#1B1B28"), outline=C("grey"), width=int(10 * k))
+        d.rectangle(P(58, 68, 342, 252), fill=C("#2B6CE0" if fl else "#1E4FB0"))
+        f = font("bold", int(110 * k)); d.text((85 * k, 95 * k), ":(", font=f, fill=C("white"))
+        for i in range(3):
+            d.rounded_rectangle(P(220, 110 + i * 40, 320 - i * 25, 126 + i * 40), radius=6 * k, fill=C("white", 200))
+        d.rectangle(P(180, 270, 220, 320), fill=C("grey")); d.rounded_rectangle(P(120, 315, 280, 340), radius=10 * k, fill=C("grey"))
     elif name == "moon":  # luna con nubes: leyendas, noche, lo sobrenatural
         g = 0.5 + 0.5 * math.sin(u * 2)
         for r_ in range(5, 0, -1): d.ellipse(P(200 - 110 - r_ * 14, 170 - 110 - r_ * 14, 200 + 110 + r_ * 14, 170 + 110 + r_ * 14), fill=C(col, int(10 * g)))
