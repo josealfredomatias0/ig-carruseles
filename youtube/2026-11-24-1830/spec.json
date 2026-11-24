@@ -1,0 +1,256 @@
+{
+ "voice": "em_alex",
+ "speed": 1.12,
+ "background": "stars",
+ "theme": {
+  "bg": "#0B0B12",
+  "yellow": "#F5C542",
+  "a": "#7DD3FC",
+  "b": "#F87171",
+  "c": "#C4B5FD",
+  "d": "#86EFAC"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "Este hombre se convirtió en piedra…",
+     "Este hombre se convirtió en piedra,"
+    ],
+    [
+     "…solo porque lo tocó el sol.",
+     "solo porque lo tocó el sol."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "PIEDRA",
+     "size": 230,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "por culpa del sol",
+     "size": 90,
+     "weight": "bold",
+     "color": "white",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Mito taíno",
+     "size": 64,
+     "color": "c",
+     "at": "s2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Así lo contaban los taínos de esta isla.",
+     "Así lo contaban los taínos de esta isla."
+    ],
+    [
+     "Los primeros humanos vivían en una cueva.",
+     "Los primeros humanos vivían en una cueva."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "map",
+     "size": 200,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Taínos",
+      "La Española"
+     ],
+     "color": "a",
+     "at": 0.2
+    },
+    {
+     "type": "big",
+     "text": "CUEVA",
+     "size": 200,
+     "color": "a",
+     "at": "s2"
+    },
+    {
+     "type": "text",
+     "text": "Cacibajagua",
+     "size": 72,
+     "color": "white",
+     "at": "s2+0.6"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Solo salían de noche.",
+     "Solo salían de noche."
+    ],
+    [
+     "Un guardián vigilaba la puerta… y un día llegó tarde.",
+     "Un guardián vigilaba la puerta. Y un día, llegó tarde."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "La regla",
+     "size": 72,
+     "weight": "bold",
+     "color": "grey",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "NO VER EL SOL",
+     "size": 125,
+     "color": "b",
+     "at": 0.2
+    },
+    {
+     "type": "text",
+     "text": "El guardián:",
+     "size": 80,
+     "color": "white",
+     "at": "s2"
+    },
+    {
+     "type": "big",
+     "text": "LLEGÓ TARDE",
+     "size": 150,
+     "color": "yellow",
+     "at": "s2+1.3"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El sol lo atrapó y quedó hecho piedra.",
+     "El sol lo atrapó, y quedó hecho piedra."
+    ],
+    [
+     "A otros, el sol los volvió árboles de jobo.",
+     "A otros, el sol los volvió árboles de jobo."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "hourglass",
+     "size": 200,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "list",
+     "items": [
+      "Guardián: piedra",
+      "Otros: árboles"
+     ],
+     "size": 84,
+     "step": 1.8,
+     "color": "c",
+     "at": "s1+0.6"
+    },
+    {
+     "type": "big",
+     "text": "JOBOS",
+     "size": 210,
+     "color": "c",
+     "at": "s2+0.9"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Lo que se sabe: lo escribió fray Ramón Pané, hacia 1498.",
+     "Lo que se sabe: lo escribió fray Ramón Pané, hacia mil cuatrocientos noventa y ocho."
+    ],
+    [
+     "Fue el primer estudio de un pueblo indígena de América.",
+     "Fue el primer estudio de un pueblo indígena de América."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "LO QUE SE SABE",
+     "size": 80,
+     "weight": "bold",
+     "color": "d",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Fray Ramón Pané",
+     "size": 96,
+     "weight": "bold",
+     "color": "white",
+     "at": "s1+1.0"
+    },
+    {
+     "type": "big",
+     "text": "1498",
+     "size": 220,
+     "color": "d",
+     "at": "s1+2.6"
+    },
+    {
+     "type": "text",
+     "text": "Primer estudio de un pueblo indígena de América",
+     "size": 64,
+     "color": "d",
+     "at": "s2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Tú te habrías atrevido a salir?",
+     "¿Tú te habrías atrevido a salir?"
+    ],
+    [
+     "Y dicen que el guardián sigue ahí… hecho piedra.",
+     "Y dicen que el guardián sigue ahí, hecho piedra."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "¿SALDRÍAS?",
+     "size": 150,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Te leo en comentarios",
+     "size": 72,
+     "color": "white",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Sigue para más misterios",
+     "size": 48,
+     "color": "grey",
+     "at": "s2"
+    }
+   ]
+  }
+ ]
+}
