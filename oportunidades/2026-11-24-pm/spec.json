@@ -1,0 +1,246 @@
+{
+ "voice": "em_alex",
+ "speed": 1.1,
+ "theme": {
+  "bg": "#0A1A2F",
+  "yellow": "#FFD23F",
+  "a": "#4FC3F7",
+  "b": "#FF6B6B",
+  "c": "#B39DDB",
+  "d": "#5EE6A8"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "¿Estudias un posgrado? Puedes hacer tu pasantía en Naciones Unidas.",
+     "¿Estudias un posgrado? Puedes hacer tu pasantía, en Naciones Unidas."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Estudias un posgrado?",
+     "size": 80,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "PASANTÍA",
+     "size": 180,
+     "color": "d",
+     "at": 1.0
+    },
+    {
+     "type": "text",
+     "text": "en Naciones Unidas",
+     "size": 70,
+     "weight": "med",
+     "color": "grey",
+     "at": 1.8
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El PNUD abrió su programa de pasantías en su oficina de Washington.",
+     "El pe ene u de, abrió su programa de pasantías, en su oficina de Uáshinton."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "PNUD",
+     "size": 150,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Programa de las Naciones Unidas para el Desarrollo",
+     "size": 54,
+     "weight": "med",
+     "color": "grey",
+     "at": 0.6
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "Oficina de Washington, D.C.",
+     "size": 72,
+     "color": "yellow",
+     "at": 2.4
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El ciclo de primavera inicia en marzo de 2027 y va hasta el 15 de junio.",
+     "El ciclo de primavera inicia en marzo, del dos mil veintisiete, y va hasta el quince de junio."
+    ],
+    [
+     "Mínimo tres meses seguidos, al menos tres días por semana.",
+     "Mínimo tres meses seguidos, al menos tres días por semana."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Primavera 2027",
+     "size": 84,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "MAR - JUN",
+     "size": 170,
+     "color": "d",
+     "at": "s0+1.0"
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "Mínimo 3 meses seguidos",
+     "size": 62,
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "3 días o 24 h por semana",
+     "size": 62,
+     "color": "grey",
+     "weight": "med",
+     "at": "s1+1.2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Debes estar inscrito en un posgrado de comunicación o de un área de desarrollo, como economía, administración o estudios ambientales.",
+     "Debes estar inscrito en un posgrado de comunicación, o de un área de desarrollo, como economía, administración, o estudios ambientales."
+    ],
+    [
+     "Y hablar y escribir bien en inglés.",
+     "Y hablar y escribir bien, en inglés."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Requisitos clave",
+     "size": 80,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "gap",
+     "h": 20
+    },
+    {
+     "type": "list",
+     "items": [
+      "Inscrito en un posgrado",
+      "Comunicación o desarrollo",
+      "Volver a tus estudios después",
+      "Inglés escrito y hablado"
+     ],
+     "size": 56,
+     "step": 1.6,
+     "at": 0.6
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Envías carta de presentación, currículum, el formulario firmado y una carta de referencia.",
+     "Envías carta de presentación, currículum, el formulario firmado, y una carta de referencia."
+    ],
+    [
+     "La fecha límite es el 15 de enero.",
+     "La fecha límite, es el quince de enero."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Fecha límite",
+     "size": 80,
+     "color": "grey",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "15 ENE",
+     "size": 220,
+     "color": "yellow",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "2027",
+     "size": 90,
+     "color": "a",
+     "at": "s1+0.6"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "El enlace oficial y todos los detalles están en la descripción.",
+     "El enlace oficial, y todos los detalles, están en la descripción."
+    ],
+    [
+     "Compártelo con quien lo necesite y sigue la página para más oportunidades.",
+     "Compártelo con quien lo necesite, y sigue la página para más oportunidades."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Enlace oficial y detalles",
+     "size": 76,
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "en la descripción",
+     "size": 96,
+     "color": "a",
+     "at": 0.5
+    },
+    {
+     "type": "gap",
+     "h": 40
+    },
+    {
+     "type": "text",
+     "text": "Compártelo y sigue la página",
+     "size": 64,
+     "color": "d",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Oportunidades para Dominicanos",
+     "size": 50,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+1.0"
+    }
+   ]
+  }
+ ]
+}
