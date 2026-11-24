@@ -490,5 +490,25 @@
     ],
     "metricool_post_id": 438554519,
     "formato": "reel"
+  },
+  {
+    "fecha": "2026-11-24",
+    "tema": "CrowdStrike compra Zscaler por ~US$43,900 millones, todo en acciones (anunciado 23 nov.): 1.135 acciones de CRWD por cada una de ZS, ~US$260 por acción, prima de ~34%; +US$10,000 M en ARR combinado; cierre en 2S del año fiscal 2028 de CrowdStrike, sujeto a reguladores y accionistas",
+    "categoria": "ciberseguridad",
+    "palabras_clave": [
+      "CrowdStrike",
+      "Zscaler",
+      "adquisición",
+      "ciberseguridad",
+      "zero trust",
+      "George Kurtz",
+      "Jay Chaudhry"
+    ],
+    "datos_curiosos": [
+      "El 19 jul. 2024 una actualización fallida de CrowdStrike tumbó ~8.5 millones de PCs con Windows (Microsoft), con miles de vuelos cancelados",
+      "Jay Chaudhry, fundador de Zscaler, creció en Panoh (India), aldea de ~800 personas sin luz ni agua corriente hasta su adolescencia; estudiaba a veces bajo un árbol; hoy multimillonario"
+    ],
+    "metricool_post_id": 440054467,
+    "formato": "reel"
   }
 ]
