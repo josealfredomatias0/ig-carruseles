@@ -1,0 +1,243 @@
+{
+ "voice": "em_alex",
+ "speed": 1.12,
+ "background": "stars",
+ "theme": {
+  "bg": "#0B0B12",
+  "yellow": "#F5C542",
+  "a": "#7DD3FC",
+  "b": "#F87171",
+  "c": "#C4B5FD",
+  "d": "#86EFAC"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "Este hombre sobrevivió a una bomba atómica…",
+     "Este hombre sobrevivió a una bomba atómica,"
+    ],
+    [
+     "…y tres días después, a otra.",
+     "y tres días después, a otra."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "2 BOMBAS",
+     "size": 190,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "y sobrevivió a las dos",
+     "size": 84,
+     "weight": "bold",
+     "color": "white",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "3 días de diferencia",
+     "size": 72,
+     "color": "b",
+     "at": "s2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Tsutomu Yamaguchi, ingeniero de 29 años, de viaje en Hiroshima.",
+     "Tsutomu Yamaguchi, ingeniero de veintinueve años, de viaje en Hiroshima."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Tsutomu Yamaguchi",
+     "size": 96,
+     "weight": "bold",
+     "color": "white",
+     "at": 0
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Ingeniero",
+      "29 años"
+     ],
+     "color": "a",
+     "at": 0.4
+    },
+    {
+     "type": "big",
+     "text": "HIROSHIMA",
+     "size": 190,
+     "color": "a",
+     "at": "s1+2.2"
+    },
+    {
+     "type": "text",
+     "text": "6 de agosto de 1945",
+     "size": 68,
+     "color": "grey",
+     "at": "s1+2.8"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "La bomba estalló a menos de tres kilómetros.",
+     "La bomba estalló a menos de tres kilómetros."
+    ],
+    [
+     "Herido, tomó un tren a casa… en Nagasaki.",
+     "Herido, tomó un tren a casa. En Nagasaki."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "< 3 KM",
+     "size": 220,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Tren de vuelta a casa",
+     "size": 76,
+     "color": "white",
+     "at": "s2"
+    },
+    {
+     "type": "big",
+     "text": "NAGASAKI",
+     "size": 190,
+     "color": "yellow",
+     "at": "s2+1.6"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Le contaba a su jefe lo que había visto…",
+     "Le contaba a su jefe lo que había visto,"
+    ],
+    [
+     "…cuando por la ventana llegó otro destello.",
+     "cuando por la ventana llegó otro destello."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "9 de agosto",
+     "size": 80,
+     "weight": "bold",
+     "color": "grey",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Le explicaba Hiroshima…",
+     "size": 72,
+     "color": "white",
+     "at": "s1+0.5"
+    },
+    {
+     "type": "big",
+     "text": "OTRO",
+     "size": 200,
+     "color": "c",
+     "at": "s2+0.8"
+    },
+    {
+     "type": "text",
+     "text": "DESTELLO",
+     "size": 110,
+     "weight": "bold",
+     "color": "c",
+     "at": "s2+0.8"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Lo que se sabe: Japón lo reconoció como doble superviviente.",
+     "Lo que se sabe: Japón lo reconoció como doble superviviente."
+    ],
+    [
+     "Vivió hasta los 93 años.",
+     "Vivió hasta los noventa y tres años."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "LO QUE SE SABE",
+     "size": 80,
+     "weight": "bold",
+     "color": "d",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Doble superviviente oficial",
+     "size": 72,
+     "weight": "bold",
+     "color": "white",
+     "at": "s1+1.2"
+    },
+    {
+     "type": "big",
+     "text": "93 AÑOS",
+     "size": 210,
+     "color": "d",
+     "at": "s2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Suerte… o mala suerte?",
+     "¿Suerte, o mala suerte?"
+    ],
+    [
+     "Este hombre sobrevivió a una bomba atómica…",
+     "Este hombre sobrevivió a una bomba atómica,"
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "¿SUERTE?",
+     "size": 200,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Te leo en comentarios",
+     "size": 72,
+     "color": "white",
+     "at": "s1+0.6"
+    },
+    {
+     "type": "text",
+     "text": "Sigue para más misterios",
+     "size": 48,
+     "color": "grey",
+     "at": "s2"
+    }
+   ]
+  }
+ ]
+}
