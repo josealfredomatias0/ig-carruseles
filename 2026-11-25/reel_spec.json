@@ -1,0 +1,377 @@
+{
+ "voice": "em_alex",
+ "background": "circuit",
+ "transition": "slide",
+ "scenes": [
+  {
+   "say": [
+    [
+     "Huawei, el gigante chino de los celulares, fue declarado culpable en Estados Unidos.",
+     "Juawéi, el gigante chino de los celulares, fue declarado culpable en Estados Unidos."
+    ],
+    [
+     "Culpable de 10 de 12 cargos.",
+     "Culpable, de diez, de doce cargos."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "ÚLTIMA HORA",
+     "size": 60,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Huawei, culpable en EE. UU.",
+     "size": 76,
+     "at": 0.3
+    },
+    {
+     "type": "icon",
+     "name": "gavel",
+     "size": 300,
+     "color": "a",
+     "at": 0.5
+    },
+    {
+     "type": "big",
+     "text": "10 de 12",
+     "size": 190,
+     "color": "yellow",
+     "at": 1.2
+    },
+    {
+     "type": "text",
+     "text": "cargos",
+     "size": 56,
+     "weight": "med",
+     "color": "grey",
+     "at": 1.5
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Un jurado de Nueva York dio el veredicto este martes 24.",
+     "Un jurado de Nueva York, dio el veredicto este martes, veinticuatro."
+    ],
+    [
+     "Por robar secretos, engañar a bancos sobre Irán y Corea del Norte, y mentir a las autoridades.",
+     "Por robar secretos, engañar a bancos sobre Irán y Corea del Norte, y mentir a las autoridades."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Qué pasó?",
+     "size": 110,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "docs",
+     "size": 260,
+     "color": "b",
+     "at": 0.3
+    },
+    {
+     "type": "list",
+     "items": [
+      "Conspiración para robar secretos comerciales",
+      "Fraude a bancos por negocios en Irán y Corea del Norte",
+      "Mentir a bancos y autoridades de EE. UU."
+     ],
+     "size": 52,
+     "at": "s1",
+     "step": 1.5
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Víctimas del robo de secretos: Cisco, T-Mobile y Motorola.",
+     "Víctimas del robo de secretos: Císco, Tí Móbail, y Motorola."
+    ],
+    [
+     "El juicio duró 11 semanas, con más de 60 testigos.",
+     "El juicio duró once semanas, con más de sesenta testigos."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Secretos de:",
+     "size": 90,
+     "at": 0
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Cisco",
+      "T-Mobile",
+      "Motorola"
+     ],
+     "size": 60,
+     "step": 0.5,
+     "at": "s0+1.6"
+    },
+    {
+     "type": "icon",
+     "name": "magnifier",
+     "size": 260,
+     "color": "a",
+     "at": 0.3
+    },
+    {
+     "type": "big",
+     "text": "11 semanas",
+     "size": 170,
+     "color": "yellow",
+     "at": "s1+0.6"
+    },
+    {
+     "type": "text",
+     "text": "de juicio, más de 60 testigos",
+     "size": 52,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+1.6"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Pero la absolvieron de lo más grave: crimen organizado, y obstrucción a la justicia.",
+     "Pero la absolvieron de lo más grave: crimen organizado, y obstrucción a la justicia."
+    ],
+    [
+     "Huawei dice que apelará.",
+     "Juawéi dice que apelará."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "PERO...",
+     "size": 110,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "scales",
+     "size": 280,
+     "color": "a",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "Absuelta de crimen organizado",
+     "size": 68,
+     "at": "s0+2.0"
+    },
+    {
+     "type": "text",
+     "text": "y de obstrucción a la justicia",
+     "size": 58,
+     "weight": "med",
+     "color": "grey",
+     "at": "s0+3.2"
+    },
+    {
+     "type": "text",
+     "text": "Huawei apelará",
+     "size": 84,
+     "color": "yellow",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Sentencia: septiembre de 2027. Podría pagar miles de millones en multas.",
+     "Sentencia: septiembre del dos mil veintisiete. Podría pagar miles de millones en multas."
+    ],
+    [
+     "Ojo: el caso es contra la empresa, no contra sus clientes.",
+     "Ojo: el caso es contra la empresa, no contra sus clientes."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Y ahora?",
+     "size": 110,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "hourglass",
+     "size": 260,
+     "color": "a",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "Sentencia: septiembre 2027",
+     "size": 66,
+     "at": "s0+0.8"
+    },
+    {
+     "type": "big",
+     "text": "$$$",
+     "size": 170,
+     "color": "b",
+     "at": "s0+2.6"
+    },
+    {
+     "type": "text",
+     "text": "El caso es contra la empresa, no contra sus clientes",
+     "size": 52,
+     "color": "a",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso 1: Huawei nació en 1987, en Shenzhen, China.",
+     "Dato curioso uno: Juawéi nació en mil novecientos ochenta y siete, en Shénzen, China."
+    ],
+    [
+     "Y no hacía celulares: fabricaba centrales telefónicas.",
+     "Y no hacía celulares: fabricaba centrales telefónicas."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #1",
+     "size": 80,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "scroll",
+     "size": 280,
+     "color": "c",
+     "at": 0.3
+    },
+    {
+     "type": "big",
+     "text": "1987",
+     "size": 200,
+     "color": "yellow",
+     "at": "s0+1.8"
+    },
+    {
+     "type": "text",
+     "text": "Empezó fabricando centrales telefónicas",
+     "size": 60,
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso 2: su nombre se traduce, más o menos, como logro chino.",
+     "Dato curioso dos: su nombre se traduce, más o menos, como logro chino."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #2",
+     "size": 80,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "question",
+     "size": 280,
+     "color": "c",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "¿Qué significa Huawei?",
+     "size": 72,
+     "at": 0.8
+    },
+    {
+     "type": "big",
+     "text": "Logro chino",
+     "size": 170,
+     "color": "yellow",
+     "at": "s0+2.6"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso 3: Huawei no está en la bolsa. Es de sus empleados actuales y antiguos.",
+     "Dato curioso tres: Juawéi no está en la bolsa. Es de sus empleados actuales y antiguos."
+    ],
+    [
+     "¿Justicia, o guerra tecnológica con China? Te leo en los comentarios.",
+     "¿Justicia, o guerra tecnológica con China? Te leo en los comentarios."
+    ],
+    [
+     "Sígueme para más noticias tech.",
+     "Sígueme para más noticias tec."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #3",
+     "size": 80,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "No cotiza en bolsa: es de sus empleados",
+     "size": 62,
+     "at": "s0+1.6"
+    },
+    {
+     "type": "icon",
+     "name": "race",
+     "size": 320,
+     "color": "a",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "¿Justicia o guerra tech?",
+     "size": 80,
+     "color": "yellow",
+     "at": "s1+0.3"
+    },
+    {
+     "type": "text",
+     "text": "Sígueme para más noticias tech",
+     "size": 52,
+     "weight": "med",
+     "color": "grey",
+     "at": "s2"
+    }
+   ]
+  }
+ ],
+ "speed": 1.17
+}
