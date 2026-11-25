@@ -1,0 +1,42 @@
+{
+ "voice": "em_alex",
+ "speed": 1.1,
+ "theme": {"bg":"#0A1A2F","yellow":"#FFD23F","a":"#4FC3F7","b":"#FF6B6B","c":"#B39DDB","d":"#5EE6A8"},
+ "scenes": [
+  {"say": [["¿Tienes una startup de turismo o viajes? Esto es para ti.", "¿Tienes una startap de turismo o viajes? Esto es para ti."]],
+   "elements": [
+    {"type": "text", "text": "Startups de turismo", "size": 84, "color": "yellow", "at": 0},
+    {"type": "big", "text": "CONCURSO", "size": 165, "color": "a", "at": 0.8},
+    {"type": "text", "text": "Postulación gratis", "size": 70, "color": "d", "at": "s0+2.2"}]},
+  {"say": [["Se llama Global Startup Pitch 2027,", "Se llama Glóbal Startap Pich, dos mil veintisiete,"], ["organizado por WiT, Phocuswright y PhocusWire.", "organizado por güit, fócusrait, y fócusguáir."]],
+   "elements": [
+    {"type": "text", "text": "Global Startup Pitch", "size": 96, "color": "a", "at": 0},
+    {"type": "text", "text": "2027", "size": 120, "color": "yellow", "at": 0.6},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "WiT · Phocuswright · PhocusWire", "size": 54, "weight": "med", "color": "grey", "at": "s1"}]},
+  {"say": [["Hasta dieciséis finalistas competirán en la gran final en Londres.", "Hasta dieciséis finalistas, competirán en la gran final en Londres."], ["Cada finalista recibe una entrada al evento Phocuswright Europe.", "Cada finalista recibe una entrada al evento fócusrait Iúrop."]],
+   "elements": [
+    {"type": "text", "text": "Qué ofrece", "size": 80, "color": "c", "at": 0},
+    {"type": "big", "text": "16", "size": 230, "color": "yellow", "at": "s0+0.8"},
+    {"type": "text", "text": "finalistas · gran final en Londres", "size": 60, "at": "s0+1.4"},
+    {"type": "gap", "h": 20},
+    {"type": "text", "text": "Entrada a Phocuswright Europe", "size": 62, "color": "d", "at": "s1"}]},
+  {"say": [["Pueden aplicar startups en etapa temprana o de crecimiento.", "Pueden aplicar startaps, en etapa temprana o de crecimiento."], ["América Latina compite en la región de mercados emergentes.", "América Latina compite en la región de mercados emergentes."]],
+   "elements": [
+    {"type": "text", "text": "Para quién", "size": 80, "color": "a", "at": 0},
+    {"type": "gap", "h": 20},
+    {"type": "list", "items": ["Startups de viajes y turismo", "Etapa temprana o de crecimiento", "Latinoamérica: mercados emergentes", "Una postulación por empresa"], "size": 56, "step": 1.4, "at": 0.5}]},
+  {"say": [["La fecha límite es el veintiocho de febrero de dos mil veintisiete.", "La fecha límite es el veintiocho de febrero, de dos mil veintisiete."]],
+   "elements": [
+    {"type": "text", "text": "Fecha límite", "size": 80, "color": "grey", "at": 0},
+    {"type": "big", "text": "28 FEB", "size": 220, "color": "yellow", "at": 1.0},
+    {"type": "text", "text": "2027", "size": 80, "color": "a", "at": 1.6}]},
+  {"say": [["El enlace oficial y todos los detalles están en la descripción.", "El enlace oficial, y todos los detalles, están en la descripción."], ["Compártelo con quien lo necesite y sigue la página para más oportunidades.", "Compártelo con quien lo necesite, y sigue la página para más oportunidades."]],
+   "elements": [
+    {"type": "text", "text": "Enlace oficial y detalles", "size": 76, "at": 0},
+    {"type": "text", "text": "en la descripción", "size": 96, "color": "a", "at": 0.5},
+    {"type": "gap", "h": 40},
+    {"type": "text", "text": "Compártelo y sigue la página", "size": 64, "color": "d", "at": "s1"},
+    {"type": "text", "text": "Oportunidades para Dominicanos", "size": 50, "weight": "med", "color": "grey", "at": "s1+1.0"}]}
+ ]
+}
