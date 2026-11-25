@@ -1,514 +1,535 @@
 [
-  {
-    "fecha": "2026-10-23",
-    "tema": "iPhone Duo, primer iPhone plegable, llega a tiendas (US$1,999)",
-    "palabras_clave": [
-      "apple",
-      "iphone duo",
-      "plegable",
-      "smartphone"
-    ],
-    "metricool_post_id": "404703622"
-  },
-  {
-    "fecha": "2026-10-24",
-    "tema": "IA de Microsoft (MAI-DxO) acierta 83% de casos médicos complejos vs 36% de médicos generales",
-    "palabras_clave": [
-      "microsoft",
-      "mai-dxo",
-      "ia",
-      "medicina",
-      "diagnóstico"
-    ],
-    "metricool_post_id": "404704149"
-  },
-  {
-    "fecha": "2026-10-25",
-    "tema": "Claude Mythos 5 intentó atacar a desarrolladores reales de GitHub durante una prueba del AISI británico (9 de 43 pruebas)",
-    "palabras_clave": [
-      "anthropic",
-      "mythos 5",
-      "aisi",
-      "ciberseguridad",
-      "ia",
-      "agentes"
-    ],
-    "metricool_post_id": "405564722"
-  },
-  {
-    "fecha": "2026-10-26",
-    "tema": "Estudio de Convovo: Grok 4.7 elige republicanos 92% y GPT-6.1 demócratas 97% en 479 contiendas de EE. UU.; no coinciden en +90%",
-    "palabras_clave": [
-      "grok",
-      "openai",
-      "gpt-6.1",
-      "sesgo político",
-      "ia",
-      "elecciones"
-    ],
-    "metricool_post_id": "406434473"
-  },
-  {
-    "fecha": "2026-10-27",
-    "tema": "Anthropic presenta su S-1 para salir a bolsa en el Nasdaq (ANT): US$16,300 millones en ventas en el 1er semestre de 2026",
-    "palabras_clave": [
-      "anthropic",
-      "claude",
-      "ipo",
-      "bolsa",
-      "nasdaq",
-      "s-1"
-    ],
-    "metricool_post_id": "407634377"
-  },
-  {
-    "fecha": "2026-10-28",
-    "tema": "OpenAI dice que sus modelos de IA refutaron la Hipótesis del Tiempo Exponencial (1999); expertos de UC San Diego y MIT la revisan",
-    "palabras_clave": [
-      "openai",
-      "hipótesis del tiempo exponencial",
-      "eth",
-      "matemáticas",
-      "ciencia",
-      "ia"
-    ],
-    "metricool_post_id": "408759158"
-  },
-  {
-    "fecha": "2026-10-29",
-    "tema": "Apple lanza su primera MacBook Pro con pantalla OLED táctil e Isla Dinámica (desde US$2,899, llega el 6 de noviembre)",
-    "palabras_clave": [
-      "apple",
-      "macbook pro",
-      "pantalla táctil",
-      "oled",
-      "isla dinámica",
-      "laptop"
-    ],
-    "metricool_post_id": "409890777"
-  },
-  {
-    "fecha": "2026-10-30",
-    "tema": "Google lanza Gemini 4 Carbon, su IA más potente (#1 en Artificial Analysis, 59 pts), solo para defensores de ciberseguridad del programa Fairwind",
-    "palabras_clave": [
-      "google",
-      "gemini 4 carbon",
-      "ia",
-      "ciberseguridad",
-      "fairwind",
-      "modelo"
-    ],
-    "metricool_post_id": "411022111"
-  },
-  {
-    "fecha": "2026-10-31",
-    "tema": "Hackers de Corea del Norte (TraderTraitor) roban ~US$6,300 millones en cripto a Binance en ~20 minutos, el mayor robo cripto de la historia",
-    "palabras_clave": [
-      "binance",
-      "hackeo",
-      "criptomonedas",
-      "corea del norte",
-      "ciberseguridad",
-      "robo"
-    ],
-    "metricool_post_id": "412041970"
-  },
-  {
-    "fecha": "2026-11-01",
-    "tema": "Apple supera a Nvidia y vuelve a ser la empresa más valiosa del mundo (US$5.03 billones vs US$4.93 billones; Nvidia -4.2% por dudas sobre el gasto en IA)",
-    "palabras_clave": [
-      "apple",
-      "nvidia",
-      "bolsa",
-      "valor de mercado",
-      "wall street",
-      "ia"
-    ],
-    "metricool_post_id": "412794768"
-  },
-  {
-    "fecha": "2026-11-02",
-    "tema": "Sam Altman dice que es 'bastante terrible' que la RAM esté en PCs personales (usada ~5% del tiempo) y no en centros de datos de IA; DRAM subió 93–98% en el 1T 2026",
-    "palabras_clave": [
-      "sam altman",
-      "openai",
-      "ram",
-      "dram",
-      "centros de datos",
-      "hardware"
-    ],
-    "metricool_post_id": "413768855",
-    "formato": "1imagen"
-  },
-  {
-    "fecha": "2026-11-03",
-    "tema": "Hackers calientan a 50 °C neveras y congeladores de supermercados en 5+ países europeos (Suecia, Bélgica, Luxemburgo, Irlanda, Estonia); en octubre ya atacaron ~700 en Francia",
-    "palabras_clave": [
-      "ciberataque",
-      "supermercados",
-      "neveras",
-      "refrigeración",
-      "europa",
-      "ciberseguridad"
-    ],
-    "metricool_post_id": "415053995",
-    "formato": "carrusel"
-  },
-  {
-    "fecha": "2026-11-04",
-    "tema": "GTA VI: Rockstar confirma que la precarga arranca el 10 de noviembre y pide hasta 212 GB; sale el 19 de noviembre en PS5 y Xbox Series X|S",
-    "palabras_clave": [
-      "gta vi",
-      "gta 6",
-      "rockstar",
-      "videojuegos",
-      "ps5",
-      "xbox",
-      "precarga"
-    ],
-    "metricool_post_id": "416301649",
-    "formato": "1imagen"
-  },
-  {
-    "fecha": "2026-11-05",
-    "tema": "OpenAI lanza ChatGPT Images 2.6: crea GIFs animados desde texto o foto, edición cuadro por cuadro; +4.000 millones de imágenes por semana entre ChatGPT y la API",
-    "palabras_clave": [
-      "chatgpt",
-      "openai",
-      "gif",
-      "images 2.6",
-      "ia generativa",
-      "imágenes"
-    ],
-    "metricool_post_id": "417538784",
-    "formato": "carrusel"
-  },
-  {
-    "fecha": "2026-11-06",
-    "tema": "OpenAI lanza GPT-6 Cyber (solo para defensores, programa Daybreak Red): halló 81 fallas graves nuevas en Firefox y creó 948 exploits de escalada de privilegios en Linux",
-    "palabras_clave": [
-      "openai",
-      "gpt-6 cyber",
-      "ciberseguridad",
-      "firefox",
-      "linux",
-      "vulnerabilidades",
-      "ia"
-    ],
-    "metricool_post_id": "418738248",
-    "formato": "1imagen"
-  },
-  {
-    "fecha": "2026-11-07",
-    "tema": "Crash tecnológico del jueves 5 de noviembre: el Nasdaq 100 cae 6.3% y pierde US$2.3 billones, el índice de chips -12%, Nvidia y Qualcomm -9%+; miedo a más reglas para la IA tras las elecciones de medio término; rebote parcial el viernes",
-    "palabras_clave": [
-      "bolsa",
-      "nasdaq",
-      "nvidia",
-      "qualcomm",
-      "chips",
-      "crash",
-      "ia",
-      "wall street"
-    ],
-    "metricool_post_id": "419822105",
-    "formato": "carrusel"
-  },
-  {
-    "fecha": "2026-11-08",
-    "tema": "Tesla dejará de fabricar el Cybertruck hacia mediados de 2027 en Giga Texas para dar espacio al robotaxi Cybercab; ventas -48% (2024→2025) y -28% ene–sep 2026 según KBB",
-    "palabras_clave": [
-      "tesla",
-      "cybertruck",
-      "cybercab",
-      "robotaxi",
-      "elon musk",
-      "autos eléctricos"
-    ],
-    "metricool_post_id": "420615930",
-    "formato": "1imagen"
-  },
-  {
-    "fecha": "2026-11-09",
-    "tema": "La junta de Nvidia abre una investigación independiente sobre si el CEO Jensen Huang fue blanco de espionaje extranjero, tras admitir una infidelidad; acción -4% fuera de horario; Congreso pide que testifique el 18 de noviembre",
-    "palabras_clave": [
-      "nvidia",
-      "jensen huang",
-      "espionaje",
-      "china",
-      "ceo",
-      "investigación"
-    ],
-    "metricool_post_id": "421602086",
-    "formato": "carrusel"
-  },
-  {
-    "fecha": "2026-11-10",
-    "tema": "Anthropic lanza Claude Fable 5.2 y Mythos 5.2: Fable resolvió 2 problemas abiertos de física de agujeros negros (preprints) y coordinó 1.000+ agentes durante 8 días para crear un sistema operativo; hasta 30% más rápidos",
-    "palabras_clave": [
-      "anthropic",
-      "claude",
-      "fable 5.2",
-      "mythos 5.2",
-      "agujeros negros",
-      "ia",
-      "agentes"
-    ],
-    "metricool_post_id": "422945812",
-    "formato": "1imagen"
-  },
-  {
-    "fecha": "2026-11-11",
-    "tema": "Anthropic fija su salida a bolsa en Nasdaq (símbolo ANT): US$70–78 por acción, hasta US$64.4 mil millones a recaudar, debut previsto el 19 de noviembre, valoración de +US$1 billón; colocación privada de US$26 mil millones de Google, Nvidia, Microsoft y otros",
-    "palabras_clave": [
-      "anthropic",
-      "claude",
-      "ipo",
-      "bolsa",
-      "nasdaq",
-      "ant",
-      "valoración",
-      "ia"
-    ],
-    "metricool_post_id": "424228927",
-    "formato": "carrusel"
-  },
-  {
-    "fecha": "2026-11-12",
-    "tema": "Amazon presenta Ring Robotics: Ring Drone Cam, dron de seguridad que vuela dentro de casa (US$249.99, llega a EE. UU. el 27 ene. 2027, ~8 min de vuelo, 2K, 165 g) y Rover Cam para negocios (US$999.99, 16 dic.)",
-    "palabras_clave": [
-      "amazon",
-      "ring",
-      "drone cam",
-      "rover cam",
-      "dron",
-      "seguridad",
-      "hogar inteligente",
-      "robótica"
-    ],
-    "metricool_post_id": "425480703",
-    "formato": "1imagen"
-  },
-  {
-    "fecha": "2026-11-14",
-    "tema": "Jensen Huang renuncia como CEO de Nvidia tras 33 años (la cofundó en 1993); Colette Kress (CFO) es CEO interina; la acción cayó más de 13% al abrir el jueves 12 nov.; sin razón oficial, tras escándalo de infidelidad e investigación por espionaje extranjero",
-    "palabras_clave": [
-      "nvidia",
-      "jensen huang",
-      "renuncia",
-      "ceo",
-      "colette kress",
-      "bolsa",
-      "chips"
-    ],
-    "metricool_post_id": "427882956",
-    "formato": "1imagen"
-  },
-  {
-    "fecha": "2026-11-15",
-    "tema": "SpaceX atrapa por primera vez con la torre una Starship que volvía de órbita (Flight 15): despegó el 13 nov. desde Texas, soltó 26 Starlink V3, ~22.5 h de vuelo; el propulsor abortó su captura y cayó al Golfo de México",
-    "categoria": "espacio",
-    "palabras_clave": [
-      "SpaceX",
-      "Starship",
-      "Flight 15",
-      "Mechazilla",
-      "Starlink",
-      "cohetes reutilizables"
-    ],
-    "datos_curiosos": [
-      "La primera captura de un propulsor Super Heavy por la torre fue el 13 de octubre de 2024; la torre tiene el apodo de Mechazilla",
-      "El cohete mide como un edificio de 41 pisos y el propulsor usa 33 motores Raptor"
-    ],
-    "metricool_post_id": 428752517,
-    "formato": "reel"
-  },
-  {
-    "fecha": "2026-11-16",
-    "tema": "Caída global de Microsoft 365 (12–13 nov.): Outlook, Teams, OneDrive y Copilot fuera por más de 12 horas; reportes desde 74 países y ~130 mil quejas en Downdetector en el pico; Microsoft dice que fue sobrecarga, no hackeo",
-    "categoria": "caidas",
-    "palabras_clave": [
-      "Microsoft",
-      "Outlook",
-      "Teams",
-      "Copilot",
-      "caída",
-      "outage",
-      "Downdetector"
-    ],
-    "datos_curiosos": [
-      "Hotmail nació el 4 de julio de 1996 y su nombre escondía HTML (HoTMaiL)",
-      "Microsoft compró Hotmail en 1997 por ~US$400 millones; pasó a ser Outlook en 2013",
-      "Primer email en 1971: Ray Tomlinson eligió la @"
-    ],
-    "metricool_post_id": 429841189,
-    "formato": "reel"
-  },
-  {
-    "fecha": "2026-11-17",
-    "tema": "Ataque a la cadena de suministro de Optimizely (16 nov.): hackers usaron una falla en el registro de cuentas para inyectar código en webs de clientes como CNN, BBC y Zoom; 188 scripts infectados en 178 organizaciones; robaba tarjetas y cambiaba direcciones cripto",
-    "categoria": "ciberseguridad",
-    "palabras_clave": [
-      "Optimizely",
-      "supply chain",
-      "skimmer",
-      "CNN",
-      "BBC",
-      "Zoom",
-      "cripto",
-      "tarjetas"
-    ],
-    "datos_curiosos": [
-      "Optimizely nació tras la campaña de Obama 2008: un test A/B subió los registros 40.6% (estimación de 60 M USD extra)",
-      "British Airways 2018: ataque Magecart expuso a 429.612 clientes; multa de 20 M de libras (ICO, 2020)",
-      "Las cookies las inventó Lou Montulli en Netscape en 1994 (primer uso: 13 oct. 1994)"
-    ],
-    "metricool_post_id": 431236154,
-    "formato": "reel"
-  },
-  {
-    "fecha": "2026-11-18",
-    "tema": "GTA 6 sale el jueves 19 nov. 2026 en PS5 y Xbox Series X|S (PC sin fecha); descarga de hasta 212 GB según Rockstar, predescarga desde el 10 nov.; Vice City/Leonida con Jason y Lucía; retrasado desde 2025 y del 26 may. 2026",
-    "categoria": "videojuegos",
-    "palabras_clave": [
-      "GTA 6",
-      "GTA VI",
-      "Rockstar",
-      "Take-Two",
-      "PS5",
-      "Xbox",
-      "Vice City",
-      "lanzamiento"
-    ],
-    "datos_curiosos": [
-      "GTA V supera los 230 millones de copias vendidas (Take-Two, jun. 2026); el más vendido de la última década",
-      "El tráiler 2 de GTA 6 sumó 475 millones de vistas en 24 h, más que Deadpool & Wolverine (365 M)"
-    ],
-    "metricool_post_id": 432621773,
-    "formato": "reel"
-  },
-  {
-    "fecha": "2026-11-19",
-    "tema": "Meta prueba Direct, app independiente solo para los mensajes de Instagram, en Turquía y Tailandia (Android e iOS, anunciada 16 nov.); funciona sin cuenta de Instagram (correo o teléfono), chats sincronizados para quien ya usa Instagram, solo contactos pueden escribir a quien no tiene cuenta, supervisión parental y límite de tiempo; edad mínima 13",
-    "categoria": "apps",
-    "palabras_clave": [
-      "Instagram",
-      "Direct",
-      "Meta",
-      "mensajería",
-      "DMs",
-      "app",
-      "Turquía",
-      "Tailandia"
-    ],
-    "datos_curiosos": [
-      "No es la primera vez: en dic. 2017 Instagram probó otra app Direct en 6 países (Uruguay, Chile, Turquía, Italia, Portugal, Israel) y la cerró en 2019",
-      "Instagram empezó como Burbn; Facebook la compró en abril de 2012 por US$1,000 millones cuando tenía solo 13 empleados"
-    ],
-    "metricool_post_id": 434000655,
-    "formato": "reel"
-  },
-  {
-    "fecha": "2026-11-20",
-    "tema": "Grupo de hackers N0n publica datos de clientes de Visa, Mastercard y JPMorgan Chase robados a proveedores externos (confirmado 19 nov.): 16 mil+ correos ligados a JPMorgan (Reuters), nombres, teléfonos y datos de marketing; sin números de tarjeta; rescate de 48 h no pagado; consejos contra phishing",
-    "categoria": "ciberseguridad",
-    "palabras_clave": [
-      "Visa",
-      "Mastercard",
-      "JPMorgan",
-      "Chase",
-      "N0n",
-      "filtración",
-      "phishing",
-      "proveedores externos"
-    ],
-    "datos_curiosos": [
-      "Diners Club (1950) fue la primera tarjeta multiuso y era de cartón",
-      "Visa nació en 1958 como BankAmericard y se llamó Visa desde 1976; según Visa el nombre suena igual en todos los idiomas",
-      "Mastercard se llamaba Master Charge hasta 1979"
-    ],
-    "metricool_post_id": 435358577,
-    "formato": "reel"
-  },
-  {
-    "fecha": "2026-11-21",
-    "tema": "GTA 6 vende US$3,790 millones en su primer día (ventas al público, cifra oficial de Take-Two/Rockstar, 20 nov.): récord del entretenimiento en cualquier medio; 32.5 millones de copias entre preventas y día 1; más que toda la taquilla mundial de Spider-Man: Brand New Day (US$2,500 M, Forbes)",
-    "categoria": "videojuegos",
-    "palabras_clave": [
-      "GTA 6",
-      "Rockstar",
-      "Take-Two",
-      "récord de ventas",
-      "videojuegos"
-    ],
-    "datos_curiosos": [
-      "GTA V (2013) hizo US$815.7 M en 24 h y US$1,000 M en 3 días (Guinness); GTA 6 hizo casi 5 veces más en su primer día",
-      "El primer GTA se llamaba Race'n'Chase y el jugador era el policía; lo cambiaron a jugar del lado del criminal",
-      "GTA nació en 1997 en Dundee, Escocia, en DMA Design, los creadores de Lemmings"
-    ],
-    "metricool_post_id": 436539410,
-    "formato": "reel"
-  },
-  {
-    "fecha": "2026-11-22",
-    "tema": "Intuit vende Mailchimp a la italiana Bending Spoons por US$3,680 millones (anunciado 19 nov., cierre previsto a inicios de 2027); en 2021 Intuit la compró por ~US$12,000 millones (~70% menos); Intuit reinvierte US$368 M en acciones de Bending Spoons",
-    "categoria": "empresas",
-    "palabras_clave": [
-      "Mailchimp",
-      "Intuit",
-      "Bending Spoons",
-      "adquisición",
-      "email marketing"
-    ],
-    "datos_curiosos": [
-      "Bending Spoons ya es dueña de Evernote, WeTransfer, Vimeo, Eventbrite y AOL",
-      "Mailchimp nació en 2001 en Atlanta como proyecto paralelo financiado con la indemnización de Ben Chestnut",
-      "Nunca aceptó capital externo, rentable desde el día 1, ~US$700 M de ingresos en 2019"
-    ],
-    "metricool_post_id": 437429228,
-    "formato": "reel"
-  },
-  {
-    "fecha": "2026-11-23",
-    "tema": "Levent Alpöge (Anthropic) publica el 20 nov. una prueba de la hipótesis de Riemann hecha con ayuda de Claude: ~17 millones de líneas de código en Lean; la comunidad Lean/Mathlib certificó la verificación el 21 nov.; los humanos aún no la entienden, sin paper ni premio Clay todavía; enigma de 167 años (1859)",
-    "categoria": "ciencia",
-    "palabras_clave": [
-      "Riemann",
-      "hipótesis de Riemann",
-      "Claude",
-      "Anthropic",
-      "Lean",
-      "Mathlib",
-      "matemáticas",
-      "números primos",
-      "Premio del Milenio"
-    ],
-    "datos_curiosos": [
-      "Antes ya se habían comprobado más de 12 billones de ceros (Platt y Trudgian, 2021)",
-      "El premio Clay es de US$1 millón; Perelman rechazó el suyo en 2010 (Poincaré)",
-      "Lean nació en 2013 en Microsoft Research (Leonardo de Moura)"
-    ],
-    "metricool_post_id": 438554519,
-    "formato": "reel"
-  },
-  {
-    "fecha": "2026-11-24",
-    "tema": "CrowdStrike compra Zscaler por ~US$43,900 millones, todo en acciones (anunciado 23 nov.): 1.135 acciones de CRWD por cada una de ZS, ~US$260 por acción, prima de ~34%; +US$10,000 M en ARR combinado; cierre en 2S del año fiscal 2028 de CrowdStrike, sujeto a reguladores y accionistas",
-    "categoria": "ciberseguridad",
-    "palabras_clave": [
-      "CrowdStrike",
-      "Zscaler",
-      "adquisición",
-      "ciberseguridad",
-      "zero trust",
-      "George Kurtz",
-      "Jay Chaudhry"
-    ],
-    "datos_curiosos": [
-      "El 19 jul. 2024 una actualización fallida de CrowdStrike tumbó ~8.5 millones de PCs con Windows (Microsoft), con miles de vuelos cancelados",
-      "Jay Chaudhry, fundador de Zscaler, creció en Panoh (India), aldea de ~800 personas sin luz ni agua corriente hasta su adolescencia; estudiaba a veces bajo un árbol; hoy multimillonario"
-    ],
-    "metricool_post_id": 440054467,
-    "formato": "reel"
-  }
+ {
+  "fecha": "2026-10-23",
+  "tema": "iPhone Duo, primer iPhone plegable, llega a tiendas (US$1,999)",
+  "palabras_clave": [
+   "apple",
+   "iphone duo",
+   "plegable",
+   "smartphone"
+  ],
+  "metricool_post_id": "404703622"
+ },
+ {
+  "fecha": "2026-10-24",
+  "tema": "IA de Microsoft (MAI-DxO) acierta 83% de casos médicos complejos vs 36% de médicos generales",
+  "palabras_clave": [
+   "microsoft",
+   "mai-dxo",
+   "ia",
+   "medicina",
+   "diagnóstico"
+  ],
+  "metricool_post_id": "404704149"
+ },
+ {
+  "fecha": "2026-10-25",
+  "tema": "Claude Mythos 5 intentó atacar a desarrolladores reales de GitHub durante una prueba del AISI británico (9 de 43 pruebas)",
+  "palabras_clave": [
+   "anthropic",
+   "mythos 5",
+   "aisi",
+   "ciberseguridad",
+   "ia",
+   "agentes"
+  ],
+  "metricool_post_id": "405564722"
+ },
+ {
+  "fecha": "2026-10-26",
+  "tema": "Estudio de Convovo: Grok 4.7 elige republicanos 92% y GPT-6.1 demócratas 97% en 479 contiendas de EE. UU.; no coinciden en +90%",
+  "palabras_clave": [
+   "grok",
+   "openai",
+   "gpt-6.1",
+   "sesgo político",
+   "ia",
+   "elecciones"
+  ],
+  "metricool_post_id": "406434473"
+ },
+ {
+  "fecha": "2026-10-27",
+  "tema": "Anthropic presenta su S-1 para salir a bolsa en el Nasdaq (ANT): US$16,300 millones en ventas en el 1er semestre de 2026",
+  "palabras_clave": [
+   "anthropic",
+   "claude",
+   "ipo",
+   "bolsa",
+   "nasdaq",
+   "s-1"
+  ],
+  "metricool_post_id": "407634377"
+ },
+ {
+  "fecha": "2026-10-28",
+  "tema": "OpenAI dice que sus modelos de IA refutaron la Hipótesis del Tiempo Exponencial (1999); expertos de UC San Diego y MIT la revisan",
+  "palabras_clave": [
+   "openai",
+   "hipótesis del tiempo exponencial",
+   "eth",
+   "matemáticas",
+   "ciencia",
+   "ia"
+  ],
+  "metricool_post_id": "408759158"
+ },
+ {
+  "fecha": "2026-10-29",
+  "tema": "Apple lanza su primera MacBook Pro con pantalla OLED táctil e Isla Dinámica (desde US$2,899, llega el 6 de noviembre)",
+  "palabras_clave": [
+   "apple",
+   "macbook pro",
+   "pantalla táctil",
+   "oled",
+   "isla dinámica",
+   "laptop"
+  ],
+  "metricool_post_id": "409890777"
+ },
+ {
+  "fecha": "2026-10-30",
+  "tema": "Google lanza Gemini 4 Carbon, su IA más potente (#1 en Artificial Analysis, 59 pts), solo para defensores de ciberseguridad del programa Fairwind",
+  "palabras_clave": [
+   "google",
+   "gemini 4 carbon",
+   "ia",
+   "ciberseguridad",
+   "fairwind",
+   "modelo"
+  ],
+  "metricool_post_id": "411022111"
+ },
+ {
+  "fecha": "2026-10-31",
+  "tema": "Hackers de Corea del Norte (TraderTraitor) roban ~US$6,300 millones en cripto a Binance en ~20 minutos, el mayor robo cripto de la historia",
+  "palabras_clave": [
+   "binance",
+   "hackeo",
+   "criptomonedas",
+   "corea del norte",
+   "ciberseguridad",
+   "robo"
+  ],
+  "metricool_post_id": "412041970"
+ },
+ {
+  "fecha": "2026-11-01",
+  "tema": "Apple supera a Nvidia y vuelve a ser la empresa más valiosa del mundo (US$5.03 billones vs US$4.93 billones; Nvidia -4.2% por dudas sobre el gasto en IA)",
+  "palabras_clave": [
+   "apple",
+   "nvidia",
+   "bolsa",
+   "valor de mercado",
+   "wall street",
+   "ia"
+  ],
+  "metricool_post_id": "412794768"
+ },
+ {
+  "fecha": "2026-11-02",
+  "tema": "Sam Altman dice que es 'bastante terrible' que la RAM esté en PCs personales (usada ~5% del tiempo) y no en centros de datos de IA; DRAM subió 93–98% en el 1T 2026",
+  "palabras_clave": [
+   "sam altman",
+   "openai",
+   "ram",
+   "dram",
+   "centros de datos",
+   "hardware"
+  ],
+  "metricool_post_id": "413768855",
+  "formato": "1imagen"
+ },
+ {
+  "fecha": "2026-11-03",
+  "tema": "Hackers calientan a 50 °C neveras y congeladores de supermercados en 5+ países europeos (Suecia, Bélgica, Luxemburgo, Irlanda, Estonia); en octubre ya atacaron ~700 en Francia",
+  "palabras_clave": [
+   "ciberataque",
+   "supermercados",
+   "neveras",
+   "refrigeración",
+   "europa",
+   "ciberseguridad"
+  ],
+  "metricool_post_id": "415053995",
+  "formato": "carrusel"
+ },
+ {
+  "fecha": "2026-11-04",
+  "tema": "GTA VI: Rockstar confirma que la precarga arranca el 10 de noviembre y pide hasta 212 GB; sale el 19 de noviembre en PS5 y Xbox Series X|S",
+  "palabras_clave": [
+   "gta vi",
+   "gta 6",
+   "rockstar",
+   "videojuegos",
+   "ps5",
+   "xbox",
+   "precarga"
+  ],
+  "metricool_post_id": "416301649",
+  "formato": "1imagen"
+ },
+ {
+  "fecha": "2026-11-05",
+  "tema": "OpenAI lanza ChatGPT Images 2.6: crea GIFs animados desde texto o foto, edición cuadro por cuadro; +4.000 millones de imágenes por semana entre ChatGPT y la API",
+  "palabras_clave": [
+   "chatgpt",
+   "openai",
+   "gif",
+   "images 2.6",
+   "ia generativa",
+   "imágenes"
+  ],
+  "metricool_post_id": "417538784",
+  "formato": "carrusel"
+ },
+ {
+  "fecha": "2026-11-06",
+  "tema": "OpenAI lanza GPT-6 Cyber (solo para defensores, programa Daybreak Red): halló 81 fallas graves nuevas en Firefox y creó 948 exploits de escalada de privilegios en Linux",
+  "palabras_clave": [
+   "openai",
+   "gpt-6 cyber",
+   "ciberseguridad",
+   "firefox",
+   "linux",
+   "vulnerabilidades",
+   "ia"
+  ],
+  "metricool_post_id": "418738248",
+  "formato": "1imagen"
+ },
+ {
+  "fecha": "2026-11-07",
+  "tema": "Crash tecnológico del jueves 5 de noviembre: el Nasdaq 100 cae 6.3% y pierde US$2.3 billones, el índice de chips -12%, Nvidia y Qualcomm -9%+; miedo a más reglas para la IA tras las elecciones de medio término; rebote parcial el viernes",
+  "palabras_clave": [
+   "bolsa",
+   "nasdaq",
+   "nvidia",
+   "qualcomm",
+   "chips",
+   "crash",
+   "ia",
+   "wall street"
+  ],
+  "metricool_post_id": "419822105",
+  "formato": "carrusel"
+ },
+ {
+  "fecha": "2026-11-08",
+  "tema": "Tesla dejará de fabricar el Cybertruck hacia mediados de 2027 en Giga Texas para dar espacio al robotaxi Cybercab; ventas -48% (2024→2025) y -28% ene–sep 2026 según KBB",
+  "palabras_clave": [
+   "tesla",
+   "cybertruck",
+   "cybercab",
+   "robotaxi",
+   "elon musk",
+   "autos eléctricos"
+  ],
+  "metricool_post_id": "420615930",
+  "formato": "1imagen"
+ },
+ {
+  "fecha": "2026-11-09",
+  "tema": "La junta de Nvidia abre una investigación independiente sobre si el CEO Jensen Huang fue blanco de espionaje extranjero, tras admitir una infidelidad; acción -4% fuera de horario; Congreso pide que testifique el 18 de noviembre",
+  "palabras_clave": [
+   "nvidia",
+   "jensen huang",
+   "espionaje",
+   "china",
+   "ceo",
+   "investigación"
+  ],
+  "metricool_post_id": "421602086",
+  "formato": "carrusel"
+ },
+ {
+  "fecha": "2026-11-10",
+  "tema": "Anthropic lanza Claude Fable 5.2 y Mythos 5.2: Fable resolvió 2 problemas abiertos de física de agujeros negros (preprints) y coordinó 1.000+ agentes durante 8 días para crear un sistema operativo; hasta 30% más rápidos",
+  "palabras_clave": [
+   "anthropic",
+   "claude",
+   "fable 5.2",
+   "mythos 5.2",
+   "agujeros negros",
+   "ia",
+   "agentes"
+  ],
+  "metricool_post_id": "422945812",
+  "formato": "1imagen"
+ },
+ {
+  "fecha": "2026-11-11",
+  "tema": "Anthropic fija su salida a bolsa en Nasdaq (símbolo ANT): US$70–78 por acción, hasta US$64.4 mil millones a recaudar, debut previsto el 19 de noviembre, valoración de +US$1 billón; colocación privada de US$26 mil millones de Google, Nvidia, Microsoft y otros",
+  "palabras_clave": [
+   "anthropic",
+   "claude",
+   "ipo",
+   "bolsa",
+   "nasdaq",
+   "ant",
+   "valoración",
+   "ia"
+  ],
+  "metricool_post_id": "424228927",
+  "formato": "carrusel"
+ },
+ {
+  "fecha": "2026-11-12",
+  "tema": "Amazon presenta Ring Robotics: Ring Drone Cam, dron de seguridad que vuela dentro de casa (US$249.99, llega a EE. UU. el 27 ene. 2027, ~8 min de vuelo, 2K, 165 g) y Rover Cam para negocios (US$999.99, 16 dic.)",
+  "palabras_clave": [
+   "amazon",
+   "ring",
+   "drone cam",
+   "rover cam",
+   "dron",
+   "seguridad",
+   "hogar inteligente",
+   "robótica"
+  ],
+  "metricool_post_id": "425480703",
+  "formato": "1imagen"
+ },
+ {
+  "fecha": "2026-11-14",
+  "tema": "Jensen Huang renuncia como CEO de Nvidia tras 33 años (la cofundó en 1993); Colette Kress (CFO) es CEO interina; la acción cayó más de 13% al abrir el jueves 12 nov.; sin razón oficial, tras escándalo de infidelidad e investigación por espionaje extranjero",
+  "palabras_clave": [
+   "nvidia",
+   "jensen huang",
+   "renuncia",
+   "ceo",
+   "colette kress",
+   "bolsa",
+   "chips"
+  ],
+  "metricool_post_id": "427882956",
+  "formato": "1imagen"
+ },
+ {
+  "fecha": "2026-11-15",
+  "tema": "SpaceX atrapa por primera vez con la torre una Starship que volvía de órbita (Flight 15): despegó el 13 nov. desde Texas, soltó 26 Starlink V3, ~22.5 h de vuelo; el propulsor abortó su captura y cayó al Golfo de México",
+  "categoria": "espacio",
+  "palabras_clave": [
+   "SpaceX",
+   "Starship",
+   "Flight 15",
+   "Mechazilla",
+   "Starlink",
+   "cohetes reutilizables"
+  ],
+  "datos_curiosos": [
+   "La primera captura de un propulsor Super Heavy por la torre fue el 13 de octubre de 2024; la torre tiene el apodo de Mechazilla",
+   "El cohete mide como un edificio de 41 pisos y el propulsor usa 33 motores Raptor"
+  ],
+  "metricool_post_id": 428752517,
+  "formato": "reel"
+ },
+ {
+  "fecha": "2026-11-16",
+  "tema": "Caída global de Microsoft 365 (12–13 nov.): Outlook, Teams, OneDrive y Copilot fuera por más de 12 horas; reportes desde 74 países y ~130 mil quejas en Downdetector en el pico; Microsoft dice que fue sobrecarga, no hackeo",
+  "categoria": "caidas",
+  "palabras_clave": [
+   "Microsoft",
+   "Outlook",
+   "Teams",
+   "Copilot",
+   "caída",
+   "outage",
+   "Downdetector"
+  ],
+  "datos_curiosos": [
+   "Hotmail nació el 4 de julio de 1996 y su nombre escondía HTML (HoTMaiL)",
+   "Microsoft compró Hotmail en 1997 por ~US$400 millones; pasó a ser Outlook en 2013",
+   "Primer email en 1971: Ray Tomlinson eligió la @"
+  ],
+  "metricool_post_id": 429841189,
+  "formato": "reel"
+ },
+ {
+  "fecha": "2026-11-17",
+  "tema": "Ataque a la cadena de suministro de Optimizely (16 nov.): hackers usaron una falla en el registro de cuentas para inyectar código en webs de clientes como CNN, BBC y Zoom; 188 scripts infectados en 178 organizaciones; robaba tarjetas y cambiaba direcciones cripto",
+  "categoria": "ciberseguridad",
+  "palabras_clave": [
+   "Optimizely",
+   "supply chain",
+   "skimmer",
+   "CNN",
+   "BBC",
+   "Zoom",
+   "cripto",
+   "tarjetas"
+  ],
+  "datos_curiosos": [
+   "Optimizely nació tras la campaña de Obama 2008: un test A/B subió los registros 40.6% (estimación de 60 M USD extra)",
+   "British Airways 2018: ataque Magecart expuso a 429.612 clientes; multa de 20 M de libras (ICO, 2020)",
+   "Las cookies las inventó Lou Montulli en Netscape en 1994 (primer uso: 13 oct. 1994)"
+  ],
+  "metricool_post_id": 431236154,
+  "formato": "reel"
+ },
+ {
+  "fecha": "2026-11-18",
+  "tema": "GTA 6 sale el jueves 19 nov. 2026 en PS5 y Xbox Series X|S (PC sin fecha); descarga de hasta 212 GB según Rockstar, predescarga desde el 10 nov.; Vice City/Leonida con Jason y Lucía; retrasado desde 2025 y del 26 may. 2026",
+  "categoria": "videojuegos",
+  "palabras_clave": [
+   "GTA 6",
+   "GTA VI",
+   "Rockstar",
+   "Take-Two",
+   "PS5",
+   "Xbox",
+   "Vice City",
+   "lanzamiento"
+  ],
+  "datos_curiosos": [
+   "GTA V supera los 230 millones de copias vendidas (Take-Two, jun. 2026); el más vendido de la última década",
+   "El tráiler 2 de GTA 6 sumó 475 millones de vistas en 24 h, más que Deadpool & Wolverine (365 M)"
+  ],
+  "metricool_post_id": 432621773,
+  "formato": "reel"
+ },
+ {
+  "fecha": "2026-11-19",
+  "tema": "Meta prueba Direct, app independiente solo para los mensajes de Instagram, en Turquía y Tailandia (Android e iOS, anunciada 16 nov.); funciona sin cuenta de Instagram (correo o teléfono), chats sincronizados para quien ya usa Instagram, solo contactos pueden escribir a quien no tiene cuenta, supervisión parental y límite de tiempo; edad mínima 13",
+  "categoria": "apps",
+  "palabras_clave": [
+   "Instagram",
+   "Direct",
+   "Meta",
+   "mensajería",
+   "DMs",
+   "app",
+   "Turquía",
+   "Tailandia"
+  ],
+  "datos_curiosos": [
+   "No es la primera vez: en dic. 2017 Instagram probó otra app Direct en 6 países (Uruguay, Chile, Turquía, Italia, Portugal, Israel) y la cerró en 2019",
+   "Instagram empezó como Burbn; Facebook la compró en abril de 2012 por US$1,000 millones cuando tenía solo 13 empleados"
+  ],
+  "metricool_post_id": 434000655,
+  "formato": "reel"
+ },
+ {
+  "fecha": "2026-11-20",
+  "tema": "Grupo de hackers N0n publica datos de clientes de Visa, Mastercard y JPMorgan Chase robados a proveedores externos (confirmado 19 nov.): 16 mil+ correos ligados a JPMorgan (Reuters), nombres, teléfonos y datos de marketing; sin números de tarjeta; rescate de 48 h no pagado; consejos contra phishing",
+  "categoria": "ciberseguridad",
+  "palabras_clave": [
+   "Visa",
+   "Mastercard",
+   "JPMorgan",
+   "Chase",
+   "N0n",
+   "filtración",
+   "phishing",
+   "proveedores externos"
+  ],
+  "datos_curiosos": [
+   "Diners Club (1950) fue la primera tarjeta multiuso y era de cartón",
+   "Visa nació en 1958 como BankAmericard y se llamó Visa desde 1976; según Visa el nombre suena igual en todos los idiomas",
+   "Mastercard se llamaba Master Charge hasta 1979"
+  ],
+  "metricool_post_id": 435358577,
+  "formato": "reel"
+ },
+ {
+  "fecha": "2026-11-21",
+  "tema": "GTA 6 vende US$3,790 millones en su primer día (ventas al público, cifra oficial de Take-Two/Rockstar, 20 nov.): récord del entretenimiento en cualquier medio; 32.5 millones de copias entre preventas y día 1; más que toda la taquilla mundial de Spider-Man: Brand New Day (US$2,500 M, Forbes)",
+  "categoria": "videojuegos",
+  "palabras_clave": [
+   "GTA 6",
+   "Rockstar",
+   "Take-Two",
+   "récord de ventas",
+   "videojuegos"
+  ],
+  "datos_curiosos": [
+   "GTA V (2013) hizo US$815.7 M en 24 h y US$1,000 M en 3 días (Guinness); GTA 6 hizo casi 5 veces más en su primer día",
+   "El primer GTA se llamaba Race'n'Chase y el jugador era el policía; lo cambiaron a jugar del lado del criminal",
+   "GTA nació en 1997 en Dundee, Escocia, en DMA Design, los creadores de Lemmings"
+  ],
+  "metricool_post_id": 436539410,
+  "formato": "reel"
+ },
+ {
+  "fecha": "2026-11-22",
+  "tema": "Intuit vende Mailchimp a la italiana Bending Spoons por US$3,680 millones (anunciado 19 nov., cierre previsto a inicios de 2027); en 2021 Intuit la compró por ~US$12,000 millones (~70% menos); Intuit reinvierte US$368 M en acciones de Bending Spoons",
+  "categoria": "empresas",
+  "palabras_clave": [
+   "Mailchimp",
+   "Intuit",
+   "Bending Spoons",
+   "adquisición",
+   "email marketing"
+  ],
+  "datos_curiosos": [
+   "Bending Spoons ya es dueña de Evernote, WeTransfer, Vimeo, Eventbrite y AOL",
+   "Mailchimp nació en 2001 en Atlanta como proyecto paralelo financiado con la indemnización de Ben Chestnut",
+   "Nunca aceptó capital externo, rentable desde el día 1, ~US$700 M de ingresos en 2019"
+  ],
+  "metricool_post_id": 437429228,
+  "formato": "reel"
+ },
+ {
+  "fecha": "2026-11-23",
+  "tema": "Levent Alpöge (Anthropic) publica el 20 nov. una prueba de la hipótesis de Riemann hecha con ayuda de Claude: ~17 millones de líneas de código en Lean; la comunidad Lean/Mathlib certificó la verificación el 21 nov.; los humanos aún no la entienden, sin paper ni premio Clay todavía; enigma de 167 años (1859)",
+  "categoria": "ciencia",
+  "palabras_clave": [
+   "Riemann",
+   "hipótesis de Riemann",
+   "Claude",
+   "Anthropic",
+   "Lean",
+   "Mathlib",
+   "matemáticas",
+   "números primos",
+   "Premio del Milenio"
+  ],
+  "datos_curiosos": [
+   "Antes ya se habían comprobado más de 12 billones de ceros (Platt y Trudgian, 2021)",
+   "El premio Clay es de US$1 millón; Perelman rechazó el suyo en 2010 (Poincaré)",
+   "Lean nació en 2013 en Microsoft Research (Leonardo de Moura)"
+  ],
+  "metricool_post_id": 438554519,
+  "formato": "reel"
+ },
+ {
+  "fecha": "2026-11-24",
+  "tema": "CrowdStrike compra Zscaler por ~US$43,900 millones, todo en acciones (anunciado 23 nov.): 1.135 acciones de CRWD por cada una de ZS, ~US$260 por acción, prima de ~34%; +US$10,000 M en ARR combinado; cierre en 2S del año fiscal 2028 de CrowdStrike, sujeto a reguladores y accionistas",
+  "categoria": "ciberseguridad",
+  "palabras_clave": [
+   "CrowdStrike",
+   "Zscaler",
+   "adquisición",
+   "ciberseguridad",
+   "zero trust",
+   "George Kurtz",
+   "Jay Chaudhry"
+  ],
+  "datos_curiosos": [
+   "El 19 jul. 2024 una actualización fallida de CrowdStrike tumbó ~8.5 millones de PCs con Windows (Microsoft), con miles de vuelos cancelados",
+   "Jay Chaudhry, fundador de Zscaler, creció en Panoh (India), aldea de ~800 personas sin luz ni agua corriente hasta su adolescencia; estudiaba a veces bajo un árbol; hoy multimillonario"
+  ],
+  "metricool_post_id": 440054467,
+  "formato": "reel"
+ },
+ {
+  "fecha": "2026-11-25",
+  "tema": "Huawei declarada culpable en EE. UU. de 10 de 12 cargos (jurado federal de Brooklyn, 24 nov.): conspiración para robar secretos comerciales (Cisco, T-Mobile, Motorola), fraude a bancos sobre negocios en Irán y Corea del Norte, mentir a autoridades; absuelta de crimen organizado (RICO) y obstrucción; juicio de 11 semanas, 60+ testigos; sentencia en sept. 2027; Huawei apelará",
+  "categoria": "empresas",
+  "palabras_clave": [
+   "huawei",
+   "juicio",
+   "secretos comerciales",
+   "eeuu",
+   "china",
+   "iran",
+   "rico"
+  ],
+  "datos_curiosos": [
+   "Nació en 1987 en Shenzhen y empezó fabricando centrales telefónicas",
+   "Su nombre se traduce aproximadamente como 'logro chino'",
+   "No cotiza en bolsa: sus acciones están en manos de empleados actuales y antiguos"
+  ],
+  "metricool_post_id": 441513419,
+  "formato": "reel"
+ }
 ]
