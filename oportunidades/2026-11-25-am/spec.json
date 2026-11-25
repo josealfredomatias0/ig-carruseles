@@ -1,0 +1,42 @@
+{
+ "voice": "em_alex",
+ "speed": 1.1,
+ "theme": {"bg":"#0A1A2F","yellow":"#FFD23F","a":"#4FC3F7","b":"#FF6B6B","c":"#B39DDB","d":"#5EE6A8"},
+ "scenes": [
+  {"say": [["¿Te gusta el campo? Estudia agronomía con beca. Cierra el lunes.", "¿Te gusta el campo? Estudia agronomía con beca. Cierra el lunes."]],
+   "elements": [
+    {"type": "text", "text": "Ingeniería Agronómica", "size": 80, "color": "yellow", "at": 0},
+    {"type": "big", "text": "BECA", "size": 230, "color": "d", "at": 0.8},
+    {"type": "text", "text": "Cierra el 30 de noviembre", "size": 66, "color": "b", "at": "s0+2.6"}]},
+  {"say": [["El Ministerio de Agricultura y la UNPHU", "El Ministerio de Agricultura, y la unfú,"], ["abrieron la convocatoria de becas para Ingeniería Agronómica.", "abrieron la convocatoria de becas para Ingeniería Agronómica."]],
+   "elements": [
+    {"type": "text", "text": "Ministerio de Agricultura", "size": 76, "color": "a", "at": 0},
+    {"type": "text", "text": "+ UNPHU", "size": 110, "color": "a", "at": 0.8},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "Ingeniería Agronómica", "size": 84, "color": "yellow", "at": "s1"},
+    {"type": "text", "text": "mención Producción de Cultivos", "size": 58, "weight": "med", "color": "grey", "at": "s1+1.5"}]},
+  {"say": [["Son treinta becas para la carrera completa, de unos cuatro años.", "Son treinta becas, para la carrera completa, de unos cuatro años."], ["El Ministerio cubre los costos académicos.", "El Ministerio cubre los costos académicos."]],
+   "elements": [
+    {"type": "big", "text": "30 BECAS", "size": 200, "color": "d", "at": "s0+0.4"},
+    {"type": "text", "text": "carrera de unos 4 años", "size": 66, "at": "s0+1.8"},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "Costos académicos cubiertos", "size": 70, "color": "yellow", "at": "s1"}]},
+  {"say": [["Puedes estudiar en Santo Domingo, o en el recinto de La Vega.", "Puedes estudiar en Santo Domingo, o en el recinto de La Vega."], ["Se aplica por el portal Beca tu Futuro, donde están los requisitos.", "Se aplica por el portal Beca tu Futuro, donde están los requisitos."]],
+   "elements": [
+    {"type": "text", "text": "Dónde y cómo", "size": 80, "color": "a", "at": 0},
+    {"type": "gap", "h": 20},
+    {"type": "list", "items": ["Sede Santo Domingo", "Recinto de La Vega", "Aplica en Beca tu Futuro", "Revisa los requisitos"], "size": 58, "step": 1.4, "at": 0.5}]},
+  {"say": [["La fecha límite es el treinta de noviembre. No lo dejes para última hora.", "La fecha límite es el treinta de noviembre. No lo dejes para última hora."]],
+   "elements": [
+    {"type": "text", "text": "Fecha límite", "size": 80, "color": "grey", "at": 0},
+    {"type": "big", "text": "30 NOV", "size": 220, "color": "b", "at": 1.0},
+    {"type": "text", "text": "2026", "size": 80, "color": "yellow", "at": 1.6}]},
+  {"say": [["El enlace oficial y todos los detalles están en la descripción.", "El enlace oficial, y todos los detalles, están en la descripción."], ["Compártelo con quien lo necesite y sigue la página para más oportunidades.", "Compártelo con quien lo necesite, y sigue la página para más oportunidades."]],
+   "elements": [
+    {"type": "text", "text": "Enlace oficial y detalles", "size": 76, "at": 0},
+    {"type": "text", "text": "en la descripción", "size": 96, "color": "a", "at": 0.5},
+    {"type": "gap", "h": 40},
+    {"type": "text", "text": "Compártelo y sigue la página", "size": 64, "color": "d", "at": "s1"},
+    {"type": "text", "text": "Oportunidades para Dominicanos", "size": 50, "weight": "med", "color": "grey", "at": "s1+1.0"}]}
+ ]
+}
