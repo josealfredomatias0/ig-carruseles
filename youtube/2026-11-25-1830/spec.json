@@ -1,0 +1,47 @@
+{"voice":"em_alex","speed":1.12,
+ "theme":{"bg":"#0B0B12","yellow":"#F5C542","a":"#7DD3FC","b":"#F87171","c":"#C4B5FD","d":"#86EFAC"},
+ "scenes":[
+  {"say":[["En República Dominicana hay un lago bajo el nivel del mar...","En República Dominicana, hay un lago bajo el nivel del mar..."],
+          ["y está lleno de cocodrilos.","y está lleno de cocodrilos."]],
+   "elements":[
+    {"type":"big","text":"-44 m","size":240,"color":"yellow","at":0},
+    {"type":"text","text":"un lago bajo el mar","size":80,"color":"a","weight":"med","at":0},
+    {"type":"gap","h":40},
+    {"type":"text","text":"y lleno de cocodrilos","size":90,"color":"b","at":"s1"}]},
+  {"say":[["Es el lago Enriquillo, en el suroeste del país.","Es el lago Enriquillo, en el suroeste del país."],
+          ["El punto más bajo de las Antillas.","El punto más bajo, de las Antillas."]],
+   "elements":[
+    {"type":"text","text":"Lago Enriquillo","size":120,"color":"a","at":0.2},
+    {"type":"text","text":"suroeste de RD","size":60,"color":"grey","weight":"med","at":0.8},
+    {"type":"gap","h":40},
+    {"type":"big","text":"N.º 1","size":220,"color":"yellow","at":"s1"},
+    {"type":"text","text":"el punto más bajo de las Antillas","size":60,"color":"white","weight":"med","at":"s1+0.5"}]},
+  {"say":[["Y su agua es más salada que el mar.","Y su agua, es más salada que el mar."],
+          ["¿Cómo llegó el mar hasta aquí?","¿Cómo llegó el mar, hasta aquí?"]],
+   "elements":[
+    {"type":"big","text":"SAL","size":240,"color":"a","at":"s0+0.3"},
+    {"type":"text","text":"más salada que el mar","size":80,"color":"white","weight":"med","at":"s0+0.9"},
+    {"type":"gap","h":40},
+    {"type":"text","text":"¿Cómo llegó el mar aquí?","size":76,"color":"c","at":"s1"}]},
+  {"say":[["Hace mucho, era un brazo de mar que cruzaba hasta Haití.","Hace mucho, era un brazo de mar, que cruzaba hasta Haití."],
+          ["Un río lo tapó con tierra... y el agua quedó atrapada.","Un río lo tapó con tierra... y el agua, quedó atrapada."]],
+   "elements":[
+    {"type":"text","text":"ANTES","size":70,"color":"grey","weight":"med","at":0},
+    {"type":"chips","pieces":["Bahía de Neiba","→","Haití"],"size":62,"step":0.5,"at":"s0+0.8"},
+    {"type":"gap","h":40},
+    {"type":"big","text":"ATRAPADO","size":180,"color":"b","at":"s1+1.2"}]},
+  {"say":[["El sol evapora el agua y deja la sal.","El sol evapora el agua, y deja la sal."],
+          ["Y aun así, ahí viven cocodrilos, iguanas y flamencos.","Y aun así, ahí viven cocodrilos, iguanas y flamencos."]],
+   "elements":[
+    {"type":"text","text":"LO QUE SE SABE","size":64,"color":"grey","weight":"med","at":0},
+    {"type":"text","text":"el sol evapora, queda la sal","size":70,"color":"d","at":"s0"},
+    {"type":"gap","h":40},
+    {"type":"list","items":["Cocodrilo americano","Iguana rinoceronte","Flamencos"],"size":72,"at":"s1+0.8","step":0.7}]},
+  {"say":[["¿Tú te bañarías ahí?","¿Tú te bañarías ahí?"],
+          ["En un lago... bajo el nivel del mar.","En un lago... bajo el nivel del mar."]],
+   "elements":[
+    {"type":"big","text":"¿TE BAÑARÍAS?","size":120,"color":"yellow","at":0.1},
+    {"type":"text","text":"Cuéntame en los comentarios","size":60,"color":"white","weight":"med","at":"s0+0.8"},
+    {"type":"gap","h":60},
+    {"type":"text","text":"Sigue para más misterios","size":48,"color":"grey","weight":"med","at":"s1"}]}
+ ]}
