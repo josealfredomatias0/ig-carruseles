@@ -1,0 +1,235 @@
+{
+ "voice": "em_alex",
+ "speed": 1.12,
+ "background": "stars",
+ "theme": {
+  "bg": "#0B0B12",
+  "yellow": "#F5C542",
+  "a": "#7DD3FC",
+  "b": "#F87171",
+  "c": "#C4B5FD",
+  "d": "#86EFAC"
+ },
+ "scenes": [
+  {
+   "say": [
+    [
+     "En este desierto, las piedras se mueven solas…",
+     "En este desierto, las piedras se mueven solas,"
+    ],
+    [
+     "…y dejan un rastro detrás.",
+     "y dejan un rastro detrás."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "SOLAS",
+     "size": 240,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Piedras que se mueven",
+     "size": 84,
+     "weight": "bold",
+     "color": "white",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "y dejan huellas",
+     "size": 76,
+     "color": "b",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Valle de la Muerte, California. Algunas pesan hasta 320 kilos.",
+     "Valle de la Muerte, California. Algunas pesan hasta trescientos veinte kilos."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Valle de la Muerte",
+     "size": 96,
+     "weight": "bold",
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "California",
+      "Racetrack Playa"
+     ],
+     "color": "a",
+     "at": 0.5
+    },
+    {
+     "type": "big",
+     "text": "320 KG",
+     "size": 220,
+     "color": "yellow",
+     "at": "s1+2.0"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Durante décadas, nadie las vio moverse.",
+     "Durante décadas, nadie las vio moverse."
+    ],
+    [
+     "Se culpó a huracanes, al polvo… hasta a turistas.",
+     "Se culpó a huracanes, al polvo, y hasta a turistas."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "NADIE",
+     "size": 220,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "las había visto moverse",
+     "size": 76,
+     "color": "white",
+     "at": 0.3
+    },
+    {
+     "type": "list",
+     "items": [
+      "Huracanes",
+      "Remolinos de polvo",
+      "¿Turistas?"
+     ],
+     "size": 72,
+     "step": 0.6,
+     "color": "c",
+     "at": "s1+0.4"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Hasta que en 2013 unos científicos les pusieron GPS…",
+     "Hasta que en dos mil trece unos científicos les pusieron, ge pe ese."
+    ],
+    [
+     "…y por fin las vieron avanzar.",
+     "y por fin las vieron avanzar."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Diciembre de 2013",
+     "size": 80,
+     "weight": "bold",
+     "color": "grey",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "GPS",
+     "size": 240,
+     "color": "a",
+     "at": "s0+2.4"
+    },
+    {
+     "type": "text",
+     "text": "¡Se estaban moviendo!",
+     "size": 84,
+     "weight": "bold",
+     "color": "yellow",
+     "at": "s1+0.3"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Lo que se sabe: hielo finísimo, empujado por una brisa suave.",
+     "Lo que se sabe: hielo finísimo, empujado por una brisa suave."
+    ],
+    [
+     "Así recorrieron más de 60 metros.",
+     "Así recorrieron más de sesenta metros."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "LO QUE SE SABE",
+     "size": 80,
+     "weight": "bold",
+     "color": "d",
+     "at": 0
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Hielo de < 5 mm",
+      "Brisa suave"
+     ],
+     "color": "d",
+     "at": "s0+1.4"
+    },
+    {
+     "type": "big",
+     "text": "+60 M",
+     "size": 220,
+     "color": "d",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Tú lo habrías creído?",
+     "¿Tú lo habrías creído?"
+    ],
+    [
+     "En este desierto, las piedras se mueven solas…",
+     "En este desierto, las piedras se mueven solas,"
+    ]
+   ],
+   "elements": [
+    {
+     "type": "big",
+     "text": "¿Y TÚ?",
+     "size": 220,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "Te leo en comentarios",
+     "size": 72,
+     "color": "white",
+     "at": 0.5
+    },
+    {
+     "type": "text",
+     "text": "Sigue para más misterios",
+     "size": 48,
+     "color": "grey",
+     "at": "s1"
+    }
+   ]
+  }
+ ]
+}
