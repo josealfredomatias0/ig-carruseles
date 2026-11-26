@@ -1,0 +1,313 @@
+{
+ "voice": "em_alex",
+ "background": "circuit",
+ "transition": "slide",
+ "scenes": [
+  {
+   "say": [
+    [
+     "SpaceX recibió permiso para lanzar un millón de satélites.",
+     "Espéis Ex recibió permiso, para lanzar un millón de satélites."
+    ],
+    [
+     "No son para internet: son centros de datos de IA en el espacio.",
+     "No son para internet: son centros de datos de i a, en el espacio."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "SpaceX podrá lanzar",
+     "size": 84,
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "chip",
+     "size": 280,
+     "color": "a",
+     "at": 0.3
+    },
+    {
+     "type": "big",
+     "text": "1 MILLÓN",
+     "size": 190,
+     "color": "yellow",
+     "at": "s0+1.8"
+    },
+    {
+     "type": "text",
+     "text": "de satélites con IA en órbita",
+     "size": 60,
+     "color": "a",
+     "at": "s1+1.2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "La FCC, el regulador de Estados Unidos, lo aprobó el veinticinco de noviembre.",
+     "La efe ce ce, el regulador de Estados Unidos, lo aprobó el veinticinco de noviembre."
+    ],
+    [
+     "Se llama Starmind. El primero, en 2033; todos, en 2040.",
+     "Se llama Estármaind. El primero, en dos mil treinta y tres; todos, en dos mil cuarenta."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Qué pasó?",
+     "size": 110,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "docs",
+     "size": 260,
+     "color": "a",
+     "at": 0.3
+    },
+    {
+     "type": "list",
+     "items": [
+      "Aprobado por la FCC el 25 nov.",
+      "Proyecto “Starmind”: IA en órbita",
+      "Primer satélite: 2033",
+      "Todos en órbita: 2040"
+     ],
+     "size": 52,
+     "at": "s0+0.3",
+     "step": 1.9
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Hoy hay unos diecisiete mil satélites en el espacio.",
+     "Hoy hay unos diecisiete mil satélites, en el espacio."
+    ],
+    [
+     "Un millón sería casi sesenta veces más.",
+     "Un millón, sería casi sesenta veces más."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Satélites en el espacio hoy",
+     "size": 72,
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "trophy",
+     "size": 240,
+     "color": "yellow",
+     "at": 0.3
+    },
+    {
+     "type": "big",
+     "text": "~17,000",
+     "size": 180,
+     "color": "a",
+     "at": "s0+1.0"
+    },
+    {
+     "type": "text",
+     "text": "Un millón = casi 60 veces más",
+     "size": 66,
+     "color": "yellow",
+     "at": "s1+0.3"
+    },
+    {
+     "type": "text",
+     "text": "(Reuters, vía TechTimes)",
+     "size": 38,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+1.0"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Pero los astrónomos temen más basura espacial y un cielo lleno de puntos brillantes.",
+     "Pero los astrónomos temen más basura espacial, y un cielo lleno de puntos brillantes."
+    ],
+    [
+     "Por ahora, solo pueden volar bajo seiscientos kilómetros.",
+     "Por ahora, solo pueden volar bajo seiscientos kilómetros."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "La otra cara",
+     "size": 110,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "scales",
+     "size": 260,
+     "color": "b",
+     "at": 0.3
+    },
+    {
+     "type": "list",
+     "items": [
+      "Más basura espacial",
+      "Cielo lleno de puntos brillantes",
+      "Por ahora, solo bajo 600 km"
+     ],
+     "size": 54,
+     "at": "s0+0.8",
+     "step": 1.8
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso uno: el Sputnik, el primer satélite, de 1957,",
+     "Dato curioso uno: el Spútnik, el primer satélite, de mil novecientos cincuenta y siete,"
+    ],
+    [
+     "medía cincuenta y ocho centímetros, y transmitió solo veintidós días.",
+     "medía cincuenta y ocho centímetros, y transmitió solo veintidós días."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #1",
+     "size": 84,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "trophy",
+     "size": 240,
+     "color": "c",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "Sputnik 1 · 1957",
+     "size": 80,
+     "at": "s0+1.8"
+    },
+    {
+     "type": "big",
+     "text": "58 cm",
+     "size": 190,
+     "color": "yellow",
+     "at": "s1+0.3"
+    },
+    {
+     "type": "text",
+     "text": "y transmitió solo 22 días",
+     "size": 60,
+     "color": "a",
+     "at": "s1+2.0"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso dos: los primeros Starlink despegaron en mayo de 2019:",
+     "Dato curioso dos: los primeros Estárlink despegaron en mayo del dos mil diecinueve:"
+    ],
+    [
+     "sesenta satélites en un solo cohete.",
+     "sesenta satélites, en un solo cohete."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #2",
+     "size": 84,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "chip",
+     "size": 240,
+     "color": "c",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "Starlink · mayo 2019",
+     "size": 76,
+     "at": "s0+1.8"
+    },
+    {
+     "type": "big",
+     "text": "60",
+     "size": 200,
+     "color": "yellow",
+     "at": "s1+0.2"
+    },
+    {
+     "type": "text",
+     "text": "satélites en un solo cohete",
+     "size": 60,
+     "color": "a",
+     "at": "s1+0.8"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Te gustaría una IA desde el espacio? Te leo en comentarios.",
+     "¿Te gustaría una i a desde el espacio? Te leo en comentarios."
+    ],
+    [
+     "Sígueme para más noticias tech.",
+     "Sígueme, para más noticias tec."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "question",
+     "size": 280,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "¿IA desde el espacio?",
+     "size": 96,
+     "color": "yellow",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "Te leo en comentarios",
+     "size": 66,
+     "at": "s0+2.0"
+    },
+    {
+     "type": "text",
+     "text": "Sígueme para más noticias tech",
+     "size": 60,
+     "color": "a",
+     "at": "s1"
+    }
+   ]
+  }
+ ]
+}
