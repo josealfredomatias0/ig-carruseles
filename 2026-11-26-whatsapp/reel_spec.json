@@ -1,0 +1,247 @@
+{
+ "voice": "em_alex",
+ "background": "circuit",
+ "transition": "slide",
+ "scenes": [
+  {
+   "say": [
+    [
+     "¿Es cierto que WhatsApp ya te deja programar mensajes hasta quince días antes?",
+     "¿Es cierto que guásap ya te deja programar mensajes, hasta quince días antes?"
+    ],
+    [
+     "Te digo la verdad, y cómo se hace.",
+     "Te digo la verdad, y cómo se hace."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "WhatsApp: ¿mensajes programados?",
+     "size": 70,
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "question",
+     "size": 280,
+     "color": "yellow",
+     "at": 0.3
+    },
+    {
+     "type": "big",
+     "text": "¿15 días?",
+     "size": 190,
+     "color": "yellow",
+     "at": "s0+3.0"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Casi. Desde el veinticinco de noviembre, WhatsApp permite programar mensajes,",
+     "Casi. Desde el veinticinco de noviembre, guásap permite programar mensajes,"
+    ],
+    [
+     "desde diez minutos, hasta catorce días antes. No quince.",
+     "desde diez minutos, hasta catorce días antes. No quince."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "VEREDICTO: CASI",
+     "size": 96,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "scales",
+     "size": 260,
+     "color": "a",
+     "at": 0.3
+    },
+    {
+     "type": "big",
+     "text": "14 días",
+     "size": 200,
+     "color": "yellow",
+     "at": "s1+1.8"
+    },
+    {
+     "type": "text",
+     "text": "De 10 minutos a 14 días · no 15",
+     "size": 58,
+     "color": "a",
+     "at": "s1+2.3"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Cómo se hace: abre el chat y escribe tu mensaje.",
+     "Cómo se hace: abre el chat, y escribe tu mensaje."
+    ],
+    [
+     "Deja presionado el botón de enviar.",
+     "Deja presionado, el botón de enviar."
+    ],
+    [
+     "Elige la fecha y la hora, y confirma. Listo.",
+     "Elige la fecha y la hora, y confirma. Listo."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Cómo se hace",
+     "size": 110,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "chip",
+     "size": 240,
+     "color": "a",
+     "at": 0.3
+    },
+    {
+     "type": "list",
+     "items": [
+      "Abre el chat y escribe",
+      "Deja presionado “Enviar”",
+      "Elige fecha y hora",
+      "Confirma"
+     ],
+     "size": 58,
+     "at": "s0+1.0",
+     "step": 2.0
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Lo mejor: se envía aunque tu teléfono esté apagado o sin internet.",
+     "Lo mejor: se envía aunque tu teléfono esté apagado, o sin internet."
+    ],
+    [
+     "Funciona en grupos y chats, con texto, fotos y videos, y nadie sabe que fue programado.",
+     "Funciona en grupos y chats, con texto, fotos y videos, y nadie sabe que fue programado."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Lo mejor",
+     "size": 110,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "trophy",
+     "size": 240,
+     "color": "yellow",
+     "at": 0.3
+    },
+    {
+     "type": "list",
+     "items": [
+      "Sale con el teléfono apagado",
+      "Grupos y chats individuales",
+      "Texto, fotos y videos",
+      "Nadie sabe que fue programado"
+     ],
+     "size": 52,
+     "at": "s0+0.8",
+     "step": 2.2
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Ojo: está llegando poco a poco en las próximas semanas.",
+     "Ojo: está llegando poco a poco, en las próximas semanas."
+    ],
+    [
+     "Si no te aparece, actualiza WhatsApp. Y puedes ver y borrar tus mensajes programados antes de que salgan.",
+     "Si no te aparece, actualiza guásap. Y puedes ver y borrar tus mensajes programados, antes de que salgan."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Ojo",
+     "size": 120,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "docs",
+     "size": 240,
+     "color": "b",
+     "at": 0.3
+    },
+    {
+     "type": "list",
+     "items": [
+      "Llega poco a poco",
+      "¿No lo ves? Actualiza",
+      "Puedes ver y borrar los programados"
+     ],
+     "size": 54,
+     "at": "s0+0.5",
+     "step": 2.4
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿A quién le programarías el primer mensaje? Te leo en comentarios.",
+     "¿A quién le programarías el primer mensaje? Te leo en comentarios."
+    ],
+    [
+     "Sígueme para más noticias tech.",
+     "Sígueme, para más noticias tec."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "question",
+     "size": 280,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "¿A quién se lo programarías?",
+     "size": 86,
+     "color": "yellow",
+     "at": 0.3
+    },
+    {
+     "type": "text",
+     "text": "Te leo en comentarios",
+     "size": 66,
+     "at": "s0+2.5"
+    },
+    {
+     "type": "text",
+     "text": "Sígueme para más noticias tech",
+     "size": 60,
+     "color": "a",
+     "at": "s1"
+    }
+   ]
+  }
+ ]
+}
