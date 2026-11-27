@@ -1,0 +1,42 @@
+{
+ "voice": "em_alex",
+ "speed": 1.1,
+ "theme": {"bg":"#0A1A2F","yellow":"#FFD23F","a":"#4FC3F7","b":"#FF6B6B","c":"#B39DDB","d":"#5EE6A8"},
+ "scenes": [
+  {"say": [["¿Te gustaría estudiar una maestría en Ámsterdam?", "¿Te gustaría estudiar una maestría, en Ámsterdam?"]],
+   "elements": [
+    {"type": "text", "text": "Maestría en Países Bajos", "size": 80, "color": "yellow", "at": 0},
+    {"type": "big", "text": "BECA", "size": 230, "color": "d", "at": 0.7},
+    {"type": "text", "text": "hasta €40,000", "size": 110, "weight": "bold", "color": "white", "at": 1.3}]},
+  {"say": [["La Universidad de Ámsterdam abrió las becas Letje Lips 2027-2028,", "La Universidad de Ámsterdam abrió las becas, léchie lips, dos mil veintisiete, dos mil veintiocho,"], ["para maestrías en humanidades.", "para maestrías en humanidades."]],
+   "elements": [
+    {"type": "text", "text": "Universidad de Ámsterdam", "size": 76, "color": "a", "at": 0},
+    {"type": "big", "text": "LLAMS", "size": 200, "color": "yellow", "at": 0.5},
+    {"type": "text", "text": "Letje Lips Amsterdam Merit Scholarship 2027-2028", "size": 52, "weight": "med", "color": "grey", "at": 1.2},
+    {"type": "chips", "pieces": ["Humanidades"], "at": "s1"}]},
+  {"say": [["Hay una beca completa de cuarenta mil euros,", "Hay una beca completa, de cuarenta mil euros,"], ["y cuatro becas de matrícula de veintitrés mil quinientos euros.", "y cuatro becas de matrícula, de veintitrés mil quinientos euros."]],
+   "elements": [
+    {"type": "big", "text": "€40,000", "size": 210, "color": "d", "at": "s0+0.3"},
+    {"type": "text", "text": "1 beca completa", "size": 72, "at": "s0+1.0"},
+    {"type": "gap", "h": 40},
+    {"type": "big", "text": "4 × €23,500", "size": 150, "color": "a", "at": "s1+0.3"},
+    {"type": "text", "text": "becas de matrícula", "size": 72, "at": "s1+1.2"}]},
+  {"say": [["Es para estudiantes de fuera de Europa, como los dominicanos,", "Es para estudiantes de fuera de Europa, como los dominicanos,"], ["que apliquen a una maestría de un año en inglés, sin otra beca.", "que apliquen a una maestría de un año en inglés, sin otra beca."]],
+   "elements": [
+    {"type": "text", "text": "Para quién", "size": 80, "color": "a", "at": 0},
+    {"type": "gap", "h": 20},
+    {"type": "list", "items": ["Fuera de la UE: RD sí aplica", "Maestría de 1 año en inglés", "Primera vez en una universidad holandesa", "Sin otra beca"], "size": 56, "step": 1.2, "at": 0.4}]},
+  {"say": [["La fecha límite es el quince de enero de dos mil veintisiete.", "La fecha límite, es el quince de enero de dos mil veintisiete."]],
+   "elements": [
+    {"type": "text", "text": "Fecha límite", "size": 80, "color": "grey", "at": 0},
+    {"type": "big", "text": "15 ENE 2027", "size": 170, "color": "b", "at": 0.6},
+    {"type": "text", "text": "23:59, hora de Europa central", "size": 60, "color": "white", "at": 1.8}]},
+  {"say": [["El enlace oficial y todos los detalles están en la descripción.", "El enlace oficial, y todos los detalles, están en la descripción."], ["Compártelo con quien lo necesite y sigue la página para más oportunidades.", "Compártelo con quien lo necesite, y sigue la página para más oportunidades."]],
+   "elements": [
+    {"type": "text", "text": "Enlace oficial y detalles", "size": 76, "at": 0},
+    {"type": "text", "text": "en la descripción", "size": 96, "color": "a", "at": 0.5},
+    {"type": "gap", "h": 40},
+    {"type": "text", "text": "Compártelo y sigue la página", "size": 64, "color": "d", "at": "s1"},
+    {"type": "text", "text": "Oportunidades para Dominicanos", "size": 50, "weight": "med", "color": "grey", "at": "s1+1.0"}]}
+ ]
+}
