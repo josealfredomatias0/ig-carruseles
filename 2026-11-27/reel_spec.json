@@ -1,0 +1,358 @@
+{
+ "voice": "em_alex",
+ "background": "circuit",
+ "transition": "slide",
+ "scenes": [
+  {
+   "say": [
+    [
+     "¡Hoy es Black Friday!",
+     "¡Hoy es Blac Fráidei!"
+    ],
+    [
+     "Se esperan 12,900 millones de dólares en compras online en Estados Unidos.",
+     "Se esperan doce mil novecientos millones de dólares, en compras online en Estados Unidos."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "HOY ES BLACK FRIDAY",
+     "size": 84,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "cart",
+     "size": 320,
+     "color": "a",
+     "at": 0.2
+    },
+    {
+     "type": "big",
+     "text": "$12,900 M",
+     "size": 190,
+     "color": "a",
+     "at": "s1+0.9"
+    },
+    {
+     "type": "text",
+     "text": "de dólares en compras online, en un día (Estados Unidos)",
+     "size": 54,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+1.4"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Según Adobe, del 1 al 22 de noviembre ya van 82,500 millones online,",
+     "Según Adóbi, del uno al veintidós de noviembre, ya van ochenta y dos mil quinientos millones online,"
+    ],
+    [
+     "9.1% más que en 2025.",
+     "nueve punto uno por ciento más, que en el dos mil veinticinco."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Lo que dicen los datos",
+     "size": 84,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "magnifier",
+     "size": 260,
+     "color": "a",
+     "at": 0.2
+    },
+    {
+     "type": "bar",
+     "label": "Gastado online, 1 al 22 de nov.",
+     "value": 82.5,
+     "max": 100,
+     "unit": " mil M US$",
+     "color": "a",
+     "at": "s0+2.0"
+    },
+    {
+     "type": "big",
+     "text": "+9.1%",
+     "size": 180,
+     "color": "yellow",
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Hoy esperan 9.2% más que el récord de 2025.",
+     "Hoy esperan nueve punto dos por ciento más, que el récord del dos mil veinticinco."
+    ],
+    [
+     "Y el Cyber Monday superaría los 15,000 millones.",
+     "Y el Sáiber Mándei, superaría los quince mil millones."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Hacia otro récord",
+     "size": 90,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "tag",
+     "size": 250,
+     "color": "yellow",
+     "at": 0.2
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "2025: $11,800 M",
+      "2026: $12,900 M"
+     ],
+     "size": 46,
+     "step": 0.8,
+     "at": "s0+1.5"
+    },
+    {
+     "type": "text",
+     "text": "Cyber Monday (30 nov.)",
+     "size": 62,
+     "color": "white",
+     "at": "s1"
+    },
+    {
+     "type": "big",
+     "text": "$15,100 M",
+     "size": 180,
+     "color": "yellow",
+     "at": "s1+1.3"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Y ojo: las visitas a tiendas desde chatbots de IA suben 127%.",
+     "Y ojo: las visitas a tiendas desde chatbots de i a, suben ciento veintisiete por ciento."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "La IA también compra",
+     "size": 88,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "chip",
+     "size": 280,
+     "color": "d",
+     "at": 0.2
+    },
+    {
+     "type": "big",
+     "text": "+127%",
+     "size": 200,
+     "color": "a",
+     "at": "s0+2.4"
+    },
+    {
+     "type": "text",
+     "text": "visitas a tiendas desde chatbots de IA en lo que va de temporada, vs. 2025",
+     "size": 50,
+     "weight": "med",
+     "color": "grey",
+     "at": "s0+2.8"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Pero cuidado con las estafas: revisa la web, desconfía de gangas exageradas,",
+     "Pero cuidado con las estafas: revisa la web, desconfía de gangas exageradas,"
+    ],
+    [
+     "no toques enlaces de paquetes retenidos, y paga con crédito.",
+     "no toques enlaces de paquetes retenidos, y paga con crédito."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Que no te estafen",
+     "size": 92,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "shield",
+     "size": 240,
+     "color": "a",
+     "at": 0.2
+    },
+    {
+     "type": "list",
+     "items": [
+      "Revisa bien la dirección web",
+      "Ganga exagerada = alerta",
+      "No toques enlaces de \"paquete retenido\"",
+      "Paga con tarjeta de crédito"
+     ],
+     "size": 52,
+     "at": "s0+1.6",
+     "step": 1.1
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso #1: el nombre Black Friday viene de la policía de Filadelfia, en los años 50,",
+     "Dato curioso número uno: el nombre Blac Fráidei viene de la policía de Filadelfia, en los años cincuenta,"
+    ],
+    [
+     "por el caos en las calles.",
+     "por el caos en las calles."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #1",
+     "size": 90,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "hourglass",
+     "size": 250,
+     "color": "c",
+     "at": 0.2
+    },
+    {
+     "type": "big",
+     "text": "Años 50",
+     "size": 180,
+     "color": "yellow",
+     "at": "s0+3.0"
+    },
+    {
+     "type": "text",
+     "text": "La policía de Filadelfia lo llamó así por el caos",
+     "size": 56,
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso #2: la primera compra segura por internet fue en 1994:",
+     "Dato curioso número dos: la primera compra segura por internet, fue en mil novecientos noventa y cuatro:"
+    ],
+    [
+     "un CD de Sting, pagado con tarjeta cifrada.",
+     "un cedé de Estín, pagado con tarjeta cifrada."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #2",
+     "size": 90,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "lock",
+     "size": 250,
+     "color": "c",
+     "at": 0.2
+    },
+    {
+     "type": "big",
+     "text": "1994",
+     "size": 200,
+     "color": "yellow",
+     "at": "s0+3.0"
+    },
+    {
+     "type": "text",
+     "text": "Un CD de Sting en NetMarket, pagado con tarjeta cifrada",
+     "size": 54,
+     "at": "s1"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso #3: el nombre Cyber Monday se inventó en 2005.",
+     "Dato curioso número tres: el nombre Sáiber Mándei, se inventó en el dos mil cinco."
+    ],
+    [
+     "¿Vas a comprar algo hoy? Cuéntame y sígueme para más.",
+     "¿Vas a comprar algo hoy? Cuéntame, y sígueme para más."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #3",
+     "size": 90,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "question",
+     "size": 250,
+     "color": "c",
+     "at": 0.2
+    },
+    {
+     "type": "big",
+     "text": "2005",
+     "size": 170,
+     "color": "yellow",
+     "at": "s0+2.6"
+    },
+    {
+     "type": "text",
+     "text": "¿Vas a comprar algo hoy?",
+     "size": 74,
+     "color": "a",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Sígueme para más noticias tech",
+     "size": 52,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+2.5"
+    }
+   ]
+  }
+ ],
+ "speed": 1.22
+}

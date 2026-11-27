@@ -333,6 +333,37 @@ def icon_img(name, sz, u, col):
         for j, (yy, sp) in enumerate(((250, 40), (300, -30))):
             x = (u * sp + j * 150) % 520 - 60
             for dx, rr in ((0, 40), (45, 55), (95, 40)): d.ellipse(P(x + dx - rr, yy - rr * 0.7, x + dx + rr, yy + rr * 0.7), fill=C("#3A3A4E", 235))
+    elif name == "cart":  # carrito de compras al que le caen paquetes: compras, ofertas, comercio online
+        bob = abs(math.sin(u * 3)) * -6
+        for i, (bx, cc) in enumerate(((150, "b"), (215, "yellow"), (180, "a"))):
+            b = ease(((u - 0.2 - i * 0.45) % 2.4) / 0.4) if u > 0.2 + i * 0.45 else 0
+            if b <= 0: continue
+            y = -40 + (150 - i * 22) * b + bob
+            d.rounded_rectangle(P(bx - 32, y, bx + 32, y + 60), radius=8 * k, fill=C(cc), outline=C("#0E0E14"), width=int(4 * k))
+            d.line(P(bx, y, bx, y + 60), fill=C("#0E0E14", 160), width=int(4 * k))
+        d.line(P(30, 90 + bob, 80, 90 + bob, 115, 260 + bob), fill=C("grey"), width=int(12 * k), joint="curve")
+        d.polygon(P(88, 140 + bob, 340, 140 + bob, 310, 260 + bob, 115, 260 + bob), fill=C(col, 70), outline=C(col), width=int(10 * k))
+        for x in (150, 200, 250, 300):
+            d.line(P(x - (x - 200) * 0.1, 145 + bob, x - (x - 200) * 0.1 - 8, 255 + bob), fill=C(col, 150), width=int(5 * k))
+        d.line(P(115, 260 + bob, 125, 295 + bob, 300, 295 + bob), fill=C("grey"), width=int(10 * k))
+        for wx in (145, 280):
+            d.ellipse(P(wx - 24, 300, wx + 24, 348), fill=C("#1B1B28"), outline=C("white"), width=int(7 * k))
+            an = u * 8
+            d.line(P(wx, 324, wx + 16 * math.cos(an), 324 + 16 * math.sin(an)), fill=C("white"), width=int(5 * k))
+    elif name == "tag":  # etiqueta de precio que se balancea con "%": descuentos, ofertas, precios
+        ang = math.radians(math.sin(u * 2.2) * 14); px, py = 200, 40
+        def R(x, y):
+            c, s_ = math.cos(ang), math.sin(ang)
+            return ((px + (x - px) * c - (y - py) * s_) * k, (py + (x - px) * s_ + (y - py) * c) * k)
+        d.line([R(200, 40), R(200, 105)], fill=C("grey"), width=int(6 * k))
+        d.polygon([R(x, y) for x, y in ((200, 95), (290, 160), (290, 360), (110, 360), (110, 160))], fill=C(col), outline=C("white"), width=int(6 * k))
+        cx, cy = R(200, 150); d.ellipse([cx - 16 * k, cy - 16 * k, cx + 16 * k, cy + 16 * k], fill=C("#0E0E14"))
+        g = 0.5 + 0.5 * math.sin(u * 5)
+        f = font("bold", int(120 * k)); tx, ty = R(200, 265); w = d.textlength("%", font=f)
+        d.text((tx - w / 2, ty - f.size * 0.62), "%", font=f, fill=C("#0E0E14"))
+        for i in range(4):
+            ph = u * 2 + i * 1.6; x, y = 200 + 150 * math.cos(ph), 220 + 120 * math.sin(ph); s_ = 10 + 6 * g
+            d.polygon(P(x, y - s_, x + s_ / 3, y - s_ / 3, x + s_, y, x + s_ / 3, y + s_ / 3, x, y + s_, x - s_ / 3, y + s_ / 3, x - s_, y, x - s_ / 3, y - s_ / 3), fill=C("yellow", int(120 + 135 * g)))
     out = im.resize((sz, sz), Image.LANCZOS)
     if a < 1:
         al = out.getchannel("A").point(lambda v: int(v * a)); out.putalpha(al)
