@@ -364,6 +364,49 @@ def icon_img(name, sz, u, col):
         for i in range(4):
             ph = u * 2 + i * 1.6; x, y = 200 + 150 * math.cos(ph), 220 + 120 * math.sin(ph); s_ = 10 + 6 * g
             d.polygon(P(x, y - s_, x + s_ / 3, y - s_ / 3, x + s_, y, x + s_ / 3, y + s_ / 3, x, y + s_, x - s_ / 3, y + s_ / 3, x - s_, y, x - s_ / 3, y - s_ / 3), fill=C("yellow", int(120 + 135 * g)))
+    elif name == "flame":  # llama que parpadea: pasión, energía, disciplina, "fuego interno"
+        g = 0.5 + 0.5 * math.sin(u * 5)
+        for r_ in range(5, 0, -1): d.ellipse(P(200 - 120 - r_ * 12, 230 - 120 - r_ * 12, 200 + 120 + r_ * 12, 230 + 120 + r_ * 12), fill=C("b", int(12 * g)))
+        f1, f2, f3 = math.sin(u * 9) * 12, math.sin(u * 13 + 1) * 9, math.sin(u * 7 + 2) * 10
+        def flame(sc, cc):
+            pts = [(200, 360), (110, 300), (100, 220 + f2), (140, 150), (165, 195), (195, 45 + f1), (245, 150 + f3), (268, 115 + f2), (305, 215), (292, 300)]
+            d.polygon(P(*[v for x, y in pts for v in (200 + (x - 200) * sc, 360 - (360 - y) * sc)]), fill=C(cc))
+        flame(1.0, "b"); flame(0.72, "#FF9F43"); flame(0.42, "yellow")
+        for i in range(5):  # chispas
+            ph = (u * 0.9 + i * 0.37) % 1; x = 130 + i * 35 + math.sin(u * 4 + i) * 12
+            d.ellipse(P(x - 6, 120 - ph * 120 - 6, x + 6, 120 - ph * 120 + 6), fill=C("yellow", int(255 * (1 - ph))))
+    elif name == "mountain":  # montaña con escalador que llega a la cima y bandera que ondea: metas, superación
+        d.polygon(P(20, 360, 160, 150, 300, 360), fill=C("#2A2A3C"))
+        d.polygon(P(80, 360, 220, 90, 380, 360), fill=C(col, 120), outline=C(col), width=int(6 * k))
+        d.polygon(P(220, 90, 185, 150, 205, 140, 222, 158, 240, 140, 258, 152), fill=C("white"))
+        c = ease(min(1, u / 2.0)); x, y = 110 + (218 - 110) * c, 330 + (88 - 330) * c
+        d.ellipse(P(x - 12, y - 34, x + 12, y - 10), fill=C("yellow"))
+        if c >= 1:
+            fl = ease((u - 2.0) / 0.4)
+            d.line(P(222, 88, 222, 88 - 70 * fl), fill=C("white"), width=int(6 * k))
+            w_ = math.sin(u * 6) * 8
+            d.polygon(P(222, 18 + 70 * (1 - fl), 290, 32 + w_ + 70 * (1 - fl), 222, 50 + 70 * (1 - fl)), fill=C("b", int(255 * fl)))
+    elif name == "rocket":  # cohete que tiembla y despega: crecimiento, éxito, "ir por más"
+        sh = math.sin(u * 40) * 3; lift = -min(30, u * 8)
+        for i in range(6):  # líneas de velocidad
+            ph = (u * 1.6 + i * 0.17) % 1; x = 80 + i * 50
+            d.line(P(x, 40 + ph * 360, x, 40 + ph * 360 + 40), fill=C("white", int(120 * (1 - ph))), width=int(5 * k))
+        fl = 60 + math.sin(u * 20) * 18
+        d.polygon(P(175 + sh, 300 + lift, 225 + sh, 300 + lift, 200 + sh, 300 + fl + lift), fill=C("#FF9F43"))
+        d.polygon(P(188 + sh, 300 + lift, 212 + sh, 300 + lift, 200 + sh, 300 + fl * 0.6 + lift), fill=C("yellow"))
+        d.polygon(P(160 + sh, 230 + lift, 130 + sh, 300 + lift, 165 + sh, 290 + lift), fill=C("b"))
+        d.polygon(P(240 + sh, 230 + lift, 270 + sh, 300 + lift, 235 + sh, 290 + lift), fill=C("b"))
+        d.polygon(P(200 + sh, 40 + lift, 245 + sh, 130 + lift, 240 + sh, 300 + lift, 160 + sh, 300 + lift, 155 + sh, 130 + lift), fill=C("white"))
+        d.ellipse(P(178 + sh, 140 + lift, 222 + sh, 184 + lift), fill=C(col), outline=C("#1B1B28"), width=int(6 * k))
+    elif name == "bolt":  # rayo que destella: energía, decisión, "ahora o nunca"
+        g = 1 if (u % 1.4) < 0.12 else 0.5 + 0.3 * math.sin(u * 4)
+        for r_ in range(6, 0, -1): d.ellipse(P(200 - 100 - r_ * 14, 200 - 100 - r_ * 14, 200 + 100 + r_ * 14, 200 + 100 + r_ * 14), fill=C(col, int(14 * g)))
+        d.polygon(P(230, 30, 110, 220, 190, 220, 160, 370, 295, 160, 210, 160, 255, 30), fill=C("yellow" if g >= 1 else col), outline=C("white"), width=int(5 * k))
+    elif name == "heart":  # corazón que late: familia, amor, gratitud
+        s_ = 1 + 0.08 * max(0, math.sin(u * 7)) ** 8 + 0.05 * math.sin(u * 3.5)
+        def H_(x, y): return (200 + (x - 200) * s_, 210 + (y - 210) * s_)
+        pts = [H_(200 + 160 * math.sin(th) ** 3 * 0.95, 200 - (130 * math.cos(th) - 50 * math.cos(2 * th) - 20 * math.cos(3 * th) - 10 * math.cos(4 * th)) * 0.9) for th in [i * 2 * math.pi / 60 for i in range(60)]]
+        d.polygon(P(*[v for p in pts for v in p]), fill=C(col), outline=C("white"), width=int(5 * k))
     out = im.resize((sz, sz), Image.LANCZOS)
     if a < 1:
         al = out.getchannel("A").point(lambda v: int(v * a)); out.putalpha(al)
@@ -390,11 +433,32 @@ def _bg_stars(T):
         d.ellipse([x - r, yy - r, x + r, yy + r], fill=mix("white", al))
     return im
 
+def _bg_energy(T):
+    """Fondo motivacional: manchas de luz de colores que se mueven + chispas que suben."""
+    from PIL import ImageFilter
+    if "blobs" not in _bg_cache:
+        rnd = np.random.default_rng(5)
+        _bg_cache["blobs"] = [(float(rnd.uniform(0.1, 0.9)), float(rnd.uniform(0.1, 0.9)), float(rnd.uniform(260, 420)),
+                               float(rnd.uniform(0, 6.3)), float(rnd.uniform(0.15, 0.35)), CHIP_COLORS[i % 5]) for i in range(6)]
+        _bg_cache["sparks"] = [(float(rnd.uniform(0, W)), float(rnd.uniform(0, H)), float(rnd.uniform(2, 5)), float(rnd.uniform(60, 180)),
+                                float(rnd.uniform(0, 6.3))) for _ in range(70)]
+    s = 8; sm = Image.new("RGB", (W // s, H // s), BG); sd = ImageDraw.Draw(sm)
+    for fx, fy, r, ph, sp, cc in _bg_cache["blobs"]:
+        x = (fx + 0.22 * math.sin(T * sp + ph)) * W; y = (fy + 0.15 * math.cos(T * sp * 1.3 + ph)) * H
+        sd.ellipse([(x - r) / s, (y - r) / s, (x + r) / s, (y + r) / s], fill=mix(cc, 0.20))
+    im = sm.filter(ImageFilter.GaussianBlur(14)).resize((W, H), Image.BILINEAR); d = ImageDraw.Draw(im)
+    for x, y, r, sp, ph in _bg_cache["sparks"]:
+        yy = (y - T * sp) % H; xx = x + 14 * math.sin(T * 1.5 + ph)
+        al = 0.25 + 0.45 * (0.5 + 0.5 * math.sin(T * 3 + ph))
+        d.ellipse([xx - r, yy - r, xx + r, yy + r], fill=mix("yellow" if ph > 3 else "white", al))
+    return im
+
 _bg_cache = {}
 def background(T):
     kind = SPEC.get("background")
     if not kind: return Image.new("RGB", (W, H), BG)
     if kind == "stars": return _bg_stars(T)
+    if kind == "energy": return _bg_energy(T)
     if "base" not in _bg_cache:
         b = Image.new("RGB", (W, H), BG); d = ImageDraw.Draw(b); gc = mix("d", 0.10)
         for x in range(0, W + 1, 90): d.line([(x, 0), (x, H)], fill=gc, width=2)
@@ -439,9 +503,43 @@ def el_height(e):
     if t == "icon": return e.get("size", 320)
     return 0
 
+MOTION = SPEC.get("motion") in ("alta", "high", True)
+def back(x):  # easing con rebote (se pasa un poco y vuelve)
+    x = max(0.0, min(1.0, x)); c1 = 1.9; return 1 + (c1 + 1) * (x - 1) ** 3 + c1 * (x - 1) ** 2
+def _norm(w): return re.sub(r"[^\wáéíóúñü%]", "", w.lower())
+
+def draw_words(d, e, y, t, at, col):
+    """Texto palabra por palabra (cada una salta al entrar); las palabras de 'hl' van en color de resaltado."""
+    f = font(e.get("weight", "bold"), e.get("size", 72)); step = e.get("step", 0.09)
+    hl = {_norm(w) for w in e.get("hl", [])}; hc = e.get("hlcolor", "yellow"); k = 0
+    sp = d.textlength(" ", font=f)
+    for line in wrap(e["text"], f, e.get("maxw", 920)):
+        ws = line.split(" "); x = (W - d.textlength(line, font=f)) / 2
+        for w in ws:
+            b = back((t - at - k * step) / 0.3); al = min(1.0, max(0.0, (t - at - k * step) / 0.12))
+            if al > 0:
+                d.text((x, y + (1 - b) * 45), w, font=f, fill=mix(hc if _norm(w) in hl else col, al))
+            x += d.textlength(w, font=f) + sp; k += 1
+        y += int(f.size * 1.18)
+
 def draw_el(im, d, e, y, t, at):
     typ, col = e["type"], e.get("color", "white")
     a = ease((t - at) / 0.45)
+    if typ == "text" and (MOTION or e.get("fx") == "words" or e.get("hl")) and e.get("fx") != "fade":
+        if t >= at: draw_words(d, e, y, t, at, col)
+        return
+    if typ == "big" and (MOTION or "count_to" in e):
+        if t < at: return
+        u = t - at; size = e.get("size", 190); txt = e.get("text", "")
+        if "count_to" in e:
+            n = e["count_to"] * ease(u / e.get("count_dur", 1.2))
+            txt = e.get("prefix", "") + f"{int(round(n)):,}".replace(",", ".") + e.get("suffix", "")
+        sc = (0.35 + 0.65 * back(u / 0.4)) * (1 + 0.03 * math.sin(u * 3.2)) if MOTION else 1.0
+        f = font("bold", max(12, int(size * sc / 2) * 2)); al = min(1.0, u / 0.12)
+        dx = 14 * math.sin(u * 55) * max(0.0, 1 - u / 0.35) if e.get("shake") else 0
+        w = d.textlength(txt, font=f); yy = y + (size - f.size) * 0.55
+        d.text(((W - w) / 2 + dx + 7, yy + 9), txt, font=f, fill=mix((0, 0, 0), 0.9 * al))
+        d.text(((W - w) / 2 + dx, yy), txt, font=f, fill=mix(col, al)); return
     if typ == "icon":
         if t < at: return
         sz = e.get("size", 320); ic = icon_img(e["name"], sz, t - at, e.get("color", "a"))
@@ -481,7 +579,14 @@ def draw_el(im, d, e, y, t, at):
         for k, item in enumerate(e["items"]):
             b = ease((t - at - k * e.get("step", 0.9)) / 0.4); off = (1 - b) * 30
             lines = wrap(item, f, 800)
-            if b > 0:
+            if b > 0 and MOTION:  # entra deslizándose desde la izquierda con rebote
+                bx = -260 * (1 - back((t - at - k * e.get("step", 0.9)) / 0.4))
+                d.ellipse([90 + bx, y + 4, 150 + bx, y + 64], fill=mix(cols[k % 5], b))
+                n = str(k + 1); nw = d.textlength(n, font=font("bold", 42))
+                d.text((120 + bx - nw / 2, y + 8), n, font=font("bold", 42), fill=BG)
+                for j, line in enumerate(lines):
+                    d.text((190 + bx, y + j * int(f.size * 1.22)), line, font=f, fill=mix("white", b))
+            elif b > 0:
                 d.ellipse([90, y + 4 + off, 150, y + 64 + off], fill=mix(cols[k % 5], b))
                 n = str(k + 1); nw = d.textlength(n, font=font("bold", 42))
                 d.text((120 - nw / 2, y + 8 + off), n, font=font("bold", 42), fill=BG)
@@ -491,6 +596,7 @@ def draw_el(im, d, e, y, t, at):
 
 # ---------- 3. render ----------
 LEAD, TOP, BOTTOM = 0.25, 230, 1560
+POP = SPEC.get("captions") == "pop" or (MOTION and SPEC.get("captions") != "box")
 def main():
     voice = synth()
     durs = [max(sc.get("min", 3.0), v[1] + LEAD + 0.45) for sc, v in zip(SPEC["scenes"], voice)]
@@ -510,14 +616,34 @@ def main():
         for s0, s1, txt in subs:
             gs, cur = [], ""
             for w in txt.split():
-                if cur and len(cur) + 1 + len(w) > 20: gs.append(cur); cur = w
+                if cur and len(cur) + 1 + len(w) > (14 if POP else 20): gs.append(cur); cur = w
                 else: cur = (cur + " " + w).strip()
             gs.append(cur); n = sum(len(g) for g in gs); t0 = st + LEAD + s0
             for g in gs:
                 dd = (s1 - s0) * len(g) / n; chunks.append((t0, t0 + dd, g)); t0 += dd
     subf = font("bold", 62)
 
-    TR = 0.35 if SPEC.get("transition") else 0
+    def camera(L, i, t):
+        """Modo motion: golpe de zoom al entrar a la escena + acercamiento lento continuo."""
+        z = 1 + 0.04 * min(1.0, t / durs[i]) + (0.09 * (1 - ease(t / 0.3)) if i > 0 else 0)
+        if z <= 1.001: return L, 0, 0
+        L2 = L.resize((int(W * z), int(H * z)), Image.BILINEAR)
+        return L2, -(L2.width - W) // 2, -(L2.height - H) // 2
+
+    def draw_pop_caption(im, d, T):
+        cur = [c for c in chunks if c[0] <= T < c[1] + 0.08]
+        if not cur: return
+        t0, t1, txt = cur[-1]; ws = txt.split(); n = sum(len(w) for w in ws) or 1
+        u = T - t0; sc = 0.8 + 0.2 * back(u / 0.18); f = font("bold", int(84 * sc / 2) * 2)
+        tw = [d.textlength(w, font=f) for w in ws]; sp = d.textlength(" ", font=f)
+        x = (W - sum(tw) - sp * (len(ws) - 1)) / 2; y = 1630 + (84 - f.size) / 2; acc = t0
+        for w, wpx in zip(ws, tw):
+            wd = (t1 - t0) * len(w) / n; on = acc <= T < acc + wd + 0.02; acc += wd
+            d.text((x, y - (8 if on else 0)), w, font=f, fill=rgb("yellow") if on else rgb("white"),
+                   stroke_width=7, stroke_fill=(0, 0, 0))
+            x += wpx + sp
+
+    TR = 0.3 if SPEC.get("transition") else 0
     def scene_layer(i, t):
         L = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(L)
         for e, y, at in layouts[i]: draw_el(L, d, e, y, t, at)
@@ -536,8 +662,13 @@ def main():
             else:
                 im.paste(old, (int(-W * p), 0), old); im.paste(new, (int(W * (1 - p)), 0), new)
         else:
-            L = scene_layer(i, t); im.paste(L, (0, 0), L)
+            L = scene_layer(i, t)
+            if MOTION: L, ox, oy = camera(L, i, t); im.paste(L, (ox, oy), L)
+            else: im.paste(L, (0, 0), L)
+        if MOTION and i > 0 and t < 0.14:  # destello suave al cortar de escena
+            fl = Image.new("RGB", (W, H), (255, 255, 255)); im = Image.blend(im, fl, 0.22 * (1 - t / 0.14)); d = ImageDraw.Draw(im)
         d.rectangle([0, 0, W * T / total, 10], fill=rgb("yellow"))
+        if POP and SPEC.get("subtitles", True): draw_pop_caption(im, d, T); return im
         cur = [c for c in chunks if c[0] <= T < c[1] + 0.12]
         if cur and SPEC.get("subtitles", True):
             txt = cur[-1][2]; w = d.textlength(txt, font=subf); x, y = (W - w) / 2, 1640

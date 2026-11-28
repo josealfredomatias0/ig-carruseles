@@ -1,0 +1,35 @@
+{
+ "voice": "em_alex", "speed": 1.12, "motion": "alta", "background": "energy",
+ "theme": {"bg":"#0D0A1A","yellow":"#FFD23F","a":"#4FC3F7","b":"#FF5E5B","c":"#B388FF","d":"#5EE6A8"},
+ "scenes": [
+  {"say": [["Nadie te va a venir a salvar.", "Nadie te va a venir a salvar."], ["Y eso es una buena noticia.", "Y eso es una buena noticia."]],
+   "elements": [
+    {"type":"big","text":"NADIE","size":250,"color":"b","shake":true,"at":0},
+    {"type":"text","text":"te va a venir a salvar","size":86,"color":"white","at":0.2},
+    {"type":"text","text":"y eso es buena noticia","size":76,"color":"d","hl":["buena","noticia"],"at":"s1"}
+   ]},
+  {"say": [["Porque si nadie viene, el que decide eres tú.", "Porque si nadie viene, el que decide eres tú."]],
+   "elements": [
+    {"type":"icon","name":"bolt","size":280,"color":"yellow","at":0},
+    {"type":"big","text":"TÚ","size":260,"color":"yellow","at":"s0+1.6"},
+    {"type":"text","text":"decides","size":110,"color":"white","at":"s0+2.0"}
+   ]},
+  {"say": [["Un uno por ciento mejor cada día…", "Un uno por ciento mejor cada día."], ["en un año es casi treinta y ocho veces más.", "En un año, es casi treinta y ocho veces más."]],
+   "elements": [
+    {"type":"icon","name":"rocket","size":260,"color":"a","at":0},
+    {"type":"big","text":"1%","size":200,"color":"a","at":0.2},
+    {"type":"big","count_to":38,"prefix":"x","size":220,"color":"d","at":"s1+0.3"}
+   ]},
+  {"say": [["No necesitas motivación. Necesitas empezar.", "No necesitas motivación. Necesitas empezar."]],
+   "elements": [
+    {"type":"icon","name":"flame","size":280,"color":"b","at":0},
+    {"type":"list","items":["Hoy","Un paso","Sin excusas"],"size":72,"step":0.35,"at":"s0+1.2"}
+   ]},
+  {"say": [["¿Qué vas a empezar hoy? Escríbelo abajo.", "¿Qué vas a empezar hoy? Escríbelo abajo."], ["Porque nadie te va a venir a salvar.", "Porque nadie te va a venir a salvar."]],
+   "elements": [
+    {"type":"icon","name":"mountain","size":280,"color":"c","at":0},
+    {"type":"text","text":"¿Qué empiezas HOY?","size":110,"color":"white","hl":["hoy"],"at":0.2},
+    {"type":"text","text":"Sigue para más","size":48,"color":"grey","at":0.6}
+   ]}
+ ]
+}
