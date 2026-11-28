@@ -205,13 +205,14 @@ def icon_img(name, sz, u, col):
         f = font("bold", int(46 * k)); w = d2.textlength("VOTO", font=f)
         d2.text((200 * k - w / 2, 250 * k), "VOTO", font=f, fill=C(col))
         im.alpha_composite(im2)
-    elif name == "trophy":
+    elif name in ("trophy", "cup"):  # cup = trofeo sin "IA": récords, leyendas, deportes
         bob = math.sin(u * 2.5) * 8
         d.chord(P(120, 70 + bob, 280, 250 + bob), 0, 180, fill=C("yellow")); d.rectangle(P(120, 70 + bob, 280, 160 + bob), fill=C("yellow"))
         for x0 in (80, 270):
             d.arc(P(x0, 95 + bob, x0 + 50, 175 + bob), 90 if x0 > 100 else 270, 90 if x0 < 100 else 270, fill=C("yellow"), width=int(14 * k))
         d.rectangle(P(185, 245 + bob, 215, 295 + bob), fill=C("yellow")); d.rounded_rectangle(P(135, 290 + bob, 265, 325 + bob), radius=8 * k, fill=C("#C9A227"))
-        f = font("bold", int(50 * k)); w = d.textlength("IA", font=f); d.text((200 * k - w / 2, 110 * k + bob * k), "IA", font=f, fill=C("#0E0E14"))
+        if name == "trophy":
+            f = font("bold", int(50 * k)); w = d.textlength("IA", font=f); d.text((200 * k - w / 2, 110 * k + bob * k), "IA", font=f, fill=C("#0E0E14"))
         for i in range(6):
             ph = u * 1.5 + i * 1.05; r_ = 150 + 30 * math.sin(ph * 1.3); al = int(255 * (0.5 + 0.5 * math.sin(ph * 3)))
             x, y = 200 + r_ * math.cos(ph), 190 + r_ * math.sin(ph) * 0.8; s_ = 12

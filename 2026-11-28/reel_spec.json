@@ -1,0 +1,359 @@
+{
+ "voice": "em_alex",
+ "background": "circuit",
+ "transition": "slide",
+ "scenes": [
+  {
+   "say": [
+    [
+     "Después de 20 años, X por fin tiene control parental.",
+     "Después de veinte años, Equis por fin tiene control parental."
+    ],
+    [
+     "Y esto cambia cómo usan la red los adolescentes.",
+     "Y esto cambia cómo usan la red, los adolescentes."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "POR FIN",
+     "size": 90,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "X estrena control parental",
+     "size": 74,
+     "at": 0.4
+    },
+    {
+     "type": "icon",
+     "name": "shield",
+     "size": 300,
+     "color": "a",
+     "at": 0.8
+    },
+    {
+     "type": "big",
+     "text": "20 años",
+     "size": 190,
+     "color": "yellow",
+     "at": 1.6
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Es para cuentas de 13 a 17 años.",
+     "Es para cuentas de trece a diecisiete años."
+    ],
+    [
+     "Ahora empiezan en modo protegido:",
+     "Ahora empiezan en modo protegido:"
+    ],
+    [
+     "sin contenido sensible y sin anuncios personalizados.",
+     "sin contenido sensible, y sin anuncios personalizados."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "¿Qué cambió?",
+     "size": 110,
+     "color": "yellow",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "lock",
+     "size": 260,
+     "color": "a",
+     "at": 0.3
+    },
+    {
+     "type": "list",
+     "items": [
+      "Para usuarios de 13 a 17 años",
+      "Modo protegido por defecto",
+      "Sin contenido sensible ni anuncios personalizados"
+     ],
+     "size": 54,
+     "at": "s0",
+     "step": 2.3
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Los padres pueden ver cuánto tiempo usan X, poner un límite diario,",
+     "Los padres pueden ver cuánto tiempo usan Equis, poner un límite diario,"
+    ],
+    [
+     "aprobar seguidores nuevos y ver con quién chatean.",
+     "aprobar seguidores nuevos, y ver con quién chatean."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Los padres pueden:",
+     "size": 90,
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "eye",
+     "size": 260,
+     "color": "a",
+     "at": 0.3
+    },
+    {
+     "type": "list",
+     "items": [
+      "Ver el tiempo de uso",
+      "Poner un límite diario",
+      "Aprobar seguidores nuevos",
+      "Ver con quién chatean"
+     ],
+     "size": 54,
+     "at": "s0+0.5",
+     "step": 1.6
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Un padre puede supervisar hasta cinco cuentas.",
+     "Un padre puede supervisar hasta cinco cuentas."
+    ],
+    [
+     "Pero no puede leer los mensajes privados.",
+     "Pero, no puede leer los mensajes privados."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "Hasta",
+     "size": 80,
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "5",
+     "size": 220,
+     "color": "yellow",
+     "at": "s0+1.6"
+    },
+    {
+     "type": "text",
+     "text": "cuentas de adolescentes",
+     "size": 58,
+     "at": "s0+1.9"
+    },
+    {
+     "type": "icon",
+     "name": "question",
+     "size": 220,
+     "color": "b",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "Pero NO puede leer sus chats",
+     "size": 64,
+     "color": "b",
+     "at": "s1+0.3"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Ojo: padre e hijo tienen que aceptar los dos,",
+     "Ojo: padre e hijo, tienen que aceptar los dos,"
+    ],
+    [
+     "y la supervisión termina a los 18 años.",
+     "y la supervisión termina a los dieciocho años."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "OJO",
+     "size": 110,
+     "color": "b",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "scales",
+     "size": 280,
+     "color": "a",
+     "at": 0.3
+    },
+    {
+     "type": "chips",
+     "pieces": [
+      "Padre",
+      "+",
+      "Hijo"
+     ],
+     "size": 64,
+     "step": 0.4,
+     "at": "s0+0.8"
+    },
+    {
+     "type": "text",
+     "text": "Los dos deben aceptar",
+     "size": 66,
+     "at": "s0+1.6"
+    },
+    {
+     "type": "text",
+     "text": "Se acaba a los 18 años",
+     "size": 72,
+     "color": "yellow",
+     "at": "s1+0.8"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Dato curioso: el primer tuit lo publicó Jack Dorsey en 2006.",
+     "Dato curioso: el primer tuit lo publicó Yak Dórsi, en el dos mil seis."
+    ],
+    [
+     "Decía: just setting up my twttr. Sin vocales: así se llamaba el proyecto.",
+     "Decía: yast séting ap mai tuíter. Sin vocales: así se llamaba el proyecto."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #1",
+     "size": 64,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "hourglass",
+     "size": 240,
+     "color": "c",
+     "at": 0.3
+    },
+    {
+     "type": "big",
+     "text": "2006",
+     "size": 200,
+     "color": "yellow",
+     "at": "s0+2.6"
+    },
+    {
+     "type": "text",
+     "text": "“just setting up my twttr”",
+     "size": 66,
+     "color": "a",
+     "at": "s1"
+    },
+    {
+     "type": "text",
+     "text": "El primer tuit de la historia (Jack Dorsey)",
+     "size": 46,
+     "weight": "med",
+     "color": "grey",
+     "at": "s1+0.4"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "Y el pajarito azul tenía nombre: Larry, por la leyenda del baloncesto Larry Bird.",
+     "Y el pajarito azul, tenía nombre: Lári, por la leyenda del baloncesto, Lári Berd."
+    ],
+    [
+     "Lo confirmó el cofundador Biz Stone en 2011.",
+     "Lo confirmó el cofundador, Bis Stón, en el dos mil once."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "DATO CURIOSO #2",
+     "size": 64,
+     "color": "c",
+     "at": 0
+    },
+    {
+     "type": "icon",
+     "name": "cup",
+     "size": 260,
+     "color": "c",
+     "at": 0.3
+    },
+    {
+     "type": "big",
+     "text": "Larry",
+     "size": 200,
+     "color": "yellow",
+     "at": "s0+1.8"
+    },
+    {
+     "type": "text",
+     "text": "Por Larry Bird, leyenda de la NBA",
+     "size": 60,
+     "at": "s0+2.2"
+    }
+   ]
+  },
+  {
+   "say": [
+    [
+     "¿Le pondrías control parental a un hijo en X? Te leo en los comentarios.",
+     "¿Le pondrías control parental a un hijo en Equis? Te leo en los comentarios."
+    ],
+    [
+     "Sígueme para más noticias tech.",
+     "Sígueme, para más noticias tec."
+    ]
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "shield",
+     "size": 280,
+     "color": "a",
+     "at": 0
+    },
+    {
+     "type": "text",
+     "text": "¿Le pondrías control parental a un hijo en X?",
+     "size": 72,
+     "color": "yellow",
+     "at": 0.3
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "text",
+     "text": "Sígueme para más noticias tech",
+     "size": 60,
+     "color": "a",
+     "at": "s1"
+    }
+   ]
+  }
+ ]
+}
