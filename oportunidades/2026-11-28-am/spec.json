@@ -1,0 +1,43 @@
+{
+ "voice": "em_alex",
+ "speed": 1.1,
+ "theme": {"bg":"#0A1A2F","yellow":"#FFD23F","a":"#4FC3F7","b":"#FF6B6B","c":"#B39DDB","d":"#5EE6A8"},
+ "scenes": [
+  {"say": [["¿Maestría en Ámsterdam sin pagar la matrícula?", "¿Maestría en Ámsterdam, sin pagar la matrícula?"]],
+   "elements": [
+    {"type": "text", "text": "Maestría en Países Bajos", "size": 80, "color": "yellow", "at": 0},
+    {"type": "big", "text": "BECA", "size": 230, "color": "d", "at": 0.6},
+    {"type": "text", "text": "matrícula cubierta", "size": 96, "color": "white", "at": 1.2}]},
+  {"say": [["La Universidad VU de Ámsterdam abrió su beca VU Fellowship 2027-2028.", "La Universidad ve u, de Ámsterdam, abrió su beca, ve u félouship, dos mil veintisiete, dos mil veintiocho."]],
+   "elements": [
+    {"type": "text", "text": "Vrije Universiteit Amsterdam", "size": 70, "color": "a", "at": 0},
+    {"type": "big", "text": "VUFP", "size": 220, "color": "yellow", "at": 0.6},
+    {"type": "text", "text": "VU Fellowship Programme 2027-2028", "size": 56, "weight": "med", "color": "grey", "at": 1.4}]},
+  {"say": [["Te cubre el cien por ciento de la matrícula de la maestría.", "Te cubre el cien por ciento, de la matrícula de la maestría."], ["Ojo: no incluye gastos de vida.", "Ojo: no incluye gastos de vida."]],
+   "elements": [
+    {"type": "text", "text": "Qué ofrece", "size": 80, "color": "a", "at": 0},
+    {"type": "big", "text": "100%", "size": 230, "color": "d", "at": "s0+1.0"},
+    {"type": "text", "text": "de la matrícula", "size": 76, "at": "s0+1.4"},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "No cubre gastos de vida", "size": 60, "weight": "med", "color": "b", "at": "s1"}]},
+  {"say": [["Es para estudiantes internacionales con excelentes notas,", "Es para estudiantes internacionales, con excelentes notas,"], ["admitidos a una maestría en inglés que empiece en septiembre de dos mil veintisiete.", "admitidos a una maestría en inglés, que empiece en septiembre de dos mil veintisiete."]],
+   "elements": [
+    {"type": "text", "text": "Para quién", "size": 80, "color": "a", "at": 0},
+    {"type": "gap", "h": 20},
+    {"type": "list", "items": ["Estudiantes internacionales: RD sí aplica", "Excelente índice académico", "Admisión a maestría en inglés", "Inicio: septiembre 2027"], "size": 56, "step": 1.3, "at": 0.4}]},
+  {"say": [["Primero aplica a la maestría. La fecha límite de la beca es el primero de febrero de dos mil veintisiete.", "Primero, aplica a la maestría. La fecha límite de la beca, es el primero de febrero de dos mil veintisiete."]],
+   "elements": [
+    {"type": "text", "text": "Primero: aplica a la maestría", "size": 66, "color": "yellow", "at": 0},
+    {"type": "gap", "h": 30},
+    {"type": "text", "text": "Fecha límite de la beca", "size": 76, "color": "grey", "at": 1.8},
+    {"type": "big", "text": "1 FEB 2027", "size": 180, "color": "b", "at": 2.6},
+    {"type": "text", "text": "23:59, hora de Europa central", "size": 56, "at": 3.4}]},
+  {"say": [["El enlace oficial y todos los detalles están en la descripción.", "El enlace oficial, y todos los detalles, están en la descripción."], ["Compártelo con quien lo necesite y sigue la página para más oportunidades.", "Compártelo con quien lo necesite, y sigue la página para más oportunidades."]],
+   "elements": [
+    {"type": "text", "text": "Enlace oficial y detalles", "size": 76, "at": 0},
+    {"type": "text", "text": "en la descripción", "size": 96, "color": "a", "at": 0.5},
+    {"type": "gap", "h": 40},
+    {"type": "text", "text": "Compártelo y sigue la página", "size": 64, "color": "d", "at": "s1"},
+    {"type": "text", "text": "Oportunidades para Dominicanos", "size": 50, "weight": "med", "color": "grey", "at": "s1+1.0"}]}
+ ]
+}
