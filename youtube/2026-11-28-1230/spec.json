@@ -1,0 +1,41 @@
+{
+ "voice": "em_alex", "speed": 1.12, "motion": "alta", "background": "energy",
+ "theme": {"bg":"#0D0A1A","yellow":"#FFD23F","a":"#4FC3F7","b":"#FF5E5B","c":"#B388FF","d":"#5EE6A8"},
+ "scenes": [
+  {"say": [["Su abuela murió justo antes de la carrera de su vida.", "Su abuela murió, justo antes de la carrera de su vida."]],
+   "elements": [
+    {"type":"big","text":"ABUELA","size":230,"color":"b","shake":true,"at":0},
+    {"type":"text","text":"murió antes de la carrera de su vida","size":78,"color":"white","hl":["carrera"],"at":0}
+   ]},
+  {"say": [["Félix Sánchez, campeón olímpico dominicano, corrió destrozado.", "Félix Sánchez, campeón olímpico dominicano, corrió destrozado."], ["Y quedó lejos de la final.", "Y quedó lejos de la final."]],
+   "elements": [
+    {"type":"icon","name":"heart","size":260,"color":"b","at":0},
+    {"type":"text","text":"Pekín 2008","size":96,"color":"a","at":0.2},
+    {"type":"big","text":"FUERA","size":220,"color":"b","at":"s1"}
+   ]},
+  {"say": [["Ese día le prometió otra medalla.", "Ese día, le prometió otra medalla."], ["Pero entonces ya iba a tener 34 años…", "Pero para entonces, ya iba a tener treinta y cuatro años."]],
+   "elements": [
+    {"type":"icon","name":"mountain","size":260,"color":"c","at":0},
+    {"type":"text","text":"una promesa","size":100,"color":"white","hl":["promesa"],"at":0.2},
+    {"type":"big","count_to":34,"suffix":" AÑOS","size":200,"color":"c","at":"s1+0.4"}
+   ]},
+  {"say": [["Londres 2012. Con la foto de ella dentro del dorsal…", "Londres, dos mil doce. Con la foto de ella dentro del dorsal."], ["ganó el oro.", "Ganó el oro."]],
+   "elements": [
+    {"type":"icon","name":"cup","size":260,"color":"yellow","at":0},
+    {"type":"text","text":"su foto en el dorsal","size":86,"color":"white","hl":["foto"],"at":0.3},
+    {"type":"big","text":"ORO","size":260,"color":"yellow","shake":true,"at":"s1"}
+   ]},
+  {"say": [["Y con el mismo tiempo exacto de su primer oro.", "Y con el mismo tiempo exacto de su primer oro."], ["El dolor no te para. Te puede empujar.", "El dolor no te para. Te puede empujar."]],
+   "elements": [
+    {"type":"big","text":"47.63","size":210,"color":"d","at":0},
+    {"type":"text","text":"igual que en Atenas 2004","size":70,"color":"grey","at":0.3},
+    {"type":"text","text":"El dolor no te para. Te puede empujar.","size":88,"color":"white","hl":["empujar"],"at":"s1"}
+   ]},
+  {"say": [["¿Por quién corres tú? Dímelo en una palabra.", "¿Por quién corres tú? Dímelo en una palabra."], ["Porque todo empezó así:", "Porque todo empezó así."]],
+   "elements": [
+    {"type":"icon","name":"flame","size":260,"color":"a","at":0},
+    {"type":"text","text":"¿Por quién corres TÚ?","size":110,"color":"white","hl":["tú"],"at":0.2},
+    {"type":"text","text":"Sigue para más","size":48,"color":"grey","at":0.6}
+   ]}
+ ]
+}
